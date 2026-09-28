@@ -63,7 +63,7 @@ Permutation seeds are derived from the study accession, so every model of a stud
 
 ## Data deposited separately
 
-Per-study differential-expression tables for every configured study (`de_M0`, `de_M1`, `de_M0perm`, `de_M0permw` per study, gzip-compressed TSV, about 6 GB) are archived in a companion Zenodo record: [DOI to be added once uploaded]. Each folder also holds the study's phenotype table (`pheno.tsv`) and summary row.
+Per-study differential-expression tables for every configured study (`de_M0`, `de_M1`, `de_M0perm`, `de_M0permw` per study, gzip-compressed TSV, about 6 GB) are archived in a companion Zenodo record: https://doi.org/10.5281/zenodo.23004416 (the mouse tables are split into two archives; extract both into the same directory). Each folder also holds the study's phenotype table (`pheno.tsv`) and summary row.
 
 ## Citation and license
 
