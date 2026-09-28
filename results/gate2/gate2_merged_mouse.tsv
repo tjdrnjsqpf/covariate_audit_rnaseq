@@ -1,0 +1,1610 @@
+study	valid	design_sex	design_age	single_sex	M1_jaccard	M0perm_jaccard	M2_jaccard	M2perm_jaccard	tissue_category	route	n_pmid	has_fulltext	text_relevant	de_method	sex_adjusted	age_adjusted	sex_matched	age_matched	batch_adj	sex_reported	confidence	usd
+DRP002295	TRUE	balanced	""	FALSE	0.5	1			""	epmc_accession	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	no	no	high	0.0307
+DRP003637	TRUE	partially_confounded	""	FALSE	0	0			""		0	FALSE										
+DRP003641	TRUE	single_sex	""	TRUE					""	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0324
+DRP003654	TRUE	single_sex	balanced	TRUE					other		0	FALSE										
+DRP004472	TRUE	single_sex	""	TRUE					""		0	FALSE										
+DRP004672	TRUE	partially_confounded	""	FALSE	0.179	0.966			reproductive		0	FALSE										
+DRP004730	TRUE	mildly_imbalanced	balanced	FALSE	0	0	0		""		0	FALSE										
+DRP004731	TRUE	partially_confounded	balanced	FALSE					""		0	FALSE										
+DRP005130	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+DRP005135	TRUE	mildly_imbalanced	""	FALSE	0.333	0.333			muscle	epmc_accession	1	TRUE	TRUE	DESeq2	no	no	yes	yes	unclear	yes	high	0.0167
+DRP005251	TRUE	single_sex	""	TRUE					""		0	FALSE										
+DRP005354	TRUE	single_sex	""	TRUE					""		0	FALSE										
+DRP005463	TRUE	completely_confounded	""	FALSE					brain_cns		0	FALSE										
+DRP005471	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+ERP000771	TRUE	single_sex	balanced	TRUE					""		0	FALSE										
+ERP004369	TRUE	balanced	""	FALSE	0.923	0.92			""		0	FALSE										
+ERP005175	TRUE	mildly_imbalanced	""	FALSE	0.627	0.369			""		0	FALSE										
+ERP006813	TRUE	balanced	""	FALSE	0.873	0.553			""		0	FALSE										
+ERP006822	TRUE	partially_confounded	""	FALSE	0.76	0.95			""		0	FALSE										
+ERP009958	TRUE	balanced	""	FALSE					""		0	FALSE										
+ERP010742	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP012146	TRUE	mildly_imbalanced	""	FALSE	0.811	0.781			""		0	FALSE										
+ERP012530	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP013151	TRUE	single_sex	""	TRUE					""	epmc_title	1	TRUE	TRUE	Cuffdiff	unclear	unclear	unclear	unclear	unclear	unclear	medium	0.0092
+ERP013315	TRUE	partially_confounded	""	FALSE	0.011	0.2			""		0	FALSE										
+ERP013684	TRUE	partially_confounded	""	FALSE	0.494	0.282			blood_immune		0	FALSE										
+ERP013839	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP014572	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP014590	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP014609	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP015152	TRUE	mildly_imbalanced	""	FALSE					""		0	FALSE										
+ERP015766	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP016155	TRUE	single_sex	""	TRUE					other		0	FALSE										
+ERP016271	TRUE	single_sex	""	TRUE					""	epmc_title	1	FALSE										
+ERP016751	TRUE	balanced	""	FALSE	1	1			other		0	FALSE										
+ERP016856	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP020504	TRUE	balanced	""	FALSE	0.828	0.78			""		0	FALSE										
+ERP020514	TRUE	completely_confounded	""	FALSE					blood_immune		0	FALSE										
+ERP020735	TRUE	balanced	""	FALSE					""		0	FALSE										
+ERP021224	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP021472	TRUE	partially_confounded	""	FALSE	0.086	0.071			""		0	FALSE										
+ERP021891	TRUE	mildly_imbalanced	""	FALSE					""		0	FALSE										
+ERP022432	TRUE	balanced	""	FALSE	0.597	0.621			heart		0	FALSE										
+ERP022738	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP022747	TRUE	balanced	""	FALSE	0.917	0.907			""		0	FALSE										
+ERP022752	TRUE	mildly_imbalanced	""	FALSE					""		0	FALSE										
+ERP023196	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP023283	TRUE	balanced	""	FALSE	0.222	0.091			""		0	FALSE										
+ERP023452	TRUE	balanced	""	FALSE		0			""		0	FALSE										
+ERP023507	TRUE	balanced	balanced	FALSE			0		""		0	FALSE										
+ERP024052	TRUE	partially_confounded	partially_confounded	FALSE		0			""		0	FALSE										
+ERP024489	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP104373	TRUE	balanced	""	FALSE					""		0	FALSE										
+ERP104759	TRUE	mildly_imbalanced	""	FALSE	0.846	0.849			other		0	FALSE										
+ERP104865	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP105477	TRUE	single_sex	""	TRUE					""	epmc_title	1	FALSE										
+ERP105638	TRUE	balanced	""	FALSE					""		0	FALSE										
+ERP106132	TRUE	single_sex	balanced	TRUE					""		0	FALSE										
+ERP106136	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP106455	TRUE	mildly_imbalanced	""	FALSE	0.667	0.667			other	epmc_title	1	TRUE	TRUE	edgeR	no	no	yes	yes	unclear	yes	high	0.0226
+ERP106558	TRUE	single_sex	balanced	TRUE					""		0	FALSE										
+ERP107271	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP107429	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP107455	TRUE	single_sex	partially_confounded	TRUE					""		0	FALSE										
+ERP107948	TRUE	mildly_imbalanced	""	FALSE	0.486	0.934			liver		0	FALSE										
+ERP108446	TRUE	mildly_imbalanced	""	FALSE	0.394	0.087			gut		0	FALSE										
+ERP108766	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+ERP109057	TRUE	partially_confounded	""	FALSE	0.422	0.841			""		0	FALSE										
+ERP109201	TRUE	single_sex	""	TRUE					""	epmc_accession	1	TRUE	FALSE	edgeR	no	no	no	no	no	no	high	0.0339
+ERP109306	TRUE	partially_confounded	""	FALSE	0.25	0.25			other		0	FALSE										
+ERP109471	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP109959	TRUE	balanced	""	FALSE	0.538	0.8			""		0	FALSE										
+ERP110063	TRUE	balanced	""	FALSE	0.024	0.006			brain_cns		0	FALSE										
+ERP110346	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP111448	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP111614	TRUE	balanced	""	FALSE					""		0	FALSE										
+ERP112326	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP112380	TRUE	single_sex	balanced	TRUE					""		0	FALSE										
+ERP112516	TRUE	balanced	""	FALSE	0.907	0.889			""		0	FALSE										
+ERP112898	TRUE	single_sex	""	TRUE					""	epmc_title	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	no	no	high	0.0348
+ERP113681	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP113868	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP114372	TRUE	balanced	""	FALSE	0.735	0.944			""		0	FALSE										
+ERP114772	TRUE	mildly_imbalanced	""	FALSE	0.832	0.933			""		0	FALSE										
+ERP115639	TRUE	partially_confounded	""	FALSE	0.5	1			""		0	FALSE										
+ERP115710	TRUE	single_sex	""	TRUE					blood_immune	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	yes	unclear	unclear	medium	0.0336
+ERP115713	TRUE	partially_confounded	""	FALSE					other		0	FALSE										
+ERP116564	TRUE	single_sex	balanced	TRUE					""		0	FALSE										
+ERP117312	TRUE	balanced	balanced	FALSE	0.982	0.906	0.928	0.909	""		0	FALSE										
+ERP117469	TRUE	single_sex	""	TRUE					""		0	FALSE										
+ERP117731	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+ERP119049	TRUE	single_sex	completely_confounded	TRUE					""		0	FALSE										
+SRP002811	TRUE	balanced	""	FALSE	0.581	0.709			brain_cns		0	FALSE										
+SRP005860	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP008123	TRUE	partially_confounded	""	FALSE					muscle	epmc_accession	1	FALSE										
+SRP010780	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP012297	FALSE	single_sex	""	TRUE					liver													
+SRP015136	TRUE	single_sex	completely_confounded	TRUE					reproductive		0	FALSE										
+SRP015437	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP015977	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP016859	TRUE	balanced	balanced	FALSE	0.726	0.862	0.744	0.505	blood_immune		0	FALSE										
+SRP017388	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP017560	TRUE	balanced	""	FALSE	0.474	0.474			brain_cns	epmc_title	1	FALSE										
+SRP017849	TRUE	partially_confounded	mildly_imbalanced	FALSE	0.064	0.803	0.236	0.038	brain_cns		0	FALSE										
+SRP018013	TRUE	partially_confounded	""	FALSE					brain_cns	epmc_title	1	TRUE	TRUE	Cuffdiff	no	no	yes	unclear	no	yes	high	0.0246
+SRP018038	TRUE	mildly_imbalanced	""	FALSE					liver		0	FALSE										
+SRP018287	TRUE	balanced	""	FALSE					other	epmc_title	1	FALSE										
+SRP018735	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP018846	TRUE	mildly_imbalanced	""	FALSE	0.212	0			liver		0	FALSE										
+SRP018860	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP019266	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP019757	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP019798	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP020224	TRUE	partially_confounded	""	FALSE	0.004	1			other		0	FALSE										
+SRP020636	TRUE	balanced	""	FALSE	0.943	0.989			liver	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0282
+SRP023469	TRUE	partially_confounded	""	FALSE	0.023	0.047			other		0	FALSE										
+SRP024269	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP026129	TRUE	single_sex	""	TRUE					heart	epmc_title	1	FALSE										
+SRP026667	TRUE	mildly_imbalanced	""	FALSE	1	1			liver		0	FALSE										
+SRP027255	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP027535	TRUE	partially_confounded	balanced	FALSE					brain_cns		0	FALSE										
+SRP027536	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP027595	TRUE	mildly_imbalanced	""	FALSE					lung	epmc_title	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	no	unclear	high	0.0374
+SRP028138	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP028161	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP028331	TRUE	single_sex	""	TRUE					blood_immune	epmc_title	1	FALSE										
+SRP028867	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP028868	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP029912	TRUE	mildly_imbalanced	""	FALSE					brain_cns	epmc_title	1	FALSE										
+SRP029939	TRUE	balanced	""	FALSE	0.931	0.926			""		0	FALSE										
+SRP032458	TRUE	mildly_imbalanced	balanced	FALSE			0		brain_cns	epmc_title	1	FALSE										
+SRP032811	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP033021	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP033220	TRUE	single_sex	""	TRUE					lung	epmc_title	1	FALSE										
+SRP033407	TRUE	balanced	""	FALSE	0.902	0.301			lung		0	FALSE										
+SRP033501	TRUE	balanced	""	FALSE	0.91	0.883			other		0	FALSE										
+SRP034534	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP034855	TRUE	partially_confounded	""	FALSE	0.248	0.837			other		0	FALSE										
+SRP034880	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP035462	TRUE	balanced	mildly_imbalanced	FALSE	0.99	0.992	0.933	0.961	""	epmc_accession	1	FALSE										
+SRP035523	TRUE	balanced	""	FALSE	0.876	0.723			""		0	FALSE										
+SRP035667	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP035941	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP036861	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP036866	TRUE	single_sex	""	TRUE					skin		0	FALSE										
+SRP037555	TRUE	partially_confounded	""	FALSE	0	0			liver		0	FALSE										
+SRP038635	TRUE	mildly_imbalanced	""	FALSE	1	0.889			liver		0	FALSE										
+SRP039089	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP039411	TRUE	single_sex	""	TRUE					liver	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0284
+SRP039501	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP039628	TRUE	mildly_imbalanced	""	FALSE	0.819	0.801			heart		0	FALSE										
+SRP040560	TRUE	partially_confounded	""	FALSE					kidney		0	FALSE										
+SRP040958	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP041101	TRUE	completely_confounded	""	FALSE					blood_immune		0	FALSE										
+SRP041266	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP041313	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP041584	TRUE	completely_confounded	""	FALSE					blood_immune		0	FALSE										
+SRP041929	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP042206	TRUE	partially_confounded	""	FALSE	0	0			gut	epmc_title	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	low	0.0326
+SRP042287	TRUE	single_sex	partially_confounded	TRUE					muscle		0	FALSE										
+SRP042289	TRUE	partially_confounded	""	FALSE	0.365	0.822			other		0	FALSE										
+SRP042368	TRUE	balanced	""	FALSE					liver		0	FALSE										
+SRP042636	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP043269	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP043302	TRUE	single_sex	mildly_imbalanced	TRUE					reproductive	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0181
+SRP043436	TRUE	single_sex	mildly_imbalanced	TRUE					brain_cns		0	FALSE										
+SRP043493	TRUE	balanced	""	FALSE	0.952	0.5			other	epmc_title	1	TRUE	TRUE	edgeR	unclear	unclear	unclear	unclear	no	unclear	high	0.0169
+SRP043967	TRUE	balanced	partially_confounded	FALSE	0.796	0.738	0.337	0.54	heart		0	FALSE										
+SRP044222	TRUE	single_sex	""	TRUE					other	epmc_title	1	FALSE										
+SRP045223	TRUE	mildly_imbalanced	""	FALSE	0	0			blood_immune		0	FALSE										
+SRP045331	TRUE	single_sex	partially_confounded	TRUE					reproductive		0	FALSE										
+SRP045354	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP045369	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP045625	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP045626	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP045747	TRUE	balanced	""	FALSE	0.377	0.29			other		0	FALSE										
+SRP045828	TRUE	mildly_imbalanced	""	FALSE	0.744	0.708			tumor		0	FALSE										
+SRP046087	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP047452	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP048707	TRUE	balanced	""	FALSE	0.67	0.335			blood_immune	epmc_accession	1	TRUE	TRUE	limma-voom	no	no	unclear	unclear	no	no	high	0.0304
+SRP048898	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP049139	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP049141	TRUE	completely_confounded	""	FALSE					blood_immune		0	FALSE										
+SRP049177	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP049219	TRUE	balanced	""	FALSE	0.904	0.905			brain_cns		0	FALSE										
+SRP049261	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP049262	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE	edgeR	no	unclear	yes	unclear	no	yes	high	0.0206
+SRP049335	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP049440	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP049630	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP049763	TRUE	partially_confounded	""	FALSE	0.228	0.849			heart		0	FALSE										
+SRP050894	TRUE	balanced	""	FALSE	0.947	0.877			brain_cns		0	FALSE										
+SRP050899	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP051077	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP051497	TRUE	balanced	""	FALSE	0.548	0.838			blood_immune		0	FALSE										
+SRP051500	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP052583	TRUE	partially_confounded	""	FALSE	0.5	0.448			brain_cns		0	FALSE										
+SRP052794	TRUE	mildly_imbalanced	""	FALSE	0	1			blood_immune		0	FALSE										
+SRP052872	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP052881	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP052884	TRUE	single_sex	balanced	TRUE					adipose		0	FALSE										
+SRP053177	TRUE	single_sex	""	TRUE					other	epmc_title	1	FALSE										
+SRP053223	TRUE	balanced	""	FALSE	0.574	0.113			other		0	FALSE										
+SRP053235	TRUE	partially_confounded	""	FALSE	0.161	0.713			other		0	FALSE										
+SRP053389	TRUE	balanced	""	FALSE	0.975	0.975			brain_cns		0	FALSE										
+SRP053396	TRUE	balanced	balanced	FALSE	0.508	0.925	0.417	0.453	liver		0	FALSE										
+SRP053398	TRUE	balanced	""	FALSE	0.979	0.991			brain_cns		0	FALSE										
+SRP053401	TRUE	balanced	""	FALSE	0.842	0.849			brain_cns		0	FALSE										
+SRP054977	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP055013	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP055058	TRUE	balanced	""	FALSE	0.929	0.939			brain_cns		0	FALSE										
+SRP055064	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP055082	TRUE	mildly_imbalanced	""	FALSE	0.779	0.754			brain_cns		0	FALSE										
+SRP055206	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP055207	TRUE	partially_confounded	""	FALSE	0.667	1			other		0	FALSE										
+SRP055521	TRUE	balanced	""	FALSE	0.859	0.863			liver		0	FALSE										
+SRP055571	TRUE	balanced	""	FALSE	0.5	1			brain_cns		0	FALSE										
+SRP055722	TRUE	single_sex	""	TRUE					liver	epmc_title	1	FALSE										
+SRP055864	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP055928	TRUE	single_sex	""	TRUE					heart	epmc_accession	1	TRUE	FALSE	DESeq2	unclear	unclear	unclear	unclear	yes	unclear	low	0.0364
+SRP056013	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP056447	TRUE	balanced	""	FALSE	0.935	0.821			gut	epmc_title	1	FALSE										
+SRP056865	TRUE	balanced	balanced	FALSE	0.64	0.602	0.357	0.532	brain_cns		0	FALSE										
+SRP056926	TRUE	single_sex	""	TRUE					gut	epmc_title	1	TRUE	TRUE	edgeR	no	no	yes	yes	unclear	yes	high	0.0349
+SRP056933	TRUE	single_sex	""	TRUE					tumor	epmc_title	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	no	unclear	high	0.0198
+SRP056980	TRUE	balanced	""	FALSE	0	0			tumor		0	FALSE										
+SRP057060	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP057171	TRUE	single_sex	""	TRUE					heart	epmc_title	1	FALSE										
+SRP057202	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP057486	TRUE	single_sex	""	TRUE					brain_cns	epmc_accession	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	no	no	medium	0.0296
+SRP057556	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP057560	TRUE	mildly_imbalanced	""	FALSE	0.518	0.512			heart		0	FALSE										
+SRP057563	TRUE	mildly_imbalanced	""	FALSE					other		0	FALSE										
+SRP057574	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP057615	TRUE	completely_confounded	""	FALSE					other		0	FALSE										
+SRP057696	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP057697	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP057718	TRUE	single_sex	""	TRUE					reproductive	epmc_title	1	TRUE	TRUE	Cuffdiff	unclear	no	unclear	yes	no	no	high	0.0342
+SRP057815	TRUE	partially_confounded	""	FALSE					gut		0	FALSE										
+SRP058071	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP058258	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE	other	no	no	yes	yes	unclear	no	medium	0.036
+SRP058363	TRUE	mildly_imbalanced	""	FALSE	0.007	0.079			muscle		0	FALSE										
+SRP058378	TRUE	mildly_imbalanced	""	FALSE	0.553	0.53			heart		0	FALSE										
+SRP058506	TRUE	balanced	""	FALSE					other	epmc_title	1	FALSE										
+SRP058594	TRUE	single_sex	balanced	TRUE					blood_immune		0	FALSE										
+SRP058641	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP058715	TRUE	partially_confounded	""	FALSE	0.046	0			other	epmc_title	1	TRUE	TRUE	other	no	unclear	no	unclear	no	no	medium	0.0369
+SRP059196	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP059237	TRUE	partially_confounded	""	FALSE					other		0	FALSE										
+SRP059440	TRUE	single_sex	""	TRUE					liver	epmc_accession	2	TRUE	TRUE	DESeq2	no	unclear	yes	yes	no	yes	high	0.0349
+SRP059676	TRUE	mildly_imbalanced	""	FALSE	0.612	0.502			blood_immune		0	FALSE										
+SRP059792	TRUE	single_sex	""	TRUE					blood_immune	epmc_title	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	no	no	high	0.0303
+SRP059824	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP059940	TRUE	balanced	""	FALSE	0				other	epmc_title	1	TRUE	TRUE	DESeq2	unclear	no	unclear	yes	no	no	high	0.0364
+SRP060228	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP060238	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP060295	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP060296	TRUE	balanced	balanced	FALSE	0.926	0.932	0.902	0.789	liver		0	FALSE										
+SRP060340	TRUE	single_sex	""	TRUE					reproductive	epmc_title	1	FALSE										
+SRP060438	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP060667	TRUE	balanced	""	FALSE	0.859	0.82			other		0	FALSE										
+SRP061193	TRUE	balanced	""	FALSE	0.702	0.817			blood_immune		0	FALSE										
+SRP061355	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP061386	TRUE	mildly_imbalanced	""	FALSE	0.922	0.782			blood_immune		0	FALSE										
+SRP061407	TRUE	partially_confounded	""	FALSE	0.727	1			other	epmc_title	1	TRUE	TRUE	edgeR	no	no	unclear	unclear	no	no	high	0.0232
+SRP061758	TRUE	partially_confounded	""	FALSE	0.188	0.257			brain_cns		0	FALSE										
+SRP061785	TRUE	partially_confounded	""	FALSE	0.061	0.203			brain_cns		0	FALSE										
+SRP061788	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP061800	TRUE	partially_confounded	""	FALSE	0.48	0.455			other		0	FALSE										
+SRP061950	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP061985	TRUE	partially_confounded	""	FALSE	0	0.452			blood_immune		0	FALSE										
+SRP062211	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP062238	TRUE	mildly_imbalanced	""	FALSE	0.668	0.668			heart	epmc_accession	1	TRUE	FALSE	Cuffdiff	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0135
+SRP062639	TRUE	single_sex	""	TRUE					other	epmc_title	1	FALSE										
+SRP062829	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP062874	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP062904	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP063005	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP063269	TRUE	balanced	balanced	FALSE	0.875	0.857	0.106	0.75	brain_cns	epmc_title	1	FALSE										
+SRP063455	TRUE	balanced	""	FALSE	0.98	0.987			liver	epmc_accession	1	TRUE	TRUE	DESeq2	no	unclear	yes	unclear	unclear	yes	medium	0.0333
+SRP063574	TRUE	completely_confounded	""	FALSE					other	epmc_title	1	FALSE										
+SRP063861	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP063890	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP064004	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP064030	TRUE	single_sex	balanced	TRUE					adipose		0	FALSE										
+SRP064190	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP064194	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP064216	TRUE	balanced	balanced	FALSE	0.962	0.806	0.699	0.723	brain_cns		0	FALSE										
+SRP064223	TRUE	balanced	""	FALSE					liver	epmc_title	1	FALSE										
+SRP064245	TRUE	balanced	balanced	FALSE	0.944	0.883	0.599	0.865	brain_cns		0	FALSE										
+SRP064420	TRUE	balanced	""	FALSE	0.478	0.524			lung	epmc_title	1	FALSE										
+SRP064534	TRUE	balanced	""	FALSE	0.86	0.589			heart	epmc_title	1	TRUE	TRUE	DESeq2	no	unclear	yes	yes	unclear	yes	high	0.0232
+SRP064762	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP064844	TRUE	partially_confounded	""	FALSE					brain_cns	epmc_title	1	FALSE										
+SRP064862	TRUE	single_sex	""	TRUE					blood_immune	epmc_title	1	FALSE										
+SRP064923	TRUE	partially_confounded	""	FALSE	1	1			other		0	FALSE										
+SRP064982	TRUE	balanced	""	FALSE					blood_immune		0	FALSE										
+SRP064991	TRUE	partially_confounded	""	FALSE	0.708	0.619			brain_cns	epmc_title	1	FALSE										
+SRP065187	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP065217	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP065281	TRUE	single_sex	""	TRUE					adipose	epmc_title	1	TRUE	TRUE	edgeR	unclear	unclear	unclear	unclear	no	unclear	high	0.0204
+SRP065536	TRUE	mildly_imbalanced	""	FALSE					heart		0	FALSE										
+SRP065537	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP065571	TRUE	balanced	""	FALSE					heart	epmc_title	1	FALSE										
+SRP065603	TRUE	single_sex	""	TRUE					muscle	epmc_title	1	FALSE										
+SRP065767	TRUE	balanced	""	FALSE	0.861	0.817			brain_cns	epmc_title	1	FALSE										
+SRP065801	TRUE	partially_confounded	""	FALSE	0.392	0.849			heart		0	FALSE										
+SRP065842	TRUE	balanced	""	FALSE	0.609	0.84			brain_cns	epmc_title	1	FALSE										
+SRP066097	TRUE	balanced	""	FALSE	0	0			other		0	FALSE										
+SRP066173	TRUE	completely_confounded	""	FALSE					brain_cns		0	FALSE										
+SRP066244	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP066489	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0097
+SRP066622	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP066728	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP066776	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP066786	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP066807	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP066809	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP067091	TRUE	mildly_imbalanced	""	FALSE	0.584	0			brain_cns		0	FALSE										
+SRP067243	TRUE	balanced	""	FALSE					heart		0	FALSE										
+SRP067260	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP067339	TRUE	partially_confounded	""	FALSE	0	0			other		0	FALSE										
+SRP067349	TRUE	single_sex	""	TRUE					liver	epmc_title	1	FALSE										
+SRP067454	TRUE	balanced	""	FALSE	0.989	0.995			liver		0	FALSE										
+SRP067490	TRUE	balanced	""	FALSE	0.833	0.167			brain_cns		0	FALSE										
+SRP067491	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP067494	TRUE	single_sex	""	TRUE					brain_cns	epmc_accession	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	no	medium	0.0339
+SRP067527	TRUE	mildly_imbalanced	""	FALSE					other		0	FALSE										
+SRP067600	TRUE	partially_confounded	""	FALSE	0.155	0.724			tumor		0	FALSE										
+SRP067636	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP067752	TRUE	balanced	""	FALSE	0.675	0.911			liver		0	FALSE										
+SRP068030	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP068356	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP068384	TRUE	balanced	""	FALSE	0.712	0.648			adipose		0	FALSE										
+SRP068418	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP068500	TRUE	balanced	""	FALSE	0.689	0.697			brain_cns		0	FALSE										
+SRP068520	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP068574	TRUE	balanced	""	FALSE					other		0	FALSE										
+SRP068582	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP068744	TRUE	partially_confounded	""	FALSE					blood_immune		0	FALSE										
+SRP068777	TRUE	partially_confounded	""	FALSE					other		0	FALSE										
+SRP069240	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP069292	TRUE	partially_confounded	""	FALSE	0.27	0.27			brain_cns	epmc_title	1	FALSE										
+SRP069772	TRUE	balanced	""	FALSE	1	1			brain_cns	epmc_title	1	FALSE										
+SRP069809	TRUE	balanced	""	FALSE	0				brain_cns	epmc_title	1	FALSE										
+SRP069812	TRUE	mildly_imbalanced	""	FALSE					kidney		0	FALSE										
+SRP069873	TRUE	mildly_imbalanced	""	FALSE	0.725	0.45			heart		0	FALSE										
+SRP069966	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP069979	TRUE	balanced	""	FALSE	0				blood_immune	epmc_title	1	TRUE	TRUE	edgeR	no	no	yes	yes	unclear	yes	high	0.0256
+SRP070188	TRUE	balanced	""	FALSE	0.876	0.809			blood_immune	epmc_title	1	FALSE										
+SRP070440	TRUE	balanced	partially_confounded	FALSE	0.825	0.657	0.581	0.701	brain_cns	epmc_accession	1	TRUE	FALSE	other	unclear	unclear	unclear	unclear	unclear	yes	high	0.0145
+SRP070571	TRUE	mildly_imbalanced	""	FALSE	0.542	0.427			other		0	FALSE										
+SRP070642	TRUE	partially_confounded	""	FALSE	0.292	0.851			tumor		0	FALSE										
+SRP070673	TRUE	balanced	""	FALSE	1	1			other		0	FALSE										
+SRP070767	TRUE	balanced	balanced	FALSE	0.905	0.804	0.765	0.806	brain_cns		0	FALSE										
+SRP070769	TRUE	balanced	balanced	FALSE	0.896	0.779	0.477	0.916	brain_cns		0	FALSE										
+SRP070770	TRUE	balanced	balanced	FALSE	1	1	1	0.75	liver		0	FALSE										
+SRP070775	TRUE	balanced	balanced	FALSE	0.945	0.95	0.908	0.916	brain_cns		0	FALSE										
+SRP070790	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP070849	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP070880	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP070906	TRUE	partially_confounded	""	FALSE	0.395	0.842			brain_cns	epmc_accession	1	TRUE	TRUE	DESeq2	unclear	no	unclear	yes	yes	no	high	0.0321
+SRP070944	TRUE	partially_confounded	""	FALSE	0.333	0.667			brain_cns		0	FALSE										
+SRP071231	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP071238	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP071333	TRUE	mildly_imbalanced	""	FALSE	0.5	0.143			other		0	FALSE										
+SRP071570	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP071610	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP071732	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP071754	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP071883	TRUE	partially_confounded	""	FALSE	0.042	0.316			brain_cns	epmc_accession	1	TRUE	TRUE	limma-voom	unclear	unclear	unclear	yes	unclear	no	high	0.0316
+SRP072072	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	FALSE		unclear	unclear	no	unclear	unclear	yes	high	0.0329
+SRP072124	TRUE	single_sex	completely_confounded	TRUE					reproductive	epmc_title	1	FALSE										
+SRP072171	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP072380	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP072383	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP072457	TRUE	balanced	""	FALSE	0.269				brain_cns	epmc_title	1	TRUE	TRUE	Cuffdiff	unclear	unclear	unclear	yes	no	no	medium	0.0331
+SRP072844	TRUE	mildly_imbalanced	""	FALSE	0.5	0			brain_cns	epmc_title	1	FALSE										
+SRP072877	TRUE	partially_confounded	""	FALSE	0.605				heart		0	FALSE										
+SRP073042	TRUE	partially_confounded	""	FALSE	0.514	0.853			brain_cns		0	FALSE										
+SRP073062	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP073063	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP073086	TRUE	balanced	balanced	FALSE	1	1	1	1	brain_cns	epmc_title	1	FALSE										
+SRP073096	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP073119	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP073224	TRUE	partially_confounded	""	FALSE	0.323	0.736			brain_cns	epmc_title	1	FALSE										
+SRP073310	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP073396	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP073498	TRUE	balanced	""	FALSE	0.93	0.925			other		0	FALSE										
+SRP073608	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP073609	TRUE	balanced	""	FALSE	0.324	0.734			kidney		0	FALSE										
+SRP073927	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP074136	TRUE	balanced	""	FALSE	0.828	0.862			liver		0	FALSE										
+SRP074146	TRUE	partially_confounded	balanced	FALSE	0.677	0.944	0.719	0.651	other	epmc_title	1	FALSE										
+SRP074155	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP074209	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP074301	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP074380	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP074487	TRUE	single_sex	balanced	TRUE					brain_cns	epmc_accession	1	FALSE										
+SRP074626	TRUE	single_sex	""	TRUE					gut	epmc_accession	2	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	no	low	0.0345
+SRP074831	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP074887	TRUE	single_sex	""	TRUE					muscle	epmc_title	1	TRUE	TRUE	DESeq2	unclear	no	unclear	yes	no	no	medium	0.0267
+SRP075114	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP075249	TRUE	mildly_imbalanced	""	FALSE	0.431	0.311			tumor		0	FALSE										
+SRP075332	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP075769	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP075825	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP075833	TRUE	mildly_imbalanced	""	FALSE		0			other		0	FALSE										
+SRP075921	TRUE	partially_confounded	""	FALSE	0.717	0.968			other		0	FALSE										
+SRP075923	TRUE	balanced	""	FALSE	0.952	0.888			other		0	FALSE										
+SRP075924	TRUE	partially_confounded	""	FALSE	0	0			blood_immune		0	FALSE										
+SRP076019	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP076021	TRUE	mildly_imbalanced	""	FALSE	0.474	0.466			other		0	FALSE										
+SRP076034	TRUE	partially_confounded	""	FALSE		0			gut		0	FALSE										
+SRP076218	TRUE	single_sex	""	TRUE					heart	epmc_accession	2	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0288
+SRP076338	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP076391	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP076406	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP076416	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP076421	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP076455	TRUE	partially_confounded	""	FALSE	0.298	0.811			brain_cns	epmc_title	1	FALSE										
+SRP076543	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP076710	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP076817	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP076841	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP076866	TRUE	mildly_imbalanced	""	FALSE	0.522	0.591			tumor		0	FALSE										
+SRP076940	TRUE	balanced	""	FALSE	0.78	0.567			other		0	FALSE										
+SRP077095	TRUE	mildly_imbalanced	""	FALSE	0.899	0.852			brain_cns		0	FALSE										
+SRP077214	TRUE	partially_confounded	""	FALSE	0.849	0.843			brain_cns		0	FALSE										
+SRP077508	TRUE	single_sex	balanced	TRUE					reproductive		0	FALSE										
+SRP077634	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP077664	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP077673	TRUE	partially_confounded	""	FALSE	0.583	0.767			liver		0	FALSE										
+SRP077714	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP078058	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP078061	TRUE	mildly_imbalanced	""	FALSE	0.667	0.625			gut		0	FALSE										
+SRP078062	TRUE	balanced	""	FALSE	0.927	0.927			brain_cns		0	FALSE										
+SRP078070	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP078198	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP078250	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP078270	TRUE	balanced	""	FALSE	0.815	0.738			brain_cns		0	FALSE										
+SRP078380	TRUE	balanced	""	FALSE	1	1			brain_cns		0	FALSE										
+SRP078862	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP079698	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP079900	TRUE	balanced	""	FALSE	0.951	0.942			other		0	FALSE										
+SRP080121	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP080140	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP080147	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP080326	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP080864	TRUE	balanced	""	FALSE	0.5	1			brain_cns	epmc_title	1	FALSE										
+SRP080947	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP080961	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP081004	TRUE	mildly_imbalanced	partially_confounded	FALSE	0.562	0.647	0.166	0.56	liver	epmc_title	1	TRUE	TRUE	Cuffdiff	unclear	unclear	unclear	unclear	no	unclear	high	0.0327
+SRP081089	TRUE	balanced	""	FALSE	0.44	0.765			blood_immune		0	FALSE										
+SRP081104	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP081108	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP081203	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP081207	TRUE	single_sex	""	TRUE					other	epmc_title	1	FALSE										
+SRP081219	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP082142	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP082219	TRUE	balanced	""	FALSE	0.849	0.851			brain_cns		0	FALSE										
+SRP082273	TRUE	mildly_imbalanced	""	FALSE	0.794	0.736			other		0	FALSE										
+SRP082367	TRUE	balanced	""	FALSE	0.4	0.15			blood_immune		0	FALSE										
+SRP082377	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP082562	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP082974	TRUE	single_sex	balanced	TRUE					skin		0	FALSE										
+SRP082982	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP082985	TRUE	partially_confounded	""	FALSE	0.74	0.909			liver		0	FALSE										
+SRP083074	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP083759	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP083850	TRUE	balanced	balanced	FALSE					other		0	FALSE										
+SRP083914	TRUE	balanced	""	FALSE	0.973	0.942			skin	epmc_title	1	TRUE	TRUE	edgeR	yes	no	yes	yes	unclear	yes	high	0.0347
+SRP087434	TRUE	balanced	balanced	FALSE			0	0	kidney		0	FALSE										
+SRP087718	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP087741	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP089713	TRUE	mildly_imbalanced	""	FALSE	0.702	0.586			adipose		0	FALSE										
+SRP089881	TRUE	single_sex	balanced	TRUE					gut		0	FALSE										
+SRP089973	TRUE	mildly_imbalanced	balanced	FALSE					brain_cns		0	FALSE										
+SRP090022	TRUE	single_sex	""	TRUE					gut	epmc_title	1	TRUE	TRUE	Cuffdiff	no	no	yes	yes	unclear	yes	high	0.0274
+SRP090064	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP090141	TRUE	balanced	""	FALSE	0.704	0.408			brain_cns		0	FALSE										
+SRP090192	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP090295	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP090360	TRUE	partially_confounded	""	FALSE	0.641	0.846			liver		0	FALSE										
+SRP090395	TRUE	partially_confounded	""	FALSE	0.133	0.787			heart		0	FALSE										
+SRP090397	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP090469	TRUE	partially_confounded	""	FALSE					other		0	FALSE										
+SRP090476	TRUE	mildly_imbalanced	""	FALSE	0.037	0			other		0	FALSE										
+SRP090477	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP090515	TRUE	single_sex	balanced	TRUE					muscle		0	FALSE										
+SRP090574	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP090754	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP090770	TRUE	balanced	""	FALSE	0.333	0.333			liver	epmc_title	1	FALSE										
+SRP090822	TRUE	partially_confounded	""	FALSE					other		0	FALSE										
+SRP090877	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP090922	TRUE	mildly_imbalanced	""	FALSE					lung		0	FALSE										
+SRP090924	TRUE	single_sex	""	TRUE					other	epmc_title	1	FALSE										
+SRP090989	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE		unclear	unclear	unclear	unclear	unclear	no	high	0.0102
+SRP091394	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP091722	TRUE	balanced	""	FALSE	0.704	0.776			blood_immune		0	FALSE										
+SRP091781	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP091788	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	other	no	no	no	unclear	unclear	yes	high	0.01
+SRP091938	TRUE	partially_confounded	""	FALSE	1	1			brain_cns	epmc_title	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	no	no	high	0.033
+SRP092258	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP092451	TRUE	mildly_imbalanced	""	FALSE	0.633	0.868			blood_immune		0	FALSE										
+SRP092532	TRUE	balanced	balanced	FALSE	0.74	0.403	0.369	0.595	brain_cns		0	FALSE										
+SRP092552	TRUE	mildly_imbalanced	""	FALSE	0.931	0.944			brain_cns		0	FALSE										
+SRP092644	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	Cuffdiff	no	no	yes	yes	unclear	yes	high	0.0268
+SRP092799	TRUE	balanced	""	FALSE	0.911	0.785			gut	epmc_title	1	FALSE										
+SRP092900	TRUE	mildly_imbalanced	""	FALSE	0.474	0.154			muscle		0	FALSE										
+SRP093260	TRUE	mildly_imbalanced	""	FALSE					blood_immune		0	FALSE										
+SRP093283	TRUE	partially_confounded	""	FALSE	0.619	0.715			liver		0	FALSE										
+SRP093288	TRUE	balanced	""	FALSE	1	0			other		0	FALSE										
+SRP093302	TRUE	partially_confounded	""	FALSE	0.926	0.91			other		0	FALSE										
+SRP093326	TRUE	completely_confounded	""	FALSE					blood_immune		0	FALSE										
+SRP093645	TRUE	partially_confounded	""	FALSE					brain_cns		0	FALSE										
+SRP093648	TRUE	single_sex	partially_confounded	TRUE					liver		0	FALSE										
+SRP093912	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP093925	TRUE	partially_confounded	""	FALSE	0.514	0.376			other	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	unclear	unclear	yes	high	0.0124
+SRP094057	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP094068	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP094108	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP094428	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP094547	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP094566	TRUE	single_sex	""	TRUE					skin	epmc_title	1	FALSE										
+SRP094567	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP094570	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP094627	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP094648	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP094656	TRUE	mildly_imbalanced	""	FALSE		0			brain_cns		0	FALSE										
+SRP094678	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP094696	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP094736	TRUE	single_sex	""	TRUE					gut	epmc_title	1	TRUE	TRUE	limma-voom	no	no	yes	yes	unclear	yes	high	0.0356
+SRP094779	TRUE	single_sex	balanced	TRUE					kidney	epmc_accession	2	TRUE	TRUE	edgeR	no	no	unclear	yes	no	unclear	high	0.024
+SRP094796	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP094853	TRUE	mildly_imbalanced	""	FALSE	0.01	0.661			brain_cns	epmc_title	1	FALSE										
+SRP094864	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP094897	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP094952	TRUE	partially_confounded	""	FALSE	0.804	0.738			other		0	FALSE										
+SRP095064	TRUE	balanced	""	FALSE	0.744	0.812			liver		0	FALSE										
+SRP095091	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP095117	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP095191	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	yes	unclear	yes	high	0.0233
+SRP095235	TRUE	partially_confounded	balanced	FALSE	0.265	0.756	0.335	0.147	liver	epmc_title	1	TRUE	TRUE	DESeq2	no	yes	yes	yes	unclear	yes	high	0.032
+SRP095617	TRUE	mildly_imbalanced	""	FALSE	0.451	0			lung		0	FALSE										
+SRP095733	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP095766	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP095855	TRUE	mildly_imbalanced	""	FALSE	0.842	0.965			liver		0	FALSE										
+SRP095936	TRUE	partially_confounded	""	FALSE	0.837	0.971			other		0	FALSE										
+SRP096024	TRUE	single_sex	""	TRUE					liver	epmc_title	1	FALSE										
+SRP096052	TRUE	balanced	""	FALSE	0.968	0.901			other		0	FALSE										
+SRP096113	TRUE	balanced	""	FALSE		0			brain_cns		0	FALSE										
+SRP096116	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP096126	TRUE	single_sex	""	TRUE					blood_immune	epmc_title	1	TRUE	TRUE	DESeq2	unclear	no	unclear	yes	yes	unclear	high	0.0328
+SRP096162	TRUE	single_sex	""	TRUE					tumor	epmc_accession	1	TRUE	TRUE		unclear	unclear	unclear	unclear	unclear	no	high	0.0075
+SRP096254	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP096571	TRUE	single_sex	""	TRUE					liver	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.033
+SRP096580	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP096655	TRUE	partially_confounded	balanced	FALSE	0.37	0.916	0.335	0.424	other		0	FALSE										
+SRP096721	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE	edgeR	no	unclear	no	unclear	yes	yes	high	0.0339
+SRP096738	TRUE	partially_confounded	""	FALSE	0.255	0.057			brain_cns		0	FALSE										
+SRP096963	TRUE	mildly_imbalanced	""	FALSE	0.63	0.671			other		0	FALSE										
+SRP096989	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP097576	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP097585	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP097621	TRUE	partially_confounded	""	FALSE	0.391	0.798			tumor	epmc_title	1	FALSE										
+SRP097921	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP098045	TRUE	mildly_imbalanced	""	FALSE	0	1			liver	epmc_title	1	TRUE	TRUE	other	no	no	yes	yes	no	yes	high	0.0325
+SRP098205	TRUE	mildly_imbalanced	balanced	FALSE					gut	epmc_title	1	FALSE										
+SRP098559	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP098626	TRUE	single_sex	balanced	TRUE					liver		0	FALSE										
+SRP098725	TRUE	mildly_imbalanced	""	FALSE	0.352	0.892			other		0	FALSE										
+SRP098816	TRUE	balanced	""	FALSE	1	0			brain_cns		0	FALSE										
+SRP098918	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP098927	TRUE	single_sex	partially_confounded	TRUE					reproductive		0	FALSE										
+SRP098946	TRUE	partially_confounded	""	FALSE	0.483	0.96			other		0	FALSE										
+SRP098987	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP099065	TRUE	completely_confounded	""	FALSE					brain_cns		0	FALSE										
+SRP099072	TRUE	partially_confounded	""	FALSE	0.46	0.667			lung		0	FALSE										
+SRP099105	TRUE	single_sex	""	TRUE					other	epmc_accession	1	TRUE	TRUE	edgeR	no	no	yes	yes	unclear	yes	high	0.0344
+SRP099194	TRUE	balanced	balanced	FALSE					muscle		0	FALSE										
+SRP099204	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP099218	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP099234	TRUE	partially_confounded	balanced	FALSE	0.714	0.679	0.721	0.55	other	epmc_title	1	TRUE	TRUE	edgeR	no	no	unclear	no	no	no	high	0.0285
+SRP099448	TRUE	mildly_imbalanced	""	FALSE	0.395	0.744			brain_cns		0	FALSE										
+SRP099497	TRUE	single_sex	""	TRUE					lung	epmc_title	1	FALSE										
+SRP099567	TRUE	mildly_imbalanced	""	FALSE	0.629	0.129			lung	epmc_title	1	FALSE										
+SRP099592	TRUE	balanced	""	FALSE	1	1			gut		0	FALSE										
+SRP099609	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP099692	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP099841	TRUE	mildly_imbalanced	""	FALSE					tumor		0	FALSE										
+SRP099973	TRUE	mildly_imbalanced	mildly_imbalanced	FALSE	0.54	0.42	0.023	0	brain_cns	epmc_accession	1	TRUE	TRUE	Cuffdiff	no	no	unclear	yes	no	yes	medium	0.0228
+SRP100030	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP100060	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP100248	TRUE	mildly_imbalanced	""	FALSE	0				brain_cns		0	FALSE										
+SRP100462	TRUE	single_sex	""	TRUE					liver	epmc_accession	1	FALSE										
+SRP100466	TRUE	balanced	""	FALSE	0.746	0.954			brain_cns		0	FALSE										
+SRP100512	TRUE	partially_confounded	""	FALSE					brain_cns		0	FALSE										
+SRP100651	TRUE	single_sex	""	TRUE					skin	epmc_title	1	FALSE										
+SRP100841	TRUE	single_sex	balanced	TRUE					skin		0	FALSE										
+SRP100848	TRUE	completely_confounded	""	FALSE					blood_immune		0	FALSE										
+SRP100881	TRUE	single_sex	completely_confounded	TRUE					liver		0	FALSE										
+SRP100954	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP100979	TRUE	balanced	balanced	FALSE	0.661	0.614			muscle	epmc_title	1	TRUE	TRUE	DESeq2	no	unclear	unclear	unclear	no	no	medium	0.0365
+SRP101363	TRUE	mildly_imbalanced	""	FALSE	0.293	0			liver		0	FALSE										
+SRP101373	TRUE	partially_confounded	""	FALSE	0.488	0.615			other		0	FALSE										
+SRP101444	TRUE	balanced	""	FALSE	0.839	0.794			other		0	FALSE										
+SRP101453	TRUE	balanced	""	FALSE	0.706	0.718			brain_cns		0	FALSE										
+SRP101460	TRUE	balanced	""	FALSE	0.013	0			other	epmc_title	1	TRUE	TRUE	edgeR	unclear	no	unclear	no	unclear	no	medium	0.019
+SRP101501	TRUE	partially_confounded	""	FALSE	0				liver		0	FALSE										
+SRP101577	TRUE	mildly_imbalanced	""	FALSE	0.768	0.82			other		0	FALSE										
+SRP101579	TRUE	mildly_imbalanced	""	FALSE	0.854	0.83			other		0	FALSE										
+SRP101617	TRUE	balanced	""	FALSE	0.409	0.003			other	epmc_title	1	FALSE										
+SRP101746	TRUE	partially_confounded	""	FALSE					brain_cns	epmc_title	1	FALSE										
+SRP101865	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP101878	TRUE	balanced	""	FALSE	0.617	0.8			blood_immune	epmc_title	1	FALSE										
+SRP101985	TRUE	balanced	""	FALSE	0.895	0.73			adipose		0	FALSE										
+SRP101986	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP101991	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP102208	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP102241	TRUE	balanced	""	FALSE	0.889	0.724			brain_cns		0	FALSE										
+SRP102352	TRUE	single_sex	""	TRUE					skin	epmc_title	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	no	no	high	0.0186
+SRP102360	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	yes	yes	yes	high	0.0336
+SRP102453	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP102454	TRUE	balanced	""	FALSE	0.974	0.846			brain_cns	epmc_title	1	FALSE										
+SRP102527	TRUE	single_sex	""	TRUE					other	epmc_title	1	FALSE										
+SRP102553	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	limma-voom	no	no	yes	yes	unclear	yes	high	0.0212
+SRP102696	TRUE	single_sex	""	TRUE					brain_cns	epmc_accession	1	FALSE										
+SRP102789	TRUE	mildly_imbalanced	""	FALSE	0.656	0.677			skin		0	FALSE										
+SRP102894	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP103117	TRUE	mildly_imbalanced	""	FALSE					lung		0	FALSE										
+SRP103215	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP103751	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP103813	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP103922	TRUE	balanced	""	FALSE		0			lung		0	FALSE										
+SRP103932	TRUE	balanced	""	FALSE	0.528	0.182			lung		0	FALSE										
+SRP104153	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP104179	TRUE	balanced	""	FALSE					tumor		0	FALSE										
+SRP104319	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP104670	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP105097	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP105166	TRUE	balanced	""	FALSE	0.663	0.81			brain_cns		0	FALSE										
+SRP105208	TRUE	completely_confounded	""	FALSE					kidney	epmc_title	1	FALSE										
+SRP105268	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP105321	TRUE	mildly_imbalanced	balanced	FALSE	0.368	0.382	0.388	0.216	gut		0	FALSE										
+SRP105344	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP105534	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP105803	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP106009	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP106312	TRUE	partially_confounded	""	FALSE	0.754	0.776			gut		0	FALSE										
+SRP106322	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP106484	TRUE	balanced	""	FALSE					brain_cns	epmc_accession	1	TRUE	TRUE	DESeq2	unclear	no	yes	yes	no	yes	medium	0.0319
+SRP106488	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE	other	no	no	yes	yes	unclear	yes	high	0.0245
+SRP106519	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP106570	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP106605	TRUE	partially_confounded	""	FALSE	0.095	0.951			kidney		0	FALSE										
+SRP106646	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP106722	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP106751	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP106814	TRUE	single_sex	""	TRUE					other	epmc_title	1	FALSE										
+SRP106863	TRUE	mildly_imbalanced	""	FALSE					other	epmc_title	1	TRUE										
+SRP106915	TRUE	balanced	""	FALSE	0				brain_cns		0	FALSE										
+SRP107001	TRUE	balanced	""	FALSE	0.016	0			skin	epmc_title	1	TRUE	TRUE	other	no	no	yes	yes	yes	yes	high	0.0316
+SRP107211	TRUE	mildly_imbalanced	""	FALSE	0.13	0			blood_immune		0	FALSE										
+SRP107214	TRUE	mildly_imbalanced	""	FALSE	0.711	0.085			brain_cns		0	FALSE										
+SRP107220	TRUE	single_sex	balanced	TRUE					other		0	FALSE										
+SRP107560	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP107692	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP107760	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP107800	TRUE	mildly_imbalanced	""	FALSE					other		0	FALSE										
+SRP108013	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP108049	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP108051	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP108052	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP108079	TRUE	balanced	""	FALSE	0.808	0.552			gut		0	FALSE										
+SRP108127	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP108282	TRUE	single_sex	""	TRUE					muscle	epmc_title	1	FALSE										
+SRP108489	TRUE	balanced	""	FALSE	0.014	0.091			other		0	FALSE										
+SRP108495	TRUE	balanced	""	FALSE	0.898	0.718			liver		0	FALSE										
+SRP108497	TRUE	balanced	""	FALSE	0.936	0.895			brain_cns		0	FALSE										
+SRP108574	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP108593	TRUE	mildly_imbalanced	balanced	FALSE	0.688	0.672	0.396	0.239	liver	epmc_title	1	TRUE	TRUE	Cuffdiff	unclear	unclear	unclear	no	no	no	high	0.0269
+SRP108622	TRUE	balanced	""	FALSE	0.963	0.908			other	epmc_title	1	TRUE	TRUE	other	no	unclear	yes	yes	unclear	yes	medium	0.0324
+SRP108766	TRUE	balanced	""	FALSE	0.897	0.739			other	epmc_title	1	TRUE	TRUE	DESeq2	yes	unclear	yes	unclear	no	yes	high	0.0224
+SRP108808	TRUE	mildly_imbalanced	mildly_imbalanced	FALSE					brain_cns		0	FALSE										
+SRP109217	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP109283	TRUE	balanced	completely_confounded	FALSE	0.7	0.693	0.117	0.333	other	epmc_title	1	TRUE	TRUE	other	unclear	no	unclear	yes	unclear	no	medium	0.0243
+SRP109609	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP109615	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP109674	TRUE	single_sex	""	TRUE					skin		0	FALSE										
+SRP109774	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP109807	TRUE	mildly_imbalanced	""	FALSE	0.735	0.787			heart	epmc_title	1	FALSE										
+SRP110015	TRUE	single_sex	""	TRUE					kidney	epmc_title	1	FALSE										
+SRP110068	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP110208	TRUE	single_sex	""	TRUE					skin		0	FALSE										
+SRP110495	TRUE	balanced	""	FALSE	0.918	0.82			kidney	epmc_title	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	no	unclear	medium	0.0242
+SRP110508	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP110576	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP110594	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP110674	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	Cuffdiff	unclear	no	unclear	yes	no	no	high	0.0335
+SRP110715	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP110979	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP110981	TRUE	mildly_imbalanced	""	FALSE	0.833	0.75			other		0	FALSE										
+SRP111204	TRUE	partially_confounded	""	FALSE	0.839	0.838			other		0	FALSE										
+SRP111291	TRUE	balanced	""	FALSE	0.8	0.375			brain_cns		0	FALSE										
+SRP111338	TRUE	single_sex	""	TRUE					other	epmc_title	1	FALSE										
+SRP111344	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP111408	TRUE	single_sex	""	TRUE					liver	epmc_title	1	FALSE										
+SRP111484	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP111520	TRUE	balanced	balanced	FALSE	0.959	0.99	0.948	0.947	brain_cns		0	FALSE										
+SRP111723	TRUE	balanced	""	FALSE					other		0	FALSE										
+SRP111809	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP111878	TRUE	single_sex	""	TRUE					kidney	epmc_title	1	TRUE	TRUE	other	no	no	yes	yes	unclear	yes	high	0.0328
+SRP111981	TRUE	balanced	""	FALSE	0.039	1			other	epmc_title	1	FALSE										
+SRP112535	TRUE	mildly_imbalanced	""	FALSE	0.855	0.873			skin		0	FALSE										
+SRP112747	TRUE	balanced	""	FALSE					lung		0	FALSE										
+SRP113014	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP113485	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP113491	TRUE	single_sex	balanced	TRUE					liver		0	FALSE										
+SRP113494	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	yes	no	yes	high	0.0387
+SRP113496	TRUE	single_sex	""	TRUE					other	epmc_title	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	no	unclear	medium	0.0286
+SRP113528	TRUE	balanced	""	FALSE	0				other		0	FALSE										
+SRP113541	TRUE	mildly_imbalanced	""	FALSE	0.558	0.64			tumor	epmc_title	1	TRUE	TRUE	Cuffdiff	no	no	unclear	unclear	unclear	no	medium	0.032
+SRP113560	TRUE	single_sex	""	TRUE					skin	epmc_accession	1	TRUE	TRUE	limma-voom	unclear	no	unclear	yes	unclear	unclear	medium	0.0123
+SRP113587	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP113605	TRUE	balanced	""	FALSE	0.927	0.983			muscle	epmc_title	1	TRUE	TRUE	Cuffdiff	no	no	unclear	yes	no	yes	high	0.03
+SRP113655	TRUE	mildly_imbalanced	""	FALSE	0.185	0.477			liver		0	FALSE										
+SRP113724	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP113761	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP113762	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP113777	TRUE	balanced	""	FALSE	0.955	0.959			brain_cns	epmc_title	1	FALSE										
+SRP114370	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP114436	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP114498	TRUE	mildly_imbalanced	""	FALSE					lung		0	FALSE										
+SRP114759	TRUE	balanced	""	FALSE	0.813	0.804			brain_cns		0	FALSE										
+SRP114827	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP114858	TRUE	balanced	""	FALSE	0.896	0.712			skin		0	FALSE										
+SRP114869	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP114947	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP114953	TRUE	mildly_imbalanced	balanced	FALSE	0.719	0.796	0.633	0.497	brain_cns	epmc_accession	1	FALSE										
+SRP114976	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP114987	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP114994	TRUE	balanced	""	FALSE	0.83	0.814			tumor	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	yes	no	no	high	0.0282
+SRP115029	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP115108	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP115139	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP115148	TRUE	single_sex	""	TRUE					other	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	yes	no	yes	high	0.0213
+SRP115189	TRUE	balanced	""	FALSE	0.895	0.943			blood_immune		0	FALSE										
+SRP115363	TRUE	mildly_imbalanced	""	FALSE	0	0			tumor		0	FALSE										
+SRP115453	TRUE	single_sex	""	TRUE					other	epmc_title	1	FALSE										
+SRP115474	TRUE	partially_confounded	""	FALSE	0.864	0.858			other		0	FALSE										
+SRP115646	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP115689	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP115705	TRUE	single_sex	""	TRUE					other	epmc_title	1	FALSE										
+SRP115833	TRUE	mildly_imbalanced	""	FALSE	0	0			brain_cns		0	FALSE										
+SRP115984	TRUE	balanced	""	FALSE	0.5	1			kidney		0	FALSE										
+SRP116137	TRUE	balanced	""	FALSE	0.775	0.727			gut		0	FALSE										
+SRP116187	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP116342	TRUE	single_sex	balanced	TRUE					liver		0	FALSE										
+SRP116375	TRUE	partially_confounded	""	FALSE	1	1			kidney	epmc_title	1	FALSE										
+SRP116558	TRUE	partially_confounded	""	FALSE	0.692	0.912			gut		0	FALSE										
+SRP116890	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP116898	TRUE	completely_confounded	""	FALSE					heart		0	FALSE										
+SRP116969	TRUE	single_sex	""	TRUE					liver	epmc_title	1	FALSE										
+SRP117060	TRUE	mildly_imbalanced	""	FALSE	1	1			brain_cns		0	FALSE										
+SRP117214	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP117256	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	other	no	no	yes	yes	no	yes	high	0.0226
+SRP117274	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP117311	TRUE	mildly_imbalanced	""	FALSE		0			tumor		0	FALSE										
+SRP117321	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP117567	TRUE	partially_confounded	""	FALSE	0.283	0.844			liver	epmc_title	1	FALSE										
+SRP117580	TRUE	partially_confounded	""	FALSE	0.728	0.897			other		0	FALSE										
+SRP117680	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP117703	TRUE	partially_confounded	""	FALSE					liver		0	FALSE										
+SRP117739	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP117757	TRUE	balanced	""	FALSE	0.681	0.395			kidney		0	FALSE										
+SRP117936	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP117955	TRUE	balanced	""	FALSE	0.766	0.746			brain_cns		0	FALSE										
+SRP117958	TRUE	mildly_imbalanced	balanced	FALSE					skin		0	FALSE										
+SRP118141	TRUE	partially_confounded	balanced	FALSE	0.208	0.513	0.209	0.213	skin		0	FALSE										
+SRP118346	TRUE	balanced	""	FALSE	0.887	0.714			brain_cns		0	FALSE										
+SRP118401	TRUE	balanced	""	FALSE	0.956	0.887			brain_cns		0	FALSE										
+SRP118483	TRUE	single_sex	""	TRUE					gut	epmc_accession	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	no	high	0.016
+SRP118722	FALSE	single_sex	""	TRUE					brain_cns													
+SRP118780	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP118785	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP118915	TRUE	partially_confounded	""	FALSE	0.699	0.294			adipose		0	FALSE										
+SRP118939	TRUE	single_sex	""	TRUE					lung	epmc_title	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	no	unclear	high	0.0322
+SRP119064	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	other	no	no	yes	no	no	yes	high	0.0304
+SRP119088	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP119123	TRUE	mildly_imbalanced	partially_confounded	FALSE	0.308	0.119	0.188	0.308	brain_cns		0	FALSE										
+SRP119167	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP119172	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP119221	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP119232	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP119258	TRUE	single_sex	""	TRUE					other	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	yes	unclear	no	medium	0.0245
+SRP119309	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP119485	TRUE	completely_confounded	""	FALSE					heart	epmc_title	1	FALSE										
+SRP119538	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP119667	TRUE	mildly_imbalanced	""	FALSE	0.804	0.796			blood_immune		0	FALSE										
+SRP119675	TRUE	balanced	""	FALSE	0.763	0.735			brain_cns		0	FALSE										
+SRP119707	TRUE	single_sex	""	TRUE					adipose	epmc_title	1	FALSE										
+SRP119845	TRUE	mildly_imbalanced	""	FALSE	0				brain_cns		0	FALSE										
+SRP119927	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP119934	TRUE	balanced	""	FALSE	0.045	1			muscle		0	FALSE										
+SRP119935	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP119938	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP119989	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP120038	TRUE	balanced	""	FALSE					liver	epmc_title	1	FALSE										
+SRP120168	TRUE	balanced	""	FALSE					lung	epmc_title	1	TRUE	TRUE	other	no	unclear	yes	yes	no	yes	medium	0.0319
+SRP120384	TRUE	completely_confounded	""	FALSE					gut		0	FALSE										
+SRP120494	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP120513	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP120584	TRUE	single_sex	""	TRUE					liver	epmc_title	1	FALSE										
+SRP120602	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP121482	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP121622	TRUE	single_sex	""	TRUE					heart	epmc_accession	1	TRUE	TRUE	DESeq2	no	no	no	unclear	no	yes	high	0.0285
+SRP121631	TRUE	balanced	""	FALSE	0.799	0.956			liver		0	FALSE										
+SRP121790	TRUE	mildly_imbalanced	""	FALSE					skin	epmc_title	1	FALSE										
+SRP121797	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP122515	TRUE	single_sex	""	TRUE					skin		0	FALSE										
+SRP122781	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP122943	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP123060	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP123230	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP123512	TRUE	balanced	""	FALSE	0.151	0.237			liver		0	FALSE										
+SRP123761	TRUE	partially_confounded	""	FALSE	0.209	0.296			heart		0	FALSE										
+SRP124300	TRUE	partially_confounded	""	FALSE		0			brain_cns		0	FALSE										
+SRP124314	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP124469	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP124622	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP124639	TRUE	balanced	""	FALSE					brain_cns	epmc_title	1	FALSE										
+SRP124677	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP124774	TRUE	single_sex	""	TRUE					skin		0	FALSE										
+SRP124835	TRUE	mildly_imbalanced	""	FALSE					blood_immune	epmc_title	1	FALSE										
+SRP124979	TRUE	mildly_imbalanced	""	FALSE					heart		0	FALSE										
+SRP125082	TRUE	mildly_imbalanced	""	FALSE	0.825	0.888			other		0	FALSE										
+SRP125104	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP125225	TRUE	balanced	""	FALSE	0.762	0.424			other		0	FALSE										
+SRP125336	TRUE	mildly_imbalanced	""	FALSE	0.87	0.608			other	epmc_accession	1	TRUE	TRUE	DESeq2	no	unclear	unclear	unclear	no	unclear	medium	0.0324
+SRP125341	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP125353	TRUE	partially_confounded	""	FALSE	0.007	0.015			liver		0	FALSE										
+SRP125665	TRUE	partially_confounded	mildly_imbalanced	FALSE	0.71	0.874	0.658	0.7	other		0	FALSE										
+SRP125705	TRUE	partially_confounded	""	FALSE	0.593	0.983			skin	epmc_title	1	FALSE										
+SRP125804	TRUE	mildly_imbalanced	""	FALSE	0.648	0.648			liver	epmc_title	1	FALSE										
+SRP126124	TRUE	single_sex	""	TRUE					other	epmc_accession	1	FALSE										
+SRP126161	TRUE	balanced	""	FALSE	0.867	0.861			blood_immune		0	FALSE										
+SRP126200	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP126245	TRUE	partially_confounded	""	FALSE	0.27	0.803			gut	epmc_title	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	no	high	0.0396
+SRP126279	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP126314	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP126349	TRUE	balanced	""	FALSE					reproductive	epmc_title	1	FALSE										
+SRP126416	TRUE	partially_confounded	""	FALSE	0	0			liver		0	FALSE										
+SRP126545	TRUE	balanced	mildly_imbalanced	FALSE	0.653	0.299	0.352	0.153	brain_cns		0	FALSE										
+SRP126565	TRUE	balanced	""	FALSE	0.936	0.839			blood_immune	epmc_accession	1	FALSE										
+SRP126566	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP126640	TRUE	single_sex	mildly_imbalanced	TRUE					reproductive		0	FALSE										
+SRP126673	TRUE	partially_confounded	""	FALSE	0	0.444			brain_cns		0	FALSE										
+SRP126678	TRUE	single_sex	mildly_imbalanced	TRUE					reproductive	epmc_title	1	TRUE	TRUE	DESeq2	no	no	unclear	yes	no	yes	high	0.0337
+SRP126777	TRUE	mildly_imbalanced	""	FALSE	0.432	0.669			liver		0	FALSE										
+SRP126786	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP127005	TRUE	balanced	""	FALSE	0.938	0.93			brain_cns		0	FALSE										
+SRP127264	TRUE	balanced	""	FALSE	0.909	0.818			brain_cns		0	FALSE										
+SRP127333	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP127367	TRUE	single_sex	""	TRUE					muscle	epmc_accession	1	TRUE	TRUE	edgeR	unclear	unclear	unclear	yes	no	unclear	high	0.0124
+SRP127396	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP127402	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP127587	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP127588	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP127681	TRUE	balanced	""	FALSE	0.768	0.534			other		0	FALSE										
+SRP127946	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP127980	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP128068	TRUE	mildly_imbalanced	""	FALSE	0.672	0.651			brain_cns		0	FALSE										
+SRP128271	TRUE	balanced	""	FALSE	0.889	0.727			muscle	epmc_accession	1	TRUE	TRUE	Cuffdiff	unclear	no	unclear	yes	unclear	yes	medium	0.026
+SRP128506	TRUE	balanced	""	FALSE					brain_cns	epmc_title	1	FALSE										
+SRP128548	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP128596	TRUE	balanced	""	FALSE					brain_cns	epmc_title	1	TRUE	TRUE	DESeq2	no	unclear	yes	unclear	unclear	yes	high	0.0316
+SRP128649	TRUE	single_sex	""	TRUE					kidney	epmc_title	1	FALSE										
+SRP128663	TRUE	partially_confounded	""	FALSE	0	0			heart	epmc_title	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	low	0.0145
+SRP128739	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP128899	TRUE	balanced	""	FALSE	0.897	0.88			brain_cns		0	FALSE										
+SRP129020	TRUE	balanced	""	FALSE					brain_cns	epmc_title	1	FALSE										
+SRP129022	TRUE	single_sex	mildly_imbalanced	TRUE					tumor		0	FALSE										
+SRP129035	TRUE	partially_confounded	""	FALSE	0.146	0.718			brain_cns		0	FALSE										
+SRP130256	TRUE	single_sex	balanced	TRUE					blood_immune	epmc_accession	1	TRUE	TRUE	other	no	no	yes	yes	no	yes	high	0.0292
+SRP130908	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP131016	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP131035	TRUE	balanced	""	FALSE	0.378	0.672			other		0	FALSE										
+SRP131036	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP131049	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP131055	TRUE	mildly_imbalanced	""	FALSE	0.784	0.652			brain_cns		0	FALSE										
+SRP131084	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP131118	TRUE	mildly_imbalanced	""	FALSE	0				liver	epmc_title	1	TRUE	TRUE	Cuffdiff	no	no	yes	yes	unclear	no	medium	0.0332
+SRP131124	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE	DESeq2	no	no	no	unclear	no	no	high	0.0326
+SRP131130	TRUE	single_sex	""	TRUE					tumor	epmc_title	1	FALSE										
+SRP131203	TRUE	mildly_imbalanced	""	FALSE					heart	epmc_title	1	TRUE	TRUE	DESeq2	unclear	no	unclear	yes	no	unclear	medium	0.0261
+SRP131224	TRUE	single_sex	balanced	TRUE					liver	epmc_title	1	FALSE										
+SRP131248	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	yes	no	yes	high	0.0186
+SRP131333	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP131336	TRUE	balanced	""	FALSE	0.857	0.857			brain_cns		0	FALSE										
+SRP131355	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP131509	TRUE	single_sex	balanced	TRUE					other		0	FALSE										
+SRP131764	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP131771	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP131772	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP131784	TRUE	single_sex	""	TRUE					liver	epmc_accession	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	no	unclear	medium	0.0317
+SRP131795	TRUE	partially_confounded	""	FALSE	0.164	0.705			tumor		0	FALSE										
+SRP131850	TRUE	balanced	""	FALSE	0.853	0.795			brain_cns		0	FALSE										
+SRP131855	TRUE	mildly_imbalanced	""	FALSE	0.833	0.98			liver		0	FALSE										
+SRP131877	TRUE	mildly_imbalanced	""	FALSE	0	0.5			blood_immune		0	FALSE										
+SRP131916	TRUE	partially_confounded	""	FALSE					other	epmc_title	1	FALSE										
+SRP131949	TRUE	mildly_imbalanced	""	FALSE		0			blood_immune		0	FALSE										
+SRP132184	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP132264	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP132283	TRUE	mildly_imbalanced	""	FALSE	0.758	0.771			heart		0	FALSE										
+SRP132397	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP132399	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP132400	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP132407	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP132471	TRUE	balanced	""	FALSE	0.818	0.524			heart		0	FALSE										
+SRP132477	TRUE	single_sex	""	TRUE					brain_cns	epmc_accession	1	TRUE	TRUE	limma-voom	no	no	no	unclear	yes	yes	high	0.0309
+SRP132586	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP132678	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP132851	TRUE	partially_confounded	""	FALSE	0.421	0.272			brain_cns		0	FALSE										
+SRP132854	TRUE	balanced	""	FALSE	0.841	0.363			other		0	FALSE										
+SRP132873	TRUE	partially_confounded	""	FALSE	0.473	0.871			heart	epmc_title	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0391
+SRP132899	TRUE	single_sex	completely_confounded	TRUE					tumor		0	FALSE										
+SRP132926	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP132927	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP132932	TRUE	balanced	""	FALSE	0.507	0.31			blood_immune		0	FALSE										
+SRP132960	TRUE	single_sex	balanced	TRUE					reproductive		0	FALSE										
+SRP132997	TRUE	balanced	""	FALSE	1	1			brain_cns	epmc_title	1	TRUE	TRUE	other	no	unclear	no	unclear	unclear	yes	medium	0.0304
+SRP133012	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP133024	TRUE	partially_confounded	""	FALSE	0.628	0.626			blood_immune		0	FALSE										
+SRP133035	TRUE	single_sex	""	TRUE					reproductive	epmc_accession	3	TRUE	TRUE	other	no	unclear	yes	unclear	unclear	yes	medium	0.0344
+SRP133057	TRUE	single_sex	""	TRUE					liver	epmc_title	1	FALSE										
+SRP133158	TRUE	mildly_imbalanced	""	FALSE					brain_cns	epmc_accession	2	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	no	unclear	high	0.0313
+SRP133169	TRUE	mildly_imbalanced	""	FALSE	0.845	0.874			other		0	FALSE										
+SRP133190	TRUE	single_sex	partially_confounded	TRUE					heart		0	FALSE										
+SRP133375	TRUE	balanced	balanced	FALSE	0.867	0.924	0.83	0.784	gut		0	FALSE										
+SRP133481	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP133489	TRUE	single_sex	""	TRUE					liver	epmc_title	1	FALSE										
+SRP133512	TRUE	mildly_imbalanced	""	FALSE	0.583	0.419			brain_cns	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	unclear	unclear	unclear	medium	0.0395
+SRP133520	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP133734	TRUE	single_sex	""	TRUE					tumor	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	unclear	unclear	yes	high	0.0317
+SRP133742	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP133781	TRUE	mildly_imbalanced	""	FALSE	0.636	0.578			other		0	FALSE										
+SRP134051	TRUE	balanced	""	FALSE	0.873	0.301			other	epmc_accession	1	TRUE	TRUE	DESeq2	no	unclear	unclear	unclear	no	unclear	medium	0.0323
+SRP134109	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP134115	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP134146	TRUE	single_sex	completely_confounded	TRUE					liver		0	FALSE										
+SRP134204	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP134375	TRUE	mildly_imbalanced	""	FALSE	0.693	0.593			other		0	FALSE										
+SRP134732	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP135229	TRUE	single_sex	balanced	TRUE					brain_cns	epmc_title	1	TRUE	TRUE		unclear	unclear	unclear	unclear	unclear	unclear	low	0.0056
+SRP135253	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP135491	TRUE	single_sex	""	TRUE					other	epmc_title	1	FALSE										
+SRP135539	TRUE	single_sex	balanced	TRUE					blood_immune		0	FALSE										
+SRP135678	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP135768	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP135978	TRUE	mildly_imbalanced	""	FALSE					tumor	epmc_title	1	TRUE	TRUE	other	no	unclear	yes	unclear	no	yes	medium	0.0333
+SRP136246	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP136251	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP136270	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP136322	TRUE	balanced	""	FALSE	0	0			other		0	FALSE										
+SRP136494	TRUE	balanced	""	FALSE	0	0			other	epmc_accession	1	TRUE	TRUE	Cuffdiff	no	no	yes	yes	unclear	yes	medium	0.0323
+SRP136558	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP136604	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP136714	TRUE	balanced	""	FALSE	0.94	0.956			brain_cns		0	FALSE										
+SRP136814	TRUE	partially_confounded	""	FALSE	0.178	0.723			other		0	FALSE										
+SRP136850	TRUE	single_sex	""	TRUE					gut	epmc_title	1	TRUE	TRUE	other	no	no	yes	unclear	unclear	yes	high	0.0372
+SRP136879	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP136890	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP136999	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP137009	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP137014	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP137053	TRUE	single_sex	""	TRUE					brain_cns	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0154
+SRP137222	TRUE	single_sex	""	TRUE					blood_immune	epmc_title	1	FALSE										
+SRP137670	TRUE	mildly_imbalanced	""	FALSE	0.304	0.056			other		0	FALSE										
+SRP137723	TRUE	single_sex	""	TRUE					reproductive	epmc_accession	2	TRUE	TRUE	DESeq2	yes	no	unclear	yes	unclear	yes	medium	0.0364
+SRP137813	TRUE	single_sex	""	TRUE					tumor	epmc_title	1	FALSE										
+SRP139542	TRUE	balanced	""	FALSE	0.864	0.895			tumor	epmc_title	1	FALSE										
+SRP139544	TRUE	single_sex	""	TRUE					heart	epmc_title	1	TRUE	TRUE	Cuffdiff	unclear	no	unclear	yes	unclear	no	high	0.0152
+SRP139558	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP139599	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP139727	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP139796	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP139918	TRUE	balanced	balanced	FALSE	0.845	0.972	0.669	0.853	other		0	FALSE										
+SRP139957	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP140161	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP140436	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP140448	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP140490	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP140499	TRUE	balanced	""	FALSE	0.863	0.889			liver	epmc_accession	1	FALSE										
+SRP141016	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP141181	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP141266	TRUE	balanced	""	FALSE	0.333	0.797			adipose		0	FALSE										
+SRP142316	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP142481	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP142524	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP142711	TRUE	single_sex	""	TRUE					blood_immune	epmc_title	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	yes	no	no	high	0.0391
+SRP143461	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP143487	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP143686	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP144020	TRUE	single_sex	""	TRUE					other	epmc_title	1	TRUE	TRUE	limma-voom	no	no	no	unclear	no	yes	high	0.0317
+SRP144047	TRUE	mildly_imbalanced	completely_confounded	FALSE	0.86	0.86	0.001	0.611	other		0	FALSE										
+SRP144088	TRUE	partially_confounded	""	FALSE	0.406	0.406			brain_cns		0	FALSE										
+SRP144211	TRUE	balanced	balanced	FALSE	0.773	0.692	0.02	0.667	brain_cns		0	FALSE										
+SRP144301	TRUE	completely_confounded	""	FALSE					brain_cns		0	FALSE										
+SRP144317	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP144341	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP144388	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP144584	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP144638	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP144689	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP144690	TRUE	balanced	""	FALSE					other		0	FALSE										
+SRP144907	TRUE	partially_confounded	""	FALSE	0.072	0.801			reproductive		0	FALSE										
+SRP144932	TRUE	single_sex	""	TRUE					brain_cns	epmc_accession	1	TRUE	TRUE	DESeq2	no	no	yes	yes	unclear	yes	high	0.0281
+SRP144989	TRUE	single_sex	""	TRUE					other	epmc_title	1	FALSE										
+SRP145021	TRUE	single_sex	""	TRUE					other	epmc_title	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0368
+SRP145067	TRUE	balanced	""	FALSE	0.947	0.939			lung		0	FALSE										
+SRP145104	TRUE	single_sex	mildly_imbalanced	TRUE					liver		0	FALSE										
+SRP145116	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	yes	no	unclear	high	0.0315
+SRP145144	TRUE	single_sex	partially_confounded	TRUE					heart		0	FALSE										
+SRP145412	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP145604	TRUE	mildly_imbalanced	""	FALSE	0.465	0.393			other		0	FALSE										
+SRP145605	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP145607	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP145671	TRUE	mildly_imbalanced	""	FALSE	0.659	0.877			liver		0	FALSE										
+SRP147556	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP148281	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP148282	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP148283	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP148411	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP148418	TRUE	balanced	""	FALSE	0.8	0.25			liver		0	FALSE										
+SRP148491	TRUE	balanced	""	FALSE	0.888	0.795			other		0	FALSE										
+SRP148574	TRUE	partially_confounded	""	FALSE	1	0.833			other		0	FALSE										
+SRP148959	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP148999	TRUE	single_sex	""	TRUE					skin		0	FALSE										
+SRP149000	TRUE	mildly_imbalanced	""	FALSE					other		0	FALSE										
+SRP149072	TRUE	mildly_imbalanced	""	FALSE	0	1			brain_cns	epmc_title	1	TRUE	TRUE	edgeR	unclear	unclear	unclear	yes	unclear	no	medium	0.0248
+SRP149099	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP149124	TRUE	balanced	""	FALSE	0.028	1			blood_immune	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.033
+SRP149128	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP149159	TRUE	balanced	""	FALSE	0.625	0.625			skin		0	FALSE										
+SRP149190	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP149344	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP149357	TRUE	single_sex	""	TRUE					skin		0	FALSE										
+SRP149422	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE	Cuffdiff	no	no	yes	yes	unclear	yes	high	0.0367
+SRP149483	TRUE	partially_confounded	""	FALSE	0				other		0	FALSE										
+SRP149487	TRUE	mildly_imbalanced	""	FALSE					other		0	FALSE										
+SRP149490	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP149803	TRUE	single_sex	""	TRUE					other	epmc_title	1	TRUE	TRUE	other	no	no	no	unclear	no	no	high	0.0315
+SRP149957	TRUE	single_sex	""	TRUE					gut	epmc_accession	1	TRUE	TRUE	DESeq2	no	no	yes	unclear	no	yes	high	0.0253
+SRP150004	TRUE	partially_confounded	""	FALSE	0.223	0.201			other	epmc_title	1	FALSE										
+SRP150211	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP150238	TRUE	mildly_imbalanced	""	FALSE	0.125	0.806			heart	epmc_accession	1	FALSE										
+SRP150269	TRUE	balanced	""	FALSE	0.26	0.958			kidney		0	FALSE										
+SRP150310	TRUE	balanced	""	FALSE	0.288	0.689			other		0	FALSE										
+SRP150347	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP150452	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP150687	TRUE	single_sex	""	TRUE					lung	epmc_title	1	FALSE										
+SRP150787	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP150873	TRUE	mildly_imbalanced	""	FALSE	0.636	0.739			brain_cns		0	FALSE										
+SRP150874	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	yes	yes	yes	high	0.0326
+SRP151014	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP151097	TRUE	balanced	""	FALSE					other		0	FALSE										
+SRP151151	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP151246	TRUE	partially_confounded	""	FALSE	0.628	0.724			other		0	FALSE										
+SRP151277	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP151280	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP151290	TRUE	completely_confounded	""	FALSE					liver		0	FALSE										
+SRP151298	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP151308	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP151332	TRUE	single_sex	balanced	TRUE					reproductive	epmc_accession	1	TRUE	TRUE	Cuffdiff	no	no	unclear	yes	no	no	high	0.0346
+SRP151441	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP151455	TRUE	mildly_imbalanced	""	FALSE	0.946	0.972			tumor		0	FALSE										
+SRP151489	TRUE	single_sex	""	TRUE					reproductive	epmc_title	1	FALSE										
+SRP151536	TRUE	balanced	""	FALSE	0.709	0.66			gut		0	FALSE										
+SRP151561	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP151595	TRUE	partially_confounded	""	FALSE	0.788	0.922			tumor		0	FALSE										
+SRP151677	TRUE	partially_confounded	""	FALSE	0.944	0.984			liver		0	FALSE										
+SRP151689	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP151726	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP151888	TRUE	mildly_imbalanced	""	FALSE	0.876	0.941			gut		0	FALSE										
+SRP151925	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP151927	TRUE	partially_confounded	""	FALSE	0.298	0.705			other		0	FALSE										
+SRP152146	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	Cuffdiff	no	no	no	yes	unclear	yes	high	0.0361
+SRP152570	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	edgeR	no	no	yes	unclear	no	yes	high	0.0296
+SRP152861	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP152871	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP152966	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP153030	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP153071	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	yes	no	yes	high	0.0337
+SRP153101	TRUE	balanced	""	FALSE	0.71	0.678			skin		0	FALSE										
+SRP153147	TRUE	partially_confounded	""	FALSE	0.897	0.972			lung	epmc_title	1	FALSE										
+SRP153157	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP153160	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP153163	TRUE	partially_confounded	""	FALSE	0.345	0.011			liver	epmc_title	1	FALSE										
+SRP153200	TRUE	balanced	""	FALSE	0.96	0.911			lung		0	FALSE										
+SRP153242	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP153374	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	limma-voom	no	unclear	yes	unclear	unclear	yes	high	0.0345
+SRP153375	TRUE	partially_confounded	balanced	FALSE					brain_cns		0	FALSE										
+SRP153814	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP153902	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP153906	TRUE	single_sex	""	TRUE					muscle	epmc_title	1	FALSE										
+SRP154146	TRUE	balanced	""	FALSE	0.98	0.992			brain_cns	epmc_title	1	TRUE	TRUE	edgeR	no	no	unclear	yes	no	unclear	medium	0.0202
+SRP154207	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP154425	TRUE	balanced	""	FALSE	0.967	0.978			other		0	FALSE										
+SRP154465	TRUE	partially_confounded	mildly_imbalanced	FALSE	0.76	0.961	0.765	0.63	tumor	epmc_title	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	no	high	0.0288
+SRP154838	TRUE	mildly_imbalanced	""	FALSE	0.492	0.938			adipose		0	FALSE										
+SRP154859	TRUE	balanced	""	FALSE	0.729	0.878			brain_cns		0	FALSE										
+SRP154905	TRUE	single_sex	partially_confounded	TRUE					other		0	FALSE										
+SRP154932	TRUE	balanced	""	FALSE	0.698	0.763			tumor		0	FALSE										
+SRP154934	TRUE	partially_confounded	""	FALSE	0.401	0.735			tumor		0	FALSE										
+SRP154935	TRUE	partially_confounded	""	FALSE	0	0			tumor		0	FALSE										
+SRP154942	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP155020	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP155097	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP155199	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	other	no	no	unclear	unclear	no	unclear	medium	0.026
+SRP155323	TRUE	single_sex	balanced	TRUE					kidney		0	FALSE										
+SRP155346	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP155372	TRUE	single_sex	""	TRUE					blood_immune	epmc_title	1	FALSE										
+SRP155404	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP155414	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP155485	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP155684	TRUE	single_sex	""	TRUE					gut	epmc_accession	1	TRUE	TRUE	DESeq2	no	no	yes	yes	unclear	yes	high	0.0246
+SRP155714	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP155757	TRUE	balanced	balanced	FALSE					brain_cns		0	FALSE										
+SRP155851	TRUE	balanced	""	FALSE	0.303	0.736			brain_cns		0	FALSE										
+SRP155931	TRUE	mildly_imbalanced	balanced	FALSE	1	0	0.006	0.5	brain_cns	epmc_accession	2	TRUE	TRUE	DESeq2	unclear	unclear	unclear	yes	unclear	no	medium	0.0325
+SRP155943	TRUE	mildly_imbalanced	""	FALSE	0.652	0.635			liver		0	FALSE										
+SRP156218	TRUE	balanced	""	FALSE	0.971	0.972			other		0	FALSE										
+SRP156226	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP156264	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP156285	TRUE	partially_confounded	""	FALSE	0.75	0.75			brain_cns		0	FALSE										
+SRP156448	TRUE	single_sex	""	TRUE					tumor	epmc_accession	1	TRUE	TRUE	other	no	no	no	unclear	unclear	no	medium	0.0197
+SRP156476	TRUE	balanced	""	FALSE	0.651	0.878			brain_cns		0	FALSE										
+SRP156518	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP156566	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP156859	TRUE	mildly_imbalanced	""	FALSE	0.639	0.696			kidney		0	FALSE										
+SRP156888	TRUE	mildly_imbalanced	""	FALSE	0.737	0.661			tumor		0	FALSE										
+SRP157900	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP158007	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP158112	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP158292	TRUE	single_sex	""	TRUE					gut	epmc_accession	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0369
+SRP158376	TRUE	partially_confounded	""	FALSE	0.747	0.904			liver		0	FALSE										
+SRP158415	TRUE	mildly_imbalanced	""	FALSE	0.424	0.414			liver		0	FALSE										
+SRP158432	TRUE	balanced	""	FALSE					blood_immune		0	FALSE										
+SRP158468	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP158518	TRUE	single_sex	""	TRUE					skin	epmc_title	1	FALSE										
+SRP158538	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP158678	TRUE	partially_confounded	""	FALSE	0.803	0.959			blood_immune	epmc_title	1	FALSE										
+SRP158761	TRUE	partially_confounded	""	FALSE	0.062	0.484			other		0	FALSE										
+SRP158796	TRUE	single_sex	""	TRUE					lung	epmc_title	1	TRUE	TRUE	other	no	no	yes	yes	unclear	yes	high	0.0275
+SRP158995	TRUE	balanced	""	FALSE	0.514	0.892			liver		0	FALSE										
+SRP159065	TRUE	partially_confounded	""	FALSE	0.031	0.285			reproductive		0	FALSE										
+SRP159463	TRUE	mildly_imbalanced	""	FALSE					brain_cns		0	FALSE										
+SRP159568	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP159645	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP159688	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP160110	TRUE	single_sex	""	TRUE					adipose	epmc_title	1	FALSE										
+SRP160439	TRUE	balanced	""	FALSE	0.823	0.835			tumor		0	FALSE										
+SRP160877	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP160883	TRUE	partially_confounded	""	FALSE	0.658	0.616			reproductive		0	FALSE										
+SRP160894	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP161452	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP161460	TRUE	mildly_imbalanced	""	FALSE	0.719	0.672			other		0	FALSE										
+SRP161461	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP161564	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP161565	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP161566	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP161569	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP161570	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP161726	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP161775	TRUE	mildly_imbalanced	""	FALSE		0			brain_cns		0	FALSE										
+SRP161811	TRUE	partially_confounded	""	FALSE					blood_immune		0	FALSE										
+SRP161856	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP161894	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP161896	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP161897	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP162260	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP162271	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP162305	TRUE	mildly_imbalanced	""	FALSE					brain_cns	epmc_title	1	FALSE										
+SRP162318	TRUE	balanced	""	FALSE	0.678	0.367			brain_cns		0	FALSE										
+SRP162359	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP162383	TRUE	partially_confounded	""	FALSE	0.329	0.734			muscle		0	FALSE										
+SRP162456	TRUE	balanced	balanced	FALSE	1	0.333	0.111	0.167	brain_cns	epmc_title	1	FALSE										
+SRP162527	TRUE	balanced	""	FALSE	0.853	0.75			other		0	FALSE										
+SRP162537	TRUE	single_sex	""	TRUE					adipose	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	unclear	unclear	yes	high	0.0307
+SRP163117	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP163144	TRUE	balanced	""	FALSE					liver		0	FALSE										
+SRP163175	TRUE	partially_confounded	""	FALSE	0.309	0.526			adipose		0	FALSE										
+SRP164581	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP164677	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP164689	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP164691	TRUE	partially_confounded	""	FALSE	0.573	0.516			brain_cns		0	FALSE										
+SRP164704	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP164941	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP165196	TRUE	balanced	""	FALSE	0.463	0.881			blood_immune		0	FALSE										
+SRP165599	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP165625	TRUE	balanced	mildly_imbalanced	FALSE					brain_cns		0	FALSE										
+SRP165738	TRUE	mildly_imbalanced	mildly_imbalanced	FALSE					heart		0	FALSE										
+SRP165748	TRUE	balanced	""	FALSE	0.25	0.143			other	epmc_title	1	TRUE	TRUE	other	no	no	yes	yes	unclear	no	medium	0.0388
+SRP165796	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP165897	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP165919	TRUE	partially_confounded	""	FALSE	0.381	0			lung		0	FALSE										
+SRP166008	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	no	no	high	0.0141
+SRP166067	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP166762	TRUE	balanced	""	FALSE	0.893	0.787			muscle		0	FALSE										
+SRP166848	TRUE	mildly_imbalanced	""	FALSE	0.754	0.383			lung		0	FALSE										
+SRP166867	TRUE	single_sex	""	TRUE					other	epmc_title	1	TRUE	TRUE	Cuffdiff	no	no	yes	yes	unclear	yes	high	0.0225
+SRP166878	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP166996	TRUE	partially_confounded	""	FALSE	0				other		0	FALSE										
+SRP167045	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP167405	TRUE	single_sex	""	TRUE					reproductive	epmc_accession	1	TRUE	TRUE	edgeR	no	unclear	no	unclear	no	no	high	0.0231
+SRP167428	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP167455	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP167706	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP167707	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP167708	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP167865	TRUE	partially_confounded	""	FALSE	0.129	0.476			adipose		0	FALSE										
+SRP167940	TRUE	single_sex	""	TRUE					skin		0	FALSE										
+SRP167962	TRUE	single_sex	""	TRUE					skin		0	FALSE										
+SRP167988	TRUE	balanced	balanced	FALSE	0.375	0	0.007	0	liver		0	FALSE										
+SRP168283	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP168527	TRUE	balanced	""	FALSE	0.5	0			brain_cns		0	FALSE										
+SRP168573	TRUE	mildly_imbalanced	""	FALSE	0.796	0.791			heart		0	FALSE										
+SRP168748	TRUE	balanced	""	FALSE	0.59	0.1			blood_immune		0	FALSE										
+SRP168822	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP169858	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP169935	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP169946	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP170244	TRUE	mildly_imbalanced	""	FALSE	0.017	0			liver	epmc_accession	4	TRUE	TRUE	DESeq2	no	no	unclear	unclear	unclear	yes	medium	0.0325
+SRP170677	TRUE	balanced	""	FALSE	0.908	0.933			lung		0	FALSE										
+SRP171142	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP171149	TRUE	single_sex	balanced	TRUE					liver		0	FALSE										
+SRP171158	TRUE	partially_confounded	""	FALSE	0	0			lung	epmc_title	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0376
+SRP171159	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP171796	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP172178	TRUE	single_sex	""	TRUE					kidney	epmc_title	1	FALSE										
+SRP172453	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP172500	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP172508	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP172565	TRUE	mildly_imbalanced	partially_confounded	FALSE	0.466	0.729	0.194	0.152	brain_cns		0	FALSE										
+SRP172731	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP172733	TRUE	balanced	mildly_imbalanced	FALSE	0.865	0.915	0.66	0.56	liver		0	FALSE										
+SRP172741	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP172785	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP172787	TRUE	single_sex	balanced	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	other	no	yes	yes	unclear	unclear	yes	high	0.0332
+SRP173252	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP173297	TRUE	balanced	""	FALSE	0.964	0.899			brain_cns		0	FALSE										
+SRP173309	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP173361	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP173375	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP173448	TRUE	single_sex	""	TRUE					brain_cns	epmc_accession	1	TRUE	FALSE	edgeR	unclear	unclear	yes	unclear	unclear	yes	high	0.0263
+SRP173466	TRUE	balanced	""	FALSE	0.806	0.882			heart		0	FALSE										
+SRP173469	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP173477	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP173478	TRUE	balanced	""	FALSE	0.833	0.484			brain_cns		0	FALSE										
+SRP173589	TRUE	balanced	""	FALSE	0.956	0.81			heart		0	FALSE										
+SRP173609	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP173645	TRUE	mildly_imbalanced	""	FALSE	0.803	0.811			other	epmc_title	1	FALSE										
+SRP173675	TRUE	partially_confounded	""	FALSE	0.734	0.978			muscle	epmc_title	1	TRUE	TRUE	edgeR	no	no	yes	unclear	no	yes	medium	0.0372
+SRP173777	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP173803	TRUE	partially_confounded	""	FALSE	0.621	0.738			skin		0	FALSE										
+SRP173808	TRUE	mildly_imbalanced	""	FALSE	0.5	0.6			brain_cns		0	FALSE										
+SRP173822	TRUE	single_sex	""	TRUE					blood_immune	epmc_title	1	FALSE										
+SRP173935	TRUE	mildly_imbalanced	""	FALSE					gut		0	FALSE										
+SRP174018	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP174097	TRUE	single_sex	balanced	TRUE					liver	epmc_title	1	FALSE										
+SRP174208	TRUE	balanced	""	FALSE	0.92	0.871			brain_cns		0	FALSE										
+SRP174225	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP174350	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP174351	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP174412	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP174500	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP174529	TRUE	mildly_imbalanced	""	FALSE	0.802	0.933			other		0	FALSE										
+SRP174637	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP175109	TRUE	balanced	""	FALSE	0.5	0.5			brain_cns		0	FALSE										
+SRP175165	TRUE	partially_confounded	""	FALSE					adipose	epmc_title	1	FALSE										
+SRP175357	TRUE	single_sex	""	TRUE					liver	epmc_title	1	FALSE										
+SRP176410	TRUE	balanced	balanced	FALSE	0		0	0	other		0	FALSE										
+SRP176418	TRUE	mildly_imbalanced	""	FALSE	0.284	0.744			brain_cns		0	FALSE										
+SRP178051	TRUE	balanced	""	FALSE	0.813	0.868			brain_cns		0	FALSE										
+SRP178253	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP178267	TRUE	balanced	""	FALSE	0.742	0.834			other	epmc_title	1	TRUE	TRUE	edgeR	no	no	yes	yes	unclear	yes	medium	0.0359
+SRP178474	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP178890	TRUE	balanced	""	FALSE	0.5	0.654			kidney		0	FALSE										
+SRP178920	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP179032	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP179654	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP179952	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP179996	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP180017	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP180242	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP180280	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP180887	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP181042	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP181043	TRUE	balanced	""	FALSE					tumor		0	FALSE										
+SRP181125	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP181206	TRUE	balanced	balanced	FALSE			0		other		0	FALSE										
+SRP181566	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP181622	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	other	no	no	yes	unclear	no	yes	high	0.0236
+SRP181809	TRUE	mildly_imbalanced	""	FALSE	0.823	0.918			blood_immune		0	FALSE										
+SRP181854	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP181939	TRUE	partially_confounded	""	FALSE	0.111	0.333			gut		0	FALSE										
+SRP182089	TRUE	balanced	""	FALSE	0.94	0.77			brain_cns	epmc_accession	1	TRUE	TRUE	DESeq2	no	unclear	unclear	unclear	no	yes	medium	0.0324
+SRP182095	TRUE	partially_confounded	""	FALSE	0	0			other	epmc_title	1	TRUE	TRUE	Cuffdiff	no	no	yes	yes	unclear	yes	medium	0.0367
+SRP182655	TRUE	single_sex	""	TRUE					skin		0	FALSE										
+SRP183070	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP183456	TRUE	mildly_imbalanced	""	FALSE					reproductive		0	FALSE										
+SRP183512	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP183821	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP184641	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP184756	TRUE	mildly_imbalanced	""	FALSE	1	0.5			lung		0	FALSE										
+SRP185546	TRUE	balanced	""	FALSE	0.75	0.818			blood_immune		0	FALSE										
+SRP185578	TRUE	partially_confounded	""	FALSE	0.609	0.752			heart		0	FALSE										
+SRP185583	TRUE	partially_confounded	""	FALSE	0.567	0.814			adipose	epmc_title	1	TRUE	TRUE	limma-voom	no	no	no	unclear	no	yes	high	0.0318
+SRP185733	TRUE	partially_confounded	""	FALSE	0.579	0.914			reproductive		0	FALSE										
+SRP185805	TRUE	partially_confounded	""	FALSE					liver		0	FALSE										
+SRP185829	TRUE	single_sex	""	TRUE					blood_immune	epmc_title	1	FALSE										
+SRP185854	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP185884	TRUE	balanced	balanced	FALSE	0.906	0.733			brain_cns		0	FALSE										
+SRP186066	TRUE	balanced	""	FALSE	0.788	0.393			other		0	FALSE										
+SRP186132	TRUE	balanced	""	FALSE					brain_cns	epmc_accession	1	FALSE										
+SRP186214	TRUE	mildly_imbalanced	""	FALSE	0.737	0.685			lung		0	FALSE										
+SRP186363	TRUE	mildly_imbalanced	""	FALSE	0.705	0.69			other		0	FALSE										
+SRP186391	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP186486	TRUE	partially_confounded	""	FALSE	0.355	0.814			blood_immune		0	FALSE										
+SRP186507	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP186761	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP186885	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP186988	TRUE	balanced	""	FALSE	0				liver		0	FALSE										
+SRP186992	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP187003	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP187080	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	unclear	no	yes	high	0.0303
+SRP187466	TRUE	balanced	""	FALSE	0.897	0.913			muscle	epmc_title	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0253
+SRP187730	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP187779	TRUE	mildly_imbalanced	""	FALSE					other		0	FALSE										
+SRP187855	TRUE	mildly_imbalanced	""	FALSE	0.59	0.518			brain_cns	epmc_title	1	TRUE	TRUE	edgeR	no	no	yes	unclear	no	no	medium	0.0341
+SRP187976	TRUE	single_sex	""	TRUE					adipose	epmc_accession	1	TRUE	TRUE	edgeR	no	no	yes	unclear	unclear	yes	high	0.0345
+SRP188076	TRUE	single_sex	balanced	TRUE					other		0	FALSE										
+SRP188087	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP188147	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP188207	TRUE	single_sex	partially_confounded	TRUE					brain_cns		0	FALSE										
+SRP188236	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP188570	TRUE	single_sex	""	TRUE					adipose	epmc_title	1	FALSE										
+SRP188688	TRUE	mildly_imbalanced	""	FALSE					other	epmc_title	1	TRUE	TRUE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0077
+SRP188706	TRUE	balanced	""	FALSE	0.263	0.484			blood_immune		0	FALSE										
+SRP188729	TRUE	single_sex	""	TRUE					skin		0	FALSE										
+SRP188846	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP188879	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP188927	TRUE	partially_confounded	""	FALSE	1	1			brain_cns		0	FALSE										
+SRP188970	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP189061	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP189300	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	limma-voom	unclear	no	unclear	no	unclear	unclear	medium	0.0111
+SRP189379	TRUE	partially_confounded	""	FALSE					brain_cns		0	FALSE										
+SRP189730	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP189755	TRUE	mildly_imbalanced	balanced	FALSE	0	0	0.333	0	brain_cns		0	FALSE										
+SRP189776	TRUE	balanced	""	FALSE	0.784	0.822			lung	epmc_title	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	no	high	0.0365
+SRP189821	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP189878	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP189897	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP189925	TRUE	single_sex	balanced	TRUE					adipose		0	FALSE										
+SRP190028	TRUE	single_sex	""	TRUE					heart	epmc_title	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	no	no	high	0.0105
+SRP190049	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP190335	TRUE	mildly_imbalanced	""	FALSE					reproductive		0	FALSE										
+SRP190519	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	unclear	no	yes	high	0.0213
+SRP190921	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	other	no	no	no	yes	unclear	no	high	0.0321
+SRP190928	TRUE	balanced	""	FALSE	1	0.167			liver		0	FALSE										
+SRP190929	TRUE	single_sex	""	TRUE					adipose	epmc_title	1	FALSE										
+SRP191039	TRUE	mildly_imbalanced	""	FALSE	0.885	0.889			brain_cns		0	FALSE										
+SRP191054	TRUE	mildly_imbalanced	""	FALSE	0.849	0.902			gut		0	FALSE										
+SRP191069	TRUE	mildly_imbalanced	""	FALSE	0.333	0			tumor		0	FALSE										
+SRP191089	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP191116	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP191419	TRUE	balanced	""	FALSE	1	1			blood_immune	epmc_title	1	FALSE										
+SRP191445	TRUE	balanced	""	FALSE	0.825	0.825			lung		0	FALSE										
+SRP191501	TRUE	balanced	""	FALSE	0.946	0.934			other		0	FALSE										
+SRP191571	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP191797	TRUE	single_sex	""	TRUE					other	epmc_title	1	TRUE	TRUE	edgeR	no	no	yes	yes	no	yes	high	0.0315
+SRP191799	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP192145	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP192368	TRUE	balanced	balanced	FALSE	0.361	0.857	0.352	0.409	kidney		0	FALSE										
+SRP192489	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP192522	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP192601	TRUE	balanced	""	FALSE					other		0	FALSE										
+SRP192735	TRUE	mildly_imbalanced	""	FALSE	0.651	0.918			brain_cns		0	FALSE										
+SRP192832	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP193316	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE	DESeq2	no	no	no	yes	no	yes	high	0.0314
+SRP193449	TRUE	mildly_imbalanced	""	FALSE	0.96	0.948			tumor		0	FALSE										
+SRP193734	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	edgeR	no	no	no	unclear	no	yes	high	0.0326
+SRP193857	TRUE	balanced	""	FALSE	0.907	0.896			blood_immune		0	FALSE										
+SRP193998	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP194162	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP194194	TRUE	single_sex	""	TRUE					heart	epmc_title	1	TRUE	TRUE	DESeq2	yes	yes	no	unclear	yes	yes	high	0.0315
+SRP194360	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP194498	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP194918	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	limma-voom	no	no	yes	yes	no	unclear	high	0.0341
+SRP194972	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP195618	TRUE	balanced	""	FALSE	0.828	0.2			brain_cns	epmc_title	1	FALSE										
+SRP196460	TRUE	single_sex	""	TRUE					muscle	epmc_accession	3	TRUE	TRUE	other	no	unclear	unclear	unclear	unclear	no	high	0.0331
+SRP197108	TRUE	single_sex	""	TRUE					liver	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0225
+SRP197374	TRUE	mildly_imbalanced	""	FALSE	0.447	0.415			blood_immune		0	FALSE										
+SRP197376	TRUE	mildly_imbalanced	""	FALSE	0.667	0.619			skin		0	FALSE										
+SRP197377	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP198260	TRUE	partially_confounded	""	FALSE					skin		0	FALSE										
+SRP198299	TRUE	balanced	""	FALSE	0	0			brain_cns	epmc_title	1	FALSE										
+SRP198351	TRUE	mildly_imbalanced	""	FALSE	0.721	0.661			other		0	FALSE										
+SRP198487	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP198525	TRUE	single_sex	balanced	TRUE					kidney		0	FALSE										
+SRP198526	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP198592	TRUE	partially_confounded	""	FALSE	0.552	0.911			other		0	FALSE										
+SRP198642	TRUE	single_sex	balanced	TRUE					liver		0	FALSE										
+SRP199120	TRUE	balanced	""	FALSE					blood_immune		0	FALSE										
+SRP199131	TRUE	partially_confounded	""	FALSE	0.728	0.445			other		0	FALSE										
+SRP199237	TRUE	balanced	""	FALSE	0.984	0.898			brain_cns	epmc_title	1	TRUE	TRUE	other	unclear	unclear	yes	yes	unclear	yes	medium	0.0292
+SRP199374	TRUE	balanced	""	FALSE	0	0			reproductive		0	FALSE										
+SRP199441	TRUE	balanced	balanced	FALSE	0.815	0.73	0.344	0.753	liver		0	FALSE										
+SRP199583	TRUE	partially_confounded	""	FALSE	0.895	1			other		0	FALSE										
+SRP199768	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP199796	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP199884	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP200201	TRUE	single_sex	balanced	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	yes	unclear	yes	high	0.0336
+SRP200258	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP200316	TRUE	partially_confounded	""	FALSE	0.213	0.547			tumor		0	FALSE										
+SRP200403	TRUE	single_sex	""	TRUE					skin		0	FALSE										
+SRP200404	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP200405	TRUE	mildly_imbalanced	""	FALSE	1	0			other		0	FALSE										
+SRP200481	TRUE	single_sex	""	TRUE					brain_cns	epmc_accession	1	TRUE	FALSE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0351
+SRP200569	TRUE	balanced	""	FALSE					gut		0	FALSE										
+SRP200652	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP201011	TRUE	balanced	""	FALSE	0.971	0.815			brain_cns	epmc_title	1	FALSE										
+SRP201399	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP201548	TRUE	single_sex	balanced	TRUE					blood_immune		0	FALSE										
+SRP201665	TRUE	balanced	""	FALSE	0.927	0.939			lung		0	FALSE										
+SRP201679	TRUE	balanced	""	FALSE	0.681	0.802			brain_cns		0	FALSE										
+SRP201779	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP201876	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP201969	TRUE	partially_confounded	balanced	FALSE	0.571	1	0.571	0.714	adipose	epmc_title	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	low	0.0112
+SRP211761	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP211789	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP211825	TRUE	partially_confounded	""	FALSE	0.545	0.545			other		0	FALSE										
+SRP211858	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP211876	TRUE	mildly_imbalanced	""	FALSE		0			blood_immune		0	FALSE										
+SRP212036	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP212107	TRUE	balanced	""	FALSE	0.613	0.767			other	epmc_title	1	TRUE	TRUE	DESeq2	yes	unclear	unclear	unclear	no	yes	high	0.0245
+SRP212122	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP212124	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP212257	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP212544	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP212635	TRUE	partially_confounded	""	FALSE	0.849	0.91			other		0	FALSE										
+SRP212656	TRUE	partially_confounded	""	FALSE					brain_cns		0	FALSE										
+SRP212664	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP212753	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP212923	TRUE	partially_confounded	""	FALSE					heart		0	FALSE										
+SRP212932	TRUE	balanced	""	FALSE	0.364	0.4			gut		0	FALSE										
+SRP212934	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	edgeR	no	no	no	unclear	no	yes	high	0.0343
+SRP212936	TRUE	single_sex	""	TRUE					blood_immune	epmc_title	1	FALSE										
+SRP212952	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP212954	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP212955	TRUE	partially_confounded	""	FALSE	0	0.825			other		0	FALSE										
+SRP213018	TRUE	mildly_imbalanced	""	FALSE	0.869	0.826			blood_immune		0	FALSE										
+SRP213363	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP213598	TRUE	single_sex	""	TRUE					blood_immune	epmc_title	1	FALSE										
+SRP213629	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP213641	TRUE	single_sex	""	TRUE					other	epmc_title	1	FALSE										
+SRP213792	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP213838	TRUE	balanced	""	FALSE	0.896	0.653			other		0	FALSE										
+SRP213880	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP214059	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP214273	TRUE	mildly_imbalanced	""	FALSE	0.152	0.07			brain_cns	epmc_title	1	TRUE	TRUE	limma-voom	unclear	unclear	unclear	yes	unclear	no	medium	0.0345
+SRP214375	TRUE	balanced	""	FALSE	0.975	0.979			gut	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	yes	unclear	unclear	high	0.0316
+SRP214463	TRUE	partially_confounded	""	FALSE					lung		0	FALSE										
+SRP214489	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP215249	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP215371	TRUE	single_sex	""	TRUE					muscle	epmc_title	1	FALSE										
+SRP215380	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP215469	TRUE	single_sex	""	TRUE					muscle	epmc_accession	1	FALSE										
+SRP215863	TRUE	mildly_imbalanced	""	FALSE	0.076	0.605			other		0	FALSE										
+SRP215922	TRUE	balanced	""	FALSE					brain_cns	epmc_title	1	FALSE										
+SRP216020	TRUE	balanced	""	FALSE	0.82	0.829			brain_cns		0	FALSE										
+SRP216037	TRUE	balanced	""	FALSE	0.854	0.916			kidney		0	FALSE										
+SRP216039	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP216087	TRUE	partially_confounded	""	FALSE	0.375	1			other		0	FALSE										
+SRP216264	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP216298	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP216540	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP216742	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP216750	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP216757	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP216849	TRUE	single_sex	""	TRUE					liver	epmc_title	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	no	no	high	0.0193
+SRP216866	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP217127	TRUE	single_sex	""	TRUE					other	epmc_title	1	TRUE	TRUE	Cuffdiff	unclear	unclear	unclear	unclear	no	no	high	0.0348
+SRP217206	TRUE	single_sex	""	TRUE					adipose	epmc_title	1	FALSE										
+SRP217727	TRUE	single_sex	""	TRUE					heart		0	FALSE										
+SRP217736	TRUE	balanced	""	FALSE	0.906	0.93			brain_cns		0	FALSE										
+SRP217849	TRUE	balanced	""	FALSE	0.922	0.952			muscle		0	FALSE										
+SRP217860	TRUE	partially_confounded	""	FALSE	0	0.75			blood_immune		0	FALSE										
+SRP217867	TRUE	mildly_imbalanced	""	FALSE	0	0			blood_immune	epmc_title	1	FALSE										
+SRP217905	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP217909	TRUE	balanced	""	FALSE					gut		0	FALSE										
+SRP218156	TRUE	balanced	""	FALSE	0.571	0.75			brain_cns		0	FALSE										
+SRP218250	TRUE	balanced	""	FALSE	0.884	0.905			other		0	FALSE										
+SRP218436	TRUE	single_sex	""	TRUE					kidney		0	FALSE										
+SRP218456	TRUE	single_sex	""	TRUE					liver	epmc_title	1	FALSE										
+SRP218614	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP218693	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP218851	TRUE	partially_confounded	""	FALSE	0.356	0.778			other		0	FALSE										
+SRP218864	TRUE	single_sex	""	TRUE					gut		0	FALSE										
+SRP219039	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP219271	TRUE	single_sex	mildly_imbalanced	TRUE					liver	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	unclear	unclear	yes	high	0.0334
+SRP219342	TRUE	single_sex	balanced	TRUE					blood_immune		0	FALSE										
+SRP219516	TRUE	balanced	""	FALSE	0.911	0.908			gut	epmc_title	1	FALSE										
+SRP219614	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP219834	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP220131	TRUE	partially_confounded	""	FALSE	0.326	0.659			blood_immune		0	FALSE										
+SRP220328	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP220333	TRUE	mildly_imbalanced	""	FALSE	0	0.8			brain_cns		0	FALSE										
+SRP220337	TRUE	single_sex	""	TRUE					muscle		0	FALSE										
+SRP220371	TRUE	single_sex	completely_confounded	TRUE					gut		0	FALSE										
+SRP220401	TRUE	single_sex	""	TRUE					other	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	unclear	no	yes	high	0.0326
+SRP220487	TRUE	single_sex	""	TRUE					muscle	epmc_title	1	TRUE	TRUE	limma-voom	no	no	unclear	unclear	no	unclear	medium	0.0195
+SRP220671	TRUE	balanced	""	FALSE	0.571	0			adipose		0	FALSE										
+SRP221258	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP221270	TRUE	single_sex	""	TRUE					gut	epmc_title	1	TRUE	TRUE	edgeR	no	no	yes	unclear	unclear	yes	high	0.0349
+SRP221458	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP221514	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP221637	TRUE	balanced	""	FALSE	0.91	0.929			liver		0	FALSE										
+SRP221742	TRUE	single_sex	""	TRUE					brain_cns	epmc_accession	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	no	yes	high	0.0245
+SRP222321	TRUE	balanced	""	FALSE		0			blood_immune		0	FALSE										
+SRP222324	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP222586	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP222765	TRUE	mildly_imbalanced	balanced	FALSE					other		0	FALSE										
+SRP222784	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	DESeq2	no	no	yes	unclear	unclear	yes	medium	0.0158
+SRP223077	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP223230	TRUE	single_sex	balanced	TRUE					liver	epmc_title	1	FALSE										
+SRP223287	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	FALSE										
+SRP223303	TRUE	balanced	""	FALSE	0.476	0.238			brain_cns	epmc_title	1	TRUE	TRUE	other	no	no	yes	yes	unclear	no	medium	0.0337
+SRP223761	TRUE	single_sex	""	TRUE					heart	epmc_title	1	FALSE										
+SRP224064	TRUE	partially_confounded	""	FALSE					other		0	FALSE										
+SRP224526	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP224649	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP224655	TRUE	mildly_imbalanced	""	FALSE	0.75	0.375			heart		0	FALSE										
+SRP224951	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP225503	TRUE	partially_confounded	""	FALSE	0.76	0.744			liver		0	FALSE										
+SRP225544	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP225660	TRUE	balanced	""	FALSE	0.819	0.889			liver	epmc_title	1	FALSE										
+SRP225812	TRUE	mildly_imbalanced	""	FALSE	0.733	0.598			skin	epmc_title	1	FALSE										
+SRP225890	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP225899	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP225901	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP225951	FALSE	single_sex	""	TRUE					lung													
+SRP226196	TRUE	partially_confounded	""	FALSE					brain_cns		0	FALSE										
+SRP226459	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP226737	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	no	medium	0.0243
+SRP227165	TRUE	mildly_imbalanced	""	FALSE	0.81	0.894			lung	epmc_title	1	TRUE	TRUE	other	no	no	yes	yes	no	unclear	medium	0.0294
+SRP227207	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP227260	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP227924	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP228490	TRUE	single_sex	""	TRUE					reproductive	epmc_title	1	FALSE										
+SRP228800	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP228964	TRUE	mildly_imbalanced	""	FALSE	0.884	0.928			other		0	FALSE										
+SRP229069	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP229353	TRUE	mildly_imbalanced	""	FALSE	0.812	0.636			liver		0	FALSE										
+SRP229368	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP229390	TRUE	single_sex	""	TRUE					other	epmc_accession	1	TRUE	TRUE	other	no	no	unclear	unclear	unclear	yes	medium	0.0343
+SRP229484	TRUE	single_sex	""	TRUE					reproductive		0	FALSE										
+SRP229489	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP229494	TRUE	balanced	""	FALSE	0.894	0.667			brain_cns		0	FALSE										
+SRP229586	TRUE	single_sex	""	TRUE					lung	epmc_title	1	FALSE										
+SRP229626	TRUE	mildly_imbalanced	mildly_imbalanced	FALSE	0.383	0.735	0.466	0.577	brain_cns		0	FALSE										
+SRP229632	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP229742	TRUE	single_sex	""	TRUE					brain_cns	epmc_title	1	TRUE	TRUE	other	no	no	no	unclear	yes	yes	high	0.0275
+SRP229965	TRUE	balanced	""	FALSE					brain_cns	epmc_title	1	TRUE	TRUE	edgeR	no	unclear	yes	unclear	unclear	yes	high	0.0264
+SRP230248	TRUE	balanced	""	FALSE	0.963	0.875			brain_cns		0	FALSE										
+SRP230295	TRUE	partially_confounded	""	FALSE	0.711	0.818			tumor		0	FALSE										
+SRP230420	TRUE	balanced	""	FALSE	0.958	0.826			brain_cns		0	FALSE										
+SRP230425	TRUE	mildly_imbalanced	""	FALSE	0.611	0.614			other		0	FALSE										
+SRP232912	TRUE	single_sex	""	TRUE					lung		0	FALSE										
+SRP232913	TRUE	balanced	""	FALSE	0.619	0.551			brain_cns		0	FALSE										
+SRP233206	TRUE	partially_confounded	""	FALSE	0.816	0.892			brain_cns		0	FALSE										
+SRP233366	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP233389	TRUE	single_sex	""	TRUE					liver		0	FALSE										
+SRP233488	FALSE	single_sex	""	TRUE					gut													
+SRP234038	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP234628	TRUE	single_sex	""	TRUE					blood_immune		0	FALSE										
+SRP234876	TRUE	single_sex	""	TRUE					brain_cns	epmc_accession	1	TRUE	TRUE	limma-voom	no	no	no	unclear	yes	yes	high	0.0308
+SRP235070	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP235231	TRUE	mildly_imbalanced	""	FALSE					tumor		0	FALSE										
+SRP235265	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP237295	TRUE	partially_confounded	""	FALSE					gut		0	FALSE										
+SRP237329	TRUE	single_sex	""	TRUE					brain_cns		0	FALSE										
+SRP237364	TRUE	mildly_imbalanced	""	FALSE	1	0			brain_cns		0	FALSE										
+SRP237439	TRUE	balanced	""	FALSE	0.708	0.707			tumor	epmc_title	1	FALSE										
+SRP237817	TRUE	balanced	""	FALSE	0.669	0.456			brain_cns		0	FALSE										
+SRP237911	TRUE	mildly_imbalanced	""	FALSE	0.84	0.741			gut		0	FALSE										
+SRP237927	TRUE	single_sex	balanced	TRUE					other	epmc_title	1	TRUE	TRUE	DESeq2	no	no	no	no	no	yes	high	0.0341
+SRP238215	TRUE	partially_confounded	""	FALSE	0.569	0.885			tumor		0	FALSE										
+SRP238545	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP238748	TRUE	single_sex	balanced	TRUE					brain_cns		0	FALSE										
+SRP238851	TRUE	balanced	balanced	FALSE	0.817	0.768	0.436	0.778	brain_cns		0	FALSE										
+SRP251172	TRUE	balanced	""	FALSE	0.852	0.846			brain_cns	epmc_title	1	FALSE										
+SRP256038	TRUE	balanced	""	FALSE	0.955	0.912			brain_cns	epmc_title	1	TRUE	TRUE	limma-voom	no	unclear	no	unclear	no	yes	high	0.032
+SRP281844	TRUE	balanced	""	FALSE					other		0	FALSE										
+SRP316599	TRUE	balanced	""	FALSE					brain_cns		0	FALSE										
+SRP340286	TRUE	single_sex	""	TRUE					adipose		0	FALSE										
+SRP471095	TRUE	balanced	partially_confounded	FALSE	0.946	0.845	0.536	0.909	brain_cns	epmc_title	1	TRUE	TRUE	DESeq2	no	no	unclear	yes	no	no	medium	0.0276

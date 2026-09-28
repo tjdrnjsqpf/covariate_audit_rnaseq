@@ -1,0 +1,7 @@
+organism	cls	n_studies	nsig_median	pct_nsig0	pct_nsig_1to5
+human	balanced	105	28	0	0
+human	mildly_imbalanced	59	28	0	0
+human	partially_confounded	39	27	0	0
+mouse	balanced	231	19	1.2987012987013	9.09090909090909
+mouse	mildly_imbalanced	111	20	0.900900900900901	9.00900900900901
+mouse	partially_confounded	116	18	0	11.2068965517241

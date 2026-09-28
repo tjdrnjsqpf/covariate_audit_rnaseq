@@ -1,0 +1,7 @@
+organism	cls	only_real_changed	only_perm_changed	mcnemar_exact_p
+human	balanced	6	7	1
+human	mildly_imbalanced	2	4	0.6875
+human	partially_confounded	11	3	0.057373046875
+mouse	balanced	20	31	0.160779601811988
+mouse	mildly_imbalanced	15	10	0.42435622215271
+mouse	partially_confounded	28	6	0.000195125583559275

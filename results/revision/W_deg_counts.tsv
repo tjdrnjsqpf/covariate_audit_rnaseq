@@ -1,0 +1,7 @@
+design_sex	organism	n	deg_M0	deg_M1	deg_perm_across	deg_perm_within	drop_real	drop_across	drop_within	tsp_real	tsp_within	top100_real	top100_within	sexgene_M0_any	sexgene_within_any	sexgene_M1_any
+balanced	human	105	5514	5567	5484	5590	-0.01	0.005	-0.014	0.998	0.999	0.93	0.94	0.048	0.048	0.562
+mildly_imbalanced	human	59	4634	4163	4341	4326	0.102	0.063	0.066	0.992	0.994	0.87	0.89	0.186	0.169	0.356
+partially_confounded	human	39	2631	1695	2516	1550	0.356	0.044	0.411	0.956	0.971	0.74	0.75	0.436	0.308	0.282
+balanced	mouse	233	529	617	395	471	-0.166	0.253	0.11	0.996	0.998	0.87	0.92	0.004	0.009	0.155
+mildly_imbalanced	mouse	117	365	320	294	268	0.123	0.195	0.266	0.981	0.985	0.8	0.83	0.051	0.043	0.145
+partially_confounded	mouse	120	1286.5	629.5	1030.5	430	0.511	0.199	0.666	0.925	0.947	0.69	0.74	0.283	0.142	0.15

@@ -1,0 +1,54 @@
+## medians over studies of per-study means
+    organism target_df ref_share n_ref n_comp    M0_n    M1_n M0_false M1_false
+      <char>     <num>     <num> <num>  <num>   <num>   <num>    <num>    <num>
+ 1:    human       0.0     0.337  8620   62.5 1733.90 1731.30   160.15   158.10
+ 2:    human       0.2     0.337  8620   62.5 2007.20 1742.35   183.30   169.70
+ 3:    human       0.4     0.337  8620   62.5 1849.05 1470.45   225.40   160.30
+ 4:    human       0.6     0.337  8620   62.5 1960.55  552.10   263.10   166.10
+ 5:    human       0.8     0.337  8620   62.5 1896.30  271.20   192.60    73.30
+ 6:    mouse       0.0     0.044   953   25.0   35.60  117.70    24.10    44.80
+ 7:    mouse       0.2     0.044   953   25.0   98.50   96.00    44.55    31.95
+ 8:    mouse       0.4     0.044   953   25.0  141.30  121.80    70.30   111.60
+ 9:    mouse       0.6     0.044   953   25.0  250.40   31.70    51.10    41.45
+10:    mouse       0.8     0.044   953   25.0  160.30   27.80    94.85    31.95
+    M0_top100 M1_top100   nrefC
+        <num>     <num>   <num>
+ 1:     0.288     0.284 4845.70
+ 2:     0.289     0.272 5279.30
+ 3:     0.294     0.256 5115.95
+ 4:     0.278     0.207 4626.45
+ 5:     0.294     0.161 4074.35
+ 6:     0.442     0.472  192.50
+ 7:     0.442     0.467  233.10
+ 8:     0.421     0.413  185.60
+ 9:     0.416     0.338   45.90
+10:     0.406     0.250   73.00
+
+## share of draws with sex-linked gene in DE (pooled draws)
+    organism target_df    M0    M1 n_draws
+      <char>     <num> <num> <num>   <int>
+ 1:    human       0.0 0.002 0.275     440
+ 2:    human       0.2 0.014 0.273     440
+ 3:    human       0.4 0.207 0.252     440
+ 4:    human       0.6 0.539 0.211     440
+ 5:    human       0.8 0.693 0.116     440
+ 6:    mouse       0.0 0.000 0.068     410
+ 7:    mouse       0.2 0.000 0.056     410
+ 8:    mouse       0.4 0.024 0.071     410
+ 9:    mouse       0.6 0.122 0.076     410
+10:    mouse       0.8 0.390 0.066     410
+
+## paired M1-M0 precision_C and recall_C by rung (wilcoxon)
+    organism target_df     n d_precC p_precC d_recC  p_recC
+      <char>     <num> <int>   <num>   <num>  <num>   <num>
+ 1:    human       0.0    44      NA 0.06500     NA 1.4e-01
+ 2:    human       0.2    44      NA 0.11000     NA 2.1e-06
+ 3:    human       0.4    44      NA 0.02300 -0.041 3.9e-06
+ 4:    human       0.6    44      NA 0.14000 -0.099 1.3e-07
+ 5:    human       0.8    44      NA 0.23000 -0.212 8.7e-08
+ 6:    mouse       0.0    41      NA 0.22000  0.006 1.6e-04
+ 7:    mouse       0.2    41      NA 0.66000     NA 6.2e-01
+ 8:    mouse       0.4    41      NA 0.01400 -0.018 2.2e-03
+ 9:    mouse       0.6    41      NA 0.00032     NA 1.4e-05
+10:    mouse       0.8    41      NA 0.00120     NA 5.0e-05
+There were 20 warnings (use warnings() to see them)

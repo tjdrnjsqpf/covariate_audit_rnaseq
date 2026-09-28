@@ -1,0 +1,399 @@
+study	valid	design_sex	design_age	single_sex	M1_jaccard	M0perm_jaccard	M2_jaccard	M2perm_jaccard	tissue_category	route	n_pmid	has_fulltext	text_relevant	de_method	sex_adjusted	age_adjusted	sex_matched	age_matched	batch_adj	sex_reported	confidence	usd
+ERP001304	TRUE	single_sex	balanced	TRUE					unknown	epmc_accession	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	no	no	high	0.0345
+ERP004043	TRUE	balanced	""	FALSE					unknown	epmc_title	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	yes	unclear	high	0.0262
+ERP006121	TRUE	partially_confounded	""	FALSE	0.22	0.152			other		0	FALSE										
+ERP010142	TRUE	single_sex	balanced	TRUE					tumor		0	FALSE										
+ERP010889	TRUE	balanced	balanced	FALSE	0.826	0.807	0.684	0.724	unknown	epmc_accession	2	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	no	unclear	high	0.0231
+ERP010930	TRUE	mildly_imbalanced	mildly_imbalanced	FALSE	0.777	0.851	0.78	0.785	unknown	epmc_accession	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	yes	unclear	medium	0.0332
+ERP013206	TRUE	partially_confounded	""	FALSE	0.733	0.895			unknown	epmc_accession	1	TRUE	TRUE	edgeR	no	no	unclear	unclear	yes	no	high	0.0213
+ERP015831	TRUE	balanced	""	FALSE	0.894	0.764			unknown		0	FALSE										
+ERP016798	TRUE	single_sex	""	TRUE					unknown	epmc_accession	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	no	no	high	0.0268
+ERP022260	TRUE	mildly_imbalanced	""	FALSE	1	0.5			blood		0	FALSE										
+ERP022906	TRUE	mildly_imbalanced	""	FALSE	0.707	0.648			unknown		0	FALSE										
+ERP022968	TRUE	partially_confounded	""	FALSE	0.86	0.857			unknown	epmc_accession	1	TRUE	TRUE	DESeq2	no	no	no	unclear	yes	yes	medium	0.0359
+ERP023222	TRUE	single_sex	""	TRUE					unknown		0	FALSE										
+ERP023272	TRUE	balanced	""	FALSE	0.9	0.957			unknown		0	FALSE										
+ERP104782	TRUE	partially_confounded	partially_confounded	FALSE	0			0	unknown		0	FALSE										
+ERP104864	TRUE	balanced	balanced	FALSE	0.985	0.987	0.967	0.97	unknown		0	FALSE										
+ERP105501	TRUE	partially_confounded	partially_confounded	FALSE	0.834	0.956	0.775	0.818	unknown	epmc_accession	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	yes	unclear	high	0.0239
+ERP106168	TRUE	mildly_imbalanced	partially_confounded	FALSE	0			0	unknown		0	FALSE										
+ERP106487	TRUE	mildly_imbalanced	balanced	FALSE	0.833	0.844	0.764	0.726	gut	epmc_accession	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	yes	unclear	high	0.0346
+ERP106532	TRUE	balanced	partially_confounded	FALSE					unknown		0	FALSE										
+ERP109255	TRUE	balanced	partially_confounded	FALSE	0.905	0.97	0.086	0.911	unknown	epmc_accession	1	TRUE	FALSE	limma-voom	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0282
+ERP109626	TRUE	balanced	partially_confounded	FALSE	0.963	0.957	0.707	0.952	unknown	epmc_accession	1	FALSE										
+ERP110099	TRUE	mildly_imbalanced	""	FALSE	0.78	0.71			unknown	epmc_title	1	TRUE	FALSE		no	no	unclear	unclear	no	unclear	high	0.018
+ERP113396	TRUE	balanced	""	FALSE					unknown	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0227
+ERP114636	TRUE	balanced	""	FALSE	1	1			unknown	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0228
+ERP114936	TRUE	mildly_imbalanced	partially_confounded	FALSE					other		0	FALSE										
+ERP115010	TRUE	balanced	""	FALSE	0.98	0.966			unknown	epmc_accession	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	yes	unclear	low	0.0315
+ERP115036	TRUE	partially_confounded	""	FALSE	0.019	0.791			unknown		0	FALSE										
+ERP116722	TRUE	balanced	partially_confounded	FALSE		0			unknown		0	FALSE										
+SRP002628	TRUE	single_sex	""	TRUE					tumor	geo_pubmed	1	FALSE										
+SRP003726	TRUE	balanced	""	FALSE	0.83	0.787			reproductive	geo_pubmed	3	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	no	high	0.0264
+SRP005279	TRUE	balanced	""	FALSE	0.921	0.926			musculoskeletal	geo_pubmed	2	TRUE	TRUE	edgeR	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0188
+SRP007584	TRUE	balanced	""	FALSE	0.912	0.877			gut	epmc_accession	3	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0152
+SRP008496	TRUE	balanced	""	FALSE	0.919	0.907			gut	geo_pubmed	1	FALSE										
+SRP010181	TRUE	balanced	""	FALSE	0.983	0.966			gut	epmc_accession	5	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0308
+SRP015668	TRUE	balanced	""	FALSE					brain	geo_pubmed	1	FALSE										
+SRP017262	TRUE	partially_confounded	completely_confounded	FALSE					musculoskeletal	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0307
+SRP017575	TRUE	partially_confounded	""	FALSE	0				other	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0291
+SRP019994	TRUE	balanced	""	FALSE	0.852	0.822			muscle	geo_pubmed	3	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0131
+SRP023262	TRUE	single_sex	""	TRUE					reproductive	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	no	unclear	high	0.0321
+SRP026042	TRUE	partially_confounded	balanced	FALSE	0.411	0.816	0.227	0.372	skin	geo_pubmed	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0119
+SRP026208	TRUE	balanced	""	FALSE					heart	epmc_accession	5	TRUE	TRUE	limma	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0304
+SRP027383	TRUE	balanced	""	FALSE	0.991	0.964			tumor	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	yes	medium	0.0227
+SRP027530	TRUE	balanced	partially_confounded	FALSE					tumor	geo_pubmed	1	FALSE										
+SRP032279	TRUE	balanced	mildly_imbalanced	FALSE					blood	geo_pubmed	1	TRUE	TRUE	limma-voom	yes	yes	unclear	unclear	no	yes	high	0.0279
+SRP032775	TRUE	balanced	balanced	FALSE					blood	epmc_accession	4	TRUE	TRUE	other	unclear	unclear	unclear	unclear	yes	unclear	low	0.0316
+SRP032789	TRUE	single_sex	""	TRUE					tumor	geo_pubmed	3	TRUE	TRUE	Cuffdiff	no	no	unclear	unclear	no	no	high	0.0146
+SRP033095	TRUE	balanced	""	FALSE	0.83	0.554			lung	geo_pubmed	1	TRUE	TRUE	DESeq2	yes	no	unclear	unclear	no	no	high	0.033
+SRP033276	TRUE	balanced	""	FALSE	0.65	0.69			other		0	FALSE										
+SRP033725	TRUE	balanced	""	FALSE					brain	geo_pubmed	1	FALSE										
+SRP034831	TRUE	balanced	""	FALSE					brain	geo_pubmed	1	TRUE	TRUE	edgeR	no	no	yes	yes	yes	unclear	high	0.0381
+SRP035524	TRUE	mildly_imbalanced	mildly_imbalanced	FALSE				0	unknown	epmc_accession	4	TRUE	TRUE	Cuffdiff	unclear	unclear	unclear	unclear	no	unclear	high	0.0271
+SRP035988	TRUE	balanced	""	FALSE	0.991	0.992			skin	geo_pubmed	5	TRUE	TRUE	other	unclear	unclear	unclear	unclear	no	unclear	high	0.0276
+SRP036821	TRUE	mildly_imbalanced	""	FALSE	0.584	0.457			tumor	epmc_accession	1	TRUE	TRUE	DESeq2	no	no	no	no	no	yes	high	0.035
+SRP036848	TRUE	balanced	""	FALSE	0.759	0.639			reproductive	geo_pubmed	1	FALSE										
+SRP039338	TRUE	single_sex	balanced	TRUE					other	geo_pubmed	1	FALSE										
+SRP040622	TRUE	balanced	""	FALSE					other	geo_pubmed	1	FALSE										
+SRP040998	TRUE	single_sex	balanced	TRUE					tumor	epmc_accession	5	TRUE	TRUE	limma-voom	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0258
+SRP041538	TRUE	single_sex	""	TRUE					lung	geo_pubmed	3	TRUE	TRUE	Cuffdiff	no	no	unclear	unclear	no	unclear	high	0.0118
+SRP041620	TRUE	balanced	""	FALSE	0.562	0			blood	geo_pubmed	1	TRUE	TRUE	other	no	no	unclear	unclear	no	no	medium	0.0254
+SRP042086	TRUE	partially_confounded	""	FALSE	0.142	0.606			adipose	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	yes	unclear	no	no	no	high	0.025
+SRP042184	TRUE	partially_confounded	""	FALSE	0.633	0.635			other	geo_pubmed	1	FALSE										
+SRP042228	TRUE	balanced	""	FALSE	0.986	0.973			gut	geo_pubmed	2	TRUE	TRUE	other	no	no	yes	yes	unclear	yes	medium	0.0166
+SRP042620	TRUE	single_sex	""	TRUE					tumor	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0343
+SRP042623	TRUE	single_sex	""	TRUE					blood	geo_pubmed	1	FALSE										
+SRP043085	TRUE	single_sex	""	TRUE					skin	geo_pubmed	1	FALSE										
+SRP043221	TRUE	balanced	""	FALSE					muscle	geo_pubmed	2	TRUE	TRUE		unclear	unclear	unclear	unclear	unclear	no	low	0.018
+SRP043320	TRUE	single_sex	""	TRUE					tumor		0	FALSE										
+SRP043388	TRUE	balanced	""	FALSE	0.948	0.912			gut	geo_pubmed	3	TRUE	TRUE	other	no	no	unclear	unclear	no	no	high	0.021
+SRP044042	TRUE	mildly_imbalanced	""	FALSE	0.09	0.09			kidney	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	no	unclear	no	high	0.0295
+SRP044373	TRUE	balanced	""	FALSE	0.922	0.972			tumor	geo_pubmed	1	FALSE										
+SRP044668	TRUE	balanced	""	FALSE	0.964	0.985			tumor	geo_pubmed	1	FALSE										
+SRP045225	TRUE	partially_confounded	""	FALSE	0.781	0.965			tumor	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	unclear	yes	high	0.0341
+SRP045500	TRUE	mildly_imbalanced	balanced	FALSE				0	blood	geo_pubmed	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0109
+SRP046233	TRUE	partially_confounded	balanced	FALSE					musculoskeletal	geo_pubmed	1	FALSE										
+SRP047122	TRUE	partially_confounded	""	FALSE	0.25	1			blood	geo_pubmed	1	TRUE	TRUE	Cuffdiff	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0238
+SRP048683	TRUE	single_sex	""	TRUE					brain	geo_pubmed	1	TRUE	TRUE	other	no	no	yes	yes	no	yes	high	0.0298
+SRP048801	TRUE	balanced	""	FALSE	0.995	0.995			gut	epmc_accession	5	TRUE	TRUE	limma	no	no	unclear	unclear	no	unclear	high	0.02
+SRP049097	TRUE	mildly_imbalanced	""	FALSE	0.821	0.964			muscle	epmc_accession	2	TRUE	TRUE	other	no	no	unclear	unclear	unclear	yes	medium	0.0362
+SRP049408	TRUE	partially_confounded	""	FALSE	0	0.553			tumor	geo_pubmed	1	TRUE	TRUE	edgeR	no	unclear	unclear	unclear	no	unclear	medium	0.0203
+SRP049820	TRUE	partially_confounded	""	FALSE	0.397	0.719			blood	geo_pubmed	1	TRUE	TRUE	limma-voom	unclear	unclear	unclear	unclear	unclear	unclear	medium	0.0247
+SRP050000	TRUE	balanced	""	FALSE	0.902	0.948			blood	geo_pubmed	1	TRUE	TRUE	other	no	no	unclear	unclear	no	unclear	medium	0.0318
+SRP050146	TRUE	partially_confounded	""	FALSE	0.083	0.6			musculoskeletal	geo_pubmed	1	TRUE	TRUE	edgeR	yes	unclear	unclear	unclear	no	unclear	medium	0.0355
+SRP050493	TRUE	balanced	partially_confounded	FALSE					musculoskeletal	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0315
+SRP050971	TRUE	mildly_imbalanced	""	FALSE	0.872	0.821			skin	geo_pubmed	5	TRUE	TRUE	other	no	no	unclear	unclear	no	unclear	high	0.0276
+SRP051518	TRUE	partially_confounded	""	FALSE	0	0			other	geo_pubmed	1	TRUE	TRUE	DESeq	no	no	unclear	yes	no	yes	high	0.0238
+SRP051844	TRUE	single_sex	""	TRUE					brain	geo_pubmed	3	TRUE	TRUE	DESeq2	no	yes	yes	no	yes	yes	high	0.0352
+SRP051848	TRUE	single_sex	""	TRUE					blood	geo_pubmed	1	FALSE										
+SRP052056	TRUE	partially_confounded	""	FALSE	0.464	0.701			tumor	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0108
+SRP052896	TRUE	mildly_imbalanced	completely_confounded	FALSE	0.739	0.928	0.031	0.742	lung	epmc_accession	5	TRUE	TRUE	other	no	no	unclear	unclear	unclear	yes	medium	0.027
+SRP053296	TRUE	mildly_imbalanced	""	FALSE					other	geo_pubmed	1	FALSE										
+SRP055749	TRUE	mildly_imbalanced	""	FALSE	0.571	0.167			adipose	geo_pubmed	1	FALSE										
+SRP056443	TRUE	partially_confounded	mildly_imbalanced	FALSE					blood	geo_pubmed	3	TRUE	TRUE	Cuffdiff	no	unclear	no	unclear	no	yes	high	0.032
+SRP056477	TRUE	mildly_imbalanced	""	FALSE					brain	geo_pubmed	2	TRUE	TRUE	edgeR	unclear	unclear	unclear	yes	no	unclear	medium	0.0319
+SRP056696	TRUE	mildly_imbalanced	""	FALSE	0.716	0.854			liver	geo_pubmed	2	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0208
+SRP056835	TRUE	mildly_imbalanced	""	FALSE	0.873	0.897			other	geo_pubmed	1	TRUE	TRUE	other	no	no	unclear	unclear	yes	yes	high	0.0213
+SRP056840	TRUE	mildly_imbalanced	""	FALSE	0.439	0.739			blood	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	medium	0.0167
+SRP057350	TRUE	balanced	balanced	FALSE				0	lung	epmc_accession	1	TRUE	TRUE	edgeR	unclear	unclear	unclear	unclear	yes	unclear	medium	0.0261
+SRP057793	TRUE	mildly_imbalanced	balanced	FALSE	0.775	0.948	0.731	0.692	tumor	epmc_accession	5	TRUE	TRUE	other	no	no	no	no	unclear	yes	high	0.0335
+SRP058243	TRUE	mildly_imbalanced	mildly_imbalanced	FALSE	0.889	0.975	0.862	0.886	tumor	epmc_accession	5	TRUE	FALSE	limma-voom	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0298
+SRP058722	TRUE	single_sex	completely_confounded	TRUE					tumor	geo_pubmed	1	FALSE										
+SRP059039	TRUE	mildly_imbalanced	""	FALSE	0.937	0.984			blood	geo_pubmed	1	TRUE	TRUE	limma-voom	yes	yes	no	unclear	no	unclear	high	0.0309
+SRP059057	TRUE	balanced	""	FALSE	0				blood	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	no	yes	high	0.0363
+SRP059172	TRUE	mildly_imbalanced	""	FALSE	0.696	0.891			blood	epmc_accession	5	TRUE	TRUE	limma	no	no	unclear	unclear	yes	yes	high	0.0334
+SRP059588	TRUE	balanced	mildly_imbalanced	FALSE	0.886	0.587	0.723	0.731	tumor	epmc_accession	2	TRUE	TRUE	other	no	no	no	no	unclear	yes	high	0.0328
+SRP060205	TRUE	balanced	""	FALSE					brain	geo_pubmed	1	TRUE	TRUE	other	no	unclear	yes	unclear	unclear	yes	medium	0.033
+SRP060715	TRUE	partially_confounded	""	FALSE	0.666	0.925			other	epmc_accession	3	TRUE	FALSE	limma-voom	unclear	unclear	unclear	unclear	unclear	unclear	low	0.0208
+SRP061286	TRUE	mildly_imbalanced	""	FALSE	0.522	0.651			other	geo_pubmed	1	FALSE										
+SRP061571	TRUE	single_sex	""	TRUE					adipose	geo_pubmed	3	TRUE	FALSE	edgeR	unclear	unclear	yes	unclear	unclear	no	medium	0.0371
+SRP062025	TRUE	balanced	""	FALSE	0.727	0.75			musculoskeletal	geo_pubmed	1	FALSE										
+SRP062298	TRUE	mildly_imbalanced	""	FALSE					muscle	geo_pubmed	3	FALSE										
+SRP062966	TRUE	balanced	""	FALSE	0.903	0.975			blood	geo_pubmed	1	FALSE										
+SRP063006	TRUE	mildly_imbalanced	""	FALSE	0.766	0.838			tumor	geo_pubmed	2	TRUE	TRUE	edgeR	no	no	unclear	unclear	no	unclear	high	0.0348
+SRP063477	TRUE	single_sex	""	TRUE					musculoskeletal	geo_pubmed	2	TRUE	TRUE	edgeR	no	no	yes	no	no	yes	high	0.0333
+SRP063496	TRUE	balanced	""	FALSE					gut	geo_pubmed	1	FALSE										
+SRP063838	TRUE	balanced	balanced	FALSE					lung	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	no	unclear	medium	0.0311
+SRP064431	TRUE	balanced	""	FALSE	0.504	0.031			liver	epmc_accession	3	TRUE	TRUE	limma-voom	no	no	unclear	unclear	yes	yes	medium	0.0366
+SRP064478	TRUE	balanced	balanced	FALSE					brain	epmc_accession	5	TRUE	TRUE	DESeq2	yes	yes	unclear	unclear	no	unclear	high	0.0324
+SRP065232	TRUE	balanced	""	FALSE					other		0	FALSE										
+SRP065445	TRUE	partially_confounded	""	FALSE	0.373	0.748			blood	geo_pubmed	1	FALSE										
+SRP065758	FALSE	mildly_imbalanced	mildly_imbalanced	FALSE					skin													
+SRP065812	TRUE	mildly_imbalanced	""	FALSE	0.905	0.864			skin	geo_pubmed	2	TRUE	TRUE	Cuffdiff	no	no	unclear	unclear	no	yes	high	0.0322
+SRP065865	TRUE	balanced	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	limma-voom	no	no	yes	yes	no	yes	high	0.0306
+SRP066966	TRUE	single_sex	""	TRUE					blood	geo_pubmed	1	TRUE	TRUE	other	no	no	yes	unclear	no	yes	medium	0.0224
+SRP067631	TRUE	mildly_imbalanced	""	FALSE	0.747	0.563			musculoskeletal	geo_pubmed	1	FALSE										
+SRP068292	TRUE	single_sex	balanced	TRUE					other	geo_pubmed	1	FALSE										
+SRP068591	TRUE	mildly_imbalanced	""	FALSE	0.834	0.683			gut	geo_pubmed	1	FALSE										
+SRP069976	TRUE	mildly_imbalanced	""	FALSE	0.946	0.992			skin		0	FALSE										
+SRP070148	TRUE	partially_confounded	""	FALSE	0.886	0.965			other	geo_pubmed	2	TRUE	TRUE	edgeR	unclear	unclear	unclear	unclear	unclear	no	high	0.0211
+SRP070710	TRUE	balanced	""	FALSE					tumor	geo_pubmed	1	FALSE										
+SRP071203	TRUE	balanced	""	FALSE					brain	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	medium	0.0194
+SRP071758	TRUE	balanced	balanced	FALSE	0.954	0.903	0.78	0.875	lung	geo_pubmed	1	FALSE										
+SRP071965	TRUE	balanced	balanced	FALSE	0.915	0.992	0.907	0.91	blood	geo_pubmed	1	FALSE										
+SRP072242	TRUE	partially_confounded	completely_confounded	FALSE	0	0	0	0	lung	geo_pubmed	1	TRUE	TRUE	edgeR	no	no	no	no	yes	yes	high	0.0361
+SRP072463	TRUE	balanced	balanced	FALSE	0.211	0	0.2	0.048	brain	geo_pubmed	1	FALSE										
+SRP072492	TRUE	balanced	balanced	FALSE					tumor	geo_pubmed	1	FALSE										
+SRP072494	TRUE	partially_confounded	""	FALSE					other	geo_pubmed	1	TRUE	TRUE	edgeR	unclear	unclear	unclear	unclear	yes	unclear	medium	0.0275
+SRP072693	TRUE	balanced	""	FALSE		0			other	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	unclear	low	0.0239
+SRP072920	TRUE	single_sex	""	TRUE					blood	geo_pubmed	1	TRUE	TRUE	limma-voom	unclear	unclear	unclear	unclear	no	unclear	medium	0.0286
+SRP073191	TRUE	single_sex	""	TRUE					blood	geo_pubmed	1	TRUE	TRUE	other	no	no	yes	yes	no	yes	high	0.0331
+SRP073347	TRUE	balanced	balanced	FALSE	0.326	0.467	0.256	0.273	blood		0	FALSE										
+SRP073382	TRUE	balanced	""	FALSE					brain	geo_pubmed	1	FALSE										
+SRP073789	TRUE	single_sex	""	TRUE					other	geo_pubmed	1	TRUE	TRUE	edgeR	no	no	unclear	unclear	no	no	high	0.0223
+SRP074349	TRUE	balanced	""	FALSE	0.962	0.966			other	geo_pubmed	3	TRUE	TRUE	DESeq2	no	no	unclear	unclear	unclear	yes	high	0.0265
+SRP074581	TRUE	balanced	""	FALSE					gut	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0365
+SRP074739	TRUE	partially_confounded	balanced	FALSE					gut	geo_pubmed	1	FALSE										
+SRP074904	TRUE	partially_confounded	""	FALSE					brain	geo_pubmed	1	FALSE										
+SRP076032	TRUE	balanced	balanced	FALSE	0		0		liver	geo_pubmed	1	TRUE	TRUE	other	no	no	yes	yes	yes	no	high	0.0307
+SRP076426	TRUE	single_sex	""	TRUE					gut	geo_pubmed	2	FALSE										
+SRP076627	TRUE	mildly_imbalanced	""	FALSE	0.847	0.863			blood	geo_pubmed	1	TRUE	TRUE	limma-voom	unclear	unclear	unclear	unclear	unclear	unclear	medium	0.0286
+SRP077046	TRUE	mildly_imbalanced	""	FALSE	0.956	0.995			gut	geo_pubmed	1	TRUE	TRUE	Cuffdiff	unclear	unclear	yes	yes	unclear	no	medium	0.03
+SRP077708	TRUE	mildly_imbalanced	balanced	FALSE	0.59	0.532	0.58	0.542	gut	epmc_accession	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0323
+SRP078314	TRUE	mildly_imbalanced	""	FALSE	0.657	0.097			skin	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.032
+SRP078441	TRUE	partially_confounded	""	FALSE					musculoskeletal	geo_pubmed	1	TRUE	TRUE	Cuffdiff	unclear	unclear	unclear	unclear	no	no	high	0.0327
+SRP078450	TRUE	balanced	""	FALSE	0.859	0.778			liver	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0316
+SRP078541	TRUE	single_sex	""	TRUE					blood	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	yes	yes	yes	unclear	high	0.0207
+SRP080292	TRUE	single_sex	""	TRUE					adipose	epmc_accession	5	TRUE	TRUE	limma	no	no	unclear	unclear	no	unclear	high	0.0341
+SRP081020	TRUE	partially_confounded	partially_confounded	FALSE	0	0.727	0	0	blood	epmc_accession	2	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0289
+SRP081599	TRUE	balanced	""	FALSE	0.947	0.953			lung	geo_pubmed	1	FALSE										
+SRP081605	TRUE	mildly_imbalanced	balanced	FALSE					blood	epmc_accession	2	TRUE	TRUE	DESeq2	no	no	unclear	unclear	yes	unclear	medium	0.0323
+SRP084270	TRUE	single_sex	""	TRUE					other	geo_pubmed	1	FALSE										
+SRP086078	TRUE	balanced	""	FALSE					lung	geo_pubmed	1	FALSE										
+SRP086245	TRUE	balanced	balanced	FALSE					blood	geo_pubmed	1	FALSE										
+SRP089788	TRUE	balanced	""	FALSE	0.919	0.944			muscle	geo_pubmed	1	FALSE										
+SRP090282	TRUE	balanced	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	low	0.0164
+SRP090460	TRUE	balanced	mildly_imbalanced	FALSE	0.882	0.019	0.408	0.677	lung	geo_pubmed	2	TRUE	TRUE	edgeR	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0311
+SRP090552	TRUE	balanced	""	FALSE					adipose	geo_pubmed	1	FALSE										
+SRP090633	TRUE	balanced	""	FALSE					liver	geo_pubmed	1	FALSE										
+SRP090689	TRUE	single_sex	""	TRUE					blood	geo_pubmed	1	FALSE										
+SRP090779	TRUE	single_sex	""	TRUE					other	geo_pubmed	1	FALSE										
+SRP090787	TRUE	single_sex	balanced	TRUE					adipose		0	FALSE										
+SRP090799	TRUE	mildly_imbalanced	""	FALSE	0	0			liver	geo_pubmed	1	FALSE										
+SRP091714	TRUE	single_sex	""	TRUE					blood	geo_pubmed	2	TRUE	TRUE	edgeR	no	no	yes	yes	unclear	unclear	high	0.0297
+SRP092158	TRUE	single_sex	""	TRUE					blood	geo_pubmed	1	FALSE										
+SRP092402	TRUE	mildly_imbalanced	""	FALSE	0.928	0.995			blood	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	no	unclear	high	0.0209
+SRP092408	TRUE	mildly_imbalanced	partially_confounded	FALSE	0.919	0.955	0.749	0.912	musculoskeletal	geo_pubmed	2	TRUE	TRUE	limma-voom	no	no	no	no	no	yes	high	0.0242
+SRP092501	TRUE	balanced	""	FALSE	0.786	0.417			other	geo_pubmed	1	FALSE										
+SRP094553	TRUE	mildly_imbalanced	""	FALSE	1	1			kidney	geo_pubmed	1	TRUE	TRUE	DESeq2	yes	yes	unclear	unclear	unclear	yes	high	0.029
+SRP094784	TRUE	partially_confounded	partially_confounded	FALSE					adipose	epmc_accession	1	FALSE										
+SRP094795	TRUE	single_sex	""	TRUE					tumor	geo_pubmed	2	TRUE	TRUE	DESeq2	no	no	unclear	no	no	no	high	0.0262
+SRP095361	TRUE	mildly_imbalanced	""	FALSE	0.909	0.95			lung	geo_pubmed	1	TRUE	TRUE	edgeR	no	yes	unclear	unclear	unclear	unclear	medium	0.0326
+SRP095491	TRUE	balanced	""	FALSE	0.5	0.333			tumor	geo_pubmed	1	FALSE										
+SRP096201	TRUE	partially_confounded	completely_confounded	FALSE	0.17	0.663	0	0	blood	geo_pubmed	1	FALSE										
+SRP096757	TRUE	balanced	""	FALSE	0.993	0.972			gut	geo_pubmed	1	TRUE	TRUE	edgeR	yes	unclear	unclear	unclear	yes	no	medium	0.0276
+SRP097696	TRUE	mildly_imbalanced	""	FALSE	0.297	0.637			other	geo_pubmed	1	FALSE										
+SRP098758	TRUE	balanced	balanced	FALSE	0.961	0.99	0.958	0.96	blood	geo_pubmed	1	FALSE										
+SRP099676	TRUE	balanced	""	FALSE	0.969	0.982			blood	geo_pubmed	1	FALSE										
+SRP099844	TRUE	balanced	""	FALSE					gut	geo_pubmed	1	FALSE										
+SRP100652	FALSE	mildly_imbalanced	balanced	FALSE	1	1	1	1	blood													
+SRP100948	TRUE	balanced	""	FALSE	0.925	0.966			other	geo_pubmed	1	FALSE										
+SRP102186	TRUE	balanced	mildly_imbalanced	FALSE					brain	epmc_accession	2	TRUE	TRUE	limma-voom	yes	yes	unclear	unclear	unclear	yes	high	0.0329
+SRP102542	TRUE	balanced	""	FALSE					muscle	geo_pubmed	3	TRUE	TRUE	edgeR	no	no	unclear	unclear	no	yes	high	0.035
+SRP102999	TRUE	single_sex	""	TRUE					blood	geo_pubmed	2	TRUE	TRUE	DESeq2	no	yes	yes	unclear	no	unclear	high	0.03
+SRP103812	TRUE	single_sex	""	TRUE					tumor	geo_pubmed	1	FALSE										
+SRP103819	TRUE	balanced	""	FALSE					lung	geo_pubmed	1	TRUE	TRUE	edgeR	no	no	unclear	unclear	no	unclear	high	0.0136
+SRP106008	TRUE	balanced	""	FALSE	0.812	0.891			kidney	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	no	no	unclear	yes	medium	0.0281
+SRP106011	TRUE	partially_confounded	""	FALSE	0.802	0.989			skin	geo_pubmed	1	FALSE										
+SRP107025	TRUE	balanced	""	FALSE	0.909	0.935			other	geo_pubmed	1	FALSE										
+SRP108120	TRUE	single_sex	balanced	TRUE					brain	geo_pubmed	1	TRUE	TRUE	limma-voom	no	yes	yes	yes	yes	yes	high	0.0266
+SRP108496	TRUE	single_sex	""	TRUE					lung	geo_pubmed	1	FALSE										
+SRP108616	TRUE	single_sex	mildly_imbalanced	TRUE					other	geo_pubmed	1	FALSE										
+SRP109111	TRUE	mildly_imbalanced	""	FALSE		0			blood	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	yes	unclear	medium	0.0319
+SRP109781	TRUE	balanced	mildly_imbalanced	FALSE	0.99	0.989	0.932	0.942	other		0	FALSE										
+SRP111102	TRUE	single_sex	mildly_imbalanced	TRUE					tumor	geo_pubmed	4	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	no	high	0.0098
+SRP111343	TRUE	single_sex	""	TRUE					tumor	geo_pubmed	1	TRUE	TRUE	limma-voom	no	no	unclear	unclear	unclear	unclear	medium	0.0398
+SRP111481	TRUE	single_sex	balanced	TRUE					tumor	geo_pubmed	3	TRUE	TRUE	DESeq2	unclear	unclear	unclear	no	unclear	no	medium	0.0341
+SRP111640	TRUE	partially_confounded	partially_confounded	FALSE			0	0	blood	epmc_accession	1	TRUE	TRUE	edgeR	no	no	unclear	unclear	no	yes	high	0.0253
+SRP112744	TRUE	balanced	balanced	FALSE	0.783	0.783	0.72	0.654	blood	geo_pubmed	1	TRUE	TRUE	Cuffdiff	no	no	unclear	unclear	no	yes	high	0.0356
+SRP112751	TRUE	partially_confounded	balanced	FALSE	0		0		gut	epmc_accession	3	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	yes	unclear	medium	0.0284
+SRP113226	TRUE	mildly_imbalanced	""	FALSE	0.681	0.717			blood	geo_pubmed	2	TRUE	TRUE	other	no	no	unclear	unclear	no	yes	medium	0.0349
+SRP113245	TRUE	balanced	""	FALSE	0.95	0.921			blood	geo_pubmed	2	TRUE	TRUE	other	no	no	unclear	unclear	yes	yes	medium	0.0354
+SRP113470	TRUE	balanced	""	FALSE	0.99	0.961			gut	geo_pubmed	1	TRUE	TRUE	other	no	no	unclear	no	no	unclear	high	0.0215
+SRP113639	TRUE	single_sex	""	TRUE					tumor	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	unclear	unclear	medium	0.0348
+SRP113755	TRUE	partially_confounded	mildly_imbalanced	FALSE	0.803	0.947	0.783	0.786	other		0	FALSE										
+SRP114429	TRUE	single_sex	balanced	TRUE					tumor	geo_pubmed	1	TRUE	TRUE	limma-voom	no	no	no	unclear	no	no	high	0.0263
+SRP114762	TRUE	balanced	balanced	FALSE	0.946	0.899	0.929	0.915	blood	geo_pubmed	1	FALSE										
+SRP115011	TRUE	balanced	""	FALSE	0.946	0.933			tumor	geo_pubmed	2	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	low	0.0349
+SRP115446	TRUE	single_sex	completely_confounded	TRUE					other		0	FALSE										
+SRP115571	TRUE	balanced	balanced	FALSE	0.96	0.714	0.889	0.862	brain	geo_pubmed	1	TRUE	TRUE	limma-voom	yes	yes	yes	yes	yes	yes	high	0.03
+SRP115911	TRUE	balanced	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE		unclear	unclear	unclear	unclear	unclear	unclear	low	0.0119
+SRP116272	TRUE	balanced	balanced	FALSE					blood	geo_pubmed	1	TRUE	TRUE	other	no	no	yes	yes	unclear	yes	medium	0.0344
+SRP116284	TRUE	single_sex	""	TRUE					blood	epmc_title	1	FALSE										
+SRP116937	TRUE	mildly_imbalanced	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	no	unclear	high	0.0339
+SRP117020	TRUE	balanced	""	FALSE	0.915	0.971			lung	geo_pubmed	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	yes	high	0.0303
+SRP118972	TRUE	partially_confounded	""	FALSE	0	0.167			liver	epmc_accession	5	TRUE	TRUE	limma-voom	unclear	unclear	unclear	unclear	no	unclear	high	0.0312
+SRP119122	TRUE	mildly_imbalanced	mildly_imbalanced	FALSE					blood	geo_pubmed	1	TRUE	TRUE	other	no	no	unclear	unclear	yes	unclear	medium	0.0268
+SRP119561	TRUE	balanced	""	FALSE	0.885	0.881			other	geo_pubmed	1	FALSE										
+SRP119636	TRUE	mildly_imbalanced	""	FALSE	0.862	0.98			blood	geo_pubmed	1	FALSE										
+SRP119676	TRUE	balanced	""	FALSE	0.977	0.954			liver	geo_pubmed	1	FALSE										
+SRP120609	TRUE	single_sex	""	TRUE					tumor	epmc_title	1	TRUE	TRUE	DESeq2	no	no	no	no	no	no	high	0.033
+SRP121330	TRUE	partially_confounded	completely_confounded	FALSE	0.438	0.029	0.036	0.243	other	geo_pubmed	1	TRUE	TRUE		unclear	unclear	unclear	unclear	unclear	unclear	low	0.0329
+SRP124651	TRUE	partially_confounded	partially_confounded	FALSE	0.179	0.562	0.096	0.195	other		0	FALSE										
+SRP125233	TRUE	mildly_imbalanced	""	FALSE	0.723	0.767			blood	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	unclear	medium	0.0194
+SRP125882	TRUE	balanced	mildly_imbalanced	FALSE	0.935	0.821	0.901	0.938	blood		0	FALSE										
+SRP126056	TRUE	mildly_imbalanced	balanced	FALSE	0.048	0.913	0.409	0.048	brain	geo_pubmed	2	TRUE	TRUE		unclear	unclear	yes	yes	unclear	yes	medium	0.0354
+SRP126422	TRUE	mildly_imbalanced	""	FALSE					skin	geo_pubmed	1	TRUE	TRUE	edgeR	no	no	unclear	unclear	no	yes	high	0.0325
+SRP126580	TRUE	mildly_imbalanced	""	FALSE	0.835	0.954			blood	geo_pubmed	1	TRUE	TRUE	edgeR	unclear	unclear	unclear	unclear	yes	unclear	medium	0.0306
+SRP126582	TRUE	mildly_imbalanced	""	FALSE	0.896	0.939			blood	geo_pubmed	1	TRUE	TRUE	edgeR	unclear	unclear	unclear	unclear	yes	unclear	medium	0.0306
+SRP126583	TRUE	mildly_imbalanced	balanced	FALSE					blood	geo_pubmed	1	TRUE	TRUE	edgeR	unclear	unclear	unclear	unclear	yes	unclear	medium	0.0305
+SRP126623	TRUE	mildly_imbalanced	completely_confounded	FALSE	0.673	0.836	0.189	0.676	blood	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	yes	medium	0.029
+SRP126691	TRUE	balanced	balanced	FALSE	0.979	0.921	0.938	0.97	blood	geo_pubmed	1	TRUE	TRUE	edgeR	unclear	unclear	unclear	unclear	yes	unclear	medium	0.0307
+SRP126923	TRUE	partially_confounded	""	FALSE	0.399	0.842			blood	geo_pubmed	2	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	yes	medium	0.0264
+SRP127180	TRUE	balanced	mildly_imbalanced	FALSE					brain	epmc_accession	2	TRUE	TRUE		unclear	unclear	yes	yes	unclear	unclear	medium	0.0329
+SRP129004	TRUE	balanced	""	FALSE	0.993	0.991			gut	geo_pubmed	1	TRUE	TRUE	other	yes	no	yes	yes	unclear	yes	medium	0.0317
+SRP131125	TRUE	partially_confounded	""	FALSE	0.344	0.538			musculoskeletal	geo_pubmed	2	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	no	high	0.0233
+SRP132197	TRUE	balanced	partially_confounded	FALSE					blood	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	yes	yes	unclear	unclear	medium	0.0325
+SRP132699	TRUE	balanced	mildly_imbalanced	FALSE	0.972	0.892	0.857	0.741	blood	epmc_accession	2	TRUE	FALSE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0314
+SRP132709	TRUE	balanced	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	no	unclear	medium	0.029
+SRP132711	TRUE	balanced	""	FALSE	0.851	0.783			musculoskeletal	geo_pubmed	1	FALSE										
+SRP132902	TRUE	single_sex	""	TRUE					tumor	geo_pubmed	1	FALSE										
+SRP132939	TRUE	balanced	""	FALSE	0.65	0.917			blood	geo_pubmed	1	FALSE										
+SRP132992	TRUE	partially_confounded	balanced	FALSE					brain	geo_pubmed	1	TRUE	TRUE		unclear	unclear	unclear	unclear	unclear	yes	low	0.035
+SRP133205	TRUE	balanced	completely_confounded	FALSE	0.668	0.293	0.022	0.163	blood	geo_pubmed	1	FALSE										
+SRP133303	TRUE	balanced	""	FALSE	0.951	0.658			gut	epmc_accession	5	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	yes	high	0.0263
+SRP133393	TRUE	mildly_imbalanced	""	FALSE	0.842	0.842			skin	geo_pubmed	1	FALSE										
+SRP133442	TRUE	balanced	""	FALSE	0.921	0.912			cell_model	geo_pubmed	1	FALSE										
+SRP133849	TRUE	balanced	""	FALSE	0.679	0.509			blood	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0275
+SRP134018	TRUE	balanced	""	FALSE	0.938	0.94			blood	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	no	unclear	high	0.0146
+SRP134188	TRUE	balanced	""	FALSE	0.953	0.954			other	geo_pubmed	1	FALSE										
+SRP135671	TRUE	balanced	balanced	FALSE			0		gut	geo_pubmed	1	FALSE										
+SRP136102	TRUE	balanced	balanced	FALSE	0.982	0.77	0.958	0.926	blood	geo_pubmed	2	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	low	0.008
+SRP136239	TRUE	mildly_imbalanced	""	FALSE	0.662	0.904			other	geo_pubmed	3	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.033
+SRP136483	TRUE	balanced	""	FALSE	0				blood	geo_pubmed	1	TRUE	TRUE		unclear	unclear	unclear	unclear	unclear	unclear	low	0.0148
+SRP136742	TRUE	balanced	""	FALSE	0.937	0.974			skin	geo_pubmed	1	FALSE										
+SRP136938	TRUE	balanced	balanced	FALSE					blood	geo_pubmed	2	FALSE										
+SRP140711	TRUE	partially_confounded	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	edgeR	no	unclear	unclear	unclear	yes	yes	medium	0.0233
+SRP140795	TRUE	mildly_imbalanced	""	FALSE					muscle	geo_pubmed	2	FALSE										
+SRP140945	TRUE	balanced	""	FALSE	0.845	0.659			gut	geo_pubmed	1	FALSE										
+SRP141180	TRUE	mildly_imbalanced	""	FALSE	0.908	0.939			blood	geo_pubmed	1	TRUE	TRUE	edgeR	no	no	unclear	yes	no	no	medium	0.0311
+SRP143467	TRUE	balanced	""	FALSE					other	geo_pubmed	1	FALSE										
+SRP144003	TRUE	balanced	""	FALSE	0.881	0.932			blood	epmc_accession	4	TRUE	FALSE	other	unclear	unclear	unclear	unclear	yes	yes	low	0.0312
+SRP144303	TRUE	single_sex	balanced	TRUE					reproductive	geo_pubmed	2	TRUE	TRUE	edgeR	no	no	unclear	unclear	no	no	high	0.0357
+SRP144491	TRUE	partially_confounded	completely_confounded	FALSE	0.818	0.959	0.289	0.805	musculoskeletal	geo_pubmed	1	FALSE										
+SRP144583	TRUE	balanced	""	FALSE	0.971	0.979			blood	geo_pubmed	1	TRUE	TRUE	other	no	no	unclear	unclear	yes	unclear	medium	0.0234
+SRP144647	TRUE	balanced	balanced	FALSE					blood	geo_pubmed	1	TRUE	TRUE	limma-voom	yes	no	unclear	yes	yes	unclear	high	0.0349
+SRP145493	TRUE	single_sex	""	TRUE					blood	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	yes	unclear	medium	0.0316
+SRP148556	TRUE	balanced	""	FALSE	0.969	0.772			reproductive	geo_pubmed	1	TRUE	TRUE	DESeq2	yes	yes	no	yes	unclear	no	high	0.0248
+SRP149374	TRUE	mildly_imbalanced	""	FALSE	0.882	0.906			musculoskeletal	geo_pubmed	2	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0249
+SRP149433	TRUE	single_sex	""	TRUE					other		0	FALSE										
+SRP149847	TRUE	mildly_imbalanced	""	FALSE	0.924	0.943			gut	geo_pubmed	1	TRUE	TRUE	limma	no	no	unclear	unclear	no	yes	high	0.0329
+SRP149978	TRUE	balanced	balanced	FALSE	0.972	0.81	0.713	0.293	blood	geo_pubmed	1	TRUE	TRUE	DESeq2	yes	yes	unclear	unclear	unclear	yes	high	0.039
+SRP150101	TRUE	single_sex	""	TRUE					brain	geo_pubmed	1	FALSE										
+SRP150234	TRUE	single_sex	""	TRUE					gut	geo_pubmed	1	TRUE	TRUE	edgeR	no	no	yes	unclear	unclear	yes	high	0.0275
+SRP150311	TRUE	partially_confounded	""	FALSE	0.398	0.954			muscle	geo_pubmed	1	FALSE										
+SRP150313	TRUE	balanced	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	no	no	medium	0.0265
+SRP150382	TRUE	balanced	""	FALSE					unknown		0	FALSE										
+SRP150595	TRUE	mildly_imbalanced	balanced	FALSE	0.953	0.94	0.95	0.95	blood	epmc_accession	4	TRUE	TRUE	edgeR	unclear	unclear	unclear	unclear	unclear	unclear	high	0.021
+SRP150872	TRUE	balanced	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	yes	unclear	medium	0.034
+SRP151425	TRUE	mildly_imbalanced	balanced	FALSE	0.667	1	0.333	0.25	musculoskeletal	geo_pubmed	1	FALSE										
+SRP151615	TRUE	single_sex	mildly_imbalanced	TRUE					reproductive	epmc_title	1	TRUE	TRUE	edgeR	no	no	unclear	no	no	no	high	0.0201
+SRP151738	TRUE	single_sex	""	TRUE					gut	epmc_accession	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	no	yes	high	0.0351
+SRP151960	TRUE	mildly_imbalanced	""	FALSE					brain	geo_pubmed	5	TRUE	TRUE	other	yes	unclear	unclear	unclear	unclear	yes	high	0.032
+SRP152983	TRUE	balanced	mildly_imbalanced	FALSE					blood	epmc_accession	3	TRUE	TRUE	other	no	no	unclear	unclear	yes	unclear	medium	0.0179
+SRP154474	TRUE	partially_confounded	""	FALSE	0.265	0.898			skin	geo_pubmed	1	TRUE	TRUE	Cuffdiff	unclear	unclear	unclear	unclear	yes	no	high	0.0334
+SRP154573	TRUE	balanced	""	FALSE	0.827	0.82			tumor	geo_pubmed	2	TRUE	TRUE	other	no	no	no	no	unclear	yes	high	0.0355
+SRP154984	TRUE	balanced	""	FALSE					lung	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	unclear	medium	0.0259
+SRP155089	TRUE	partially_confounded	""	FALSE	0.595	0.894			tumor		0	FALSE										
+SRP155363	TRUE	balanced	""	FALSE	0.619	0.859			blood	geo_pubmed	1	FALSE										
+SRP155704	TRUE	single_sex	mildly_imbalanced	TRUE					blood	geo_pubmed	1	FALSE										
+SRP155771	TRUE	partially_confounded	""	FALSE					gut	geo_pubmed	1	FALSE										
+SRP155941	TRUE	single_sex	""	TRUE					blood	geo_pubmed	1	TRUE	TRUE	limma-voom	unclear	unclear	no	unclear	unclear	unclear	low	0.04
+SRP155976	TRUE	balanced	""	FALSE	0.97	0.977			gut	geo_pubmed	2	TRUE	TRUE	other	no	no	yes	yes	unclear	yes	medium	0.032
+SRP156049	TRUE	balanced	""	FALSE	0.931	0.609			blood	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	no	no	high	0.0342
+SRP156355	TRUE	single_sex	balanced	TRUE					reproductive	epmc_accession	3	TRUE	FALSE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0323
+SRP156394	TRUE	balanced	""	FALSE	0.646	0.471			lung	geo_pubmed	1	FALSE										
+SRP156506	TRUE	single_sex	""	TRUE					tumor	geo_pubmed	2	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	no	high	0.021
+SRP156952	TRUE	mildly_imbalanced	""	FALSE	0.649	0.703			liver	geo_pubmed	1	FALSE										
+SRP157974	TRUE	single_sex	balanced	TRUE					tumor	epmc_accession	4	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0153
+SRP158639	TRUE	mildly_imbalanced	balanced	FALSE	0.935	0.959	0.929	0.89	tumor	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0316
+SRP158943	TRUE	balanced	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	no	medium	0.0336
+SRP158994	TRUE	partially_confounded	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	limma-voom	no	no	unclear	unclear	yes	yes	high	0.0345
+SRP159264	TRUE	balanced	balanced	FALSE	0.97	0.946	0.956	0.921	liver	geo_pubmed	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0323
+SRP161704	TRUE	single_sex	""	TRUE					tumor	geo_pubmed	1	TRUE	TRUE	other	no	no	unclear	yes	unclear	unclear	medium	0.0314
+SRP162073	TRUE	balanced	mildly_imbalanced	FALSE	0.9	0.754	0.811	0.88	muscle		0	FALSE										
+SRP162125	TRUE	balanced	""	FALSE	0.974	0.95			blood	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	yes	yes	unclear	yes	high	0.023
+SRP162411	TRUE	balanced	balanced	FALSE					blood		0	FALSE										
+SRP162492	TRUE	balanced	""	FALSE					blood	geo_pubmed	1	FALSE										
+SRP162500	TRUE	balanced	mildly_imbalanced	FALSE					blood		0	FALSE										
+SRP162743	TRUE	partially_confounded	completely_confounded	FALSE	0.663	0.859	0.043	0.618	heart	geo_pubmed	1	TRUE	TRUE	edgeR	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0287
+SRP162873	TRUE	partially_confounded	""	FALSE	0.164	0.827			muscle	geo_pubmed	1	FALSE										
+SRP163027	TRUE	single_sex	""	TRUE					blood	geo_pubmed	1	FALSE										
+SRP163173	TRUE	balanced	""	FALSE					tumor	geo_pubmed	1	TRUE	TRUE	limma-voom	no	no	unclear	yes	yes	no	medium	0.0331
+SRP163478	TRUE	partially_confounded	""	FALSE	0.041	0.705			heart	geo_pubmed	1	FALSE										
+SRP164913	FALSE	mildly_imbalanced	balanced	FALSE	0	1	0	0	blood													
+SRP165679	TRUE	balanced	""	FALSE	0.981	0.981			skin	geo_pubmed	3	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	no	high	0.0263
+SRP166200	TRUE	balanced	mildly_imbalanced	FALSE	0.574	0.091	0.512	0.488	other		0	FALSE										
+SRP166889	TRUE	mildly_imbalanced	""	FALSE					other	geo_pubmed	1	TRUE	TRUE	other	no	no	unclear	unclear	unclear	unclear	medium	0.0333
+SRP168013	TRUE	single_sex	""	TRUE					reproductive	geo_pubmed	1	TRUE	TRUE	limma-voom	no	no	unclear	unclear	no	unclear	high	0.0323
+SRP168038	TRUE	mildly_imbalanced	balanced	FALSE					kidney	geo_pubmed	1	FALSE										
+SRP168251	TRUE	mildly_imbalanced	""	FALSE	0.954	0.989			liver	geo_pubmed	2	FALSE										
+SRP168357	TRUE	partially_confounded	""	FALSE					brain	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	no	unclear	high	0.0146
+SRP168421	TRUE	single_sex	""	TRUE					blood	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	unclear	medium	0.0281
+SRP169085	TRUE	balanced	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	limma-voom	unclear	unclear	unclear	unclear	yes	unclear	medium	0.0346
+SRP169128	TRUE	balanced	""	FALSE		0			brain	geo_pubmed	1	FALSE										
+SRP169582	FALSE	partially_confounded	balanced	FALSE	0.061	0.485	0.061	0.03	lung													
+SRP169610	TRUE	mildly_imbalanced	""	FALSE	0.774	0.859			blood	geo_pubmed	1	TRUE	TRUE	other	no	no	yes	yes	no	yes	high	0.0353
+SRP170629	TRUE	partially_confounded	completely_confounded	FALSE	0.644	0.831	0.002	0.609	other	geo_pubmed	1	FALSE										
+SRP172534	TRUE	partially_confounded	mildly_imbalanced	FALSE					other		0	FALSE										
+SRP173190	TRUE	single_sex	""	TRUE					other	geo_pubmed	1	TRUE	TRUE	other	no	no	yes	yes	unclear	yes	high	0.028
+SRP173378	TRUE	balanced	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	DESeq2	yes	no	unclear	unclear	unclear	yes	high	0.0309
+SRP173379	TRUE	balanced	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	DESeq2	yes	no	unclear	unclear	no	yes	high	0.0309
+SRP173842	TRUE	mildly_imbalanced	""	FALSE	0.364	0.879			blood	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	yes	yes	unclear	yes	high	0.0364
+SRP174223	TRUE	balanced	balanced	FALSE	1	0	1	1	blood	geo_pubmed	1	FALSE										
+SRP174668	TRUE	balanced	partially_confounded	FALSE	0.975	0.902	0.901	0.958	liver	epmc_accession	3	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	high	0.0338
+SRP175005	TRUE	partially_confounded	""	FALSE	0.539	0.857			blood	epmc_accession	5	TRUE	FALSE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0135
+SRP175171	TRUE	partially_confounded	""	FALSE					lung		0	FALSE										
+SRP175707	TRUE	single_sex	""	TRUE					other	geo_pubmed	1	FALSE										
+SRP178454	TRUE	mildly_imbalanced	""	FALSE					lung	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	yes	unclear	medium	0.0333
+SRP179061	TRUE	mildly_imbalanced	""	FALSE					other	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	yes	yes	unclear	yes	high	0.0329
+SRP181114	TRUE	balanced	""	FALSE					blood	epmc_accession	1	FALSE										
+SRP181468	TRUE	single_sex	mildly_imbalanced	TRUE					other	epmc_title	1	TRUE	TRUE	other	no	no	yes	unclear	no	yes	high	0.0179
+SRP181886	TRUE	balanced	mildly_imbalanced	FALSE	0.988	0.976	0.911	0.918	other	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	yes	yes	unclear	yes	high	0.0328
+SRP182096	TRUE	mildly_imbalanced	""	FALSE	0.751	0.871			blood	geo_pubmed	1	FALSE										
+SRP182649	TRUE	single_sex	""	TRUE					skin	geo_pubmed	1	TRUE	TRUE	edgeR	no	no	yes	unclear	no	unclear	medium	0.0274
+SRP182842	TRUE	single_sex	""	TRUE					adipose	geo_pubmed	1	FALSE										
+SRP182854	TRUE	single_sex	""	TRUE					other	geo_pubmed	2	TRUE	TRUE	Cuffdiff	no	no	unclear	unclear	no	no	high	0.0251
+SRP183071	TRUE	balanced	""	FALSE	0.95	0.97			other	geo_pubmed	2	FALSE										
+SRP183186	TRUE	balanced	partially_confounded	FALSE	0.979	0.988	0.84	0.954	blood		0	FALSE										
+SRP183532	TRUE	single_sex	""	TRUE					liver	geo_pubmed	2	TRUE	TRUE	limma-voom	no	no	no	no	no	no	high	0.0285
+SRP185902	TRUE	balanced	""	FALSE	0.851	0.839			heart	epmc_accession	5	TRUE	TRUE	limma-voom	no	no	unclear	unclear	unclear	yes	high	0.0323
+SRP186138	TRUE	mildly_imbalanced	mildly_imbalanced	FALSE	0.884	0.977	0.841	0.874	muscle	epmc_accession	4	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0289
+SRP186205	TRUE	balanced	mildly_imbalanced	FALSE	0.878	0.776	0.474	0.476	other	epmc_title	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	no	unclear	high	0.0267
+SRP186450	TRUE	mildly_imbalanced	""	FALSE	0.855	0.981			liver	geo_pubmed	1	FALSE										
+SRP186882	TRUE	balanced	partially_confounded	FALSE	0.923	0.916	0.699	0.769	other	epmc_accession	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	no	high	0.0309
+SRP187088	TRUE	partially_confounded	""	FALSE	0.658	0.842			blood	geo_pubmed	1	TRUE	FALSE		unclear	unclear	unclear	unclear	unclear	unclear	low	0.0036
+SRP187984	TRUE	single_sex	""	TRUE					blood	geo_pubmed	1	TRUE	TRUE	other	no	no	yes	yes	unclear	unclear	high	0.0308
+SRP188422	TRUE	balanced	""	FALSE	1	0			brain	geo_pubmed	1	TRUE	TRUE	edgeR	yes	yes	unclear	no	unclear	no	high	0.0316
+SRP188973	TRUE	mildly_imbalanced	balanced	FALSE	0.59	0.17	0.554	0.533	blood	geo_pubmed	3	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	no	medium	0.0325
+SRP189204	TRUE	partially_confounded	""	FALSE	0	0			blood	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	no	high	0.0239
+SRP191514	TRUE	single_sex	""	TRUE					tumor	geo_pubmed	1	FALSE										
+SRP191569	TRUE	balanced	balanced	FALSE	1	1	1	1	blood	geo_pubmed	2	TRUE	TRUE	Cuffdiff	no	no	yes	yes	unclear	yes	medium	0.0312
+SRP192714	TRUE	balanced	mildly_imbalanced	FALSE					other	geo_pubmed	1	FALSE										
+SRP192825	TRUE	mildly_imbalanced	""	FALSE	0.833	0.863			blood	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	medium	0.0294
+SRP193374	TRUE	mildly_imbalanced	""	FALSE	0.895	0.967			tumor	geo_pubmed	1	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0342
+SRP193940	TRUE	balanced	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	yes	yes	no	unclear	high	0.0206
+SRP197353	TRUE	partially_confounded	partially_confounded	FALSE	0.533	0.873	0.536	0.524	liver	geo_pubmed	1	TRUE	TRUE	other	yes	unclear	unclear	unclear	unclear	unclear	high	0.0329
+SRP198379	TRUE	balanced	""	FALSE	0.962	0.971			kidney	geo_pubmed	2	FALSE										
+SRP198979	TRUE	partially_confounded	partially_confounded	FALSE	0.263	0.722	0.208	0.25	other	geo_pubmed	1	TRUE	TRUE	other	no	no	unclear	unclear	unclear	unclear	medium	0.0281
+SRP200059	TRUE	balanced	""	FALSE					blood	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0323
+SRP200094	TRUE	balanced	balanced	FALSE					blood		0	FALSE										
+SRP201023	TRUE	balanced	balanced	FALSE	0.954	0.909	0.909	0.941	blood	epmc_accession	1	TRUE	TRUE	limma-voom	unclear	unclear	yes	yes	no	yes	medium	0.024
+SRP212148	TRUE	balanced	""	FALSE	0.957	0.833			blood	geo_pubmed	1	TRUE	TRUE	DESeq2	unclear	unclear	unclear	unclear	unclear	no	high	0.0266
+SRP212626	TRUE	single_sex	""	TRUE					muscle	geo_pubmed	1	TRUE	TRUE	limma-voom	no	no	yes	unclear	no	yes	high	0.0319
+SRP212702	TRUE	balanced	balanced	FALSE	0.983	0.986	0.978	0.976	tumor	geo_pubmed	1	FALSE										
+SRP212755	TRUE	balanced	""	FALSE	0.979	0.984			blood		0	FALSE										
+SRP212956	TRUE	balanced	""	FALSE	0.955	0.958			blood	geo_pubmed	1	FALSE										
+SRP213937	TRUE	single_sex	""	TRUE					reproductive	geo_pubmed	1	TRUE	TRUE	edgeR	no	no	unclear	unclear	no	no	high	0.0239
+SRP215509	TRUE	balanced	""	FALSE					other	geo_pubmed	1	TRUE	TRUE	other	no	yes	no	unclear	yes	no	high	0.0221
+SRP215939	TRUE	partially_confounded	""	FALSE	0.652	0.906			gut	geo_pubmed	1	FALSE										
+SRP216404	TRUE	balanced	mildly_imbalanced	FALSE					brain	geo_pubmed	1	FALSE										
+SRP216420	TRUE	balanced	balanced	FALSE	0.979	0.975	0.935	0.942	gut	geo_pubmed	1	TRUE	TRUE	limma-voom	unclear	no	unclear	yes	no	unclear	medium	0.0409
+SRP217543	TRUE	balanced	""	FALSE					other	geo_pubmed	1	TRUE	TRUE	DESeq2	yes	yes	yes	yes	unclear	yes	high	0.0314
+SRP217667	TRUE	single_sex	""	TRUE					skin	epmc_accession	5	TRUE	TRUE	other	unclear	unclear	unclear	unclear	unclear	unclear	high	0.0208
+SRP217937	TRUE	balanced	""	FALSE	0.568	0.835			other	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	yes	yes	high	0.0356
+SRP218531	TRUE	balanced	partially_confounded	FALSE					musculoskeletal		0	FALSE										
+SRP218935	TRUE	single_sex	balanced	TRUE					tumor		0	FALSE										
+SRP220251	TRUE	balanced	""	FALSE	0.809	0.886			lung	geo_pubmed	1	FALSE										
+SRP221482	TRUE	mildly_imbalanced	balanced	FALSE	0.904	0.838	0.88	0.895	blood	geo_pubmed	1	TRUE	TRUE	DESeq2	no	no	unclear	unclear	yes	unclear	high	0.0301

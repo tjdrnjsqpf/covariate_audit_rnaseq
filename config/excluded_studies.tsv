@@ -1,0 +1,5 @@
+study	organism	date	reason	evidence
+SRP059331	human	2026-09-07	technical replicates	4 biological samples, 40 runs (found during LLM verification)
+SRP080852	human	2026-09-07	in vitro stimulation	In vitro stimulation experiment, not a case–control design
+SRP136195	human	2026-09-08	pseudoreplication	20 samples from 2 individuals (individual key; 10-fold inflation)
+SRP114567	human	2026-09-08	pseudoreplication	8 samples from 3 individuals (patient key; 2.7-fold inflation); n=3 at the individual level

@@ -1,0 +1,64 @@
+SYSTEM = """You audit how published RNA-seq studies handled sex and age in their differential expression (DE) analysis.
+You receive the study accession, the paper title, abstract, and the Methods/analysis sections (possibly truncated or from a different paper than the dataset).
+Answer ONLY from the text. Do not infer from field conventions. If the text does not state it, answer "unclear".
+Definitions:
+- sex_adjusted / age_adjusted = "yes" only if sex/age appears as a covariate or factor in the DE model (e.g. '~ sex + condition', 'adjusted for age and sex', 'covariates included sex'), or DE was run separately within each sex with that stated intent. Matching or balancing groups at recruitment is NOT adjustment; report it under *_matched_design.
+- batch_or_latent_adjusted = "yes" if batch, RIN, library prep date, SVA/RUV/PEER factors, or similar technical covariates were in the DE model.
+- sex_reported_in_demographics = "yes" if a table or sentence reports the sex composition of the compared groups.
+- text_relevant = false if the text clearly is not about a bulk RNA-seq DE analysis of this dataset (e.g. wrong paper, only single-cell, no DE performed).
+Quote the single most decisive sentence in evidence_quote (verbatim, ≤300 characters)."""
+class AdjustReport(BaseModel):
+    text_relevant: bool
+    de_method: Optional[str] = Field(None, description="DESeq2, edgeR, limma-voom, Cuffdiff, other, or null")
+    model_covariates_verbatim: List[str] = Field(default_factory=list, description="covariates named in the DE model, as written")
+    sex_adjusted: Literal["yes", "no", "unclear"]
+    age_adjusted: Literal["yes", "no", "unclear"]
+    sex_matched_design: Literal["yes", "no", "unclear"]
+    age_matched_design: Literal["yes", "no", "unclear"]
+    batch_or_latent_adjusted: Literal["yes", "no", "unclear"]
+    sex_reported_in_demographics: Literal["yes", "no", "unclear"]
+    evidence_quote: str
+    confidence: Literal["high", "medium", "low"]
+def build_user(r):
+    return (f"Study accession: {r['study']}\nDataset title: {r.get('study_title')}\nPaper title: {r.get('paper_title')}\nPMID: {r.get('pmid_used')} PMCID: {r.get('pmcid')}\n\n"
+            f"ABSTRACT:\n{r.get('abstract') or ''}\n\nMETHODS / ANALYSIS SECTIONS:\n{(r.get('methods') or '')[:24000]}\n\nReturn the audit.")
+def main():
+    ap = argparse.ArgumentParser(); ap.add_argument("--in", dest="inp", required=True); ap.add_argument("--out", required=True)
+    ap.add_argument("--model", default="claude-sonnet-5"); ap.add_argument("--effort", default="low"); ap.add_argument("--workers", type=int, default=4); ap.add_argument("--max-usd", type=float, default=40.0)
+    a = ap.parse_args()
+    recs = [json.loads(l) for l in open(a.inp)]; recs = [r for r in recs if r.get("methods")]
+    done = set()
+    if os.path.exists(a.out):
+        for l in open(a.out):
+            try: done.add(json.loads(l)["study"])
+            except Exception: pass
+    todo = [r for r in recs if r["study"] not in done]
+    print(f"fulltext={len(recs)} done={len(done)} todo={len(todo)}", file=sys.stderr)
+    import anthropic
+    client = anthropic.Anthropic(max_retries=4); lock = threading.Lock(); fh = open(a.out, "a")
+    price_in, price_out = {"claude-opus-5": (5, 25), "claude-sonnet-5": (3, 15), "claude-haiku-4-5-20251001": (1, 5)}.get(a.model, (5, 25))
+    spent = [0.0]; stop = threading.Event()
+    def one(r):
+        if stop.is_set(): return None
+        t0 = time.time()
+        resp = client.messages.parse(model=a.model, max_tokens=1500, system=[{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
+            thinking={"type": "adaptive"}, output_config={"effort": a.effort}, messages=[{"role": "user", "content": build_user(r)}], output_format=AdjustReport)
+        if resp.stop_reason == "refusal": raise RuntimeError("refusal")
+        v = resp.parsed_output.model_dump(); u = resp.usage
+        cost = (u.input_tokens * price_in + (u.cache_read_input_tokens or 0) * price_in * 0.1 + u.output_tokens * price_out) / 1e6
+        rec = {"study": r["study"], "pmid": r.get("pmid_used"), "pmcid": r.get("pmcid"), **v, "model": a.model, "usage": {"in": u.input_tokens, "out": u.output_tokens, "cache_read": u.cache_read_input_tokens}, "usd": round(cost, 4), "sec": round(time.time() - t0, 1)}
+        with lock:
+            fh.write(json.dumps(rec, ensure_ascii=False) + "\n"); fh.flush(); spent[0] += cost
+            if spent[0] > a.max_usd: stop.set()
+        return rec
+    ok = err = 0
+    with ThreadPoolExecutor(max_workers=a.workers) as ex:
+        futs = {ex.submit(one, r): r for r in todo}
+        for f in as_completed(futs):
+            r = futs[f]
+            try:
+                rec = f.result()
+                if rec: ok += 1; print(f"[{ok+err}/{len(todo)}] {rec['study']} sex={rec['sex_adjusted']} age={rec['age_adjusted']} ${spent[0]:.2f}", file=sys.stderr)
+            except Exception as e: err += 1; print(f"ERROR {r['study']}: {e}", file=sys.stderr)
+    print(f"done ok={ok} err={err} spent=${spent[0]:.2f} stopped_by_cap={stop.is_set()}", file=sys.stderr)
+if __name__ == "__main__": main()

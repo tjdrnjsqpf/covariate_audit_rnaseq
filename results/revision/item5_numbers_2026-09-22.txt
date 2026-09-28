@@ -1,0 +1,213 @@
+
+#### human jaccard cols: M1_jaccard, M0perm_jaccard, M0permw_jaccard, M3_jaccard, M3v1_jaccard, M4_jaccard, M4v1_jaccard, M5_jaccard, M5v1_jaccard, M4perm_jaccard, M4permv1_jaccard, M5perm_jaccard, M5permv1_jaccard, M7_jaccard, M7v1_jaccard, M7perm_jaccard, M7permv1_jaccard, M2_jaccard, M2perm_jaccard, M6_jaccard, M6v1_jaccard, M6perm_jaccard, M6permv1_jaccard 
+confounded: n = 39  min cell <=1: 32 (82.1%)
+confounded: min cell ==0: 13 
+metadata-only stratum n by class:
+          cls     N
+       <fctr> <int>
+1:   balanced    39
+2:       mild    18
+3: confounded    15
+using M1_jaccard M0perm_jaccard M0permw_jaccard 
+          cls     n                d_across               d_within
+       <fctr> <int>                  <char>                 <char>
+1:   balanced    39    0.024 [0.004, 0.073]  0.000 [-0.005, 0.003]
+2:       mild    18 -0.037 [-0.120, -0.003]  0.010 [-0.014, 0.036]
+3: confounded    15 -0.187 [-0.405, -0.141] -0.008 [-0.074, 0.144]
+all analysis set by class (check):
+          cls     n                d_across                d_within
+       <fctr> <int>                  <char>                  <char>
+1:   balanced   106    0.012 [0.000, 0.024] -0.004 [-0.008, -0.001]
+2:       mild    58 -0.037 [-0.063, -0.024]  -0.005 [-0.019, 0.000]
+3: confounded    39 -0.254 [-0.375, -0.184]  -0.010 [-0.043, 0.000]
+median within-study % change in DE count:
+          cls     n                       real                   across
+       <fctr> <int>                     <char>                   <char>
+1:   balanced   106     -0.236 [-0.881, 0.095]  -1.313 [-3.401, -0.467]
+2:       mild    58    -3.521 [-9.375, -1.896]  -1.927 [-4.393, -0.502]
+3: confounded    39 -41.352 [-62.787, -21.342] -7.736 [-13.022, -2.769]
+                       within
+                       <char>
+1:    -0.728 [-1.460, -0.234]
+2:   -7.215 [-13.230, -5.115]
+3: -44.340 [-60.881, -22.197]
+valid mixed-sex: 315  with M0 DE>=1: 206  of these missing M0perm: 0  missing M0permw: 0  missing M1: 0 
+
+#### mouse jaccard cols: M1_jaccard, M0perm_jaccard, M0permw_jaccard, M3_jaccard, M3v1_jaccard, M4_jaccard, M4v1_jaccard, M5_jaccard, M5v1_jaccard, M4perm_jaccard, M4permv1_jaccard, M5perm_jaccard, M5permv1_jaccard, M7_jaccard, M7v1_jaccard, M7perm_jaccard, M7permv1_jaccard, M2_jaccard, M2perm_jaccard, M6_jaccard, M6v1_jaccard, M6perm_jaccard, M6permv1_jaccard 
+confounded: n = 114  min cell <=1: 96 (84.2%)
+confounded: min cell ==0: 62 
+metadata-only stratum n by class:
+          cls     N
+       <fctr> <int>
+1:   balanced   115
+2:       mild    34
+3: confounded    21
+using M1_jaccard M0perm_jaccard M0permw_jaccard 
+          cls     n               d_across               d_within
+       <fctr> <int>                 <char>                 <char>
+1:   balanced   115  0.005 [-0.001, 0.041] -0.008 [-0.020, 0.000]
+2:       mild    34 -0.008 [-0.072, 0.001] -0.008 [-0.035, 0.000]
+3: confounded    21 -0.244 [-0.390, 0.000]  0.000 [-0.041, 0.000]
+all analysis set by class (check):
+          cls     n                d_across               d_within
+       <fctr> <int>                  <char>                 <char>
+1:   balanced   236    0.007 [0.000, 0.023] -0.004 [-0.010, 0.000]
+2:       mild   120   0.003 [-0.003, 0.022]  0.000 [-0.008, 0.000]
+3: confounded   114 -0.189 [-0.320, -0.117]  0.000 [-0.008, 0.000]
+median within-study % change in DE count:
+          cls     n                       real                     across
+       <fctr> <int>                     <char>                     <char>
+1:   balanced   236       1.321 [0.363, 2.408]   -8.438 [-11.725, -4.692]
+2:       mild   120  -11.595 [-17.066, -9.124] -16.454 [-25.000, -11.498]
+3: confounded   114 -37.101 [-47.923, -23.838]   -8.034 [-15.982, -3.291]
+                       within
+                       <char>
+1:    -2.800 [-4.235, -2.031]
+2: -13.995 [-18.381, -10.362]
+3: -41.294 [-55.297, -30.876]
+valid mixed-sex: 599  with M0 DE>=1: 470  of these missing M0perm: 0  missing M0permw: 0  missing M1: 0 
+
+## Wilson CIs, Fig 4D denominators
+    organism                                                 item     k     n
+      <char>                                               <char> <int> <int>
+ 1:    Human                                      Sex in DE model    18   209
+ 2:    Human Sex in DE model \342\200\224 confounded designs only     1    28
+ 3:    Human                                      Age in DE model    16   209
+ 4:    Human                              Batch / latent variable    43   209
+ 5:    Human                       Group sex composition reported    65   209
+ 6:    Mouse                                      Sex in DE model     5   172
+ 7:    Mouse Sex in DE model \342\200\224 confounded designs only     0    15
+ 8:    Mouse                                      Age in DE model     3   172
+ 9:    Mouse                              Batch / latent variable    10   172
+10:    Mouse                       Group sex composition reported    88   172
+                          wilson
+                          <char>
+ 1:   8.6% (5.5\342\200\22313.2)
+ 2:   3.6% (0.6\342\200\22317.7)
+ 3:   7.7% (4.8\342\200\22312.1)
+ 4: 20.6% (15.6\342\200\22326.6)
+ 5: 31.1% (25.2\342\200\22337.7)
+ 6:    2.9% (1.2\342\200\2236.6)
+ 7:  0.0% (-0.0\342\200\22320.4)
+ 8:    1.7% (0.6\342\200\2235.0)
+ 9:   5.8% (3.2\342\200\22310.4)
+10: 51.2% (43.7\342\200\22358.5)
+
+#### human 
+             design_sex     N
+                 <char> <int>
+1: partially_confounded    39
+2:             balanced   105
+3:    mildly_imbalanced    59
+confounded min cell<=1: 32/39 = 82.1%; ==0: 13 
+metadata-only stratum:
+             design_sex     n                d_across               d_within
+                 <char> <int>                  <char>                 <char>
+1:             balanced    39    0.024 [0.004, 0.073]  0.000 [-0.005, 0.003]
+2:    mildly_imbalanced    18 -0.037 [-0.120, -0.003]  0.010 [-0.014, 0.036]
+3: partially_confounded    15 -0.187 [-0.405, -0.141] -0.008 [-0.074, 0.144]
+cor cols: M1_t_spearman, M0perm_t_spearman, M0permw_t_spearman, M3_t_spearman, M3v1_t_spearman, M4_t_spearman, M4v1_t_spearman, M5_t_spearman, M5v1_t_spearman, M4perm_t_spearman, M4permv1_t_spearman, M5perm_t_spearman 
+Error in get(cr) : object 'NA' not found
+Calls: cat -> [ -> [.data.table -> eval -> eval -> median -> get
+Execution halted
+
+#### human 
+             design_sex     N
+                 <char> <int>
+1: partially_confounded    39
+2:             balanced   105
+3:    mildly_imbalanced    59
+confounded min cell<=1: 32/39 = 82.1%; ==0: 13 
+metadata-only stratum:
+             design_sex     n                d_across               d_within
+                 <char> <int>                  <char>                 <char>
+1:             balanced    39    0.024 [0.004, 0.073]  0.000 [-0.005, 0.003]
+2:    mildly_imbalanced    18 -0.037 [-0.120, -0.003]  0.010 [-0.014, 0.036]
+3: partially_confounded    15 -0.187 [-0.405, -0.141] -0.008 [-0.074, 0.144]
+cor cols: M1_t_spearman, M0perm_t_spearman, M0permw_t_spearman, M3_t_spearman, M3v1_t_spearman, M4_t_spearman, M4v1_t_spearman, M5_t_spearman, M5v1_t_spearman, M4perm_t_spearman, M4permv1_t_spearman, M5perm_t_spearman 
+cor_t confounded real vs within: M1_t_spearman M0permw_t_spearman  medians 0.956 0.971  wilcox p 0.0021 
+  balanced medians 0.998 0.999 p 1.2e-06 
+  mildly_imbalanced medians 0.992 0.994 p 5.4e-06 
+             design_sex     n                       real
+                 <char> <int>                     <char>
+1: partially_confounded    39 -41.352 [-62.787, -21.342]
+2:             balanced   105     -0.212 [-0.871, 0.095]
+3:    mildly_imbalanced    59    -3.753 [-9.960, -1.816]
+                     across                     within
+                     <char>                     <char>
+1: -7.736 [-13.022, -2.769] -44.340 [-60.881, -22.197]
+2:  -1.317 [-3.419, -0.467]    -0.770 [-1.474, -0.251]
+3:  -1.926 [-4.324, -0.502]   -6.607 [-12.084, -5.115]
+
+#### mouse 
+             design_sex     N
+                 <char> <int>
+1:             balanced   233
+2: partially_confounded   120
+3:    mildly_imbalanced   117
+confounded min cell<=1: 101/120 = 84.2%; ==0: 63 
+metadata-only stratum:
+             design_sex     n               d_across               d_within
+                 <char> <int>                 <char>                 <char>
+1: partially_confounded    25 -0.157 [-0.347, 0.000]  0.000 [-0.035, 0.000]
+2:    mildly_imbalanced    30 -0.008 [-0.087, 0.003] -0.011 [-0.052, 0.000]
+3:             balanced   115   0.005 [0.000, 0.043] -0.008 [-0.017, 0.000]
+cor cols: M1_t_spearman, M0perm_t_spearman, M0permw_t_spearman, M3_t_spearman, M3v1_t_spearman, M4_t_spearman, M4v1_t_spearman, M5_t_spearman, M5v1_t_spearman, M4perm_t_spearman, M4permv1_t_spearman, M5perm_t_spearman 
+cor_t confounded real vs within: M1_t_spearman M0permw_t_spearman  medians 0.9255 0.947  wilcox p 3.6e-07 
+  balanced medians 0.996 0.998 p 1.2e-18 
+  mildly_imbalanced medians 0.981 0.985 p 3e-04 
+             design_sex     n                       real
+                 <char> <int>                     <char>
+1:             balanced   233       1.532 [0.499, 3.255]
+2: partially_confounded   120 -32.912 [-43.128, -20.628]
+3:    mildly_imbalanced   117  -11.867 [-17.466, -9.202]
+                       across                     within
+                       <char>                     <char>
+1:   -8.509 [-11.870, -4.672]    -2.773 [-4.123, -1.964]
+2:   -8.832 [-15.018, -3.317] -36.951 [-50.000, -30.249]
+3: -16.964 [-26.667, -10.356]  -13.838 [-17.857, -9.859]
+Warning messages:
+1: In wilcox.test.default(x[[cr]], x[[cw]], paired = TRUE) :
+  cannot compute exact p-value with ties
+2: In wilcox.test.default(x[[cr]], x[[cw]], paired = TRUE) :
+  cannot compute exact p-value with zeroes
+
+## SE inflation by class
+   organism                  cls n_studies sqrt_vif_median se_ratio_M1_median
+     <char>               <char>     <int>           <num>              <num>
+1:    human             balanced       105        1.002107           1.007199
+2:    human    mildly_imbalanced        59        1.025041           1.030010
+3:    human partially_confounded        39        1.137412           1.141099
+4:    mouse             balanced       233        1.000000           1.004200
+5:    mouse    mildly_imbalanced       117        1.035098           1.045075
+6:    mouse partially_confounded       120        1.157470           1.165195
+   se_ratio_M1_q1 se_ratio_M1_q3 se_ratio_perm_median sigma_ratio_median
+            <num>          <num>                <num>              <num>
+1:       1.001308       1.013180             1.012170           1.003136
+2:       1.020825       1.043627             1.015563           1.003107
+3:       1.078170       1.228300             1.026115           1.002729
+4:       0.987629       1.015373             1.027108           1.001803
+5:       1.020434       1.068266             1.045172           1.011568
+6:       1.098273       1.281396             1.032793           1.003772
+   pct_se_ratio_below_1 pct_se_ratio_gt_1.1 pct_se_ratio_gt_1.25
+                  <num>               <num>                <num>
+1:            14.285714            0.000000              0.00000
+2:             0.000000            3.389831              0.00000
+3:             2.564103           61.538462             17.94872
+4:            38.197425            0.000000              0.00000
+5:            11.111111            5.982906              0.00000
+6:             3.333333           72.500000             30.83333
+human panel SE ratio median by class:
+             design_sex     n panel   all
+                 <char> <int> <num> <num>
+1:             balanced   175 0.169 1.008
+2: partially_confounded    57 0.243 1.154
+3:    mildly_imbalanced    79 0.186 1.032
+human valid mixed-sex classed: 315  M0 DE>=1: 206  of these NA M1 J: 0  NA across: 0  NA within: 0 
+mouse panel SE ratio median by class:
+             design_sex     n panel   all
+                 <char> <int> <num> <num>
+1:             balanced   298 0.099 1.004
+2: partially_confounded   142 0.244 1.167
+3:    mildly_imbalanced   159 0.214 1.046
+mouse valid mixed-sex classed: 599  M0 DE>=1: 470  of these NA M1 J: 0  NA across: 0  NA within: 0 

@@ -1,0 +1,12 @@
+{
+  "title": "covariate_audit_rnaseq: code and summary tables for 'Sex adjustment in 2,000 public RNA-seq studies: free when balanced, costly when confounded, and rarely performed'",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Lee, Sung-Gwon", "affiliation": "Biomedical Research Institute, Chonnam National University Hospital"},
+    {"name": "Park, Chungoo", "affiliation": "School of Biological Sciences and Technology, Chonnam National University"}
+  ],
+  "description": "Reanalysis pipeline (R, Python, shell) and per-study summary tables for the audit of sex adjustment in 385 human and 1,483 mouse two-group bulk RNA-seq studies from recount3: two negative-control permutations of the sex label (across all samples and within each group), an induced-imbalance experiment within balanced studies, repeated permutations with the content of the removed gene sets, GTEx sex-biased-gene enrichment, and a publication audit. Per-study differential-expression tables are deposited separately.",
+  "license": "MIT",
+  "keywords": ["RNA-seq", "differential expression", "covariate adjustment", "sex as a biological variable", "confounding", "collinearity", "negative control", "meta-research", "recount3"],
+  "access_right": "open"
+}

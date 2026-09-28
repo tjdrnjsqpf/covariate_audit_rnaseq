@@ -1,0 +1,475 @@
+study	group_key	case_level	control_level	exclude	note
+ERP003791	genotype	egr2-e356k	egr2 wild type	subj:individual;tissue:unknown	unknown | genotype_comparison | conf=low | tumor_tissue | n=21
+ERP004043	genotype	setd2 mutant	setd2 normal	in:disease=clear cell renal carcinoma;subj:individual;tissue:unknown	unknown | genotype_comparison | conf=high | tumor_tissue | n=34
+ERP006121	disease	aml	normal	subj:individual;tissue:other	other | between_subject_case_control | conf=medium | tumor_tissue | n=124
+ERP010142	molecular subtype	tnbc	luminal	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=78
+ERP013206	disease staging	esophageal adenocarcinoma	normal squamous esophagus	tissue:unknown	unknown | between_subject_case_control | conf=medium | tumor_tissue | n=62
+ERP015831	disease	tongue squamous cell carcinoma	normal	subj:individual;tissue:unknown	unknown | between_subject_case_control | conf=medium | tumor_tissue | n=15
+ERP016798	disease	triple-negative breast cancer	estrogen-receptor positive breast cancer	tissue:unknown	unknown | between_subject_case_control | conf=high | tumor_tissue | n=63
+ERP022260	disease	juvenile dermatomyositis	normal	subj:individual;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=22
+ERP022906	disease	autoinflammatory syndrome with immune deficiency	normal	tissue:unknown	unknown | between_subject_case_control | conf=medium |  | n=13
+ERP022968	disease	squamous cell carcinoma	normal	subj:individual;tissue:unknown	unknown | between_subject_case_control | conf=medium | tumor_tissue | n=29
+ERP023272	disease	crohn's disease	normal	tissue:unknown	unknown | between_subject_case_control | conf=high | ffpe_or_degraded | n=68
+ERP023222	disease	uterine leiomyosarcoma	normal	subj:individual;tissue:unknown	unknown | between_subject_case_control | conf=high | tumor_tissue | n=30
+ERP106168	type	leiomyosarcoma	undifferentiated pleomorphic sarcoma	tissue:unknown	unknown | between_subject_case_control | conf=medium | tumor_tissue | n=14
+ERP109703	stereotyped subset	#8	#6	in:cell type=cd19+ negatively selected b cell;tissue:blood	blood | between_subject_case_control | conf=medium | tumor_tissue | n=38
+ERP110099	disease	aicardi-goutieres syndrome	normal	subj:individual;tissue:unknown	unknown | between_subject_case_control | conf=medium |  | n=28
+ERP113396	clinical history	non-responder	responder	tissue:unknown	unknown | between_subject_case_control | conf=medium |  | n=43
+ERP114636	clinical information	response to vedolizumab therapy	no response to vedolizumab therapy	tissue:unknown	unknown | between_subject_case_control | conf=high |  | n=47
+ERP114936	disease	rheumatoid arthritis	normal	subj:individual;tissue:other	other | between_subject_case_control | conf=medium |  | n=15
+ERP115010	clinical information	interferon gamma release assay (igra) positive	interferon gamma release assay (igra) negative	tissue:unknown	unknown | between_subject_case_control | conf=medium |  | n=360
+ERP115036	disease	sclerosing cholangitis	normal	subj:individual;tissue:unknown	unknown | between_subject_case_control | conf=high |  | n=120
+SRP002628	tissue	prostate cancer tissue	normal prostate tissue	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=30
+SRP003726	disease state	cancer	normal	tissue:reproductive	reproductive | between_subject_case_control | conf=medium | tumor_tissue;targeted_assay_suspected | n=14
+SRP005279	disease state	acute lymphoblastic leukemia (all)	healthy donor	tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=medium | tumor_tissue | n=36
+SRP007483	sample status	autism	control	tissue:brain	brain | between_subject_case_control | conf=medium |  | n=12
+SRP007584	disease	colorectal carcinoma	none	tissue:gut	gut | between_subject_case_control | conf=low | tumor_tissue | n=24
+SRP008496	tissue	tumor	non-tumor	tissue:gut	gut | between_subject_case_control | conf=medium | tumor_tissue | n=12
+SRP008218	parity	parous	nulliparous	in:cell type=bead purified cd10+ myoepithelial cells;ex:cell type=bead purified cd24+ epithelial cells;ex:cell type=bead purified cd44+ progenitor cells;tissue:muscle	muscle | between_subject_case_control | conf=medium |  | n=20
+SRP010181	disease	colorectal tumour	none	tissue:gut	gut | between_subject_case_control | conf=low | tumor_tissue | n=520
+SRP011924	disease state	tetralogy of fallot (tof)	healthy	in:tissue=heart, right ventricle;tissue:heart	heart | between_subject_case_control | conf=medium |  | n=29
+SRP015668	disease state	parkinson's disease pd	control	tissue:brain	brain | between_subject_case_control | conf=high |  | n=33
+SRP016519	disease	eosinophilic esophagitis	control esophagus, no disease	in:location=distal esophagus;tissue:gut	gut | between_subject_case_control | conf=medium |  | n=18
+SRP017138	genotype	setbp1 g870s -/+	wild type	tissue:tumor	tumor | genotype_comparison | conf=medium | tumor_tissue | n=16
+SRP017575	prognosis	bad	good	ex:prognosis=unclear;tissue:other	other | between_subject_case_control | conf=low | tumor_tissue;ffpe_or_degraded | n=53
+SRP019994	subtypes	ii	i	ex:subtypes=not assigned;tissue:muscle	muscle | between_subject_case_control | conf=medium | tumor_tissue;ffpe_or_degraded | n=99
+SRP022362	disease state	mantle cell lymphoma	healthy control	ex:cell type=mantle cell lymphoma cell line;ex:source=jeko1 (atcc® crl3006™);tissue:blood	blood | between_subject_case_control | conf=low | tumor_tissue | n=15
+SRP023262	disease state	early neoplasia	normal breast	subj:patient number;tissue:reproductive	reproductive | between_subject_case_control | conf=medium | tumor_tissue | n=80
+SRP026208	diagnosis	ischemic cardiomyopathy (icm)	control	tissue:heart	heart | between_subject_case_control | conf=high |  | n=30
+SRP027530	genotype/variation	braf-mut	braf-wt	tissue:tumor	tumor | genotype_comparison | conf=high | tumor_tissue | n=20
+SRP027383	history	primary glioblastomas	astrocytomas	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=274
+SRP032279	mutation_carrier_status	carrier	control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=124
+SRP032789	tumor type	tnbc breast tumor	non-tnbc breast tumor	ex:tumor type=normal breast organoids;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=20
+SRP033095	phenotype	idiopathic pulmonary fibrosis	normal	tissue:lung	lung | between_subject_case_control | conf=high |  | n=15
+SRP033115	sf3b1 k700e mutation status	mutant	wildtype	subj:anonymized_name;tissue:unknown	unknown | genotype_comparison | conf=medium | tumor_tissue | n=14
+SRP033276	tissue group	overt gist (gastrointestinal stromal tumor)	mini gist (gastrointestinal stromal tumor)	tissue:other	other | between_subject_case_control | conf=high | tumor_tissue;ffpe_or_degraded | n=13
+SRP033725	disease state	bd	control	tissue:brain	brain | between_subject_case_control | conf=high |  | n=62
+SRP034831	disease status	advanced alzheimer's disease	control	tissue:brain	brain | between_subject_case_control | conf=high |  | n=17
+SRP035988	tissue type	lesional psoriatic skin	normal skin	tissue:skin	skin | between_subject_case_control | conf=high |  | n=179
+SRP036848	bcr	1	0	subj:external id;tissue:reproductive	reproductive | between_subject_case_control | conf=high | tumor_tissue;ffpe_or_degraded | n=89
+SRP036821	tissue subtype	ess	gist wt	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue;ffpe_or_degraded | n=45
+SRP039338	tissue	calcified tricuspid aortic valve	non-calcified tricuspid valve	tissue:other	other | between_subject_case_control | conf=high |  | n=18
+SRP040622	tissue	cortical ischemic stroke tissue	healthy cortex	tissue:other	other | between_subject_case_control | conf=medium |  | n=13
+SRP040998	tissue	hcc recurrent tumor	hcc non-recurrent tumor	ex:tissue=hcc recurrent tumor's adjacent normal;ex:tissue=hcc non-recurrent tumor's adjacent normal;subj:individual;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=35
+SRP041538	disease state	copd	normal	tissue:lung	lung | between_subject_case_control | conf=high |  | n=170
+SRP041620	source_name	nomid patients with active disease prior to anakinra treatment	healthy pediatric controls	ex:source_name=nomid patients with inactive disease after anakinra treatment;ex:source_name=patient with nlrc4-mas;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=26
+SRP042086	phenotype	acromegaly	non-functioning pituitary adenoma	tissue:adipose	adipose | between_subject_case_control | conf=high |  | n=18
+SRP042184	final gtf2i mutation status	mut	wt	ex:sample type=cell line;tissue:other	other | genotype_comparison | conf=medium | tumor_tissue | n=24
+SRP042228	diagnosis	cd	not ibd	tissue:gut	gut | between_subject_case_control | conf=high |  | n=322
+SRP042286	source_name	primary t-all	human thymus	ex:source_name=cutll1 cells;ex:source_name=hpball cells;tissue:other	other | between_subject_case_control | conf=medium | tumor_tissue | n=55
+SRP042620	tissue	triple negative breast cancer primary tumor	er+ breast cancer primary tumor	ex:tissue=breast cancer cell line;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=168
+SRP043085	source_name	resistant basal cell cancers	sensitive basal cell cancers	tissue:skin	skin | between_subject_case_control | conf=medium | tumor_tissue | n=21
+SRP043221	tissue	fshd1 muscle biopsy	control muscle biopsy	ex:tissue=control myotubes;ex:tissue=fshd2 myotubes;ex:tissue=fshd1 myotubes;ex:tissue=control myoblasts;ex:tissue=fshd1 myoblasts;ex:tissue=fshd2 myoblasts;subj:source_name;tissue:muscle	muscle | between_subject_case_control | conf=high |  | n=38
+SRP043388	patient cohort	active eoe	healthy control	tissue:gut	gut | between_subject_case_control | conf=high |  | n=16
+SRP043320	source_name	treated patient-derived xenograft (pdx)	untreated patient-derived xenograft (pdx)	tissue:tumor	tumor | in_vivo_treatment_arms | conf=medium | tumor_tissue;mixed_organisms | n=12
+SRP044042	sample type	s	e*	ex:sample type=e;ex:sample type=r;tissue:kidney	kidney | between_subject_case_control | conf=medium | tumor_tissue | n=24
+SRP044373	tumor stage	pt2	pta	in:source_name=ffpe bladder tumor block;ex:tumor stage=unknown;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue;ffpe_or_degraded | n=67
+SRP044668	tissue type	glioma - contrast-enhancing sample	non-neoplastic brain	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=94
+SRP045225	disease status	small cell lung cancer	healthy	tissue:tumor	tumor | between_subject_case_control | conf=high | tumor_tissue | n=86
+SRP047122	source_name	huntington''s disease patient	normal control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=19
+SRP048683	disease	autism spectrum disorder	not available	tissue:brain	brain | between_subject_case_control | conf=medium |  | n=12
+SRP048801	diagnosis	icd	not ibd	tissue:gut	gut | between_subject_case_control | conf=high |  | n=310
+SRP049097	tissue type	leimyosarcoma	normal smooth muscle	ex:tissue type=normal lung;ex:tissue type=normal skeletal muscle;tissue:muscle	muscle | between_subject_case_control | conf=medium | tumor_tissue;ffpe_or_degraded | n=54
+SRP049408	genotype	npm1+ flt3 wt	npm1 wt flt3 wt	tissue:tumor	tumor | genotype_comparison | conf=medium | tumor_tissue | n=40
+SRP049605	disease state	lyme disease	healthy controls	in:time=acute lyme pre-treatment (v1);in:time=control;subj:individual;tissue:blood	blood | between_subject_case_control | conf=high |  | n=97
+SRP049592	source_name	liver tumor	normal liver	in:source_name=liver tumor;in:source_name=normal liver;subj:patient id;tissue:liver	liver | between_subject_case_control | conf=medium | tumor_tissue | n=35
+SRP049820	group	sepsis t0	control t0	tissue:blood	blood | between_subject_case_control | conf=high |  | n=83
+SRP050000	sirs vs sepsis	sepsis	sirs	subj:patient id;tissue:blood	blood | between_subject_case_control | conf=high |  | n=129
+SRP050146	sf3b1 status	mutated	wildtype	ex:sf3b1 status=n/a;tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=high |  | n=17
+SRP050493	disease	myelodysplastic syndrome (mds)	normal	in:source_name=bone marrow;ex:disease=erythroleukemia;tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=medium |  | n=22
+SRP050971	tissue type	psoriatic skin	normal skin	ex:tissue type=uninvolved skin;tissue:skin	skin | between_subject_case_control | conf=medium |  | n=45
+SRP051518	disease	untreated kawasaki disease	control	tissue:other	other | between_subject_case_control | conf=high |  | n=15
+SRP051844	diagnosis	huntington's disease	neurologically normal	tissue:brain	brain | between_subject_case_control | conf=high |  | n=69
+SRP051848	condition	case (ptsd)	control	in:time-point=post-deployment;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=188
+SRP052612	first trimester losses	3	0	tissue:reproductive	reproductive | between_subject_case_control | conf=medium |  | n=20
+SRP056840	sirs outcomes	acute kidney injury stage 2/3	acute kidney injury stage 0	subj:patient id;tissue:blood	blood | between_subject_case_control | conf=high |  | n=133
+SRP057793	disease	undifferentiated pleomorphic sarcoma	leiomyosarcoma	subj:rna_seq_id;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=149
+SRP058722	tissue	breast ductal carcinoma in situ	normal breast epithelial organoid	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=35
+SRP059039	group	diarrhea	control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=255
+SRP059057	phenotype	coeliac individual	control individual	in:cell stimulation=unstimulated;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=74
+SRP059172	group	brucellosis	control	tissue:blood	blood | between_subject_case_control | conf=medium |  | n=169
+SRP060205	source_name	dem - high	nci - low	tissue:brain	brain | between_subject_case_control | conf=medium | targeted_assay_suspected | n=144
+SRP060715	cell type	cll leukemic cells	purified normal b cells	tissue:other	other | between_subject_case_control | conf=high | tumor_tissue | n=15
+SRP061286	diagnosis	mesial temporal lobe epilepsy with hippocampal sclerosis	mesial temporal lobe epilepsy	tissue:other	other | between_subject_case_control | conf=high |  | n=19
+SRP061571	treatment	post-nact	pre-nact	tissue:adipose	adipose | in_vivo_treatment_arms | conf=medium | tumor_tissue | n=35
+SRP062025	phenotype	mds	age-matched normal control	in:tissue=bone marrow hsc;subj:source_name;tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=high |  | n=73
+SRP062132	tissue	cancer	normal tissue	ex:tissue=adjacent noncancerous tissue;subj:source_name;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=33
+SRP062298	subject group	received combined h1/h2-histamine receptor blockade prior to exercise	control	in:time point=3 hours after exercise;subj:subject id;tissue:muscle	muscle | in_vivo_treatment_arms | conf=medium |  | n=48
+SRP062966	disease status	systemic lupus erythematosus (sle)	healthy	tissue:blood	blood | between_subject_case_control | conf=high |  | n=117
+SRP063006	hpv status	positive	negative	tissue:tumor	tumor | between_subject_case_control | conf=high | tumor_tissue | n=46
+SRP063355	phenotype	sle	healthy	subj:isolate;tissue:blood	blood | between_subject_case_control | conf=high |  | n=17
+SRP063477	source_name	old woman + estrogen	old woman	tissue:musculoskeletal	musculoskeletal | in_vivo_treatment_arms | conf=high |  | n=40
+SRP063496	remission at week 10	remitter	non-remitter	ex:remission at week 10=n/a;subj:inventory sample name;tissue:gut	gut | between_subject_case_control | conf=medium |  | n=73
+SRP063838	tissue	idiopathic pulmonary fibrosis	nomral lung tissue adjacent to benign pulmonary tumors	tissue:lung	lung | between_subject_case_control | conf=high |  | n=24
+SRP064478	isolate	sals patient	neurologically healthy control	subj:label;tissue:brain	brain | between_subject_case_control | conf=high |  | n=15
+SRP064431	tissue type	hepatocellular cancer	normal liver	subj:subject id;tissue:liver	liver | between_subject_case_control | conf=medium | tumor_tissue | n=12
+SRP065232	group	cellular rejection	normal rejection	tissue:other	other | between_subject_case_control | conf=medium |  | n=41
+SRP065216	source_name	lsc	hsc	in:source_name=hsc;in:source_name=lsc;subj:donorid;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=82
+SRP065445	diagnosis	langerhans cell histiocytosis	erdheim chester disease	ex:diagnosis=juvenile xanthogranuloma;tissue:blood	blood | between_subject_case_control | conf=medium | tumor_tissue | n=13
+SRP065812	source_name	pre-treated psoriasis	normal skin	ex:source_name=post-treated psoriasis;tissue:skin	skin | between_subject_case_control | conf=high |  | n=52
+SRP065865	condition	meth-associated psychosis	control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=30
+SRP066090	hpv-status	hpv16	neg	in:hpv-status=hpv16;in:hpv-status=neg;tissue:tumor	tumor | between_subject_case_control | conf=high | tumor_tissue | n=36
+SRP066966	phenotype	ams	non-ams	in:altitude=high;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=20
+SRP067311	disease	ulcerative colitis	normal	ex:isolate=pooled;subj:isolate;tissue:gut	gut | between_subject_case_control | conf=medium | pooled_samples | n=16
+SRP067631	phenotype	aza non-responder	aza responder	in:treatment stage=pre-treatment;tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=medium |  | n=33
+SRP068292	tissue	calcified tricuspid aortic valve (tav)	non-calcified tricuspid aortic valve (tav)	tissue:other	other | between_subject_case_control | conf=high |  | n=17
+SRP068591	tissue	sessile serrated adenoma/polyp	control right colon	ex:tissue=colon adenocarcinoma;ex:tissue=uninvolved right colon;ex:tissue=uninvolved left colon;tissue:gut	gut | between_subject_case_control | conf=medium | tumor_tissue | n=86
+SRP069333	disease	multiple sclerosis	healthy control	tissue:blood	blood | between_subject_case_control | conf=medium |  | n=24
+SRP070148	disease state	ktcn	non-ktcn	tissue:other	other | between_subject_case_control | conf=high |  | n=132
+SRP069976	health_state	infected	uninfected	subj:hpgl_id;tissue:skin	skin | between_subject_case_control | conf=high |  | n=41
+SRP070710	anti-pd-1 response	progressive disease	partial response	in:biopsy time=pre-treatment;subj:patient id;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=28
+SRP071203	disease stage	schizophrenia	control	in:brain region=brodmann's area 11;tissue:brain	brain | between_subject_case_control | conf=high |  | n=82
+SRP072463	diagnosis	hd grade 3	hd ctrl	tissue:brain	brain | between_subject_case_control | conf=medium |  | n=14
+SRP072492	diabetes status	yes	no	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=51
+SRP072494	subject group	non-responding	responding	in:time point=before bevacizumab combination treatment;subj:subject id;tissue:other	other | between_subject_case_control | conf=high | tumor_tissue | n=36
+SRP072693	clinical information	preeclampsia	control	tissue:other	other | between_subject_case_control | conf=high |  | n=29
+SRP072920	disease stage	jia patient with active, untreated disease	healthy control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=101
+SRP073191	disease state	systemic lupus erythematosus	control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=16
+SRP073347	health_state	disease	health	tissue:blood	blood | between_subject_case_control | conf=high |  | n=16
+SRP073382	source_name	dorsal striatum, bipolar	dorsal striatum, control	tissue:brain	brain | between_subject_case_control | conf=high | ffpe_or_degraded | n=36
+SRP073447	noncancer- cancer	gastric cancer	gastritis/im	ex:noncancer- cancer=adjacent normal;tissue:gut	gut | between_subject_case_control | conf=medium | tumor_tissue;targeted_assay_suspected | n=110
+SRP073607	tissue type	tumoral	normal	in:tissue=kidney;tissue:gut	gut | between_subject_case_control | conf=low | tumor_tissue;pooled_samples | n=15
+SRP073789	progression step	crpc	bph	tissue:other	other | between_subject_case_control | conf=high | tumor_tissue | n=44
+SRP073813	clinical diagnosis	major depression	control	in:brain region=dlpfc;tissue:brain	brain | between_subject_case_control | conf=high |  | n=352
+SRP074349	source_name	human nsclc tissue	human non-malignant tissue	tissue:other	other | between_subject_case_control | conf=medium | tumor_tissue | n=668
+SRP074581	subject status	hiv-infected art-treated patient	uninfected control	in:cell type=intestinal epithelial cell;tissue:gut	gut | between_subject_case_control | conf=high |  | n=50
+SRP074739	prognosis	pouchitis	healthy	in:tissue=ileal pouch;in:biopsytime=4mo;subj:patient;tissue:gut	gut | between_subject_case_control | conf=medium |  | n=77
+SRP074904	subject status	bipolar disorder individual	healthy control	in:tissue subtype=putamen;tissue:brain	brain | between_subject_case_control | conf=medium |  | n=16
+SRP075759	tissue type	hepatoblastoma	normal	tissue:liver	liver | between_subject_case_control | conf=medium | tumor_tissue | n=31
+SRP076426	experimental group	exp	con	in:visit=1;subj:source_name;tissue:gut	gut | between_subject_case_control | conf=medium |  | n=58
+SRP076627	disease stage	jia patient with active, untreated disease	jia patient with clinical remission on medication	tissue:blood	blood | between_subject_case_control | conf=medium |  | n=21
+SRP077046	clinical condition	crohn's disease	control	tissue:gut	gut | between_subject_case_control | conf=high |  | n=138
+SRP077469	diagnosis	paroxysmal nocturnal hemoglobinuria (pnh)	healthy	in:cell type=cd4+ memory t cells;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=24
+SRP078441	asxl1/2 genotype	asxl2 mutation	wildtype	tissue:musculoskeletal	musculoskeletal | genotype_comparison | conf=medium | tumor_tissue | n=16
+SRP078450	infection status	hcv	non-hcv	in:treatment=none;subj:patient_identifier;tissue:liver	liver | between_subject_case_control | conf=medium |  | n=46
+SRP078314	cell type	cuscc	nonlesional,chronically uv-exposed skin (ns)	tissue:skin	skin | between_subject_case_control | conf=low | tumor_tissue | n=26
+SRP078541	disease	ards	sepsis	subj:donor;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=26
+SRP078872	sample type	cteph	control	ex:sample type=aorta;tissue:other	other | between_subject_case_control | conf=medium |  | n=12
+SRP080850	mutation group	polr2a	nf2/chr22_loss	in:tissue=meningioma;tissue:other	other | between_subject_case_control | conf=medium | tumor_tissue | n=19
+SRP081599	disease status	asthma	control	tissue:lung	lung | between_subject_case_control | conf=high |  | n=84
+SRP082973	smoking status	smoker	nonsmoker	ex:cell type=large airway basal cells cultured from airway epithelium;ex:cell type=small airway basal cells cultured from airway epithelium;tissue:lung	lung | between_subject_case_control | conf=low |  | n=77
+SRP084270	treatment group	yk-4-279	control	tissue:other	other | in_vivo_treatment_arms | conf=medium | tumor_tissue;mixed_organisms | n=16
+SRP086078	arm	myo-inositol	placebo	in:timepoint=post;subj:patient id;tissue:lung	lung | in_vivo_treatment_arms | conf=medium |  | n=135
+SRP089788	disease classification	myotonic dystrophy type 1	none	in:tissue=tibialis anterior muscle;subj:anonymized patient identifier;tissue:muscle	muscle | between_subject_case_control | conf=high |  | n=122
+SRP090282	group	higha422	bcg	in:day=14;subj:subjectid;tissue:blood	blood | in_vivo_treatment_arms | conf=medium |  | n=119
+SRP090552	treatment	n-3 pufa	placebo	in:time=post-treatment pre-lps;tissue:adipose	adipose | in_vivo_treatment_arms | conf=medium |  | n=42
+SRP090633	source_name	iri positive_pre-reperfusion	iri negative_pre-reperfusion	in:transplant stage=pre-reperfusion;tissue:liver	liver | between_subject_case_control | conf=medium |  | n=76
+SRP090689	tissue of origin	breast (tumor)	breast (normal)	tissue:blood	blood | between_subject_case_control | conf=medium | tumor_tissue | n=41
+SRP090779	tumor type	undifferentiated	low grade	tissue:other	other | between_subject_case_control | conf=high | tumor_tissue | n=18
+SRP090799	case	liver-cancer patient	non-liver-cancer patient	tissue:liver	liver | between_subject_case_control | conf=medium | tumor_tissue | n=53
+SRP090849	tumor type	primary	normal bone	ex:tumor type=cell line;ex:tumor type=unknown;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=212
+SRP091714	group	parkinson''s disease	control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=20
+SRP092408	disease	rheumatoid arthritis (established)	normal	tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=high |  | n=63
+SRP092402	disease state	tb subjects	healthy controls	in:time=dx;subj:subject;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=914
+SRP092501	subgroup	low global h3k27me3	high global h3k27me3	tissue:other	other | between_subject_case_control | conf=medium | tumor_tissue | n=27
+SRP092158	tissue	breast tumor	nbp	in:cell type=regulatory t cells;tissue:blood	blood | between_subject_case_control | conf=low | tumor_tissue | n=249
+SRP094553	functional status/outcome	delayed graft function	immediate graft function	tissue:kidney	kidney | between_subject_case_control | conf=medium |  | n=43
+SRP094795	hpv-type infection	hpv18	hpv16	ex:source_name=caski cell line;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=47
+SRP094784	treatment	amlexanox	placebo	ex:treatment=pretreatment;subj:isolate;tissue:adipose	adipose | in_vivo_treatment_arms | conf=medium |  | n=24
+SRP095361	disease state	idiopathic pulmonary fibrosis	control	tissue:lung	lung | between_subject_case_control | conf=high |  | n=39
+SRP095491	genotype	mutant	wildtype	in:tissue=urothelial bladder carcinoma;ex:tissue=urothelial bladder carcinoma cell line;tissue:tumor	tumor | genotype_comparison | conf=high | tumor_tissue | n=50
+SRP095674	infection	s. haematobium infected	uninfected control	ex:time=follow-up (post-treatment);ex:time=follow-up (no treatment);subj:individual;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=14
+SRP095932	treatment	estrogen+mpa	estrogen	subj:xenograft;tissue:tumor	tumor | in_vivo_treatment_arms | conf=medium | tumor_tissue;mixed_organisms | n=12
+SRP096757	diagnosis	crohn's disease	non-ibd control	tissue:gut	gut | between_subject_case_control | conf=high |  | n=245
+SRP097696	disease state	diabetes mellitus/proliferative diabetic retinopathy	non-diabetic	tissue:other	other | between_subject_case_control | conf=medium |  | n=13
+SRP099676	disease	dengue shock syndrome	other febrile illness	tissue:blood	blood | between_subject_case_control | conf=high |  | n=39
+SRP099844	treatment	drug	placebo	in:timepoint=endpoint;in:tissue=polyp;subj:patient number;tissue:gut	gut | in_vivo_treatment_arms | conf=medium | tumor_tissue | n=69
+SRP100686	genotype/variation	sf3b1 k700e	wild type	in:genotype/variation=sf3b1 k700e;in:genotype/variation=wild type;tissue:tumor	tumor | genotype_comparison | conf=medium | tumor_tissue | n=13
+SRP100948	diagnosis	alzheimer's disease	control	subj:sample_id;tissue:other	other | between_subject_case_control | conf=high |  | n=117
+SRP102542	exercise type	hiit	resistance	in:biopsy timepoint=posttraining;tissue:muscle	muscle | in_vivo_treatment_arms | conf=low |  | n=103
+SRP102999	ptsd	current	never	tissue:blood	blood | between_subject_case_control | conf=high |  | n=324
+SRP103812	notch1 mutation/expression	notch1-pestmut, icn1-positive	notch1-wt, icn1-negative	in:tissue/cell type=chronic lymphocytic leukemia biopsy;ex:cell type=mantle cell lymphoma cell line;subj:source_name;tissue:tumor	tumor | genotype_comparison | conf=medium | tumor_tissue;mixed_organisms | n=47
+SRP103819	disease status	asthmatic	non-asthmatic	in:time point=one week before infection;tissue:lung	lung | between_subject_case_control | conf=medium |  | n=33
+SRP104391	agent	atra	vehicle	tissue:other	other | in_vivo_treatment_arms | conf=medium | tumor_tissue;mixed_organisms | n=12
+SRP106008	disease	ln	healthy	in:source_name=kidney biopsy;tissue:kidney	kidney | between_subject_case_control | conf=high |  | n=31
+SRP106011	tissue	primary melanoma	common acquired nevus	tissue:skin	skin | between_subject_case_control | conf=high | tumor_tissue | n=156
+SRP107025	type	liver metastasis	primary	subj:patient_id;tissue:other	other | between_subject_case_control | conf=medium | tumor_tissue | n=212
+SRP107937	eye histological phenotype	early age-related maculopathy	normal	in:tissue=peripheral rpe-choroid-sclera;subj:donor id;tissue:other	other | between_subject_case_control | conf=medium |  | n=25
+SRP108120	case/control	cocaine dependence	unaffected control	tissue:brain	brain | between_subject_case_control | conf=high |  | n=36
+SRP108496	disease_status	idiopathic pulmonary fibrosis	healthy control	tissue:lung	lung | between_subject_case_control | conf=medium |  | n=18
+SRP108739	disease state	hiv	healthy	tissue:blood	blood | between_subject_case_control | conf=high |  | n=18
+SRP108616	grade	iii	ii	in:source_name=er+ breast tumor;tissue:other	other | between_subject_case_control | conf=medium | tumor_tissue | n=41
+SRP109781	tissue	skullbase	spine	subj:isolate;tissue:other	other | between_subject_case_control | conf=medium | tumor_tissue | n=57
+SRP111102	pgr status	pos	neg	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=23
+SRP111343	tissue	breast tumor	normal breast	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=103
+SRP111481	figo stage	ii	i	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=96
+SRP113245	condition	tb	latent tb infection	tissue:blood	blood | between_subject_case_control | conf=high |  | n=44
+SRP113226	disease state	t-cell prolymphocytic leukemia	healthy	tissue:blood	blood | between_subject_case_control | conf=high | tumor_tissue | n=15
+SRP113470	diagnosis	cd	non-ibd	tissue:gut	gut | between_subject_case_control | conf=high |  | n=304
+SRP113639	intrinsic subtype	luminal b	luminal a	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue;ffpe_or_degraded | n=42
+SRP113705	disease state	ods	control	tissue:gut	gut | between_subject_case_control | conf=high |  | n=24
+SRP113755	disease	angiosarcoma	undifferentiated pleomorphic sarcoma	tissue:other	other | between_subject_case_control | conf=medium | tumor_tissue | n=77
+SRP114429	stic	yes	no	tissue:tumor	tumor | between_subject_case_control | conf=high | tumor_tissue | n=85
+SRP114956	disease	ctcl	normal/benign skin lesion	subj:isolate;tissue:skin	skin | between_subject_case_control | conf=high | tumor_tissue;ffpe_or_degraded | n=181
+SRP115011	expression-based subtype	iii	i	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=110
+SRP115446	tissue	serous ovarian carcinoma	fallopian tube	ex:tissue=mixed differentiated ovarian carcinoma;subj:isolate;tissue:other	other | between_subject_case_control | conf=high | tumor_tissue | n=30
+SRP115579	treatment	obese	lean	in:sample info=resting;subj:sample info;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=31
+SRP115911	disease state	scd	healthy	tissue:blood	blood | between_subject_case_control | conf=medium |  | n=12
+SRP116312	disease state	systemic jia patient	healthy control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=12
+SRP116272	group	case	control	in:stimulation=unstim;in:cell type=tcells;in:timepoint=0;ex:group=not a pp case;subj:subjectid;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=1650
+SRP116284	subject status	intraductal papillary mucinous neoplasm (ipmn), low-risk	healthy donor (hd)	tissue:blood	blood | between_subject_case_control | conf=medium | tumor_tissue | n=34
+SRP116937	disease	sys	h	in:treatment=exvivo;subj:donor;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=32
+SRP117020	histology	squamous cell carcinoma	adenocarcinoma	tissue:lung	lung | between_subject_case_control | conf=medium | tumor_tissue | n=130
+SRP117733	karytype	47,xxy	46,xy	in:tissue=testis;subj:source_name;tissue:reproductive	reproductive | between_subject_case_control | conf=medium | ffpe_or_degraded | n=22
+SRP118909	disease	hyper igd syndrome (hids)	healthy	in:treatment protocol=none;subj:donor;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=18
+SRP118972	differentiation status	poorly differentiated	well differentiated	in:tissue=tumor;subj:individual;tissue:liver	liver | between_subject_case_control | conf=medium | tumor_tissue | n=20
+SRP119561	study group	aged, diseased	old	tissue:other	other | between_subject_case_control | conf=high |  | n=30
+SRP119636	tumor stage	the stage iv melanoma	health	in:cell subtype=cd4+ t cell;tissue:blood	blood | between_subject_case_control | conf=high |  | n=132
+SRP119676	cell type	tumour	normal	ex:cell type=cell line;tissue:liver	liver | between_subject_case_control | conf=medium | tumor_tissue | n=62
+SRP120609	treatment	treated mrk-a 30 mpk	treated vehicle	in:model=bt142;tissue:tumor	tumor | in_vivo_treatment_arms | conf=medium | tumor_tissue;mixed_organisms | n=18
+SRP125233	disease status	hiv and tb	hiv	ex:disease status=tb-hiv;tissue:blood	blood | between_subject_case_control | conf=high |  | n=33
+SRP126422	group	lesional skin of psoriasis patients (pp)	normal skin from control individuals (nn)	in:tissue=skin biopsy;ex:group=uninvolved skin of psoriasis patients (pn);subj:patient;tissue:skin	skin | between_subject_case_control | conf=medium |  | n=24
+SRP126580	group	active_tb	control	ex:outlier=yes;subj:patient_id;tissue:blood	blood | between_subject_case_control | conf=high |  | n=54
+SRP126582	group	active_tb	ltbi	ex:outlier=yes;subj:patient_id;tissue:blood	blood | between_subject_case_control | conf=high |  | n=47
+SRP126623	cytorisk	adverse	intermed1	tissue:blood	blood | between_subject_case_control | conf=low | tumor_tissue | n=24
+SRP126672	class	a	b	in:tissue=tumor (intrahepatic cholangiocarcinoma);subj:source_name;tissue:liver	liver | between_subject_case_control | conf=high | tumor_tissue | n=57
+SRP126923	disease state	inflammatory arthritis	healthy	in:cell type=cd141+ dc;in:tissue=peripheral blood;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=19
+SRP127169	genotype/variation	flt3-itd and npm1 mutation	t(8;21) translocation	ex:cell type=cd34+ coord blood;subj:source_name;tissue:other	other | genotype_comparison | conf=medium | tumor_tissue | n=40
+SRP127667	disease	terminal heart failure	no known cardiac diseases	in:dev_stage=adult;in:cell_type=cardiac myocyte nuclei;tissue:muscle	muscle | between_subject_case_control | conf=medium |  | n=17
+SRP128579	disease state	diabetic	nondiabetic	in:cell type=epicardial adipose tissue;tissue:adipose	adipose | between_subject_case_control | conf=medium |  | n=16
+SRP129004	diagnosis	ulcerative colitis	control	tissue:gut	gut | between_subject_case_control | conf=high |  | n=226
+SRP131125	molecular alteration	t(4;14)	hyperdiploid karyotype	tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=medium | tumor_tissue | n=30
+SRP132709	clinical classification	nr	r	in:timepoint=t1;subj:patient;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=68
+SRP132711	disease stage	malignant	normal	in:source_name=bone marrow;ex:source_name=human myeloma cell line;tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=medium | tumor_tissue | n=23
+SRP132792	tissue	sessile serrated polyp	familial adenomatous polyp	tissue:gut	gut | between_subject_case_control | conf=low | tumor_tissue | n=19
+SRP132902	diet	high fat/high sucrose	low fat/low sucrose	tissue:tumor	tumor | in_vivo_treatment_arms | conf=medium | tumor_tissue | n=15
+SRP132939	diagnosis	lupus	healthy control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=52
+SRP133205	group	t1dnew	healthy control	subj:libraryid;tissue:blood	blood | between_subject_case_control | conf=high |  | n=67
+SRP132992	braak stage	6	2	tissue:brain	brain | between_subject_case_control | conf=medium |  | n=50
+SRP133393	patient status	aa pre treatment	normal control	ex:patient status=aa 24wks treatment;ex:patient status=aa 36wks treatment;tissue:skin	skin | between_subject_case_control | conf=high |  | n=18
+SRP133303	tissue type	esophageal squamous cell carcinoma	normal tissue	tissue:gut	gut | between_subject_case_control | conf=medium | tumor_tissue | n=14
+SRP133442	disease status	myelodysplastic syndrome	healthy	tissue:cell_model	cell_model | between_subject_case_control | conf=high |  | n=67
+SRP133849	transplant type	allograft	autograft	in:cell type=cd4 t cells;subj:sample identifier;tissue:blood	blood | between_subject_case_control | conf=low |  | n=24
+SRP134018	disease state	pediatric tb meningitis	no infection healthy control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=43
+SRP134188	tag	squamous cell carcinoma (scc) tumor	normal rdeb skin	subj:source_name;tissue:other	other | between_subject_case_control | conf=medium | tumor_tissue | n=18
+SRP136239	group	fecd with expansion	fecd no expansion	tissue:other	other | genotype_comparison | conf=medium |  | n=24
+SRP136483	disease state	t1d	control	in:cell type=effector memory th1 cells;subj:individual;tissue:blood	blood | between_subject_case_control | conf=high |  | n=22
+SRP136742	tissue	primary melanoma	benign melanocytic nevi	tissue:skin	skin | between_subject_case_control | conf=high | tumor_tissue | n=80
+SRP140945	eoe diagnosis	eoe	control	tissue:gut	gut | between_subject_case_control | conf=high |  | n=20
+SRP140711	infection	s.haemotobium infected	uninfected control	ex:time=follow-up (no treatment);ex:time=follow-up (post-treatment);subj:individual;tissue:blood	blood | between_subject_case_control | conf=high |  | n=26
+SRP140795	susceptibility	high	low	in:time=pre bed rest;ex:susceptibility=not used in susceptibility study;subj:subject;tissue:muscle	muscle | between_subject_case_control | conf=medium |  | n=56
+SRP141180	tumor type	chronic lymphocytic leukemia	normal healthy control	tissue:blood	blood | between_subject_case_control | conf=medium | tumor_tissue | n=22
+SRP143467	18fdg-pet-ct	bat positive	bat negative	in:tissue=bat;subj:individual;tissue:other	other | between_subject_case_control | conf=medium |  | n=29
+SRP144003	tissue	melanoma	hnscc	in:population=malignant;tissue:blood	blood | between_subject_case_control | conf=low | tumor_tissue | n=106
+SRP144303	disease	cancer	normal	tissue:reproductive	reproductive | between_subject_case_control | conf=high | tumor_tissue | n=14
+SRP144491	oa grade	4	1	tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=medium |  | n=38
+SRP144583	group	ef	sef	ex:group=ctrl;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=75
+SRP148556	disease group	preeclampsia only	control	tissue:reproductive	reproductive | between_subject_case_control | conf=high |  | n=79
+SRP148497	disease_stage	3	1	in:disease_stage=1;in:disease_stage=3;subj:isolate;tissue:reproductive	reproductive | between_subject_case_control | conf=medium | tumor_tissue | n=60
+SRP149374	disease status	myelodysplastic syndrome	healthy	in:cell type=cd34+ hematopoietic stem/progenitor cells;subj:patient id;tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=medium |  | n=786
+SRP149433	isolate	treatment niave model treated with parp inhibitor	treatment niave model treated with vehicle	tissue:other	other | in_vivo_treatment_arms | conf=medium | tumor_tissue;mixed_organisms | n=48
+SRP149847	disease	crohn's disease (cd)	healthy non-ibd	ex:week of hsct treatment=w26;ex:week of hsct treatment=w52;ex:week of hsct treatment=w106;subj:individual id;tissue:gut	gut | between_subject_case_control | conf=medium |  | n=80
+SRP149978	subject status	individuals that developed hiv-1 broadly neutralizing antibodies (bnab)	control	subj:rnaseq id;tissue:blood	blood | between_subject_case_control | conf=high |  | n=92
+SRP150234	sample type	diabetic gastroparetics	diabetic non-gastroparetics controls	tissue:gut	gut | between_subject_case_control | conf=high |  | n=26
+SRP150101	treatment	treat with digoxin	no treatment	tissue:brain	brain | in_vivo_treatment_arms | conf=medium | tumor_tissue;mixed_organisms | n=24
+SRP150311	subject status	facioscapulohumeral muscular dystrophy (fshd)	control	subj:sample_id;tissue:muscle	muscle | between_subject_case_control | conf=high |  | n=43
+SRP150313	risk status	high	standard	in:tumor stage=diagnosis;tissue:blood	blood | between_subject_case_control | conf=medium | tumor_tissue | n=18
+SRP150382	delivery_mode	c-section	vaginal	subj:patient_id;tissue:unknown	unknown | between_subject_case_control | conf=medium |  | n=16
+SRP150872	drug exposure	1	0	in:timepoint=24;tissue:blood	blood | in_vivo_treatment_arms | conf=medium |  | n=468
+SRP151434	axd status	with axd status	without axd status	in:tissue/cell type=post-mortem brain tissue;tissue:brain	brain | between_subject_case_control | conf=medium |  | n=12
+SRP151425	bortezomib response	bortezomib-standard	bortezomib-good	tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=high | tumor_tissue | n=44
+SRP151615	isolate	obese	lean	tissue:reproductive	reproductive | between_subject_case_control | conf=high |  | n=13
+SRP151738	response	y	n	in:treatment=before vdz;subj:patient;tissue:gut	gut | between_subject_case_control | conf=medium |  | n=20
+SRP151960	sample group	c9	control	subj:subject id;tissue:brain	brain | between_subject_case_control | conf=medium |  | n=77
+SRP153228	condition	eosinophilic asthma	control	tissue:blood	blood | between_subject_case_control | conf=medium |  | n=12
+SRP154474	disease state	psoriasis	healthy control	tissue:skin	skin | between_subject_case_control | conf=high |  | n=28
+SRP154573	genotype	h3.3k27m	h3.3k27wt	in:source_name=tumor;ex:genotype=h3.3k27m-ko;in:treatment=none;tissue:tumor	tumor | genotype_comparison | conf=medium | tumor_tissue | n=96
+SRP154984	vaccine	live attenuated influenza vaccine (laiv)	tetravalent inactivated influenza vaccine (tiv)	in:timepoint=d2;subj:subject id;tissue:lung	lung | in_vivo_treatment_arms | conf=medium |  | n=96
+SRP155089	source_name	hcc tumoral tissues	normal liver tissues	ex:source_name=hcc peritumoral tissues;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=15
+SRP155363	diagnosis	hepatocellcular carcinoma patient	chronic liver disease patient	in:cell type=circulating epithelial cells;tissue:blood	blood | between_subject_case_control | conf=medium | tumor_tissue | n=137
+SRP155771	diagnosis	newly-diagnosed crohn''s disease	healthy control	tissue:gut	gut | between_subject_case_control | conf=high |  | n=13
+SRP155704	diagnosis	system lupus erythematosus (sle)	control	in:cell type=neutrophil;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=24
+SRP155976	diagnosis	cd	control	tissue:gut	gut | between_subject_case_control | conf=high |  | n=190
+SRP156049	pannet subtype	a-d-m mutant pannets	a-d-m wt pannets	in:tumor in specimen=pancreas;tissue:blood	blood | genotype_comparison | conf=high | tumor_tissue | n=33
+SRP155941	condition	breast cancer	normal	in:cell type=monocytes;in:source_name=blood;tissue:blood	blood | between_subject_case_control | conf=medium | tumor_tissue | n=124
+SRP156394	diagnosis	atypical carcinoids (acs)	typical carcinoids (tcs)	tissue:lung	lung | between_subject_case_control | conf=high | tumor_tissue | n=30
+SRP156355	isolate	ductal carcinoma in situ	absolute normal	tissue:reproductive	reproductive | between_subject_case_control | conf=medium | tumor_tissue | n=24
+SRP156952	disease state	primary sclerosing cholangitis	hepatitis c	in:source_name=hepatic progenitor cells;tissue:liver	liver | between_subject_case_control | conf=medium |  | n=36
+SRP156506	treatment	gemcitabine	control	in:model=pac010;tissue:tumor	tumor | in_vivo_treatment_arms | conf=medium | tumor_tissue;mixed_organisms | n=192
+SRP157590	tissue	primary breast cancer	normal breast	in:tissue=primary breast cancer;in:tissue=normal breast;subj:isolate;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=47
+SRP157974	tissue	primary breast tumor tissue	paired normal breast tissue	subj:isolate;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=448
+SRP158639	tissue	pancreatic ductal adenocarcinoma	adjacent tissue of cancer	subj:code;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=47
+SRP158943	cell type	cll ighv unmutated	cll ighv mutated	in:source_name=cll;tissue:blood	blood | between_subject_case_control | conf=medium | tumor_tissue | n=26
+SRP158994	hcvgroup	chronic	resolution	in:time point=earlyacute;subj:patientid;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=87
+SRP159264	tissue	intrahepatic cholangiocarcinoma	adjacent non-tumor liver tissue	tissue:liver	liver | between_subject_case_control | conf=medium | tumor_tissue | n=34
+SRP161171	mouse strain	nrgf	nrg	in:time of extraction post yfv-17d infection=day 11;tissue:blood	blood | genotype_comparison | conf=medium | mixed_organisms | n=16
+SRP161704	group	lrr	ctl	in:sample type=primary;subj:primary_id;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=129
+SRP162003	disease	obesity insulin resistant	obesity insulin sensitive	tissue:liver	liver | between_subject_case_control | conf=medium |  | n=14
+SRP162125	disease state	rheumatoid arthritis	healthy	tissue:blood	blood | between_subject_case_control | conf=medium |  | n=147
+SRP162073	isolate	critically ill and mechanically silenced	healthy	tissue:muscle	muscle | between_subject_case_control | conf=high |  | n=13
+SRP162492	acr at 3m	yes	no	tissue:blood	blood | between_subject_case_control | conf=high |  | n=88
+SRP162411	treatment	stamaril	placebo ab1c	in:hours_post_treatment=24;subj:isolate;tissue:blood	blood | in_vivo_treatment_arms | conf=medium |  | n=765
+SRP162500	treatment	agrippal	placebo ab1c	in:hours_post_treatment=24;subj:isolate;tissue:blood	blood | in_vivo_treatment_arms | conf=medium |  | n=766
+SRP162414	treatment	engerixb 1	placebo ab1c	in:hours_post_treatment=24;subj:isolate;tissue:blood	blood | in_vivo_treatment_arms | conf=low |  | n=712
+SRP162743	cardiac disease	myocarditis	dilated cardiomyopathy	tissue:heart	heart | between_subject_case_control | conf=high |  | n=16
+SRP162958	disease	hepatocellular carcinoma	normal control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=14
+SRP162873	diagnosis	intermittent claudicant	healthy adult	tissue:muscle	muscle | between_subject_case_control | conf=high |  | n=50
+SRP163027	disease state	cervical cancer	healthy control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=51
+SRP163173	case/control	case	control	ex:case/control=exclude;subj:patient id;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=92
+SRP163478	condition	biventricular heart failure	not failing	in:tissue=right ventricle;tissue:heart	heart | between_subject_case_control | conf=medium |  | n=30
+SRP164309	clinical form	mb	pb	in:clinical form=mb;in:clinical form=pb;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=58
+SRP165679	skin type	lesional	healthy	ex:skin type=chronic_lesion;tissue:skin	skin | between_subject_case_control | conf=medium |  | n=147
+SRP166200	health_state	t1d	non-diabetic	subj:isolate;tissue:other	other | between_subject_case_control | conf=high |  | n=16
+SRP166889	therapy	neoadjuvant pembrolizumab	adjuvant pembrolizumab	tissue:other	other | in_vivo_treatment_arms | conf=high | tumor_tissue | n=29
+SRP168013	mestrual phase	secretory	proliferative	in:source_name=endocervix;tissue:reproductive	reproductive | between_subject_case_control | conf=medium |  | n=33
+SRP168251	disease state	biliary atresia	normal	tissue:liver	liver | between_subject_case_control | conf=high |  | n=178
+SRP168421	disease	systemic lupus erythematosus	healthy	tissue:blood	blood | between_subject_case_control | conf=high |  | n=26
+SRP168357	disease state	pediatric tb meningitis	other infection	in:sample type=ventricular cerebrospinal fluid;subj:individual;tissue:brain	brain | between_subject_case_control | conf=medium | cell_free_rna | n=30
+SRP168555	disease status	active tb	n/a	ex:disease status=6 months after treatment;ex:disease status=12 months after treatment;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=14
+SRP169085	disease state	spondyloarthritis	rheumatoid arthritis	in:cell=gamma delta t cell;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=33
+SRP169582	patient diagnosis	luad	lusc	ex:source_name=non-small cell lung cancer cell line;in:tissue=lung tissue biopsy;tissue:lung	lung | between_subject_case_control | conf=medium | tumor_tissue | n=66
+SRP169610	condition	acute ischemic stroke	healthy control	ex:condition=subacute ischemic stroke;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=15
+SRP169128	diagnosis	sals	non-neurological control	in:tissue=motor cortex;subj:subject id;tissue:brain	brain | between_subject_case_control | conf=high |  | n=38
+SRP170629	tissue/status	ruptured intracranial aneurysm	intracranial cortical artery	ex:tissue/status=unknown intracranial aneurysm;ex:tissue/status=unknown rupture status;tissue:other	other | between_subject_case_control | conf=high |  | n=60
+SRP172534	isolate	obese individual	normal weight individual	tissue:other	other | between_subject_case_control | conf=high |  | n=23
+SRP173190	disease state	ms	healthy control	in:tissue=corpus callosum;tissue:other	other | between_subject_case_control | conf=medium |  | n=50
+SRP173378	patient diagnosis	generalised pustular psoriasis	healthy	tissue:blood	blood | between_subject_case_control | conf=high |  | n=16
+SRP173379	patient diagnosis	generalised pustular psoriasis	healthy	tissue:blood	blood | between_subject_case_control | conf=high |  | n=19
+SRP173488	gliomas classification	idh statut: idhwt	idh statut: idhmut	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=14
+SRP173842	disease state	non-cutaneous systemic sclerosis	healthy donor	tissue:blood	blood | between_subject_case_control | conf=high |  | n=73
+SRP174497	subject status	acne patients	healthy control	ex:time point=after treatment;subj:source_name;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=25
+SRP174668	disease_stage	fibrosis 4	normal	tissue:liver	liver | between_subject_case_control | conf=medium |  | n=192
+SRP175005	diagnosis	cf	healthy control	subj:patient id;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=60
+SRP175171	subgroup	l1-fggy+	l1-fggy-	tissue:lung	lung | between_subject_case_control | conf=high | tumor_tissue | n=18
+SRP175707	treatment group	supraphysiological testosterone (spt)	control	in:timepoint=day 5 (d5);subj:source_name;tissue:other	other | in_vivo_treatment_arms | conf=medium | tumor_tissue | n=76
+SRP179061	diagnosis	ad	control	in:cell type=neuron;subj:inventory_patient_id;tissue:other	other | between_subject_case_control | conf=high |  | n=113
+SRP178454	carriage status	carrier	noncarrier	in:timepoint=day+2;subj:subject id;tissue:lung	lung | between_subject_case_control | conf=medium |  | n=27
+SRP179696	isolate	bilateral_ovarian_endometriosis	healthy_donors	subj:isolate;tissue:other	other | between_subject_case_control | conf=medium |  | n=34
+SRP181114	condition	cesarean delivery	vaginal delivery	tissue:blood	blood | between_subject_case_control | conf=high |  | n=16
+SRP181468	isolate	patient diagnosed with primary hyperparathyroidism	thyroid cancer patient	tissue:other	other | between_subject_case_control | conf=high | tumor_tissue | n=14
+SRP182649	disease	frontal fibrosing alopecia	healthy control	tissue:skin	skin | between_subject_case_control | conf=high |  | n=14
+SRP182096	diagnosis	chronic hbv	healthy	tissue:blood	blood | between_subject_case_control | conf=high |  | n=62
+SRP182839	disease	dengue	healthy	in:cell_type=platelet;subj:isolate;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=14
+SRP182854	condition	oscc	osf	tissue:other	other | between_subject_case_control | conf=medium | tumor_tissue | n=18
+SRP182842	ucp1 expression	high ucp1 -eat	low ucp1-eat	in:tisse=epicardial adipose;tissue:adipose	adipose | between_subject_case_control | conf=medium |  | n=45
+SRP183071	cell of origin	abc	gcb	ex:cell of origin=unclassified;tissue:other	other | between_subject_case_control | conf=medium | tumor_tissue | n=553
+SRP183532	molecular phenotype	arneg_nepos	arpos_neneg	ex:cell line=c4-2b (atcc crl-3315);ex:cell line=pacmetut1;ex:cell line=pc-3 (atcc crl-1435);in:cell type=prostate cancer;subj:patient;tissue:liver	liver | between_subject_case_control | conf=medium | tumor_tissue | n=149
+SRP185420	subject status	hypercholestoremia patient	healthy control	ex:treatment protocol=after 3 months of statin treatment; visit2;subj:subject id;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=15
+SRP185902	disease	idiopathic dilated cardiomyopathy (dcm)	-	in:developmental stage=adult;in:tissue=left ventricle;tissue:heart	heart | between_subject_case_control | conf=medium |  | n=38
+SRP186088	disease	s. mansoni+	s.mansoni-	ex:treatment=1 month after praziquantel rx;ex:treatment=2 month after praziquantel rx;subj:isolate;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=12
+SRP186450	disease	nash	healthy	tissue:liver	liver | between_subject_case_control | conf=high |  | n=57
+SRP187527	infection	leishmania braziliensis	not-infected	ex:treatment_outcome=na;tissue:skin	skin | between_subject_case_control | conf=high |  | n=27
+SRP187431	vaccine_type	laiv	iiv	in:day=7;tissue:blood	blood | in_vivo_treatment_arms | conf=medium | targeted_assay_suspected | n=549
+SRP187088	genotype/variation	kmt2a-mllt3+flt3-n676k	kmt2a-mllt3+empty-gfp	tissue:blood	blood | genotype_comparison | conf=medium | tumor_tissue | n=31
+SRP187984	disease state	me/cfs	control	subj:individual identifier;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=98
+SRP188422	disease	fcd	non-epilepsy	tissue:brain	brain | between_subject_case_control | conf=high |  | n=84
+SRP189204	disease state	lymphatic malformation	control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=19
+SRP189239	isolate	active celiac disease	control	subj:isolate;tissue:gut	gut | between_subject_case_control | conf=medium |  | n=42
+SRP189352	genotype	sf3b1k700e	wild type	tissue:musculoskeletal	musculoskeletal | genotype_comparison | conf=high |  | n=27
+SRP191514	condition	exercise	mind-body control	in:time=post-intervention;tissue:tumor	tumor | in_vivo_treatment_arms | conf=medium | tumor_tissue | n=64
+SRP192714	exposure	denv	naive	in:time=late acute;subj:patient;tissue:other	other | between_subject_case_control | conf=medium | cell_free_rna | n=1021
+SRP192825	group	group 3	group 1	subj:sample no clinic;tissue:blood	blood | between_subject_case_control | conf=low |  | n=36
+SRP193374	grade	high grade	low grade	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue;ffpe_or_degraded | n=119
+SRP193435	subject status	cerebral cavernous malformation	autopsy contol	tissue:other	other | between_subject_case_control | conf=medium |  | n=13
+SRP193940	subject status	q fever fatigue syndrom (qfs)	healthy control	subj:donor id;tissue:blood	blood | between_subject_case_control | conf=high |  | n=40
+SRP197353	fibrosis stage	3	0	tissue:liver	liver | between_subject_case_control | conf=medium |  | n=78
+SRP198379	diagnosis	acute cellular rejection (acr)	normal/non specific	tissue:kidney	kidney | between_subject_case_control | conf=high |  | n=33
+SRP200059	hdaci group	resistant	sensitive	in:treatment=n/a;in:source_name=peripheral blood;ex:hdaci group=n/a;tissue:blood	blood | between_subject_case_control | conf=medium | tumor_tissue | n=28
+SRP211941	isolate	pregvhd	nogvhd	tissue:blood	blood | between_subject_case_control | conf=medium |  | n=13
+SRP212148	infected with/healthy control	enterovirus	control	subj:library name;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=476
+SRP212626	condition	cachectic	control	tissue:muscle	muscle | between_subject_case_control | conf=high |  | n=20
+SRP212702	tissue	bladder cancer tumor tissue	paracancerous tissue of bladder cancer	tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=65
+SRP212755	disease state	pdac	healthy	tissue:blood	blood | between_subject_case_control | conf=high | cell_free_rna;tumor_tissue | n=501
+SRP212956	patient group	sepsis	healthy	in:cell type=cd14;subj:subjectid;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=217
+SRP213937	group	disease	control	tissue:reproductive	reproductive | between_subject_case_control | conf=high |  | n=38
+SRP214745	disease_stage	t1b n1 stage iiic1	t1b n0 stage ib	subj:isolate;tissue:reproductive	reproductive | between_subject_case_control | conf=medium | tumor_tissue | n=24
+SRP215509	bmi classification	obese	healthy	tissue:other	other | between_subject_case_control | conf=high |  | n=32
+SRP215939	gvhd stage	onset	control	ex:gvhd stage=refractory;tissue:gut	gut | between_subject_case_control | conf=medium |  | n=54
+SRP216420	diagnosis	active celiac	control	tissue:gut	gut | between_subject_case_control | conf=high |  | n=507
+SRP216404	diagnosis	essential tremor	control	ex:diagnosis=control **(outlier)**;ex:diagnosis=essential tremor **(outlier)**;tissue:brain	brain | between_subject_case_control | conf=high |  | n=864
+SRP217667	subject status	patient with endometriosis	healthy control	tissue:skin	skin | between_subject_case_control | conf=medium |  | n=58
+SRP217543	source_name	placebo-arm, poor outcome, 1 month post trichiasis surgery	placebo-arm, good outcome, 1 month post trichiasis surgery	ex:source_name=baseline;tissue:other	other | between_subject_case_control | conf=medium |  | n=96
+SRP217937	group	pss	hc	tissue:other	other | between_subject_case_control | conf=high |  | n=62
+SRP218935	tissue	breast cancer	normal breast tissue	subj:source_materal_id;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue | n=95
+SRP220251	tissue	nasal polyp inferior turbinate	control inferior turbinate	tissue:lung	lung | between_subject_case_control | conf=medium |  | n=103
+SRP220377	disease state	sle	healthy	in:cell type=cdc2_cd5+;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=41
+SRP052056	diagnosis	papillary thyroid carcinoma	healthy	tissue:tumor	tumor | between_subject_case_control | conf=high | tumor_tissue | n=22
+SRP053296	mi type	stemi	nstemi	ex:mi type=non-myocardial infarction control;tissue:other	other | between_subject_case_control | conf=medium |  | n=35
+SRP055749	phenotype	cushing's	control	tissue:adipose	adipose | between_subject_case_control | conf=high |  | n=16
+SRP056477	genotype	c9als	healthy	in:tissue=cerebellum;tissue:brain	brain | between_subject_case_control | conf=high |  | n=53
+SRP056443	location	buenaventura	cali	in:time=pre;subj:individual;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=24
+SRP056835	developmental stage	fetal (12-18 gestational weeks)	adult	in:tissue=beta cells;tissue:other	other | between_subject_case_control | conf=medium |  | n=24
+SRP136102	phenotype	sle	healthy	subj:donor;tissue:blood	blood | between_subject_case_control | conf=high |  | n=120
+SRP098758	group	case (tb)	control	subj:subjectid;tissue:blood	blood | between_subject_case_control | conf=high |  | n=428
+SRP164913	diagnosis	ham/tsp	hc	in:cell type=pbmc;ex:longitudinal replicate=yes;ex:technical replicate=yes;tissue:blood	blood | between_subject_case_control | conf=medium | targeted_assay_suspected | n=106
+SRP221482	source_name	orang asli (indigenous) study village resident_before treatment	urban resident_before treatment	ex:source_name=orang asli (indigenous) study village resident_after treatment;subj:subject id;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=111
+SRP086245	subject status	obese child with asthma	normal-weight child with asthma	tissue:blood	blood | between_subject_case_control | conf=high |  | n=42
+SRP183186	disease	chikungunya fever	control	subj:isolate;tissue:blood	blood | between_subject_case_control | conf=high |  | n=59
+SRP125882	disease	human immunodeficiency virus infectious disease	healthy	subj:isolate;tissue:blood	blood | between_subject_case_control | conf=high |  | n=40
+SRP150595	health_state	after aneurysm rupture - acute	healthy control	subj:isolate;tissue:blood	blood | between_subject_case_control | conf=high |  | n=59
+SRP201023	disease	acute-on-chronic liver failure (aclf)	normal controls (nc)	tissue:blood	blood | between_subject_case_control | conf=high |  | n=63
+SRP152983	phenotype	rheumatoid arthritis	healthy	in:tissue=blood;subj:donor;tissue:blood	blood | between_subject_case_control | conf=high |  | n=30
+SRP114762	disease	primary antiphospholipid syndrome	healthy	tissue:blood	blood | between_subject_case_control | conf=high |  | n=18
+SRP119122	outcome after 1 year	dead	alive	tissue:blood	blood | between_subject_case_control | conf=medium |  | n=29
+SRP112744	disease status	dilated cardiomyopathy (dcm)	healthy	tissue:blood	blood | between_subject_case_control | conf=high |  | n=16
+SRP132699	disease	ms	control	subj:isolate;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=30
+SRP191569	frailty status	frail	non-frail	tissue:blood	blood | between_subject_case_control | conf=high |  | n=16
+SRP100652	disease	ankylosing spondylitis	healthy control	subj:disease_phenotype_replicate;tissue:blood	blood | between_subject_case_control | conf=high |  | n=124
+SRP188973	karyotype	t21	d21	tissue:blood	blood | genotype_comparison | conf=high |  | n=14
+SRP111640	disease_stage	severe cf	mild cf	tissue:blood	blood | between_subject_case_control | conf=high |  | n=30
+SRP071965	group	case (tb progressor)	control (non-progressor)	tissue:blood	blood | between_subject_case_control | conf=medium |  | n=355
+SRP126583	group	ltbi	control	in:timepoint_months=baseline;subj:patient_id;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=138
+SRP126691	group	active_tb	control	in:timepoint_months=baseline;subj:patient_id;tissue:blood	blood | between_subject_case_control | conf=high |  | n=175
+SRP095109	disease status	systemic lupus erythematosus	healthy control donor	in:b cell subset=double negative 2;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=24
+SRP144647	allergy_status	allergic	control	in:activation_status=0;subj:indiidual;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=137
+SRP174223	treatment	ctla-4ig	placebo	in:visit=day 84;tissue:blood	blood | in_vivo_treatment_arms | conf=medium |  | n=286
+SRP096201	disease	acute-on-chronic liver failure (aclf)	healthy	in:treatment=no treatment, immediately after isolation;subj:age;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=108
+SRP081605	treatmentgroup	hokt3	control	in:visitmonth=0;subj:siteandparticipantcode;tissue:blood	blood | in_vivo_treatment_arms | conf=medium |  | n=190
+SRP136938	responder	n	y	in:visit=baseline;subj:subject id;tissue:blood	blood | in_vivo_treatment_arms | conf=medium |  | n=194
+SRP032775	class	immune	delayed fever	in:time-point=pre-infection;subj:id;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=233
+SRP045500	diseasestatus	type 1 diabetes	healthy control	in:celltype=whole blood;ex:diseasestatus=ms posttreatment;subj:donorid;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=134
+SRP037778	grouping	obese	lean	tissue:adipose	adipose | between_subject_case_control | conf=high |  | n=44
+SRP155483	phenotype	rheumatoid arthritis	healthy	in:phenotype=rheumatoid arthritis;in:phenotype=healthy;subj:donor;tissue:blood	blood | between_subject_case_control | conf=high |  | n=120
+SRP109111	severity	severe	non-severe	in:timepoint=1-2d post symptom onset;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=172
+SRP115571	disease status	autism spectrum disorder (asd)	healthy control	subj:brainid;tissue:brain	brain | between_subject_case_control | conf=high |  | n=52
+SRP126056	diagnosis	schizophrenia	control	in:cell type=neun;subj:subject id;tissue:brain	brain | between_subject_case_control | conf=high |  | n=51
+SRP102186	disease	schizo	control	tissue:brain	brain | between_subject_case_control | conf=high |  | n=46
+SRP181886	diagnosis	alzheimer's disease	control	subj:case id;tissue:other	other | between_subject_case_control | conf=high |  | n=289
+SRP127180	disease	ocd	none	in:tissue=brain – putamen;tissue:brain	brain | between_subject_case_control | conf=medium |  | n=41
+SRP035524	disease	schizophrenia	normal control	in:body_site=frontal cortex;tissue:unknown	unknown | between_subject_case_control | conf=medium |  | n=35
+ERP106487	disease	crohn's disease	normal	in:organism part=terminal ileum;subj:individual;tissue:gut	gut | between_subject_case_control | conf=high |  | n=79
+SRP077708	disease	celiac disease	control	in:cell_type=epithelial;subj:isolate;tissue:gut	gut | between_subject_case_control | conf=high |  | n=42
+SRP071758	dysplasia status	dysplasia	normal	tissue:lung	lung | between_subject_case_control | conf=high |  | n=82
+ERP109626	disease	colon sessile serrated adenoma/polyp	adenoma	in:sampling site=pre-lesion;subj:individual;tissue:unknown	unknown | between_subject_case_control | conf=high | tumor_tissue | n=62
+SRP168038	sepsis	y	n	ex:sepsis=not included in comparison;tissue:kidney	kidney | between_subject_case_control | conf=medium |  | n=81
+SRP057350	disease	hdmsensd_wheeze	nonatopic_asymptomatic	subj:isolate;tissue:lung	lung | between_subject_case_control | conf=high |  | n=68
+SRP186138	disease	hypertrophic cardiomyopathy; doid:11984	healthy	subj:isolate;tissue:muscle	muscle | between_subject_case_control | conf=high |  | n=36
+SRP218531	disease	infraoccluded	non-infraoccluded	subj:isolate;tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=high |  | n=16
+SRP072242	disease	idiopathic pulmonary fibrosis	control	tissue:lung	lung | between_subject_case_control | conf=high |  | n=23
+ERP109255	disease staging	advanced	early	tissue:unknown	unknown | between_subject_case_control | conf=high |  | n=69
+SRP121330	coronary artery disease status	case	control	tissue:other	other | between_subject_case_control | conf=medium |  | n=16
+SRP065758	health_state	disease	health	subj:isolate;tissue:skin	skin | between_subject_case_control | conf=medium |  | n=120
+ERP105501	disease	osteoarthritis, knee	vascular disease	tissue:unknown	unknown | between_subject_case_control | conf=high |  | n=75
+SRP186882	edema before operation	no	not applicable	subj:isolate;tissue:other	other | between_subject_case_control | conf=medium |  | n=18
+ERP116722	disease	cerebral malaria	uncomplicated malaria	subj:individual;tissue:unknown	unknown | between_subject_case_control | conf=high | mixed_organisms | n=53
+ERP104782	clinical history	active infection (before treatment)	healthy, no previous infection	ex:clinical history=cured infection (6 months after treatment);subj:individual;tissue:unknown	unknown | between_subject_case_control | conf=high |  | n=17
+SRP132197	adverse event	moderate	none	in:pre or post treatment=pre;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=62
+SRP081020	protected/suceptibible/duffy	suceptible	protected	in:time=diagnosis;tissue:blood	blood | between_subject_case_control | conf=medium |  | n=55
+SRP200094	disease	relapsed and/or refractory	newly doagnosed	tissue:blood	blood | between_subject_case_control | conf=medium | cell_free_rna | n=27
+SRP058414	tissue	pre-b cell from bone marrow	pre-b cell from cord blood	tissue:blood	blood | between_subject_case_control | conf=medium | tumor_tissue | n=27
+SRP145493	ptsd	yes	no	in:cell_type=pbmc;subj:subject;tissue:blood	blood | between_subject_case_control | conf=high |  | n=195
+SRP131037	ptsd diagnosis	positive_ptsd	negative_ptsd	tissue:blood	blood | between_subject_case_control | conf=high |  | n=85
+SRP042623	sample group	coronary artery calcification case	control	tissue:blood	blood | between_subject_case_control | conf=high |  | n=16
+SRP080292	diagnosis	pcos	normal	in:treatment=none;tissue:adipose	adipose | between_subject_case_control | conf=medium |  | n=53
+SRP090787	rs2059807	aa	gg	in:tissue=fat;subj:isolate;tissue:adipose	adipose | genotype_comparison | conf=low |  | n=36
+SRP135671	perforation/abscess	yes	no	tissue:gut	gut | between_subject_case_control | conf=medium |  | n=26
+SRP112751	t	t4	t3	tissue:gut	gut | between_subject_case_control | conf=medium | tumor_tissue | n=17
+SRP076032	disease state	tumor	control	tissue:liver	liver | between_subject_case_control | conf=high | tumor_tissue | n=27
+SRP056696	tumor status	tumor	adjacent normal tissue	tissue:liver	liver | between_subject_case_control | conf=medium | tumor_tissue | n=55
+SRP090460	survstatus	1	0	ex:cell type=nl;tissue:lung	lung | between_subject_case_control | conf=medium | tumor_tissue | n=54
+SRP052896	tissue	smarca4-deficient thoracic sarcoma	lung	subj:isolate;tissue:lung	lung | between_subject_case_control | conf=low | tumor_tissue | n=35
+SRP046233	source_name	bone marrow mononuclear cells, non-responder	bone marrow mononuclear cells, responder	tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=medium | tumor_tissue | n=14
+SRP017262	primary_disease	breast cancer	none	tissue:musculoskeletal	musculoskeletal | between_subject_case_control | conf=medium | tumor_tissue | n=43
+SRP198979	condition	breast cancer serum (without recurrence)	normal serum	tissue:other	other | between_subject_case_control | conf=medium | cell_free_rna;tumor_tissue | n=128
+SRP186205	disease	varicose vein	atherosclerotic coronary artery disease	subj:isolate;tissue:other	other | between_subject_case_control | conf=high |  | n=20
+SRP124651	tumor type	myc-tcrad translocated t-all	tal-lmo t-all	tissue:other	other | between_subject_case_control | conf=high | tumor_tissue | n=13
+SRP026042	tissue	lesion	healthy	in:treatment=untreated;ex:tissue=nonlesion;subj:patient id;tissue:skin	skin | between_subject_case_control | conf=medium |  | n=84
+SRP058243	tissue	tumor	control	tissue:tumor	tumor | between_subject_case_control | conf=high | tumor_tissue | n=46
+SRP059588	disease	leiomyosarcoma	gist	subj:rna_seq_id;tissue:tumor	tumor | between_subject_case_control | conf=medium | tumor_tissue;ffpe_or_degraded | n=41
+ERP104864	pathotype	lymphoid	fibroid	in:organism part=synovium;ex:pathotype=ungraded;subj:individual;tissue:unknown	unknown | between_subject_case_control | conf=medium |  | n=154
+ERP010930	disease	oligodendroglioma	astrocytoma	tissue:unknown	unknown | between_subject_case_control | conf=high | tumor_tissue | n=49
+ERP106532	disease	squamous cell carcinoma	actinic keratosis	ex:disease=uc;subj:individual;tissue:unknown	unknown | between_subject_case_control | conf=medium | tumor_tissue | n=23
+ERP010889	disease staging	extensive atrophy	normal	tissue:unknown	unknown | between_subject_case_control | conf=high |  | n=30
+ERP001304	disease_factor	schizophrenia	normal	tissue:unknown	unknown | between_subject_case_control | conf=high |  | n=18
+SRP114567	patient	jo_1 myositis muscle	non-inflammed muscle	tissue:muscle	muscle | between_subject_case_control | conf=high |  | n=12
+SRP136195	individual	kerataconus patient	control, myopia patient	tissue:other	other | between_subject_case_control | conf=high |  | n=20

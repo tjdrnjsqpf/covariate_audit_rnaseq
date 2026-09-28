@@ -1,0 +1,10 @@
+# large or local artefacts never committed
+data/raw/
+data/external/
+results/main_human_v2/
+results/main_mouse_v2/
+logs/
+*.log
+.DS_Store
+__pycache__/
+*.bak*

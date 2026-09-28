@@ -1,0 +1,36 @@
+null P(p<=0.05): B=20 -> 0.095  B=10 -> 0.091 
+
+complement |Δf| by rung (median over draws):
+    organism target_df df_comp n_comp refC_de
+      <char>     <num>   <num>  <num>   <num>
+ 1:    human       0.0    0.10   62.5    5126
+ 2:    human       0.2    0.11   62.5    5404
+ 3:    human       0.4    0.14   62.5    5182
+ 4:    human       0.6    0.27   62.5    4772
+ 5:    human       0.8    0.29   62.5    4439
+ 6:    mouse       0.0    0.00   25.0      84
+ 7:    mouse       0.2    0.17   25.0      77
+ 8:    mouse       0.4    0.33   25.0      83
+ 9:    mouse       0.6    0.51   25.0      44
+10:    mouse       0.8    0.67   25.0      25
+
+ref A: paired rise M0 0->0.8, and M1-M0 at 0.8:
+Key: <organism>
+   organism rise_M0 M1_minus_M0_at08
+     <char>   <num>            <num>
+1:    human      NA               NA
+2:    mouse      NA               NA
+
+corrected bias2 medians (M0, M1) and paired diff by rung:
+    organism target_df    M0    M1      d
+      <char>     <num> <num> <num>  <num>
+ 1:    human       0.0 0.001 0.001  0.000
+ 2:    human       0.2 0.006 0.001 -0.004
+ 3:    human       0.4 0.015 0.001 -0.012
+ 4:    human       0.6 0.034 0.001 -0.032
+ 5:    human       0.8 0.056 0.003 -0.048
+ 6:    mouse       0.0 0.001 0.000  0.000
+ 7:    mouse       0.2 0.003 0.000 -0.002
+ 8:    mouse       0.4 0.011 0.000 -0.009
+ 9:    mouse       0.6 0.024 0.001 -0.015
+10:    mouse       0.8 0.027 0.002 -0.019

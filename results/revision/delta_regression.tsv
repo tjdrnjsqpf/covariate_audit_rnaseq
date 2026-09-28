@@ -1,0 +1,7 @@
+organism	stratum	n	beta_sexdiff	se	p	beta_logn	beta_logdeg
+human	all	203	-0.9796	0.0942	1.65e-20	-0.0568	-0.0151
+human	metadata_only	72	-0.9093	0.1805	3.72e-06	-0.0281	-0.0164
+human	within_group_control	203	-0.0597	0.0719	0.407	0.0053	-0.0164
+mouse	all	470	-0.6197	0.0617	1.29e-21	-0.0804	-0.0039
+mouse	metadata_only	170	-0.4981	0.129	0.000161	0.0155	-0.0067
+mouse	within_group_control	470	0.0309	0.0428	0.471	-0.0195	0.0011

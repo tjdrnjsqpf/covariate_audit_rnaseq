@@ -1,0 +1,197 @@
+study	organism	label_v1	label_final	changed	scope	final_contrast	adjudication	who_right	reviewer
+SRP098758	human	include	include	no		[group] case (tb) vs control	TB household contacts, n=428	agree	agree
+SRP136102	human	include	include	no		[phenotype] sle vs healthy	SLE vs healthy whole blood	agree	agree
+SRP221482	human	include	include	no		[subject group] ^orang asli vs ^urban	indigenous vs urban	agree	agree
+SRP164913	human	include	include	no		[diagnosis] ms vs hc	MS vs HC PBMC	agree	agree
+SRP183186	human	include	include	no		[disease] chikungunya fever vs control	CHIKV vs control	agree	agree
+SRP086245	human	include	include	no		[subject status] ^obese vs ^normal-weight	obese vs normal-weight asthma children CD4	agree	agree
+SRP125882	human	include	include	no		[disease] human immunodeficiency virus infectious disease vs healthy	HIV vs healthy PBMC	agree	agree
+SRP150595	human	include	include	no		[health_state] after aneurysm rupture - chronic vs healthy control	aneurysm chronic vs healthy	agree	agree
+SRP201023	human	include	include	no		[disease] ^acute-on-chronic liver failure \(aclf\)$ vs ^normal controls	HBV-ACLF vs NC PBMC	agree	agree
+SRP152983	human	include	include	no		[phenotype] rheumatoid arthritis vs healthy	RA vs healthy neutrophils	agree	agree
+SRP119122	human	include	include	no		[outcome after 1 year] dead vs alive	HF dead vs alive PBMC	agree	agree
+SRP132699	human	include	include	no		[disease] ms vs control	MS vs control PBMC	agree	agree
+SRP114762	human	include	include	no		[disease] primary antiphospholipid syndrome vs healthy	APS vs healthy neutrophils	agree	agree
+SRP112744	human	include	include	no		[disease status] ^dilated cardiomyopathy vs healthy	DCM vs healthy PBMC	agree	agree
+SRP183819	human	include	include	no		[disease] septic vs healthy	sepsis vs healthy platelets	agree	agree
+SRP191569	human	include	include	no		[frailty status] frail vs non-frail	frail vs non-frail PBMC	agree	agree
+SRP188973	human	include	include	no		[karyotype] t21 vs d21	T21 vs D21 WBC	agree	agree
+SRP100652	human	include	include	no		[disease] ankylosing spondylitis vs healthy control	AS vs healthy PBMC	agree	agree
+SRP111640	human	include	include	no		[disease_stage] severe cf vs mild cf	CF severe vs mild	agree	agree
+SRP071965	human	include	include	no		[group] case (tb progressor) vs control (non-progressor)	ACS TB progressor; no subject ID → repeated measures unresolved (as-is)	agree	agree
+SRP126583	human	include	include	no		[group] ltbi vs control	Leicester LTBI vs control, baseline only	agree	agree
+SRP126691	human	include	include	no		[group] active_tb vs control	Leicester active TB vs control, baseline only	agree	agree
+SRP096201	human	include	include	no		[disease] acute-on-chronic liver failure (aclf) vs healthy	ACLF monocytes, cultured samples excluded	agree	agree
+SRP144647	human	include	include	no		[allergy_status] allergic vs control	infant naive CD4, unstimulated (0) only	agree	agree
+SRP095109	human	include	include	no		[disease status] systemic lupus erythematosus vs healthy control donor	SLE B subsets, subset as covariate	agree	agree
+SRP174223	human	include	include	no		[treatment] ctla-4ig vs placebo	RCT baseline arm comparison = negative control (no true DE)	agree	agree
+SRP136938	human	include	include	no		[responder] y vs n	T1D responder vs non at baseline	agree	agree
+SRP081605	human	include	include	no		[status] r vs nr	hOKT3 responder vs non-responder at baseline	agree	agree
+SRP032775	human	include	include	no		[pf infection status] i vs u	malaria infected vs uninfected children, pre-infection excluded	agree	agree
+SRP045500	human	include	include	no		[diseasestatus] type 1 diabetes vs healthy control	T1D vs healthy, 6 cell types as covariate	agree	agree
+SRP109111	human	include	include	no		[severity] severe vs non-severe	pediatric CHIKV, acute phase only (sex-only)	agree	agree
+SRP155483	human	include	include	no		[phenotype] rheumatoid arthritis vs healthy	RA vs healthy WBC (rescued after failing the min_n filter)	agree	agree
+SRP037778	human	include	include	no		[grouping] obese vs lean	adipose(omental) obese vs lean	agree	agree
+SRP115956	human	include	include	no		[phenotype] mdd vs ctrl	brain 6 regions MDD vs ctrl, region covariate	agree	agree
+SRP115571	human	include	include	no		[disease status] autism spectrum disorder (asd) vs healthy control	brain DLPFC ASD vs control	agree	agree
+SRP126056	human	include	include	no		[diagnosis] schizophrenia vs control	brain NeuN SCZ vs control	agree	agree
+SRP102186	human	include	include	no		[disease] schizo vs control	brain amygdala SCZ vs control	agree	agree
+SRP127180	human	include	include	no		[disease] ocd vs none	brain OCD vs none	agree	agree
+SRP181886	human	include	include	no		[diagnosis] alzheimer's disease vs control	brain fusiform gyrus AD vs control	agree	agree
+SRP035524	human	include	include	no		[disease] bipolar disorder (bp) vs normal control	brain 2 regions BP vs control	agree	agree
+ERP106487	human	include	include	no		[disease] ulcerative colitis vs normal	gut epithelium UC vs normal (pediatric), segment covariate	agree	agree
+SRP077708	human	include	include	no		[disease] celiac disease vs control	duodenum celiac vs control (pediatric)	agree	agree
+ERP109626	human	include	include	no		[disease] colon sessile serrated adenoma/polyp vs adenoma	colon SSA/P vs adenoma	agree	agree
+SRP168038	human	include	include	no		[disease] atn vs ain	kidney ATN vs AIN	agree	agree
+SRP071758	human	include	include	no		[copd status] copd vs no copd	bronchial brushing COPD vs no COPD	agree	agree
+SRP057350	human	include	include	no		[disease] hdmsensd_asymptomatic vs nonatopic_asymptomatic	sputum HDM-sensitized vs nonatopic	agree	agree
+SRP072242	human	include	include	no		[disease] idiopathic pulmonary fibrosis vs control	BAL IPF vs control	agree	agree
+SRP186138	human	include	include	no		[disease] ^hypertrophic cardiomyopathy vs healthy	myocardium HCM vs healthy	agree	agree
+SRP218531	human	include	include	no		[disease] infraoccluded vs non-infraoccluded	bone ankylosed molars (pediatric)	agree	agree
+ERP109255	human	include	include	no		[disease staging] advanced vs early	liver biopsy advanced vs early	agree	agree
+SRP186882	human	include	include	no		[tcf4 expansion status] expanded vs not expanded	corneal endothelium FECD TCF4 expanded vs not	agree	agree
+SRP121330	human	include	include	no		[coronary artery disease status] case vs control	aorta CD90+ CAD vs control	agree	agree
+SRP065758	human	include	include	no		[health_state] disease vs health	skin psoriasis vs healthy	agree	agree
+ERP105501	human	include	include	no		[disease] osteoarthritis, knee vs vascular disease	cartilage OA vs vascular-disease controls	agree	agree
+ERP116722	human	include	include	no		[disease] ^cerebral malaria vs uncomplicated malaria	pediatric blood cerebral vs uncomplicated malaria	agree	agree
+ERP104782	human	include	include	no		[disease] visceral leishmaniasis vs normal	blood VL active vs healthy (cured time point excluded)	agree	agree
+SRP105208	mouse	include	include	no		[genotype abbreviations] ks vs ctrl	kidney Sav1 KO vs ctrl (completely confounded 4/4)	agree	agree
+SRP185805	mouse	include	include	no		[diabetes] yes vs no	liver diabetes vs no, n=84, sd 0.37	agree	agree
+SRP220671	mouse	include	include	no		[diet] hfd vs chow	adipose HFD vs chow (Fam13a study), sd 0.37	agree	agree
+SRP106605	mouse	include	include	no		[surgery] iri vs sham	kidney IRI vs sham, sd 0.76	agree	agree
+SRP059331	mouse	include	exclude	yes			The abstract reports only 4 biological samples (2 tumor, 2 normal); the 40 runs are technical replicates. Independent individuals per group <3. Using this dataset in the pilot was a mistake (pseudoreplication)	LLM	agree
+SRP158995	mouse	include	include	no		[genotype/variation] trim21 ko vs wt	liver Trim21 KO vs WT, sd 0.44	agree	agree
+SRP118998	mouse	include	include	no		[genotype] ko vs wt	kidney Peril KO vs WT, sd 0.46	agree	agree
+SRP038635	mouse	include	include	no		[diet] high fat diet vs chow diet	liver HFD vs chow, sd 0.58	agree	agree
+SRP168404	mouse	include	include	no		[genotype] p75ntr ko vs wild type	liver p75NTR KO vs WT, sd 0.33	agree	agree
+SRP095064	mouse	include	include	no		[genotype/variation] atf4 deletion vs wild type	liver Atf4 KO vs WT, sd 0.33	agree	agree
+SRP201969	mouse	include	include	no		[genotype/variation] noc-/- vs noc+/+	adipose Nocturnin KO vs WT, sd 0.53	agree	agree
+SRP040560	mouse	include	include	no		[genotype/variation] smad3-ko vs wt	kidney Smad3 KO vs WT, sd 0.40	agree	agree
+SRP095235	mouse	include	include	no		[diet] ^dietary-restricted vs ^control-fed	liver DR vs AL (aged), sd 0.67	agree	agree
+SRP097866	mouse	include	include	no		[genotype] dnmt1 -/- vs dnmt1 +/-	kidney Dnmt1 KO vs het, sd 0.67	agree	agree
+SRP154872	mouse	include	include	no		[genotype/variation] let7ko vs wt	kidney neonatal let7 KO vs WT, n=136, sd 0.20	agree	agree
+SRP151290	mouse	include	include	no		[genotype/variation] trem1-deficient vs wild type	liver Kupffer Trem1 KO vs WT, sd 0.15	agree	agree
+SRP113655	mouse	include	include	no		[genotype] lerko vs era floxed	liver LERKO(ERα KO) vs floxed, sd 0.25	agree	agree
+SRP229353	mouse	include	include	no		[genotype] fatp2-/- vs wildtype control	liver Fatp2 KO vs WT, sd 0.25	agree	agree
+SRP049583	mouse	include	include	no		[treatment] ^4 day in cold vs ^0 day in cold	BAT cold 4d vs 0d, sd 0.25	agree	agree
+SRP063455	mouse	include	include	no		[diet] high fat diet vs standard chow	liver DO chow vs HFD, n=384, balanced (negative control; label-flip project)	agree	agree
+SRP141266	mouse	include	include	no		[genotype/variation] bcl6 fl/fl;adipoq-cre vs bcl6 fl/fl	adipose Bcl6 adipocyte KO vs fl/fl, n=128, balanced	agree	agree
+SRP224672	mouse	include	include	no		[asd model] shank3b ko vs wild type littermate	brain striatum Shank3b KO vs WT (n=157, F7/M150), sd 0.35	agree	agree
+SRP068621	mouse	include	include	no		[treatment] ^lps vs ^pbs	brain microglia LPS vs PBS (developing), sd 0.88	agree	agree
+SRP219200	mouse	include	include	no		[genotype/variation] cryba1 cko vs ^cryba1-floxed	retina Cryba1 cKO vs floxed, sd 0.43	agree	agree
+SRP050429	mouse	include	include	no		[genotype] abca4-/- vs wild type	retina Abca4 KO vs WT, sd 0.38	agree	agree
+SRP136232	mouse	include	include	no		[genotype] chd2 het vs wildtype	cortex Chd2 het vs WT, sd 0.44	agree	agree
+SRP483183	mouse	include	include	no		[genotype] ^ampd2 vs wt	cerebellum Ampd2/3 dKO vs WT, sd 0.33	agree	agree
+SRP076455	mouse	include	include	no		[genotype] chd4 cko vs wt	cerebellum Chd4 cKO vs WT, sd 0.75	agree	agree
+SRP072868	mouse	include	include	no		[genotype] ^nmf205-/-$ vs wild type	cerebellum nmf205 vs WT, sd 0.33	agree	agree
+SRP099414	mouse	include	include	no		[genotype] reck vascular ko vs wild type	P0 brain Reck vascular KO vs WT, sd 0.33	agree	agree
+SRP081081	mouse	include	include	no		[genotype] kat6a knock-out vs wild-type	CD8 T cells Kat6a KO vs WT (n=64), sd 0.75	agree	agree
+SRP186486	mouse	include	include	no		[disease] tumor bearing vs healthy	blood monocytes tumor-bearing vs healthy, sd 0.50	agree	agree
+SRP060705	mouse	include	include	no		[infection] ^lymphocytic vs ^none$	CD8 T cells LCMV vs none, sd 0.44	agree	agree
+SRP133892	mouse	include	include	no		[knockout status] tgfbr2 ko vs wt	macrophages Tgfbr2 KO vs WT, sd 0.33	agree	agree
+SRP217860	mouse	include	include	no		[genotype] ^dock2 vs wild-type	memory CD8 Dock2 KO vs WT, sd 0.80	agree	agree
+SRP080852	mouse	include	exclude	yes			CD4 T cells isolated and stimulated in vitro for 4 days (anti-CD3/CD28, TGF-b, DMOG). In vitro experiment	LLM	agree
+SRP058396	mouse	include	include	no		[genotype] runx1c knockout vs wild type	bone marrow Runx1c KO vs WT, sd 0.33	agree	agree
+SRP065478	mouse	include	include	no		[genotype] cdko vs wildtype	T cells Snai2/3 cDKO vs WT (completely confounded)	agree	agree
+SRP049141	mouse	include	include	no		[genotype/variation] hpgd ko vs wild-type	CD4 T cells Hpgd KO vs WT (completely confounded)	agree	agree
+SRP100979	mouse	include	include	no		[genotype/variation] hsf1-/- vs wild type	muscle Hsf1 KO vs WT, sd 0.50	agree	agree
+SRP173675	mouse	include	include	no		[treatment] barium chloride vs uninjured	muscle stem cells injury vs uninjured, sd 0.50	agree	agree
+SRP082980	mouse	include	include	no		[genotype] fap-no cilia vs fap-ctrl	muscle FAPs no-cilia vs ctrl, sd 0.60	agree	agree
+SRP191506	mouse	include	include	no		[treatment] pip6a-pmo vs none	gastrocnemius PMO vs none, sd 0.17	agree	agree
+DRP005135	mouse	include	include	no		[genotype] vgll2 ko vs wild	skeletal muscle Vgll2 KO vs WT, sd 0.25	agree	agree
+SRP099194	mouse	include	include	no		[genotype/variation] pofut1 knockout vs ^pofut1flox	quadriceps Pofut1 KO vs floxed, balanced	agree	agree
+SRP217849	mouse	include	include	no		[genotype/variation] ^ant1 vs wt	skeletal muscle Ant1 tg vs WT, balanced	agree	agree
+SRP132197	human	exclude	include	yes		[adverse event] moderate vs none (pre subset)	Using only pre-treatment samples yields a between-subject comparison of adverse event presence vs absence	LLM	agree
+SRP132018	human	exclude	exclude	no			in vitro IL-3 stimulation	agree	agree
+SRP081574	human	exclude	exclude	no			group is a continuous AUC	agree	agree
+ERP109247	human	exclude	exclude	no			xenograft	agree	agree
+SRP081020	human	exclude	include	yes		[protected/suceptibible/duffy] suceptible vs protected (time=diagnosis subset)	Restricting to the single diagnosis time point allows a between-subject comparison. Small group size	LLM	agree
+SRP099568	human	exclude	exclude	no			CMV status mixed with in vitro activation	agree	agree
+SRP221351	human	exclude	exclude	no			Mixed culture/stimulation conditions	agree	agree
+SRP200094	human	exclude	include	yes	cell_free_rna	[disease] relapsed and/or refractory vs newly diagnosed or MM vs HC	Design is valid (different patients). Scope flag because plasma exRNA	LLM	agree
+SRP131252	human	exclude	exclude	no			in vitro E. coli stimulation	agree	agree
+SRP058414	human	exclude	include	yes	tissue_confounded	[tissue] pre-b cell from bone marrow (leukemia, 19) vs pre-b cell from cord blood (normal, 8)	Excluding based on the biomaterial_provider key alone was an error. Leukemia vs normal pre-B comparison. Tissue source is confounded with disease	LLM	agree
+SRP162654	human	exclude	exclude	no			in vitro LPS/GARD stimulation	agree	agree
+SRP145493	human	exclude	include	yes	male_only	[ptsd] yes vs no (cell_type=pbmc subset)	All male, but the design is valid. Restricted to one cell type	LLM	agree
+SRP145599	human	exclude	exclude	no			in vitro IFN conditioning	agree	agree
+SRP131037	human	exclude	include	yes	male_only(98%)	[ptsd diagnosis] positive_ptsd vs negative_ptsd	Only 2 females, so sex adjustment is not possible, but the design is valid	LLM	agree
+SRP113586	human	exclude	exclude	no			neonates + culture	agree	agree
+SRP097893	human	exclude	exclude	no			all male + in vitro infection	agree	agree
+SRP074202	human	exclude	exclude	no			TCDD exposure experiment	agree	agree
+SRP154834	human	exclude	exclude	no			Treg culture	agree	agree
+SRP187105	human	exclude	exclude	no			dietary intervention arms	agree	agree
+SRP090337	human	exclude	exclude	no			before vs after LPS injection	agree	agree
+SRP100639	human	exclude	exclude	no			B-cell subset comparison	agree	agree
+SRP219796	human	exclude	exclude	no			γδ T subset comparison	agree	agree
+SRP042623	human	exclude	include	yes	male_only	[sample group] coronary artery calcification case vs control	All male, design valid	LLM	agree
+SRP077529	human	exclude	exclude	no			ILC2 in vitro	agree	agree
+SRP080292	human	exclude	include	yes	female_only	[diagnosis] pcos vs normal (treatment=none subset)	All female; valid when DHEA treatment is excluded	LLM	agree
+SRP090787	human	exclude	exclude	no			All PCOS patients, no disease contrast. SNP genotype stratification is not the target comparison. LLM also low confidence	Claude	agree
+SRP065273	human	exclude	exclude	no			data_set batch key	agree	agree
+SRP108559	human	exclude	exclude	no			tissue degradation time series, all male	agree	agree
+SRP136794	human	exclude	exclude	no			tissue bank source comparison	agree	agree
+SRP068609	human	exclude	exclude	no			RCT intervention arms (lignan vs placebo)	agree	agree
+SRP135671	human	exclude	include	yes		[perforation/abscess] yes vs no	Presence vs absence of severity (perforation/abscess) is a between-subject biological contrast. Excluding based on family history alone was an error	LLM	agree
+SRP108847	human	exclude	exclude	no			cultured ileal fibroblasts	agree	agree
+SRP112751	human	exclude	include	yes	tumor_tissue	[t] t4 vs t3	Between-patient stage comparison. Scope flag for tumor tissue	LLM	agree
+SRP136481	human	exclude	exclude	no			heart region comparison within subjects	agree	agree
+SRP095950	human	exclude	exclude	no			blood type genotype	agree	agree
+SRP056696	human	exclude	exclude	no	tumor_tissue		The 5 normals may be adjacent tissue from the same patients (paired design) and the definition is unclear. Conservatively excluded	Claude (deferred)	agree
+SRP076032	human	exclude	include	yes	tumor_tissue(partial)	[disease state] non-tumor (HCV-infected non-tumor) vs control (uninfected)	Control group is clearly uninfected non-tumor liver biopsies. The reviewer's 'control group unclear' call was an error	LLM	agree
+SRP090460	human	exclude	include	yes	tumor_tissue	[survstatus] 1 vs 0 (cell type=nl excluded)	Tumor vs normal is paired within patients and not usable, but survival stratification within tumors is a between-subject comparison	LLM	agree
+SRP126155	human	exclude	exclude	no			in vitro aerosol exposure	agree	agree
+SRP126705	human	exclude	exclude	no			in vitro smoke exposure	agree	agree
+SRP052896	human	exclude	exclude	no			Keys are inconsistent (disease names mixed into tissue) and groups cannot be defined. LLM also low confidence	Claude	agree
+SRP174055	human	exclude	exclude	no			tumor vs juxtatumor dendritic cells	agree	agree
+SRP159841	human	exclude	exclude	no			cultured airway smooth muscle cells	agree	agree
+SRP075806	human	exclude	exclude	no			cultured myocytes with cell-id replicates	agree	agree
+SRP163524	human	exclude	exclude	no			exercise time course within subjects	agree	agree
+SRP078945	human	exclude	exclude	no			cultured myoblasts	agree	agree
+SRP167165	human	exclude	exclude	no			doxycycline in vitro	agree	agree
+SRP017262	human	exclude	include	yes	tumor_tissue	[primary_disease] (prior malignancy values merged) vs none	Therapy-related AML vs de novo AML. Multiple primary-malignancy values must be merged	LLM	agree
+SRP046233	human	exclude	include	yes	tumor_tissue	[source_name] non-responder vs responder (8/6)	Baseline bone marrow mononuclear cells; responder vs non-responder between-subject comparison	LLM	agree
+SRP198979	human	exclude	include	yes	cell_free_rna	[condition] breast cancer serum vs normal serum	Design valid. Scope flag for serum cfRNA	LLM	agree
+SRP125110	human	exclude	exclude	no			in vitro infection	agree	agree
+SRP068304	human	exclude	exclude	no			cultured fibroblasts dura vs scalp	agree	agree
+SRP075236	human	exclude	exclude	no			tumor vs normal epithelium	agree	agree
+SRP186205	human	exclude	include	yes		[disease] varicose vein vs atherosclerotic coronary artery disease (veins from CABG patients)	isolate is cabg-1 to 7; vein grafts collected during CABG serve as the control. Vein vs vein comparison, so the reviewer's 'different vessel type' call was an error	LLM	agree
+SRP124651	human	exclude	include	yes	tumor_tissue;tissue_confounded	[tumor type] myc-tcrad translocated t-all vs tal-lmo t-all	Between-patient molecular subtype comparison. PB/BM is confounded with subtype	LLM	agree
+SRP186168	human	exclude	exclude	no			cell line panel	agree	agree
+SRP144355	human	exclude	exclude	no			cultured dermal fibroblasts (age prediction)	agree	agree
+SRP219878	human	exclude	exclude	no			all male	agree	agree
+SRP026042	human	exclude	include	yes		[tissue] lesion vs healthy (treatment=untreated subset, one sample per subject via patient id)	Using only the non-cultured untreated subset gives a between-subject psoriasis lesion vs healthy skin comparison	LLM	agree
+SRP187586	human	exclude	exclude	no			DS fibroblasts siRNA	agree	agree
+SRP186520	human	exclude	exclude	no			DS fibroblasts	agree	agree
+SRP058243	human	exclude	include	yes	tumor_tissue	[tissue] tumor vs control (4)	NPC vs non-tumor tissue, 4 controls (≥3)	LLM	agree
+SRP059588	human	exclude	include	yes	tumor_tissue;ffpe_or_degraded	[disease] leiomyosarcoma vs gist	Between-patient subtype comparison is valid. FFPE/RNA quality group as covariate	LLM	agree
+SRP100664	human	exclude	exclude	no			tumor cell subtypes	agree	agree
+SRP057571	human	exclude	exclude	no			cell line drug	agree	agree
+ERP110816	human	exclude	exclude	no			smoker status in lesional skin (paired sites)	agree	agree
+ERP104864	human	exclude	include	yes		[pathotype] lymphoid vs fibroid (organism part=synovium subset)	Pathotype comparison within the synovium subset is between-subject. Excluding by viewing it only as a blood vs synovium tissue comparison was an error	LLM	agree
+ERP110263	human	exclude	exclude	no			gut segments within subjects	agree	agree
+ERP106996	human	exclude	exclude	no			fresh vs frozen specimen	agree	agree
+ERP111913	human	exclude	exclude	no			lesioned vs preserved cartilage paired	agree	agree
+ERP010930	human	exclude	include	yes	tumor_tissue	[disease] oligodendroglioma vs astrocytoma	Between-patient subtype comparison	LLM	agree
+ERP111116	human	exclude	exclude	no			myeloproliferative neoplasm subtypes	agree	agree
+ERP112547	human	exclude	exclude	no			melanoma metastasis grading	agree	agree
+ERP106532	human	exclude	include	yes	tumor_tissue;repeated_lesions	[disease] squamous cell carcinoma vs actinic keratosis (one lesion per subject via individual)	17 subjects, 25 lesions. Reducing to one lesion per subject gives a between-subject comparison. Small group size	LLM	agree
+ERP013914	human	exclude	exclude	no			damaged vs intact cartilage paired	agree	agree
+ERP010889	human	exclude	include	yes		[disease staging] extensive atrophy vs normal	Highest of the multi-level stages vs normal (5) is valid	LLM	agree
+ERP001304	human	exclude	include	yes	male_only	[disease_factor] schizophrenia vs normal	All male, design valid	LLM	agree
+SRP069212	human	exclude	exclude	no			controls all male, age constant	agree	agree
+SRP181079	human	exclude	exclude	no			technical replicate pairs	agree	agree
+SRP148287	mouse	exclude	exclude	no			primary hepatocytes cultured with serum/GH (in vitro)	agree	agree
+ERP013191	mouse	exclude	exclude	no			liver tissue mixed with liver cancer cell lines	agree	agree
+SRP154859	mouse	exclude	include	yes		[agent] t. gondii strain me49 vs uninfected	The agent key contains 16 uninfected controls. Excluding based on the days key alone was an error	LLM	agree
+SRP215318	mouse	exclude	include	yes	mixed_organisms	[treatment] 600mg/kg erythromycin + 10mg/kg pafuramidine vs corn oil (mouse muscle subset)	There are 6 corn oil vehicle mice. Excluding based on the top 4 values alone was an error	LLM	agree
+SRP078457	mouse	exclude	exclude	no			sorted progenitor subpopulations (cell-type comparison)	agree	agree
+SRP174548	mouse	exclude	exclude	no			bone marrow-derived macrophages, in vitro LPS time course	agree	agree
+SRP173901	mouse	exclude	exclude	no			bone marrow-derived macrophages (in vitro differentiated)	agree	agree
+SRP075888	mouse	exclude	exclude	no			BMDM in vitro	agree	agree
+SRP149944	mouse	exclude	exclude	no			BMDM in vitro	agree	agree
+SRP091674	mouse	exclude	exclude	no			converted endothelium vs wild type (in vitro reprogramming)	agree	agree
+SRP045496	mouse	exclude	exclude	yes		[genotype] gsa conditional knockout mediated by hgfapcre vs wild type (8 vs 3)	3 WT mice meet the minimum requirement | Investigator review: excluded for insufficient group size (minimum 4 per group applied)	LLM	disagree: n too small
+SRP179634	mouse	exclude	exclude	yes		[genotype] wt-fus transgene homozygote vs non-transgenic control (age=30-day-old subset, 3 vs 3)	Borderline with minimum group size 3 | Investigator review: excluded for insufficient group size (minimum 4 per group applied)	LLM (borderline)	disagree: n too small
+SRP013825	mouse	exclude	exclude	no			germinal zones within embryonic cortex (within-subject regions)	agree	agree
+SRP041829	mouse	exclude	exclude	no			in vitro differentiated cells	agree	agree
+SRP012097	mouse	exclude	exclude	no			myoblast cell lines (Lbr/Lmna KO)	agree	agree

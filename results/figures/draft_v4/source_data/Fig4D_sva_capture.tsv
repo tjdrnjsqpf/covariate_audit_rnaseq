@@ -1,0 +1,7 @@
+organism	design_sex	n	frac	cls
+Human	partially_confounded	36	0.0555555555555556	Confounded
+Human	balanced	104	0.259615384615385	Balanced
+Human	mildly_imbalanced	58	0.206896551724138	Mild
+Mouse	balanced	199	0.50251256281407	Balanced
+Mouse	partially_confounded	88	0.204545454545455	Confounded
+Mouse	mildly_imbalanced	82	0.24390243902439	Mild

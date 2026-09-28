@@ -1,0 +1,395 @@
+study	n	n_platform	n_layout	n_center	n_pubmonth	n_submission	v_platform	v_layout	v_center	v_pubmonth	v_submission	batch_v_max	batch_var	design_sex	single_sex	sex_diff
+ERP001304	18	1	1	1	1	1								single_sex	TRUE	0
+ERP004043	24	1	1	0	1	1								balanced	FALSE	0.044
+ERP006121	17	1	1	1	1	1								partially_confounded	FALSE	0.379
+ERP010142	63	1	1	1	1	8					0.313	0.313	submission	single_sex	TRUE	0
+ERP010889	15	1	1	1	1	1								balanced	FALSE	0.1
+ERP010930	40	1	1	1	1	1								mildly_imbalanced	FALSE	0.167
+ERP013206	19	1	1	1	1	1								partially_confounded	FALSE	0.514
+ERP015831	14	1	1	1	1	1								balanced	FALSE	0.1
+ERP016798	63	1	1	1	1	1								single_sex	TRUE	0
+ERP022260	17	1	1	1	1	1								mildly_imbalanced	FALSE	0.192
+ERP022906	13	1	1	1	1	1								mildly_imbalanced	FALSE	0.225
+ERP022968	8	1	1	1	1	1								partially_confounded	FALSE	0.5
+ERP023222	30	1	2	1	1	1		0.043				0.043	layout	single_sex	TRUE	0
+ERP023272	49	1	1	1	1	1								balanced	FALSE	0.075
+ERP104782	11	1	1	1	1	1								partially_confounded	FALSE	0.5
+ERP104864	61	1	1	0	1	1								balanced	FALSE	0.006
+ERP105501	70	1	1	1	1	1								partially_confounded	FALSE	0.35
+ERP106168	10	1	1	1	1	1								mildly_imbalanced	FALSE	0.2
+ERP106487	21	1	1	1	1	1								mildly_imbalanced	FALSE	0.164
+ERP106532	14	1	1	1	1	1								balanced	FALSE	0.05
+ERP109255	69	1	1	1	1	1								balanced	FALSE	0.087
+ERP109626	31	1	1	1	1	1								balanced	FALSE	0.092
+ERP110099	13	1	1	1	1	1								mildly_imbalanced	FALSE	0.275
+ERP113396	43	1	1	1	1	1								balanced	FALSE	0.029
+ERP114636	46	1	1	1	1	1								balanced	FALSE	0.043
+ERP114936	9	1	1	1	1	1								mildly_imbalanced	FALSE	0.25
+ERP115010	292	1	1	1	1	1								balanced	FALSE	0.012
+ERP115036	20	1	1	1	1	1								partially_confounded	FALSE	0.5
+ERP116722	26	1	1	1	1	1								balanced	FALSE	0.019
+SRP002628	30	1	1	1	2	1				0.131		0.131	pubmonth	single_sex	TRUE	0
+SRP003726	14	1	1	1	1	1								balanced	FALSE	0.143
+SRP005279	33	2	1	1	3	1	1			0.8		1	platform	balanced	FALSE	0.145
+SRP007584	23	1	1	1	1	1								balanced	FALSE	0.03
+SRP008496	12	1	1	1	1	1								balanced	FALSE	0.057
+SRP010181	124	1	1	1	1	1								balanced	FALSE	0.016
+SRP015668	33	1	1	1	1	1								balanced	FALSE	0.018
+SRP017262	15	1	1	1	1	1								partially_confounded	FALSE	0.7
+SRP017575	7	1	1	1	1	1								partially_confounded	FALSE	0.417
+SRP019994	60	1	1	1	2	1				0.121		0.121	pubmonth	balanced	FALSE	0.089
+SRP023262	44	1	1	1	1	1								single_sex	TRUE	0
+SRP026042	13	1	1	1	1	1								partially_confounded	FALSE	0.625
+SRP026208	25	1	1	1	1	1								balanced	FALSE	0.078
+SRP027383	84	1	1	1	1	1								balanced	FALSE	0.022
+SRP027530	18	1	1	1	1	1								balanced	FALSE	0.075
+SRP032279	110	2	1	1	2	1	0.029			0.16		0.16	pubmonth	balanced	FALSE	0.006
+SRP032775	29	1	1	1	1	1								balanced	FALSE	0.038
+SRP032789	12	1	1	1	2	1				0.302		0.302	pubmonth	single_sex	TRUE	0
+SRP033095	15	1	1	1	1	1								balanced	FALSE	0.071
+SRP033276	11	1	1	1	1	1								balanced	FALSE	0.067
+SRP033725	21	2	1	1	1	1	0.045					0.045	platform	balanced	FALSE	0.045
+SRP034831	15	1	1	0	1	1								balanced	FALSE	0.056
+SRP035524	10	1	1	1	1	1								mildly_imbalanced	FALSE	0.2
+SRP035988	173	1	1	1	1	1								balanced	FALSE	0.057
+SRP036821	19	1	1	1	1	1								mildly_imbalanced	FALSE	0.2
+SRP036848	72	1	1	1	1	1								balanced	FALSE	0.029
+SRP039338	18	1	1	1	1	1								single_sex	TRUE	0
+SRP040622	13	1	1	1	1	1								balanced	FALSE	0.095
+SRP040998	16	1	1	1	1	1								single_sex	TRUE	0
+SRP041538	170	1	1	1	1	1								single_sex	TRUE	0
+SRP041620	11	1	1	1	1	1								balanced	FALSE	0.1
+SRP042086	18	1	1	1	1	1								partially_confounded	FALSE	0.351
+SRP042184	22	2	1	1	2	1	0.293			0.293		0.293	platform	partially_confounded	FALSE	0.457
+SRP042228	260	1	1	1	3	1				0.061		0.061	pubmonth	balanced	FALSE	0.041
+SRP042620	84	1	1	1	1	1								single_sex	TRUE	0
+SRP042623	16	1	1	1	1	1								single_sex	TRUE	0
+SRP043085	13	1	1	1	1	1								single_sex	TRUE	0
+SRP043221	18	1	1	1	1	1								balanced	FALSE	0.111
+SRP043320	11	1	1	1	1	1								single_sex	TRUE	0
+SRP043388	16	1	1	1	1	1								balanced	FALSE	0.1
+SRP044042	10	1	1	1	1	1								mildly_imbalanced	FALSE	0.167
+SRP044373	45	1	2	1	1	1		0.1				0.1	layout	balanced	FALSE	0.105
+SRP044668	54	1	1	1	2	1				0.562		0.562	pubmonth	balanced	FALSE	0.079
+SRP045225	60	1	1	1	1	1								partially_confounded	FALSE	0.333
+SRP045500	8	1	1	1	1	1								mildly_imbalanced	FALSE	0.25
+SRP046233	14	1	1	1	1	1								partially_confounded	FALSE	0.542
+SRP047122	19	1	1	1	1	1								partially_confounded	FALSE	0.386
+SRP048683	12	1	1	1	1	1								single_sex	TRUE	0
+SRP048801	259	1	1	1	1	1								balanced	FALSE	0.003
+SRP049097	38	1	1	1	1	1								mildly_imbalanced	FALSE	0.25
+SRP049408	27	1	1	1	1	1								partially_confounded	FALSE	0.559
+SRP049820	43	1	1	1	1	1								partially_confounded	FALSE	0.5
+SRP050000	107	1	1	1	1	1								balanced	FALSE	0.045
+SRP050146	10	1	1	1	1	1								partially_confounded	FALSE	0.429
+SRP050493	16	1	1	1	1	1								balanced	FALSE	0.083
+SRP050971	15	1	2	1	1	1		0.04				0.04	layout	mildly_imbalanced	FALSE	0.214
+SRP051518	9	1	1	1	1	1								partially_confounded	FALSE	0.5
+SRP051844	69	1	1	1	1	1								single_sex	TRUE	0
+SRP051848	94	1	1	1	1	1								single_sex	TRUE	0
+SRP052056	22	1	1	1	1	1								partially_confounded	FALSE	0.528
+SRP052896	21	1	1	1	1	1								mildly_imbalanced	FALSE	0.2
+SRP053296	31	1	1	1	2	1				0.271		0.271	pubmonth	mildly_imbalanced	FALSE	0.279
+SRP055749	16	1	1	1	1	1								mildly_imbalanced	FALSE	0.164
+SRP056443	12	1	1	1	1	1								partially_confounded	FALSE	0.667
+SRP056477	16	1	1	1	1	1								mildly_imbalanced	FALSE	0.25
+SRP056696	55	1	1	1	1	1								mildly_imbalanced	FALSE	0.26
+SRP056835	13	1	2	1	1	1		1				1	layout	mildly_imbalanced	FALSE	0.19
+SRP056840	64	1	1	1	1	1								mildly_imbalanced	FALSE	0.256
+SRP057350	37	1	1	0	1	1								balanced	FALSE	0.134
+SRP057793	84	1	1	1	1	1								mildly_imbalanced	FALSE	0.225
+SRP058243	46	1	2	1	1	1		0.046				0.046	layout	mildly_imbalanced	FALSE	0.286
+SRP058722	35	1	1	1	1	1								single_sex	TRUE	0
+SRP059039	252	1	1	0	2	1				0.364		0.364	pubmonth	mildly_imbalanced	FALSE	0.176
+SRP059057	23	1	1	0	1	1								balanced	FALSE	0.008
+SRP059172	150	1	1	0	1	1								mildly_imbalanced	FALSE	0.228
+SRP059588	23	1	1	0	1	1								balanced	FALSE	0.069
+SRP060205	13	1	1	0	1	1								balanced	FALSE	0.095
+SRP060715	15	1	1	0	1	1								partially_confounded	FALSE	0.4
+SRP061286	19	1	1	0	1	1								mildly_imbalanced	FALSE	0.214
+SRP061571	35	1	1	0	1	1								single_sex	TRUE	0
+SRP062025	24	1	1	0	1	1								balanced	FALSE	0.067
+SRP062298	16	1	1	0	1	1								mildly_imbalanced	FALSE	0.25
+SRP062966	117	1	1	0	1	1								balanced	FALSE	0.061
+SRP063006	22	1	1	0	1	1								mildly_imbalanced	FALSE	0.15
+SRP063477	27	1	1	0	1	1								single_sex	TRUE	0
+SRP063496	70	1	1	0	1	1								balanced	FALSE	0.089
+SRP063838	9	1	1	0	1	1								balanced	FALSE	0.05
+SRP064431	12	1	1	0	1	1								balanced	FALSE	0.125
+SRP064478	15	1	1	0	1	1								balanced	FALSE	0.071
+SRP065232	25	1	1	0	1	1								balanced	FALSE	0.051
+SRP065445	12	1	1	0	1	1								partially_confounded	FALSE	0.514
+SRP065812	32	1	1	0	1	1								mildly_imbalanced	FALSE	0.206
+SRP065865	20	1	1	0	1	1								balanced	FALSE	0.1
+SRP066966	7	1	2	0	1	1		0.471				0.471	layout	single_sex	TRUE	0
+SRP067631	18	1	1	0	1	1								mildly_imbalanced	FALSE	0.25
+SRP068292	17	1	1	0	1	1								single_sex	TRUE	0
+SRP068591	30	1	1	0	1	1								mildly_imbalanced	FALSE	0.286
+SRP069976	41	2	1	0	2	2	0.235			0.235	0.235	0.235	platform	mildly_imbalanced	FALSE	0.255
+SRP070148	50	1	1	0	1	1								partially_confounded	FALSE	0.32
+SRP070710	22	1	1	0	1	1								balanced	FALSE	0.033
+SRP071203	27	1	1	0	1	1								balanced	FALSE	0.083
+SRP071758	75	1	1	0	1	1								balanced	FALSE	0.06
+SRP071965	355	1	1	0	2	1				0.036		0.036	pubmonth	balanced	FALSE	0.099
+SRP072242	11	1	1	0	1	1								partially_confounded	FALSE	0.5
+SRP072463	11	1	1	0	1	1								balanced	FALSE	0.107
+SRP072492	45	1	1	0	1	1								balanced	FALSE	0.07
+SRP072494	20	1	1	0	1	1								partially_confounded	FALSE	0.33
+SRP072693	29	1	1	0	1	1								balanced	FALSE	0.054
+SRP072920	31	1	1	0	1	1								single_sex	TRUE	0
+SRP073191	16	1	1	0	1	1								single_sex	TRUE	0
+SRP073347	16	1	1	0	1	1								balanced	FALSE	0.083
+SRP073382	36	1	1	0	1	1								balanced	FALSE	0.056
+SRP073789	20	1	1	0	1	1								single_sex	TRUE	0
+SRP074349	218	1	1	0	1	1								balanced	FALSE	0.097
+SRP074581	28	1	1	0	1	1								balanced	FALSE	0.053
+SRP074739	15	1	2	0	1	1		0.48				0.48	layout	partially_confounded	FALSE	0.556
+SRP074904	8	1	1	0	1	1								partially_confounded	FALSE	0.5
+SRP076032	18	1	1	0	1	1								balanced	FALSE	0.075
+SRP076426	30	1	1	0	1	1								single_sex	TRUE	0
+SRP076627	21	1	1	0	1	1								mildly_imbalanced	FALSE	0.173
+SRP077046	102	1	1	0	1	1								mildly_imbalanced	FALSE	0.202
+SRP077708	22	1	1	0	2	2				0.083	0.083	0.083	pubmonth	mildly_imbalanced	FALSE	0.283
+SRP078314	16	1	1	0	1	1								mildly_imbalanced	FALSE	0.19
+SRP078441	14	1	1	0	1	1								partially_confounded	FALSE	0.571
+SRP078450	28	1	1	0	1	1								balanced	FALSE	0.121
+SRP078541	13	1	1	0	1	1								single_sex	TRUE	0
+SRP080292	38	1	1	0	1	1								single_sex	TRUE	0
+SRP081020	13	1	1	0	1	1								partially_confounded	FALSE	0.548
+SRP081599	79	1	1	0	1	1								balanced	FALSE	0.024
+SRP081605	45	1	1	0	1	1								mildly_imbalanced	FALSE	0.167
+SRP084270	16	1	1	0	1	1								single_sex	TRUE	0
+SRP086078	63	1	1	0	1	1								balanced	FALSE	0.027
+SRP086245	42	1	1	0	1	1								balanced	FALSE	0.095
+SRP089788	55	1	1	0	1	1								balanced	FALSE	0.136
+SRP090282	16	1	1	0	1	1								balanced	FALSE	0
+SRP090460	27	1	1	0	1	1								balanced	FALSE	0.007
+SRP090552	14	1	1	0	1	1								balanced	FALSE	0
+SRP090633	10	1	1	0	1	1								balanced	FALSE	0
+SRP090689	37	2	1	0	1	1	0.459					0.459	platform	single_sex	TRUE	0
+SRP090779	15	1	1	0	1	1								single_sex	TRUE	0
+SRP090787	19	1	1	0	1	1								single_sex	TRUE	0
+SRP090799	52	1	1	0	1	1								mildly_imbalanced	FALSE	0.181
+SRP091714	19	1	1	0	2	1				0.325		0.325	pubmonth	single_sex	TRUE	0
+SRP092158	19	1	1	0	1	1								single_sex	TRUE	0
+SRP092402	112	1	1	0	1	1								mildly_imbalanced	FALSE	0.234
+SRP092408	36	1	1	0	1	1								mildly_imbalanced	FALSE	0.292
+SRP092501	12	1	1	0	1	1								balanced	FALSE	0.125
+SRP094553	42	1	1	0	1	1								mildly_imbalanced	FALSE	0.188
+SRP094784	12	1	1	0	1	1								partially_confounded	FALSE	0.375
+SRP094795	24	1	1	0	1	1								single_sex	TRUE	0
+SRP095361	38	1	1	0	1	1								mildly_imbalanced	FALSE	0.256
+SRP095491	19	1	1	0	1	1								balanced	FALSE	0.022
+SRP096201	9	1	1	0	1	1								partially_confounded	FALSE	0.55
+SRP096757	245	1	1	0	2	1				0.153		0.153	pubmonth	balanced	FALSE	0.024
+SRP097696	11	1	1	0	1	1								mildly_imbalanced	FALSE	0.25
+SRP098758	329	1	1	0	1	1								balanced	FALSE	0.052
+SRP099676	23	1	1	0	1	1								balanced	FALSE	0.008
+SRP099844	20	1	1	0	1	1								balanced	FALSE	0
+SRP100948	94	1	1	0	1	1								balanced	FALSE	0.123
+SRP102186	46	1	1	0	1	1								balanced	FALSE	0.072
+SRP102542	37	1	1	0	1	1								balanced	FALSE	0.023
+SRP102999	282	1	1	0	1	1								single_sex	TRUE	0
+SRP103812	8	1	1	0	1	1								single_sex	TRUE	0
+SRP103819	10	1	1	0	1	1								balanced	FALSE	0
+SRP106008	27	1	1	0	1	1								balanced	FALSE	0.136
+SRP106011	78	1	1	0	1	1								partially_confounded	FALSE	0.608
+SRP107025	189	1	2	0	1	1		0.3				0.3	layout	balanced	FALSE	0.101
+SRP108120	35	1	1	0	1	1								single_sex	TRUE	0
+SRP108496	18	1	1	0	1	1								single_sex	TRUE	0
+SRP108616	13	1	1	0	1	1								single_sex	TRUE	0
+SRP109111	86	1	1	0	1	1								mildly_imbalanced	FALSE	0.221
+SRP109781	51	1	1	0	1	1								balanced	FALSE	0.033
+SRP111102	23	1	1	0	1	1								single_sex	TRUE	0
+SRP111343	58	1	1	0	1	1								single_sex	TRUE	0
+SRP111481	96	1	1	0	1	1								single_sex	TRUE	0
+SRP111640	30	1	1	0	1	1								partially_confounded	FALSE	0.339
+SRP112744	16	1	1	0	1	1								balanced	FALSE	0
+SRP112751	17	1	1	0	1	1								partially_confounded	FALSE	0.542
+SRP113226	14	1	1	0	1	1								mildly_imbalanced	FALSE	0.267
+SRP113245	44	1	1	0	1	1								balanced	FALSE	0.054
+SRP113470	304	1	1	0	1	1								balanced	FALSE	0.033
+SRP113639	42	1	1	0	1	1								single_sex	TRUE	0
+SRP113755	44	1	1	0	1	1								partially_confounded	FALSE	0.35
+SRP114429	85	1	1	0	1	1								single_sex	TRUE	0
+SRP114762	18	1	1	0	1	1								balanced	FALSE	0
+SRP115011	80	1	1	0	1	1								balanced	FALSE	0.128
+SRP115446	29	1	1	0	1	1								single_sex	TRUE	0
+SRP115571	52	1	1	0	1	1								balanced	FALSE	0
+SRP115911	12	1	1	0	1	1								balanced	FALSE	0.057
+SRP116272	110	1	1	0	1	1								balanced	FALSE	0.058
+SRP116284	11	1	1	0	1	1								single_sex	TRUE	0
+SRP116937	12	1	1	0	1	1								mildly_imbalanced	FALSE	0.171
+SRP117020	127	1	1	0	1	1								balanced	FALSE	0.141
+SRP118972	12	1	1	0	1	1								partially_confounded	FALSE	0.5
+SRP119122	29	1	1	0	1	1								mildly_imbalanced	FALSE	0.298
+SRP119561	22	1	1	0	1	1								balanced	FALSE	0.017
+SRP119636	42	1	1	0	1	1								mildly_imbalanced	FALSE	0.255
+SRP119676	60	1	1	0	1	1								balanced	FALSE	0.033
+SRP120609	7	1	1	0	1	1								single_sex	TRUE	0
+SRP121330	16	1	1	0	1	1								partially_confounded	FALSE	0.436
+SRP124651	13	1	1	0	1	1								partially_confounded	FALSE	0.55
+SRP125233	25	1	1	0	1	1								mildly_imbalanced	FALSE	0.292
+SRP125882	40	1	1	0	1	1								balanced	FALSE	0.02
+SRP126056	50	1	1	0	1	1								mildly_imbalanced	FALSE	0.188
+SRP126422	8	1	1	0	1	1								mildly_imbalanced	FALSE	0.25
+SRP126580	28	1	1	0	1	1								mildly_imbalanced	FALSE	0.193
+SRP126582	42	1	1	0	1	1								mildly_imbalanced	FALSE	0.264
+SRP126583	31	1	1	0	1	1								mildly_imbalanced	FALSE	0.175
+SRP126623	22	1	1	0	1	1								mildly_imbalanced	FALSE	0.292
+SRP126691	103	1	1	0	1	1								balanced	FALSE	0.06
+SRP126923	10	1	1	0	1	1								partially_confounded	FALSE	0.714
+SRP127180	14	1	1	0	1	1								balanced	FALSE	0.042
+SRP129004	226	1	1	0	1	1								balanced	FALSE	0.094
+SRP131125	14	1	1	0	1	1								partially_confounded	FALSE	0.333
+SRP132197	18	2	1	0	1	1	0.114					0.114	platform	balanced	FALSE	0
+SRP132699	25	1	1	0	1	1								balanced	FALSE	0
+SRP132709	28	2	1	0	1	1	0.115					0.115	platform	balanced	FALSE	0.071
+SRP132711	15	1	1	0	1	1								balanced	FALSE	0.1
+SRP132902	12	1	1	0	1	1								single_sex	TRUE	0
+SRP132939	50	2	1	0	1	1	0.042					0.042	platform	balanced	FALSE	0.118
+SRP132992	10	1	1	0	1	1								partially_confounded	FALSE	0.417
+SRP133205	21	1	1	0	1	1								balanced	FALSE	0.1
+SRP133303	14	1	1	0	1	1								balanced	FALSE	0
+SRP133393	12	1	1	0	1	1								mildly_imbalanced	FALSE	0.167
+SRP133442	62	1	1	0	1	1								balanced	FALSE	0.07
+SRP133849	8	1	1	0	1	1								balanced	FALSE	0
+SRP134018	36	1	1	0	1	1								balanced	FALSE	0.114
+SRP134188	18	1	1	0	1	1								balanced	FALSE	0.1
+SRP135671	25	1	1	0	1	1								balanced	FALSE	0.136
+SRP136102	60	1	1	0	1	1								balanced	FALSE	0.004
+SRP136239	24	2	1	0	1	1	0.111					0.111	platform	mildly_imbalanced	FALSE	0.222
+SRP136483	7	1	1	0	1	1								balanced	FALSE	0.083
+SRP136742	80	1	1	0	1	1								balanced	FALSE	0.127
+SRP136938	42	1	1	0	1	1								balanced	FALSE	0.146
+SRP140711	13	1	1	0	1	1								partially_confounded	FALSE	0.714
+SRP140795	26	1	1	0	1	1								mildly_imbalanced	FALSE	0.155
+SRP140945	20	1	1	0	1	1								balanced	FALSE	0
+SRP141180	22	1	1	0	1	1								mildly_imbalanced	FALSE	0.197
+SRP143467	14	1	1	0	1	1								balanced	FALSE	0.083
+SRP144003	26	1	1	0	1	1								balanced	FALSE	0.1
+SRP144303	14	1	2	0	1	1		0				0	layout	single_sex	TRUE	0
+SRP144491	38	2	1	0	1	1	0.056					0.056	platform	partially_confounded	FALSE	0.322
+SRP144583	37	1	1	0	1	1								balanced	FALSE	0.079
+SRP144647	44	1	1	0	1	1								balanced	FALSE	0
+SRP145493	39	1	1	0	1	1								single_sex	TRUE	0
+SRP148556	36	1	1	0	1	1								balanced	FALSE	0.056
+SRP149374	88	1	1	0	1	1								mildly_imbalanced	FALSE	0.188
+SRP149433	11	1	1	0	1	1								single_sex	TRUE	0
+SRP149847	31	1	1	0	1	1								mildly_imbalanced	FALSE	0.276
+SRP149978	92	1	1	0	1	1								balanced	FALSE	0.022
+SRP150101	24	1	1	0	1	1								single_sex	TRUE	0
+SRP150234	14	1	1	0	1	1								single_sex	TRUE	0
+SRP150311	43	1	1	0	1	1								partially_confounded	FALSE	0.314
+SRP150313	16	1	1	0	1	1								balanced	FALSE	0.125
+SRP150382	15	1	1	0	1	1								balanced	FALSE	0.1
+SRP150595	39	1	1	0	1	1								mildly_imbalanced	FALSE	0.187
+SRP150872	122	1	1	0	1	1								balanced	FALSE	0.08
+SRP151425	44	1	1	0	1	1								mildly_imbalanced	FALSE	0.268
+SRP151615	13	1	1	0	1	1								single_sex	TRUE	0
+SRP151738	10	1	1	0	1	1								single_sex	TRUE	0
+SRP151960	16	1	1	0	1	1								mildly_imbalanced	FALSE	0.233
+SRP152983	12	1	1	0	1	1								balanced	FALSE	0.029
+SRP154474	15	2	1	0	1	1	0.48					0.48	platform	partially_confounded	FALSE	0.722
+SRP154573	31	3	1	0	1	1	0.389					0.389	platform	balanced	FALSE	0.101
+SRP154984	34	1	1	0	1	1								balanced	FALSE	0.139
+SRP155089	9	1	1	0	1	1								partially_confounded	FALSE	0.4
+SRP155363	45	1	1	0	1	1								balanced	FALSE	0.023
+SRP155704	14	1	1	0	1	1								single_sex	TRUE	0
+SRP155771	9	1	1	0	1	1								partially_confounded	FALSE	0.429
+SRP155941	84	2	1	0	1	1	0.063					0.063	platform	single_sex	TRUE	0
+SRP155976	146	1	1	0	1	1								balanced	FALSE	0.041
+SRP156049	24	1	1	0	1	1								balanced	FALSE	0.007
+SRP156355	12	1	1	0	1	1								single_sex	TRUE	0
+SRP156394	30	1	1	0	1	1								balanced	FALSE	0.014
+SRP156506	7	1	1	0	1	1								single_sex	TRUE	0
+SRP156952	12	1	1	0	1	1								mildly_imbalanced	FALSE	0.167
+SRP157974	448	1	1	0	1	2					0.291	0.291	submission	single_sex	TRUE	0
+SRP158639	47	1	1	0	1	1								mildly_imbalanced	FALSE	0.195
+SRP158943	22	1	1	0	1	1								balanced	FALSE	0.103
+SRP158994	12	1	1	0	1	1								partially_confounded	FALSE	0.333
+SRP159264	30	1	1	0	1	1								balanced	FALSE	0
+SRP161704	78	1	1	0	1	1								single_sex	TRUE	0
+SRP162073	13	1	1	0	1	1								balanced	FALSE	0.119
+SRP162125	147	1	1	0	1	1								balanced	FALSE	0.027
+SRP162411	28	1	1	0	1	1								balanced	FALSE	0.025
+SRP162492	88	1	1	0	1	1								balanced	FALSE	0.136
+SRP162500	29	1	1	0	1	1								balanced	FALSE	0.024
+SRP162743	16	1	1	0	1	1								partially_confounded	FALSE	0.364
+SRP162873	31	1	1	0	1	1								partially_confounded	FALSE	0.545
+SRP163027	30	1	1	0	1	1								single_sex	TRUE	0
+SRP163173	90	1	1	0	1	1								balanced	FALSE	0.021
+SRP163478	10	1	1	0	1	1								partially_confounded	FALSE	0.8
+SRP165679	85	1	1	0	1	1								balanced	FALSE	0.121
+SRP166200	16	1	1	0	1	1								balanced	FALSE	0.083
+SRP166889	29	1	1	0	1	1								mildly_imbalanced	FALSE	0.233
+SRP168013	15	1	1	0	1	1								single_sex	TRUE	0
+SRP168038	15	1	1	0	1	1								mildly_imbalanced	FALSE	0.2
+SRP168251	160	1	2	0	1	1		0.121				0.121	layout	mildly_imbalanced	FALSE	0.206
+SRP168357	14	1	1	0	1	1								partially_confounded	FALSE	0.55
+SRP168421	26	2	1	0	1	1	0.426					0.426	platform	single_sex	TRUE	0
+SRP169085	12	1	1	0	1	1								balanced	FALSE	0.114
+SRP169128	17	1	1	0	1	1								balanced	FALSE	0.121
+SRP169610	10	1	1	0	1	1								mildly_imbalanced	FALSE	0.2
+SRP170629	37	1	1	0	1	1								partially_confounded	FALSE	0.372
+SRP172534	12	1	1	0	1	1								partially_confounded	FALSE	0.333
+SRP173190	10	1	1	0	1	1								single_sex	TRUE	0
+SRP173378	16	1	1	0	1	1								balanced	FALSE	0.032
+SRP173379	19	1	1	0	1	1								balanced	FALSE	0.034
+SRP173842	35	1	1	0	1	1								mildly_imbalanced	FALSE	0.222
+SRP174223	90	1	1	0	1	1								balanced	FALSE	0.118
+SRP174668	54	1	1	0	1	1								balanced	FALSE	0.083
+SRP175005	41	1	1	0	1	1								partially_confounded	FALSE	0.426
+SRP175171	18	1	1	0	1	1								partially_confounded	FALSE	0.444
+SRP175707	23	1	1	0	1	1								single_sex	TRUE	0
+SRP178454	13	1	1	0	1	1								mildly_imbalanced	FALSE	0.175
+SRP179061	40	1	1	0	1	1								mildly_imbalanced	FALSE	0.2
+SRP181114	16	1	1	0	1	1								balanced	FALSE	0.125
+SRP181468	14	1	1	0	1	1								single_sex	TRUE	0
+SRP181886	289	1	1	0	1	1								balanced	FALSE	0.024
+SRP182096	48	3	2	0	1	1	0.493	0.482				0.493	platform	mildly_imbalanced	FALSE	0.156
+SRP182649	14	1	1	0	1	1								single_sex	TRUE	0
+SRP182842	10	1	1	0	1	1								single_sex	TRUE	0
+SRP182854	16	1	1	0	1	1								single_sex	TRUE	0
+SRP183071	380	1	1	0	1	1								balanced	FALSE	0.113
+SRP183186	59	1	1	0	1	1								balanced	FALSE	0.058
+SRP183532	76	1	1	0	1	1								single_sex	TRUE	0
+SRP185902	30	2	1	0	1	1	0.202					0.202	platform	balanced	FALSE	0.133
+SRP186138	36	1	1	0	1	1								mildly_imbalanced	FALSE	0.196
+SRP186205	20	1	1	0	1	1								balanced	FALSE	0.055
+SRP186450	30	1	1	0	1	1								mildly_imbalanced	FALSE	0.25
+SRP186882	18	1	1	0	1	1								balanced	FALSE	0.083
+SRP187088	19	1	1	0	1	1								partially_confounded	FALSE	0.417
+SRP187984	25	1	1	0	1	1								single_sex	TRUE	0
+SRP188422	23	1	1	0	1	1								balanced	FALSE	0.033
+SRP188973	14	1	1	0	1	1								mildly_imbalanced	FALSE	0.208
+SRP189204	19	1	1	0	1	1								partially_confounded	FALSE	0.6
+SRP191514	32	1	1	0	1	1								single_sex	TRUE	0
+SRP191569	16	1	1	0	1	1								balanced	FALSE	0
+SRP192714	89	1	1	0	1	1								balanced	FALSE	0.036
+SRP192825	23	1	1	0	1	1								mildly_imbalanced	FALSE	0.189
+SRP193374	111	1	1	0	1	1								mildly_imbalanced	FALSE	0.214
+SRP193940	20	1	1	0	1	1								balanced	FALSE	0
+SRP197353	39	1	1	0	1	1								partially_confounded	FALSE	0.409
+SRP198379	29	1	2	0	1	1		0.442				0.442	layout	balanced	FALSE	0.034
+SRP198979	100	1	1	0	1	1								partially_confounded	FALSE	0.5
+SRP200059	19	1	1	0	1	1								balanced	FALSE	0.011
+SRP200094	17	1	1	0	1	1								balanced	FALSE	0.017
+SRP201023	33	1	1	0	1	1								balanced	FALSE	0.081
+SRP212148	61	1	1	0	1	1								balanced	FALSE	0.029
+SRP212626	10	1	1	0	1	1								single_sex	TRUE	0
+SRP212702	62	1	1	0	1	1								balanced	FALSE	0.017
+SRP212755	341	2	1	0	1	1	0.15					0.15	platform	balanced	FALSE	0.019
+SRP212956	41	1	1	0	1	1								balanced	FALSE	0.065
+SRP213937	38	1	1	0	1	1								single_sex	TRUE	0
+SRP215509	13	1	1	0	1	1								balanced	FALSE	0.111
+SRP215939	32	1	1	0	1	1								partially_confounded	FALSE	0.327
+SRP216404	52	1	1	0	1	1								balanced	FALSE	0.094
+SRP216420	95	1	1	0	1	1								balanced	FALSE	0.029
+SRP217543	24	1	1	0	1	1								balanced	FALSE	0.083
+SRP217667	58	1	1	0	1	1								single_sex	TRUE	0
+SRP217937	42	2	1	0	1	1	0.088					0.088	platform	balanced	FALSE	0.08
+SRP218531	16	1	1	0	1	1								balanced	FALSE	0.048
+SRP218935	95	1	1	0	1	1								single_sex	TRUE	0
+SRP220251	61	1	1	0	1	1								balanced	FALSE	0.139
+SRP221482	67	1	1	0	1	1								mildly_imbalanced	FALSE	0.212

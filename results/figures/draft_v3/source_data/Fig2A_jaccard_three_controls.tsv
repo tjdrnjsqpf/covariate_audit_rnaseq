@@ -1,0 +1,1349 @@
+study	organism	cls	Real sex	"Permuted across groups
+(df cost)"	"Permuted within groups
+(df + collinearity cost)"
+DRP002295	Mouse	"Balanced
+|Δf| < 0.15"	0.5	1	0.5
+DRP003637	Mouse	"Confounded
+≥ 0.3"	0	0	0.548
+DRP004672	Mouse	"Confounded
+≥ 0.3"	0.179	0.966	0.2
+DRP005135	Mouse	"Mild
+0.15–0.3"	0.333	0.333	0.333
+ERP004369	Mouse	"Balanced
+|Δf| < 0.15"	0.923	0.92	0.932
+ERP005175	Mouse	"Mild
+0.15–0.3"	0.627	0.369	0.332
+ERP006121	Human	"Confounded
+≥ 0.3"	0.22	0.152	0.435
+ERP006813	Mouse	"Balanced
+|Δf| < 0.15"	0.873	0.553	0.915
+ERP006822	Mouse	"Confounded
+≥ 0.3"	0.76	0.95	0.864
+ERP010889	Human	"Balanced
+|Δf| < 0.15"	0.826	0.807	0.668
+ERP010930	Human	"Mild
+0.15–0.3"	0.777	0.851	0.811
+ERP012146	Mouse	"Mild
+0.15–0.3"	0.811	0.781	0.779
+ERP013206	Human	"Confounded
+≥ 0.3"	0.733	0.895	0.776
+ERP013315	Mouse	"Confounded
+≥ 0.3"	0.011	0.2	0
+ERP015831	Human	"Balanced
+|Δf| < 0.15"	0.894	0.764	0.874
+ERP016751	Mouse	"Balanced
+|Δf| < 0.15"	1	1	1
+ERP020504	Mouse	"Balanced
+|Δf| < 0.15"	0.828	0.78	0.833
+ERP021472	Mouse	"Confounded
+≥ 0.3"	0.086	0.071	0
+ERP022260	Human	"Mild
+0.15–0.3"	1	0.5	0
+ERP022432	Mouse	"Balanced
+|Δf| < 0.15"	0.597	0.621	0.637
+ERP022747	Mouse	"Balanced
+|Δf| < 0.15"	0.917	0.907	0.906
+ERP022906	Human	"Mild
+0.15–0.3"	0.707	0.648	0.726
+ERP022968	Human	"Confounded
+≥ 0.3"	0.86	0.857	0.846
+ERP023272	Human	"Balanced
+|Δf| < 0.15"	0.9	0.957	0.923
+ERP023283	Mouse	"Balanced
+|Δf| < 0.15"	0.222	0.091	0.111
+ERP104759	Mouse	"Mild
+0.15–0.3"	0.846	0.849	0.787
+ERP104864	Human	"Balanced
+|Δf| < 0.15"	0.985	0.987	0.983
+ERP105501	Human	"Confounded
+≥ 0.3"	0.834	0.956	0.857
+ERP106455	Mouse	"Mild
+0.15–0.3"	0.667	0.667	0.667
+ERP106487	Human	"Mild
+0.15–0.3"	0.833	0.844	0.805
+ERP107948	Mouse	"Mild
+0.15–0.3"	0.486	0.934	0.79
+ERP108446	Mouse	"Mild
+0.15–0.3"	0.394	0.087	0.538
+ERP109057	Mouse	"Confounded
+≥ 0.3"	0.422	0.841	0.507
+ERP109255	Human	"Balanced
+|Δf| < 0.15"	0.905	0.97	0.939
+ERP109306	Mouse	"Confounded
+≥ 0.3"	0.25	0.25	0.25
+ERP109626	Human	"Balanced
+|Δf| < 0.15"	0.963	0.957	0.965
+ERP109959	Mouse	"Balanced
+|Δf| < 0.15"	0.538	0.8	0.788
+ERP110063	Mouse	"Balanced
+|Δf| < 0.15"	0.024	0.006	0.002
+ERP110099	Human	"Mild
+0.15–0.3"	0.78	0.71	0.768
+ERP112516	Mouse	"Balanced
+|Δf| < 0.15"	0.907	0.889	0.889
+ERP114372	Mouse	"Balanced
+|Δf| < 0.15"	0.735	0.944	0.972
+ERP114636	Human	"Balanced
+|Δf| < 0.15"	1	1	1
+ERP114772	Mouse	"Mild
+0.15–0.3"	0.832	0.933	0.859
+ERP115010	Human	"Balanced
+|Δf| < 0.15"	0.98	0.966	0.991
+ERP115036	Human	"Confounded
+≥ 0.3"	0.019	0.791	0.036
+ERP115639	Mouse	"Confounded
+≥ 0.3"	0.5	1	0.5
+ERP117312	Mouse	"Balanced
+|Δf| < 0.15"	0.982	0.906	0.977
+SRP002811	Mouse	"Balanced
+|Δf| < 0.15"	0.581	0.709	0.679
+SRP003726	Human	"Balanced
+|Δf| < 0.15"	0.83	0.787	0.795
+SRP005279	Human	"Balanced
+|Δf| < 0.15"	0.921	0.926	0.931
+SRP007584	Human	"Balanced
+|Δf| < 0.15"	0.912	0.877	0.92
+SRP008496	Human	"Balanced
+|Δf| < 0.15"	0.919	0.907	0.92
+SRP010181	Human	"Balanced
+|Δf| < 0.15"	0.983	0.966	0.987
+SRP016859	Mouse	"Balanced
+|Δf| < 0.15"	0.726	0.862	0.902
+SRP017560	Mouse	"Balanced
+|Δf| < 0.15"	0.474	0.474	0.474
+SRP017849	Mouse	"Confounded
+≥ 0.3"	0.064	0.803	0.073
+SRP018846	Mouse	"Mild
+0.15–0.3"	0.212	0	0
+SRP019994	Human	"Balanced
+|Δf| < 0.15"	0.852	0.822	0.866
+SRP020224	Mouse	"Confounded
+≥ 0.3"	0.004	1	0
+SRP020636	Mouse	"Balanced
+|Δf| < 0.15"	0.943	0.989	0.996
+SRP023469	Mouse	"Confounded
+≥ 0.3"	0.023	0.047	0.023
+SRP026042	Human	"Confounded
+≥ 0.3"	0.411	0.816	0.505
+SRP026667	Mouse	"Mild
+0.15–0.3"	1	1	1
+SRP027383	Human	"Balanced
+|Δf| < 0.15"	0.991	0.964	0.988
+SRP029939	Mouse	"Balanced
+|Δf| < 0.15"	0.931	0.926	0.948
+SRP033095	Human	"Balanced
+|Δf| < 0.15"	0.83	0.554	0.761
+SRP033276	Human	"Balanced
+|Δf| < 0.15"	0.65	0.69	0.687
+SRP033501	Mouse	"Balanced
+|Δf| < 0.15"	0.91	0.883	0.876
+SRP034855	Mouse	"Confounded
+≥ 0.3"	0.248	0.837	0.426
+SRP035462	Mouse	"Balanced
+|Δf| < 0.15"	0.99	0.992	0.991
+SRP035523	Mouse	"Balanced
+|Δf| < 0.15"	0.876	0.723	0.835
+SRP035988	Human	"Balanced
+|Δf| < 0.15"	0.991	0.992	0.994
+SRP036821	Human	"Mild
+0.15–0.3"	0.584	0.457	0.468
+SRP036848	Human	"Balanced
+|Δf| < 0.15"	0.759	0.639	0.348
+SRP037555	Mouse	"Confounded
+≥ 0.3"	0	0	0
+SRP038635	Mouse	"Mild
+0.15–0.3"	1	0.889	1
+SRP039628	Mouse	"Mild
+0.15–0.3"	0.819	0.801	0.801
+SRP041620	Human	"Balanced
+|Δf| < 0.15"	0.562	0	0
+SRP042086	Human	"Confounded
+≥ 0.3"	0.142	0.606	0.288
+SRP042184	Human	"Confounded
+≥ 0.3"	0.633	0.635	0.539
+SRP042206	Mouse	"Confounded
+≥ 0.3"	0	0	0
+SRP042228	Human	"Balanced
+|Δf| < 0.15"	0.986	0.973	0.983
+SRP042289	Mouse	"Confounded
+≥ 0.3"	0.365	0.822	0.318
+SRP043388	Human	"Balanced
+|Δf| < 0.15"	0.948	0.912	0.943
+SRP043493	Mouse	"Balanced
+|Δf| < 0.15"	0.952	0.5	0.85
+SRP043967	Mouse	"Balanced
+|Δf| < 0.15"	0.796	0.738	0.806
+SRP044042	Human	"Mild
+0.15–0.3"	0.09	0.09	0.12
+SRP044373	Human	"Balanced
+|Δf| < 0.15"	0.922	0.972	0.942
+SRP044668	Human	"Balanced
+|Δf| < 0.15"	0.964	0.985	0.987
+SRP045225	Human	"Confounded
+≥ 0.3"	0.781	0.965	0.855
+SRP045747	Mouse	"Balanced
+|Δf| < 0.15"	0.377	0.29	0.379
+SRP045828	Mouse	"Mild
+0.15–0.3"	0.744	0.708	0.708
+SRP047122	Human	"Confounded
+≥ 0.3"	0.25	1	0
+SRP048707	Mouse	"Balanced
+|Δf| < 0.15"	0.67	0.335	0.836
+SRP048801	Human	"Balanced
+|Δf| < 0.15"	0.995	0.995	0.995
+SRP049097	Human	"Mild
+0.15–0.3"	0.821	0.964	0.857
+SRP049219	Mouse	"Balanced
+|Δf| < 0.15"	0.904	0.905	0.942
+SRP049408	Human	"Confounded
+≥ 0.3"	0	0.553	0.01
+SRP049763	Mouse	"Confounded
+≥ 0.3"	0.228	0.849	0.527
+SRP049820	Human	"Confounded
+≥ 0.3"	0.397	0.719	0.497
+SRP050000	Human	"Balanced
+|Δf| < 0.15"	0.902	0.948	0.938
+SRP050894	Mouse	"Balanced
+|Δf| < 0.15"	0.947	0.877	0.947
+SRP050971	Human	"Mild
+0.15–0.3"	0.872	0.821	0.843
+SRP051497	Mouse	"Balanced
+|Δf| < 0.15"	0.548	0.838	0.838
+SRP052056	Human	"Confounded
+≥ 0.3"	0.464	0.701	0.461
+SRP052583	Mouse	"Confounded
+≥ 0.3"	0.5	0.448	0.517
+SRP052794	Mouse	"Mild
+0.15–0.3"	0	1	0
+SRP052896	Human	"Mild
+0.15–0.3"	0.739	0.928	0.628
+SRP053223	Mouse	"Balanced
+|Δf| < 0.15"	0.574	0.113	0.696
+SRP053235	Mouse	"Confounded
+≥ 0.3"	0.161	0.713	0.084
+SRP053389	Mouse	"Balanced
+|Δf| < 0.15"	0.975	0.975	0.978
+SRP053396	Mouse	"Balanced
+|Δf| < 0.15"	0.508	0.925	0.886
+SRP053398	Mouse	"Balanced
+|Δf| < 0.15"	0.979	0.991	0.992
+SRP053401	Mouse	"Balanced
+|Δf| < 0.15"	0.842	0.849	0.832
+SRP055058	Mouse	"Balanced
+|Δf| < 0.15"	0.929	0.939	0.919
+SRP055082	Mouse	"Mild
+0.15–0.3"	0.779	0.754	0.771
+SRP055521	Mouse	"Balanced
+|Δf| < 0.15"	0.859	0.863	0.847
+SRP055571	Mouse	"Balanced
+|Δf| < 0.15"	0.5	1	0
+SRP055749	Human	"Mild
+0.15–0.3"	0.571	0.167	0.2
+SRP056447	Mouse	"Balanced
+|Δf| < 0.15"	0.935	0.821	0.951
+SRP056696	Human	"Mild
+0.15–0.3"	0.716	0.854	0.773
+SRP056835	Human	"Mild
+0.15–0.3"	0.873	0.897	0.854
+SRP056840	Human	"Mild
+0.15–0.3"	0.439	0.739	0.278
+SRP056865	Mouse	"Balanced
+|Δf| < 0.15"	0.64	0.602	0.938
+SRP056980	Mouse	"Balanced
+|Δf| < 0.15"	0	0	0
+SRP057793	Human	"Mild
+0.15–0.3"	0.775	0.948	0.827
+SRP058243	Human	"Mild
+0.15–0.3"	0.889	0.975	0.91
+SRP058363	Mouse	"Mild
+0.15–0.3"	0.007	0.079	0.715
+SRP058378	Mouse	"Mild
+0.15–0.3"	0.553	0.53	0.53
+SRP058715	Mouse	"Confounded
+≥ 0.3"	0.046	0	0
+SRP059039	Human	"Mild
+0.15–0.3"	0.937	0.984	0.928
+SRP059172	Human	"Mild
+0.15–0.3"	0.696	0.891	0.697
+SRP059588	Human	"Balanced
+|Δf| < 0.15"	0.886	0.587	0.83
+SRP059676	Mouse	"Mild
+0.15–0.3"	0.612	0.502	0.712
+SRP060296	Mouse	"Balanced
+|Δf| < 0.15"	0.926	0.932	0.974
+SRP060667	Mouse	"Balanced
+|Δf| < 0.15"	0.859	0.82	0.843
+SRP060715	Human	"Confounded
+≥ 0.3"	0.666	0.925	0.666
+SRP061193	Mouse	"Balanced
+|Δf| < 0.15"	0.702	0.817	0.948
+SRP061286	Human	"Mild
+0.15–0.3"	0.522	0.651	0.007
+SRP061386	Mouse	"Mild
+0.15–0.3"	0.922	0.782	0.945
+SRP061407	Mouse	"Confounded
+≥ 0.3"	0.727	1	0.727
+SRP061758	Mouse	"Confounded
+≥ 0.3"	0.188	0.257	0.286
+SRP061785	Mouse	"Confounded
+≥ 0.3"	0.061	0.203	0.474
+SRP061800	Mouse	"Confounded
+≥ 0.3"	0.48	0.455	0.478
+SRP061985	Mouse	"Confounded
+≥ 0.3"	0	0.452	0
+SRP062025	Human	"Balanced
+|Δf| < 0.15"	0.727	0.75	0.875
+SRP062238	Mouse	"Mild
+0.15–0.3"	0.668	0.668	0.497
+SRP062966	Human	"Balanced
+|Δf| < 0.15"	0.903	0.975	0.926
+SRP063006	Human	"Mild
+0.15–0.3"	0.766	0.838	0.768
+SRP063269	Mouse	"Balanced
+|Δf| < 0.15"	0.875	0.857	0.875
+SRP063455	Mouse	"Balanced
+|Δf| < 0.15"	0.98	0.987	0.994
+SRP064216	Mouse	"Balanced
+|Δf| < 0.15"	0.962	0.806	0.97
+SRP064245	Mouse	"Balanced
+|Δf| < 0.15"	0.944	0.883	0.95
+SRP064431	Human	"Balanced
+|Δf| < 0.15"	0.504	0.031	0.605
+SRP064534	Mouse	"Balanced
+|Δf| < 0.15"	0.86	0.589	0.83
+SRP064923	Mouse	"Confounded
+≥ 0.3"	1	1	1
+SRP064991	Mouse	"Confounded
+≥ 0.3"	0.708	0.619	0.635
+SRP065445	Human	"Confounded
+≥ 0.3"	0.373	0.748	0.362
+SRP065767	Mouse	"Balanced
+|Δf| < 0.15"	0.861	0.817	0.865
+SRP065801	Mouse	"Confounded
+≥ 0.3"	0.392	0.849	0.392
+SRP065812	Human	"Mild
+0.15–0.3"	0.905	0.864	0.924
+SRP065842	Mouse	"Balanced
+|Δf| < 0.15"	0.609	0.84	0.883
+SRP066097	Mouse	"Balanced
+|Δf| < 0.15"	0	0	0
+SRP067339	Mouse	"Confounded
+≥ 0.3"	0	0	0
+SRP067454	Mouse	"Balanced
+|Δf| < 0.15"	0.989	0.995	0.992
+SRP067490	Mouse	"Balanced
+|Δf| < 0.15"	0.833	0.167	0.833
+SRP067600	Mouse	"Confounded
+≥ 0.3"	0.155	0.724	0.081
+SRP067631	Human	"Mild
+0.15–0.3"	0.747	0.563	0.717
+SRP067752	Mouse	"Balanced
+|Δf| < 0.15"	0.675	0.911	0.92
+SRP068384	Mouse	"Balanced
+|Δf| < 0.15"	0.712	0.648	0.918
+SRP068500	Mouse	"Balanced
+|Δf| < 0.15"	0.689	0.697	0.875
+SRP068591	Human	"Mild
+0.15–0.3"	0.834	0.683	0.728
+SRP069292	Mouse	"Confounded
+≥ 0.3"	0.27	0.27	0.162
+SRP069772	Mouse	"Balanced
+|Δf| < 0.15"	1	1	1
+SRP069873	Mouse	"Mild
+0.15–0.3"	0.725	0.45	0.69
+SRP069976	Human	"Mild
+0.15–0.3"	0.946	0.992	0.949
+SRP070148	Human	"Confounded
+≥ 0.3"	0.886	0.965	0.882
+SRP070188	Mouse	"Balanced
+|Δf| < 0.15"	0.876	0.809	0.845
+SRP070440	Mouse	"Balanced
+|Δf| < 0.15"	0.825	0.657	0.82
+SRP070571	Mouse	"Mild
+0.15–0.3"	0.542	0.427	0.542
+SRP070642	Mouse	"Confounded
+≥ 0.3"	0.292	0.851	0.292
+SRP070673	Mouse	"Balanced
+|Δf| < 0.15"	1	1	0.5
+SRP070767	Mouse	"Balanced
+|Δf| < 0.15"	0.905	0.804	0.955
+SRP070769	Mouse	"Balanced
+|Δf| < 0.15"	0.896	0.779	0.937
+SRP070770	Mouse	"Balanced
+|Δf| < 0.15"	1	1	1
+SRP070775	Mouse	"Balanced
+|Δf| < 0.15"	0.945	0.95	0.956
+SRP070906	Mouse	"Confounded
+≥ 0.3"	0.395	0.842	0.021
+SRP070944	Mouse	"Confounded
+≥ 0.3"	0.333	0.667	0.333
+SRP071333	Mouse	"Mild
+0.15–0.3"	0.5	0.143	0.143
+SRP071758	Human	"Balanced
+|Δf| < 0.15"	0.954	0.903	0.959
+SRP071965	Human	"Balanced
+|Δf| < 0.15"	0.915	0.992	0.952
+SRP072242	Human	"Confounded
+≥ 0.3"	0	0	0
+SRP072457	Mouse	"Balanced
+|Δf| < 0.15"	0.269	0.326	0.326
+SRP072463	Human	"Balanced
+|Δf| < 0.15"	0.211	0	0
+SRP072844	Mouse	"Mild
+0.15–0.3"	0.5	0	0.5
+SRP072877	Mouse	"Confounded
+≥ 0.3"	0.605	0.586	0.586
+SRP073042	Mouse	"Confounded
+≥ 0.3"	0.514	0.853	0.537
+SRP073086	Mouse	"Balanced
+|Δf| < 0.15"	1	1	1
+SRP073224	Mouse	"Confounded
+≥ 0.3"	0.323	0.736	0.19
+SRP073347	Human	"Balanced
+|Δf| < 0.15"	0.326	0.467	0.63
+SRP073495	Mouse	"Mild
+0.15–0.3"	0.812	0.42	0.896
+SRP073498	Mouse	"Balanced
+|Δf| < 0.15"	0.93	0.925	0.934
+SRP073609	Mouse	"Balanced
+|Δf| < 0.15"	0.324	0.734	0.747
+SRP074136	Mouse	"Balanced
+|Δf| < 0.15"	0.828	0.862	0.828
+SRP074146	Mouse	"Confounded
+≥ 0.3"	0.677	0.944	0.725
+SRP074349	Human	"Balanced
+|Δf| < 0.15"	0.962	0.966	0.983
+SRP075924	Mouse	"Confounded
+≥ 0.3"	0	0	0
+SRP076021	Mouse	"Mild
+0.15–0.3"	0.474	0.466	0.477
+SRP076455	Mouse	"Confounded
+≥ 0.3"	0.298	0.811	0.504
+SRP076627	Human	"Mild
+0.15–0.3"	0.847	0.863	0.867
+SRP076866	Mouse	"Mild
+0.15–0.3"	0.522	0.591	0.667
+SRP076940	Mouse	"Balanced
+|Δf| < 0.15"	0.78	0.567	0.8
+SRP077046	Human	"Mild
+0.15–0.3"	0.956	0.995	0.918
+SRP077095	Mouse	"Mild
+0.15–0.3"	0.899	0.852	0.852
+SRP077214	Mouse	"Confounded
+≥ 0.3"	0.849	0.843	0.867
+SRP077708	Human	"Mild
+0.15–0.3"	0.59	0.532	0.557
+SRP078061	Mouse	"Mild
+0.15–0.3"	0.667	0.625	0.389
+SRP078062	Mouse	"Balanced
+|Δf| < 0.15"	0.927	0.927	0.925
+SRP078270	Mouse	"Balanced
+|Δf| < 0.15"	0.815	0.738	0.884
+SRP078314	Human	"Mild
+0.15–0.3"	0.657	0.097	0.519
+SRP078380	Mouse	"Balanced
+|Δf| < 0.15"	1	1	1
+SRP078450	Human	"Balanced
+|Δf| < 0.15"	0.859	0.778	0.798
+SRP079900	Mouse	"Balanced
+|Δf| < 0.15"	0.951	0.942	0.966
+SRP080864	Mouse	"Balanced
+|Δf| < 0.15"	0.5	1	1
+SRP081004	Mouse	"Mild
+0.15–0.3"	0.562	0.647	0.516
+SRP081020	Human	"Confounded
+≥ 0.3"	0	0.727	0.574
+SRP081089	Mouse	"Balanced
+|Δf| < 0.15"	0.44	0.765	0.44
+SRP081599	Human	"Balanced
+|Δf| < 0.15"	0.947	0.953	0.944
+SRP082219	Mouse	"Balanced
+|Δf| < 0.15"	0.849	0.851	0.806
+SRP082273	Mouse	"Mild
+0.15–0.3"	0.794	0.736	0.77
+SRP082367	Mouse	"Balanced
+|Δf| < 0.15"	0.4	0.15	0.55
+SRP082985	Mouse	"Confounded
+≥ 0.3"	0.74	0.909	0.756
+SRP083914	Mouse	"Balanced
+|Δf| < 0.15"	0.973	0.942	0.983
+SRP089713	Mouse	"Mild
+0.15–0.3"	0.702	0.586	0.832
+SRP089788	Human	"Balanced
+|Δf| < 0.15"	0.919	0.944	0.936
+SRP090141	Mouse	"Balanced
+|Δf| < 0.15"	0.704	0.408	0.644
+SRP090360	Mouse	"Confounded
+≥ 0.3"	0.641	0.846	0.637
+SRP090395	Mouse	"Confounded
+≥ 0.3"	0.133	0.787	0.036
+SRP090460	Human	"Balanced
+|Δf| < 0.15"	0.882	0.019	0.875
+SRP090476	Mouse	"Mild
+0.15–0.3"	0.037	0	0
+SRP090770	Mouse	"Balanced
+|Δf| < 0.15"	0.333	0.333	0.667
+SRP091722	Mouse	"Balanced
+|Δf| < 0.15"	0.704	0.776	0.652
+SRP091938	Mouse	"Confounded
+≥ 0.3"	1	1	1
+SRP092402	Human	"Mild
+0.15–0.3"	0.928	0.995	0.956
+SRP092408	Human	"Mild
+0.15–0.3"	0.919	0.955	0.924
+SRP092451	Mouse	"Mild
+0.15–0.3"	0.633	0.868	0.826
+SRP092501	Human	"Balanced
+|Δf| < 0.15"	0.786	0.417	0.417
+SRP092532	Mouse	"Balanced
+|Δf| < 0.15"	0.74	0.403	0.761
+SRP092552	Mouse	"Mild
+0.15–0.3"	0.931	0.944	0.941
+SRP092799	Mouse	"Balanced
+|Δf| < 0.15"	0.911	0.785	0.903
+SRP093283	Mouse	"Confounded
+≥ 0.3"	0.619	0.715	0.733
+SRP093288	Mouse	"Balanced
+|Δf| < 0.15"	1	0	1
+SRP093302	Mouse	"Confounded
+≥ 0.3"	0.926	0.91	0.932
+SRP093925	Mouse	"Confounded
+≥ 0.3"	0.514	0.376	0.374
+SRP094553	Human	"Mild
+0.15–0.3"	1	1	1
+SRP094853	Mouse	"Mild
+0.15–0.3"	0.01	0.661	0.643
+SRP094952	Mouse	"Confounded
+≥ 0.3"	0.804	0.738	0.785
+SRP095064	Mouse	"Balanced
+|Δf| < 0.15"	0.744	0.812	0.525
+SRP095235	Mouse	"Confounded
+≥ 0.3"	0.265	0.756	0.406
+SRP095361	Human	"Mild
+0.15–0.3"	0.909	0.95	0.912
+SRP095491	Human	"Balanced
+|Δf| < 0.15"	0.5	0.333	1
+SRP095617	Mouse	"Mild
+0.15–0.3"	0.451	0	0.327
+SRP095855	Mouse	"Mild
+0.15–0.3"	0.842	0.965	0.871
+SRP095936	Mouse	"Confounded
+≥ 0.3"	0.837	0.971	0.829
+SRP096052	Mouse	"Balanced
+|Δf| < 0.15"	0.968	0.901	0.959
+SRP096201	Human	"Confounded
+≥ 0.3"	0.17	0.663	0.178
+SRP096655	Mouse	"Confounded
+≥ 0.3"	0.37	0.916	0.601
+SRP096738	Mouse	"Confounded
+≥ 0.3"	0.255	0.057	0.588
+SRP096757	Human	"Balanced
+|Δf| < 0.15"	0.993	0.972	0.978
+SRP096963	Mouse	"Mild
+0.15–0.3"	0.63	0.671	0.579
+SRP097621	Mouse	"Confounded
+≥ 0.3"	0.391	0.798	0.415
+SRP098045	Mouse	"Mild
+0.15–0.3"	0	1	0
+SRP098725	Mouse	"Mild
+0.15–0.3"	0.352	0.892	0.407
+SRP098758	Human	"Balanced
+|Δf| < 0.15"	0.961	0.99	0.969
+SRP098816	Mouse	"Balanced
+|Δf| < 0.15"	1	0	0
+SRP098946	Mouse	"Confounded
+≥ 0.3"	0.483	0.96	0.817
+SRP099234	Mouse	"Confounded
+≥ 0.3"	0.714	0.679	0.693
+SRP099448	Mouse	"Mild
+0.15–0.3"	0.395	0.744	0.593
+SRP099592	Mouse	"Balanced
+|Δf| < 0.15"	1	1	1
+SRP099676	Human	"Balanced
+|Δf| < 0.15"	0.969	0.982	0.983
+SRP099973	Mouse	"Mild
+0.15–0.3"	0.54	0.42	0.553
+SRP100466	Mouse	"Balanced
+|Δf| < 0.15"	0.746	0.954	0.775
+SRP100948	Human	"Balanced
+|Δf| < 0.15"	0.925	0.966	0.94
+SRP100979	Mouse	"Balanced
+|Δf| < 0.15"	0.661	0.614	0.826
+SRP101363	Mouse	"Mild
+0.15–0.3"	0.293	0	0
+SRP101444	Mouse	"Balanced
+|Δf| < 0.15"	0.839	0.794	0.821
+SRP101453	Mouse	"Balanced
+|Δf| < 0.15"	0.706	0.718	0.778
+SRP101460	Mouse	"Balanced
+|Δf| < 0.15"	0.013	0	0.25
+SRP101577	Mouse	"Mild
+0.15–0.3"	0.768	0.82	0.781
+SRP101579	Mouse	"Mild
+0.15–0.3"	0.854	0.83	0.854
+SRP101878	Mouse	"Balanced
+|Δf| < 0.15"	0.617	0.8	0.71
+SRP101985	Mouse	"Balanced
+|Δf| < 0.15"	0.895	0.73	0.934
+SRP102241	Mouse	"Balanced
+|Δf| < 0.15"	0.889	0.724	0.832
+SRP102454	Mouse	"Balanced
+|Δf| < 0.15"	0.974	0.846	0.968
+SRP103932	Mouse	"Balanced
+|Δf| < 0.15"	0.528	0.182	0.759
+SRP105166	Mouse	"Balanced
+|Δf| < 0.15"	0.663	0.81	0.793
+SRP106008	Human	"Balanced
+|Δf| < 0.15"	0.812	0.891	0.825
+SRP106011	Human	"Confounded
+≥ 0.3"	0.802	0.989	0.851
+SRP106312	Mouse	"Confounded
+≥ 0.3"	0.754	0.776	0.676
+SRP106605	Mouse	"Confounded
+≥ 0.3"	0.095	0.951	0.641
+SRP107001	Mouse	"Balanced
+|Δf| < 0.15"	0.016	0	0
+SRP107025	Human	"Balanced
+|Δf| < 0.15"	0.909	0.935	0.921
+SRP107211	Mouse	"Mild
+0.15–0.3"	0.13	0	0.13
+SRP107214	Mouse	"Mild
+0.15–0.3"	0.711	0.085	0.751
+SRP108079	Mouse	"Balanced
+|Δf| < 0.15"	0.808	0.552	0.804
+SRP108489	Mouse	"Balanced
+|Δf| < 0.15"	0.014	0.091	0.014
+SRP108495	Mouse	"Balanced
+|Δf| < 0.15"	0.898	0.718	0.887
+SRP108497	Mouse	"Balanced
+|Δf| < 0.15"	0.936	0.895	0.882
+SRP108593	Mouse	"Mild
+0.15–0.3"	0.688	0.672	0.739
+SRP108622	Mouse	"Balanced
+|Δf| < 0.15"	0.963	0.908	0.967
+SRP108766	Mouse	"Balanced
+|Δf| < 0.15"	0.897	0.739	0.905
+SRP109283	Mouse	"Balanced
+|Δf| < 0.15"	0.7	0.693	0.646
+SRP109781	Human	"Balanced
+|Δf| < 0.15"	0.99	0.989	0.992
+SRP109807	Mouse	"Mild
+0.15–0.3"	0.735	0.787	0.787
+SRP110495	Mouse	"Balanced
+|Δf| < 0.15"	0.918	0.82	0.917
+SRP110981	Mouse	"Mild
+0.15–0.3"	0.833	0.75	0.75
+SRP111204	Mouse	"Confounded
+≥ 0.3"	0.839	0.838	0.874
+SRP111291	Mouse	"Balanced
+|Δf| < 0.15"	0.8	0.375	1
+SRP111520	Mouse	"Balanced
+|Δf| < 0.15"	0.959	0.99	0.979
+SRP111981	Mouse	"Balanced
+|Δf| < 0.15"	0.039	1	0
+SRP112744	Human	"Balanced
+|Δf| < 0.15"	0.783	0.783	0.522
+SRP113226	Human	"Mild
+0.15–0.3"	0.681	0.717	0.702
+SRP113245	Human	"Balanced
+|Δf| < 0.15"	0.95	0.921	0.974
+SRP113470	Human	"Balanced
+|Δf| < 0.15"	0.99	0.961	0.991
+SRP113541	Mouse	"Mild
+0.15–0.3"	0.558	0.64	0.606
+SRP113605	Mouse	"Balanced
+|Δf| < 0.15"	0.927	0.983	0.987
+SRP113655	Mouse	"Mild
+0.15–0.3"	0.185	0.477	0.301
+SRP113755	Human	"Confounded
+≥ 0.3"	0.803	0.947	0.811
+SRP113777	Mouse	"Balanced
+|Δf| < 0.15"	0.955	0.959	0.956
+SRP114567	Human	"Mild
+0.15–0.3"	0.667	0	0.5
+SRP114759	Mouse	"Balanced
+|Δf| < 0.15"	0.813	0.804	0.853
+SRP114762	Human	"Balanced
+|Δf| < 0.15"	0.946	0.899	0.939
+SRP114953	Mouse	"Mild
+0.15–0.3"	0.719	0.796	0.749
+SRP114994	Mouse	"Balanced
+|Δf| < 0.15"	0.83	0.814	0.919
+SRP115011	Human	"Balanced
+|Δf| < 0.15"	0.946	0.933	0.938
+SRP115189	Mouse	"Balanced
+|Δf| < 0.15"	0.895	0.943	0.917
+SRP115474	Mouse	"Confounded
+≥ 0.3"	0.864	0.858	0.882
+SRP115571	Human	"Balanced
+|Δf| < 0.15"	0.96	0.714	1
+SRP115833	Mouse	"Mild
+0.15–0.3"	0	0	0
+SRP115984	Mouse	"Balanced
+|Δf| < 0.15"	0.5	1	1
+SRP116137	Mouse	"Balanced
+|Δf| < 0.15"	0.775	0.727	0.9
+SRP116375	Mouse	"Confounded
+≥ 0.3"	1	1	0.667
+SRP116558	Mouse	"Confounded
+≥ 0.3"	0.692	0.912	0.692
+SRP117020	Human	"Balanced
+|Δf| < 0.15"	0.915	0.971	0.943
+SRP117060	Mouse	"Mild
+0.15–0.3"	1	1	1
+SRP117567	Mouse	"Confounded
+≥ 0.3"	0.283	0.844	0.328
+SRP117580	Mouse	"Confounded
+≥ 0.3"	0.728	0.897	0.722
+SRP117757	Mouse	"Balanced
+|Δf| < 0.15"	0.681	0.395	0.564
+SRP117955	Mouse	"Balanced
+|Δf| < 0.15"	0.766	0.746	0.735
+SRP118141	Mouse	"Confounded
+≥ 0.3"	0.208	0.513	0.077
+SRP118346	Mouse	"Balanced
+|Δf| < 0.15"	0.887	0.714	0.848
+SRP118401	Mouse	"Balanced
+|Δf| < 0.15"	0.956	0.887	0.963
+SRP118915	Mouse	"Confounded
+≥ 0.3"	0.699	0.294	0.732
+SRP118972	Human	"Confounded
+≥ 0.3"	0	0.167	0.043
+SRP119123	Mouse	"Mild
+0.15–0.3"	0.308	0.119	0.577
+SRP119561	Human	"Balanced
+|Δf| < 0.15"	0.885	0.881	0.813
+SRP119636	Human	"Mild
+0.15–0.3"	0.862	0.98	0.897
+SRP119667	Mouse	"Mild
+0.15–0.3"	0.804	0.796	0.781
+SRP119675	Mouse	"Balanced
+|Δf| < 0.15"	0.763	0.735	0.673
+SRP119676	Human	"Balanced
+|Δf| < 0.15"	0.977	0.954	0.989
+SRP119934	Mouse	"Balanced
+|Δf| < 0.15"	0.045	1	1
+SRP121330	Human	"Confounded
+≥ 0.3"	0.438	0.029	0.519
+SRP121631	Mouse	"Balanced
+|Δf| < 0.15"	0.799	0.956	0.954
+SRP123512	Mouse	"Balanced
+|Δf| < 0.15"	0.151	0.237	0.75
+SRP123761	Mouse	"Confounded
+≥ 0.3"	0.209	0.296	0.533
+SRP124651	Human	"Confounded
+≥ 0.3"	0.179	0.562	0.035
+SRP125082	Mouse	"Mild
+0.15–0.3"	0.825	0.888	0.798
+SRP125225	Mouse	"Balanced
+|Δf| < 0.15"	0.762	0.424	0.909
+SRP125233	Human	"Mild
+0.15–0.3"	0.723	0.767	0.806
+SRP125336	Mouse	"Mild
+0.15–0.3"	0.87	0.608	0.89
+SRP125353	Mouse	"Confounded
+≥ 0.3"	0.007	0.015	0.012
+SRP125665	Mouse	"Confounded
+≥ 0.3"	0.71	0.874	0.664
+SRP125705	Mouse	"Confounded
+≥ 0.3"	0.593	0.983	0.877
+SRP125804	Mouse	"Mild
+0.15–0.3"	0.648	0.648	0.698
+SRP125882	Human	"Balanced
+|Δf| < 0.15"	0.935	0.821	0.978
+SRP126056	Human	"Mild
+0.15–0.3"	0.048	0.913	0.183
+SRP126161	Mouse	"Balanced
+|Δf| < 0.15"	0.867	0.861	0.855
+SRP126245	Mouse	"Confounded
+≥ 0.3"	0.27	0.803	0.317
+SRP126416	Mouse	"Confounded
+≥ 0.3"	0	0	0
+SRP126545	Mouse	"Balanced
+|Δf| < 0.15"	0.653	0.299	0.555
+SRP126565	Mouse	"Balanced
+|Δf| < 0.15"	0.936	0.839	0.956
+SRP126580	Human	"Mild
+0.15–0.3"	0.835	0.954	0.879
+SRP126582	Human	"Mild
+0.15–0.3"	0.896	0.939	0.913
+SRP126623	Human	"Mild
+0.15–0.3"	0.673	0.836	0.727
+SRP126673	Mouse	"Confounded
+≥ 0.3"	0	0.444	0
+SRP126691	Human	"Balanced
+|Δf| < 0.15"	0.979	0.921	0.989
+SRP126777	Mouse	"Mild
+0.15–0.3"	0.432	0.669	0.432
+SRP127005	Mouse	"Balanced
+|Δf| < 0.15"	0.938	0.93	0.912
+SRP127264	Mouse	"Balanced
+|Δf| < 0.15"	0.909	0.818	0.806
+SRP127681	Mouse	"Balanced
+|Δf| < 0.15"	0.768	0.534	0.609
+SRP128068	Mouse	"Mild
+0.15–0.3"	0.672	0.651	0.656
+SRP128271	Mouse	"Balanced
+|Δf| < 0.15"	0.889	0.727	0.889
+SRP128899	Mouse	"Balanced
+|Δf| < 0.15"	0.897	0.88	0.923
+SRP129004	Human	"Balanced
+|Δf| < 0.15"	0.993	0.991	0.995
+SRP129035	Mouse	"Confounded
+≥ 0.3"	0.146	0.718	0.272
+SRP131055	Mouse	"Mild
+0.15–0.3"	0.784	0.652	0.763
+SRP131125	Human	"Confounded
+≥ 0.3"	0.344	0.538	0.494
+SRP131336	Mouse	"Balanced
+|Δf| < 0.15"	0.857	0.857	1
+SRP131795	Mouse	"Confounded
+≥ 0.3"	0.164	0.705	0
+SRP131850	Mouse	"Balanced
+|Δf| < 0.15"	0.853	0.795	0.856
+SRP131855	Mouse	"Mild
+0.15–0.3"	0.833	0.98	0.94
+SRP131877	Mouse	"Mild
+0.15–0.3"	0	0.5	0
+SRP132283	Mouse	"Mild
+0.15–0.3"	0.758	0.771	0.768
+SRP132471	Mouse	"Balanced
+|Δf| < 0.15"	0.818	0.524	0.426
+SRP132699	Human	"Balanced
+|Δf| < 0.15"	0.972	0.892	0.972
+SRP132711	Human	"Balanced
+|Δf| < 0.15"	0.851	0.783	0.846
+SRP132851	Mouse	"Confounded
+≥ 0.3"	0.421	0.272	0.193
+SRP132854	Mouse	"Balanced
+|Δf| < 0.15"	0.841	0.363	0.684
+SRP132873	Mouse	"Confounded
+≥ 0.3"	0.473	0.871	0.533
+SRP132932	Mouse	"Balanced
+|Δf| < 0.15"	0.507	0.31	0.467
+SRP132939	Human	"Balanced
+|Δf| < 0.15"	0.65	0.917	0.79
+SRP132997	Mouse	"Balanced
+|Δf| < 0.15"	1	1	1
+SRP133024	Mouse	"Confounded
+≥ 0.3"	0.628	0.626	0.357
+SRP133169	Mouse	"Mild
+0.15–0.3"	0.845	0.874	0.835
+SRP133205	Human	"Balanced
+|Δf| < 0.15"	0.668	0.293	0.823
+SRP133303	Human	"Balanced
+|Δf| < 0.15"	0.951	0.658	0.951
+SRP133375	Mouse	"Balanced
+|Δf| < 0.15"	0.867	0.924	0.864
+SRP133393	Human	"Mild
+0.15–0.3"	0.842	0.842	0.846
+SRP133442	Human	"Balanced
+|Δf| < 0.15"	0.921	0.912	0.901
+SRP133512	Mouse	"Mild
+0.15–0.3"	0.583	0.419	0.5
+SRP133781	Mouse	"Mild
+0.15–0.3"	0.636	0.578	0.616
+SRP133849	Human	"Balanced
+|Δf| < 0.15"	0.679	0.509	0.718
+SRP134018	Human	"Balanced
+|Δf| < 0.15"	0.938	0.94	0.944
+SRP134051	Mouse	"Balanced
+|Δf| < 0.15"	0.873	0.301	0.903
+SRP134188	Human	"Balanced
+|Δf| < 0.15"	0.953	0.954	0.944
+SRP134375	Mouse	"Mild
+0.15–0.3"	0.693	0.593	0.515
+SRP136102	Human	"Balanced
+|Δf| < 0.15"	0.982	0.77	0.983
+SRP136239	Human	"Mild
+0.15–0.3"	0.662	0.904	0.738
+SRP136494	Mouse	"Balanced
+|Δf| < 0.15"	0	0	0
+SRP136714	Mouse	"Balanced
+|Δf| < 0.15"	0.94	0.956	0.952
+SRP136742	Human	"Balanced
+|Δf| < 0.15"	0.937	0.974	0.936
+SRP136814	Mouse	"Confounded
+≥ 0.3"	0.178	0.723	0.178
+SRP139542	Mouse	"Balanced
+|Δf| < 0.15"	0.864	0.895	0.848
+SRP139918	Mouse	"Balanced
+|Δf| < 0.15"	0.845	0.972	0.958
+SRP140499	Mouse	"Balanced
+|Δf| < 0.15"	0.863	0.889	0.926
+SRP140945	Human	"Balanced
+|Δf| < 0.15"	0.845	0.659	0.753
+SRP141180	Human	"Mild
+0.15–0.3"	0.908	0.939	0.924
+SRP141266	Mouse	"Balanced
+|Δf| < 0.15"	0.333	0.797	0.892
+SRP144003	Human	"Balanced
+|Δf| < 0.15"	0.881	0.932	0.904
+SRP144088	Mouse	"Confounded
+≥ 0.3"	0.406	0.406	0.386
+SRP144211	Mouse	"Balanced
+|Δf| < 0.15"	0.773	0.692	0.81
+SRP144491	Human	"Confounded
+≥ 0.3"	0.818	0.959	0.822
+SRP144583	Human	"Balanced
+|Δf| < 0.15"	0.971	0.979	0.961
+SRP145067	Mouse	"Balanced
+|Δf| < 0.15"	0.947	0.939	0.972
+SRP145604	Mouse	"Mild
+0.15–0.3"	0.465	0.393	0.36
+SRP145671	Mouse	"Mild
+0.15–0.3"	0.659	0.877	0.849
+SRP148418	Mouse	"Balanced
+|Δf| < 0.15"	0.8	0.25	0.786
+SRP148491	Mouse	"Balanced
+|Δf| < 0.15"	0.888	0.795	0.908
+SRP148556	Human	"Balanced
+|Δf| < 0.15"	0.969	0.772	0.971
+SRP148574	Mouse	"Confounded
+≥ 0.3"	1	0.833	1
+SRP149072	Mouse	"Mild
+0.15–0.3"	0	1	1
+SRP149124	Mouse	"Balanced
+|Δf| < 0.15"	0.028	1	0.143
+SRP149159	Mouse	"Balanced
+|Δf| < 0.15"	0.625	0.625	0
+SRP149374	Human	"Mild
+0.15–0.3"	0.882	0.906	0.882
+SRP149847	Human	"Mild
+0.15–0.3"	0.924	0.943	0.928
+SRP149978	Human	"Balanced
+|Δf| < 0.15"	0.972	0.81	0.964
+SRP150004	Mouse	"Confounded
+≥ 0.3"	0.223	0.201	0.184
+SRP150238	Mouse	"Mild
+0.15–0.3"	0.125	0.806	0.414
+SRP150269	Mouse	"Balanced
+|Δf| < 0.15"	0.26	0.958	0.932
+SRP150310	Mouse	"Balanced
+|Δf| < 0.15"	0.288	0.689	0.748
+SRP150311	Human	"Confounded
+≥ 0.3"	0.398	0.954	0.753
+SRP150595	Human	"Mild
+0.15–0.3"	0.953	0.94	0.96
+SRP151246	Mouse	"Confounded
+≥ 0.3"	0.628	0.724	0.539
+SRP151425	Human	"Mild
+0.15–0.3"	0.667	1	1
+SRP151455	Mouse	"Mild
+0.15–0.3"	0.946	0.972	0.963
+SRP151536	Mouse	"Balanced
+|Δf| < 0.15"	0.709	0.66	0.867
+SRP151595	Mouse	"Confounded
+≥ 0.3"	0.788	0.922	0.748
+SRP151677	Mouse	"Confounded
+≥ 0.3"	0.944	0.984	0.95
+SRP151888	Mouse	"Mild
+0.15–0.3"	0.876	0.941	0.939
+SRP151927	Mouse	"Confounded
+≥ 0.3"	0.298	0.705	0.335
+SRP153101	Mouse	"Balanced
+|Δf| < 0.15"	0.71	0.678	0.743
+SRP153147	Mouse	"Confounded
+≥ 0.3"	0.897	0.972	0.905
+SRP153200	Mouse	"Balanced
+|Δf| < 0.15"	0.96	0.911	0.963
+SRP154146	Mouse	"Balanced
+|Δf| < 0.15"	0.98	0.992	0.991
+SRP154425	Mouse	"Balanced
+|Δf| < 0.15"	0.967	0.978	0.968
+SRP154465	Mouse	"Confounded
+≥ 0.3"	0.76	0.961	0.77
+SRP154474	Human	"Confounded
+≥ 0.3"	0.265	0.898	0.436
+SRP154573	Human	"Balanced
+|Δf| < 0.15"	0.827	0.82	0.839
+SRP154838	Mouse	"Mild
+0.15–0.3"	0.492	0.938	0.812
+SRP154859	Mouse	"Balanced
+|Δf| < 0.15"	0.729	0.878	0.966
+SRP154932	Mouse	"Balanced
+|Δf| < 0.15"	0.698	0.763	0.565
+SRP154934	Mouse	"Confounded
+≥ 0.3"	0.401	0.735	0.364
+SRP155089	Human	"Confounded
+≥ 0.3"	0.595	0.894	0.719
+SRP155363	Human	"Balanced
+|Δf| < 0.15"	0.619	0.859	0.891
+SRP155851	Mouse	"Balanced
+|Δf| < 0.15"	0.303	0.736	0.84
+SRP155931	Mouse	"Mild
+0.15–0.3"	1	0	1
+SRP155943	Mouse	"Mild
+0.15–0.3"	0.652	0.635	0.642
+SRP155976	Human	"Balanced
+|Δf| < 0.15"	0.97	0.977	0.979
+SRP156049	Human	"Balanced
+|Δf| < 0.15"	0.931	0.609	0.923
+SRP156218	Mouse	"Balanced
+|Δf| < 0.15"	0.971	0.972	0.93
+SRP156285	Mouse	"Confounded
+≥ 0.3"	0.75	0.75	0.599
+SRP156394	Human	"Balanced
+|Δf| < 0.15"	0.646	0.471	0.836
+SRP156476	Mouse	"Balanced
+|Δf| < 0.15"	0.651	0.878	0.732
+SRP156859	Mouse	"Mild
+0.15–0.3"	0.639	0.696	0.683
+SRP156888	Mouse	"Mild
+0.15–0.3"	0.737	0.661	0.649
+SRP156952	Human	"Mild
+0.15–0.3"	0.649	0.703	0.656
+SRP158376	Mouse	"Confounded
+≥ 0.3"	0.747	0.904	0.731
+SRP158639	Human	"Mild
+0.15–0.3"	0.935	0.959	0.901
+SRP158678	Mouse	"Confounded
+≥ 0.3"	0.803	0.959	0.823
+SRP158761	Mouse	"Confounded
+≥ 0.3"	0.062	0.484	0.019
+SRP158995	Mouse	"Balanced
+|Δf| < 0.15"	0.514	0.892	0.884
+SRP159065	Mouse	"Confounded
+≥ 0.3"	0.031	0.285	0.031
+SRP159264	Human	"Balanced
+|Δf| < 0.15"	0.97	0.946	0.978
+SRP160439	Mouse	"Balanced
+|Δf| < 0.15"	0.823	0.835	0.799
+SRP160883	Mouse	"Confounded
+≥ 0.3"	0.658	0.616	0.669
+SRP161460	Mouse	"Mild
+0.15–0.3"	0.719	0.672	0.716
+SRP162073	Human	"Balanced
+|Δf| < 0.15"	0.9	0.754	0.898
+SRP162125	Human	"Balanced
+|Δf| < 0.15"	0.974	0.95	0.979
+SRP162318	Mouse	"Balanced
+|Δf| < 0.15"	0.678	0.367	0.698
+SRP162383	Mouse	"Confounded
+≥ 0.3"	0.329	0.734	0.568
+SRP162456	Mouse	"Balanced
+|Δf| < 0.15"	1	0.333	0.5
+SRP162527	Mouse	"Balanced
+|Δf| < 0.15"	0.853	0.75	0.75
+SRP162743	Human	"Confounded
+≥ 0.3"	0.663	0.859	0.694
+SRP162873	Human	"Confounded
+≥ 0.3"	0.164	0.827	0.041
+SRP163478	Human	"Confounded
+≥ 0.3"	0.041	0.705	0.011
+SRP164691	Mouse	"Confounded
+≥ 0.3"	0.573	0.516	0.608
+SRP165196	Mouse	"Balanced
+|Δf| < 0.15"	0.463	0.881	0.958
+SRP165679	Human	"Balanced
+|Δf| < 0.15"	0.981	0.981	0.98
+SRP165748	Mouse	"Balanced
+|Δf| < 0.15"	0.25	0.143	0.143
+SRP165919	Mouse	"Confounded
+≥ 0.3"	0.381	0	0
+SRP166200	Human	"Balanced
+|Δf| < 0.15"	0.574	0.091	0.741
+SRP166762	Mouse	"Balanced
+|Δf| < 0.15"	0.893	0.787	0.893
+SRP167865	Mouse	"Confounded
+≥ 0.3"	0.129	0.476	0.127
+SRP167988	Mouse	"Balanced
+|Δf| < 0.15"	0.375	0	0.25
+SRP168251	Human	"Mild
+0.15–0.3"	0.954	0.989	0.96
+SRP168527	Mouse	"Balanced
+|Δf| < 0.15"	0.5	0	1
+SRP168573	Mouse	"Mild
+0.15–0.3"	0.796	0.791	0.766
+SRP168748	Mouse	"Balanced
+|Δf| < 0.15"	0.59	0.1	0.311
+SRP169610	Human	"Mild
+0.15–0.3"	0.774	0.859	0.816
+SRP170629	Human	"Confounded
+≥ 0.3"	0.644	0.831	0
+SRP170677	Mouse	"Balanced
+|Δf| < 0.15"	0.908	0.933	0.958
+SRP171158	Mouse	"Confounded
+≥ 0.3"	0	0	0
+SRP172565	Mouse	"Mild
+0.15–0.3"	0.466	0.729	0.368
+SRP172733	Mouse	"Balanced
+|Δf| < 0.15"	0.865	0.915	0.862
+SRP173297	Mouse	"Balanced
+|Δf| < 0.15"	0.964	0.899	0.969
+SRP173466	Mouse	"Balanced
+|Δf| < 0.15"	0.806	0.882	0.932
+SRP173478	Mouse	"Balanced
+|Δf| < 0.15"	0.833	0.484	0.833
+SRP173589	Mouse	"Balanced
+|Δf| < 0.15"	0.956	0.81	0.958
+SRP173645	Mouse	"Mild
+0.15–0.3"	0.803	0.811	0.803
+SRP173675	Mouse	"Confounded
+≥ 0.3"	0.734	0.978	0.902
+SRP173803	Mouse	"Confounded
+≥ 0.3"	0.621	0.738	0.646
+SRP173808	Mouse	"Mild
+0.15–0.3"	0.5	0.6	0.5
+SRP173842	Human	"Mild
+0.15–0.3"	0.364	0.879	0.5
+SRP174208	Mouse	"Balanced
+|Δf| < 0.15"	0.92	0.871	0.948
+SRP174223	Human	"Balanced
+|Δf| < 0.15"	1	0	0
+SRP174529	Mouse	"Mild
+0.15–0.3"	0.802	0.933	0.839
+SRP174668	Human	"Balanced
+|Δf| < 0.15"	0.975	0.902	0.94
+SRP175005	Human	"Confounded
+≥ 0.3"	0.539	0.857	0.464
+SRP175109	Mouse	"Balanced
+|Δf| < 0.15"	0.5	0.5	0.75
+SRP176418	Mouse	"Mild
+0.15–0.3"	0.284	0.744	0.675
+SRP178051	Mouse	"Balanced
+|Δf| < 0.15"	0.813	0.868	0.905
+SRP178267	Mouse	"Balanced
+|Δf| < 0.15"	0.742	0.834	0.722
+SRP178890	Mouse	"Balanced
+|Δf| < 0.15"	0.5	0.654	0.725
+SRP181809	Mouse	"Mild
+0.15–0.3"	0.823	0.918	0.809
+SRP181886	Human	"Balanced
+|Δf| < 0.15"	0.988	0.976	0.995
+SRP181939	Mouse	"Confounded
+≥ 0.3"	0.111	0.333	0.556
+SRP182089	Mouse	"Balanced
+|Δf| < 0.15"	0.94	0.77	0.957
+SRP182095	Mouse	"Confounded
+≥ 0.3"	0	0	0
+SRP182096	Human	"Mild
+0.15–0.3"	0.751	0.871	0.86
+SRP183071	Human	"Balanced
+|Δf| < 0.15"	0.95	0.97	0.965
+SRP183186	Human	"Balanced
+|Δf| < 0.15"	0.979	0.988	0.986
+SRP185546	Mouse	"Balanced
+|Δf| < 0.15"	0.75	0.818	0.9
+SRP185578	Mouse	"Confounded
+≥ 0.3"	0.609	0.752	0.396
+SRP185583	Mouse	"Confounded
+≥ 0.3"	0.567	0.814	0.563
+SRP185733	Mouse	"Confounded
+≥ 0.3"	0.579	0.914	0.739
+SRP185884	Mouse	"Balanced
+|Δf| < 0.15"	0.906	0.733	0.968
+SRP185902	Human	"Balanced
+|Δf| < 0.15"	0.851	0.839	0.911
+SRP186066	Mouse	"Balanced
+|Δf| < 0.15"	0.788	0.393	0.648
+SRP186138	Human	"Mild
+0.15–0.3"	0.884	0.977	0.912
+SRP186205	Human	"Balanced
+|Δf| < 0.15"	0.878	0.776	0.872
+SRP186214	Mouse	"Mild
+0.15–0.3"	0.737	0.685	0.686
+SRP186363	Mouse	"Mild
+0.15–0.3"	0.705	0.69	0.669
+SRP186450	Human	"Mild
+0.15–0.3"	0.855	0.981	0.847
+SRP186486	Mouse	"Confounded
+≥ 0.3"	0.355	0.814	0.488
+SRP186882	Human	"Balanced
+|Δf| < 0.15"	0.923	0.916	0.915
+SRP187088	Human	"Confounded
+≥ 0.3"	0.658	0.842	0.688
+SRP187855	Mouse	"Mild
+0.15–0.3"	0.59	0.518	0.759
+SRP188422	Human	"Balanced
+|Δf| < 0.15"	1	0	1
+SRP188706	Mouse	"Balanced
+|Δf| < 0.15"	0.263	0.484	0.263
+SRP188927	Mouse	"Confounded
+≥ 0.3"	1	1	1
+SRP188973	Human	"Mild
+0.15–0.3"	0.59	0.17	0.526
+SRP189204	Human	"Confounded
+≥ 0.3"	0	0	0
+SRP189755	Mouse	"Mild
+0.15–0.3"	0	0	1
+SRP189776	Mouse	"Balanced
+|Δf| < 0.15"	0.784	0.822	0.827
+SRP190928	Mouse	"Balanced
+|Δf| < 0.15"	1	0.167	1
+SRP191039	Mouse	"Mild
+0.15–0.3"	0.885	0.889	0.895
+SRP191054	Mouse	"Mild
+0.15–0.3"	0.849	0.902	0.805
+SRP191069	Mouse	"Mild
+0.15–0.3"	0.333	0	1
+SRP191419	Mouse	"Balanced
+|Δf| < 0.15"	1	1	1
+SRP191501	Mouse	"Balanced
+|Δf| < 0.15"	0.946	0.934	0.94
+SRP191569	Human	"Balanced
+|Δf| < 0.15"	1	1	1
+SRP192368	Mouse	"Balanced
+|Δf| < 0.15"	0.361	0.857	0.86
+SRP192735	Mouse	"Mild
+0.15–0.3"	0.651	0.918	0.887
+SRP192825	Human	"Mild
+0.15–0.3"	0.833	0.863	0.859
+SRP193374	Human	"Mild
+0.15–0.3"	0.895	0.967	0.897
+SRP193449	Mouse	"Mild
+0.15–0.3"	0.96	0.948	0.966
+SRP193857	Mouse	"Balanced
+|Δf| < 0.15"	0.907	0.896	0.899
+SRP195618	Mouse	"Balanced
+|Δf| < 0.15"	0.828	0.2	0.805
+SRP197353	Human	"Confounded
+≥ 0.3"	0.533	0.873	0.346
+SRP197374	Mouse	"Mild
+0.15–0.3"	0.447	0.415	0.447
+SRP197376	Mouse	"Mild
+0.15–0.3"	0.667	0.619	0.55
+SRP198299	Mouse	"Balanced
+|Δf| < 0.15"	0	0	0
+SRP198351	Mouse	"Mild
+0.15–0.3"	0.721	0.661	0.705
+SRP198379	Human	"Balanced
+|Δf| < 0.15"	0.962	0.971	0.969
+SRP198592	Mouse	"Confounded
+≥ 0.3"	0.552	0.911	0.609
+SRP198979	Human	"Confounded
+≥ 0.3"	0.263	0.722	0.337
+SRP199237	Mouse	"Balanced
+|Δf| < 0.15"	0.984	0.898	0.976
+SRP199374	Mouse	"Balanced
+|Δf| < 0.15"	0	0	0
+SRP199441	Mouse	"Balanced
+|Δf| < 0.15"	0.815	0.73	0.93
+SRP199583	Mouse	"Confounded
+≥ 0.3"	0.895	1	0.85
+SRP200316	Mouse	"Confounded
+≥ 0.3"	0.213	0.547	0.237
+SRP200405	Mouse	"Mild
+0.15–0.3"	1	0	1
+SRP201011	Mouse	"Balanced
+|Δf| < 0.15"	0.971	0.815	0.962
+SRP201023	Human	"Balanced
+|Δf| < 0.15"	0.954	0.909	0.945
+SRP201665	Mouse	"Balanced
+|Δf| < 0.15"	0.927	0.939	0.904
+SRP201679	Mouse	"Balanced
+|Δf| < 0.15"	0.681	0.802	0.815
+SRP201969	Mouse	"Confounded
+≥ 0.3"	0.571	1	0.571
+SRP211825	Mouse	"Confounded
+≥ 0.3"	0.545	0.545	0.586
+SRP212107	Mouse	"Balanced
+|Δf| < 0.15"	0.613	0.767	0.89
+SRP212148	Human	"Balanced
+|Δf| < 0.15"	0.957	0.833	0.96
+SRP212702	Human	"Balanced
+|Δf| < 0.15"	0.983	0.986	0.989
+SRP212755	Human	"Balanced
+|Δf| < 0.15"	0.979	0.984	0.984
+SRP212932	Mouse	"Balanced
+|Δf| < 0.15"	0.364	0.4	0.8
+SRP212955	Mouse	"Confounded
+≥ 0.3"	0	0.825	0.095
+SRP212956	Human	"Balanced
+|Δf| < 0.15"	0.955	0.958	0.969
+SRP213018	Mouse	"Mild
+0.15–0.3"	0.869	0.826	0.879
+SRP213838	Mouse	"Balanced
+|Δf| < 0.15"	0.896	0.653	0.885
+SRP214273	Mouse	"Mild
+0.15–0.3"	0.152	0.07	0.023
+SRP214375	Mouse	"Balanced
+|Δf| < 0.15"	0.975	0.979	0.978
+SRP215863	Mouse	"Mild
+0.15–0.3"	0.076	0.605	0.451
+SRP215939	Human	"Confounded
+≥ 0.3"	0.652	0.906	0.573
+SRP216020	Mouse	"Balanced
+|Δf| < 0.15"	0.82	0.829	0.813
+SRP216037	Mouse	"Balanced
+|Δf| < 0.15"	0.854	0.916	0.895
+SRP216087	Mouse	"Confounded
+≥ 0.3"	0.375	1	0.5
+SRP216420	Human	"Balanced
+|Δf| < 0.15"	0.979	0.975	0.979
+SRP217736	Mouse	"Balanced
+|Δf| < 0.15"	0.906	0.93	0.894
+SRP217849	Mouse	"Balanced
+|Δf| < 0.15"	0.922	0.952	0.953
+SRP217860	Mouse	"Confounded
+≥ 0.3"	0	0.75	0
+SRP217867	Mouse	"Mild
+0.15–0.3"	0	0	0
+SRP217937	Human	"Balanced
+|Δf| < 0.15"	0.568	0.835	0.767
+SRP218156	Mouse	"Balanced
+|Δf| < 0.15"	0.571	0.75	1
+SRP218250	Mouse	"Balanced
+|Δf| < 0.15"	0.884	0.905	0.885
+SRP218851	Mouse	"Confounded
+≥ 0.3"	0.356	0.778	0.539
+SRP219516	Mouse	"Balanced
+|Δf| < 0.15"	0.911	0.908	0.915
+SRP220131	Mouse	"Confounded
+≥ 0.3"	0.326	0.659	0.054
+SRP220251	Human	"Balanced
+|Δf| < 0.15"	0.809	0.886	0.821
+SRP220333	Mouse	"Mild
+0.15–0.3"	0	0.8	0.571
+SRP220671	Mouse	"Balanced
+|Δf| < 0.15"	0.571	0	1
+SRP221482	Human	"Mild
+0.15–0.3"	0.904	0.838	0.892
+SRP221637	Mouse	"Balanced
+|Δf| < 0.15"	0.91	0.929	0.992
+SRP223303	Mouse	"Balanced
+|Δf| < 0.15"	0.476	0.238	0.476
+SRP224655	Mouse	"Mild
+0.15–0.3"	0.75	0.375	0.667
+SRP225503	Mouse	"Confounded
+≥ 0.3"	0.76	0.744	0.764
+SRP225660	Mouse	"Balanced
+|Δf| < 0.15"	0.819	0.889	0.975
+SRP225812	Mouse	"Mild
+0.15–0.3"	0.733	0.598	0.733
+SRP227165	Mouse	"Mild
+0.15–0.3"	0.81	0.894	0.827
+SRP228964	Mouse	"Mild
+0.15–0.3"	0.884	0.928	0.925
+SRP229353	Mouse	"Mild
+0.15–0.3"	0.812	0.636	0.758
+SRP229494	Mouse	"Balanced
+|Δf| < 0.15"	0.894	0.667	0.874
+SRP229626	Mouse	"Mild
+0.15–0.3"	0.383	0.735	0.647
+SRP230248	Mouse	"Balanced
+|Δf| < 0.15"	0.963	0.875	0.959
+SRP230420	Mouse	"Balanced
+|Δf| < 0.15"	0.958	0.826	0.936
+SRP230425	Mouse	"Mild
+0.15–0.3"	0.611	0.614	0.611
+SRP232913	Mouse	"Balanced
+|Δf| < 0.15"	0.619	0.551	0.543
+SRP233206	Mouse	"Confounded
+≥ 0.3"	0.816	0.892	0.823
+SRP237364	Mouse	"Mild
+0.15–0.3"	1	0	1
+SRP237439	Mouse	"Balanced
+|Δf| < 0.15"	0.708	0.707	0.707
+SRP237817	Mouse	"Balanced
+|Δf| < 0.15"	0.669	0.456	0.776
+SRP237911	Mouse	"Mild
+0.15–0.3"	0.84	0.741	0.783
+SRP238851	Mouse	"Balanced
+|Δf| < 0.15"	0.817	0.768	0.867
+SRP251172	Mouse	"Balanced
+|Δf| < 0.15"	0.852	0.846	0.859
+SRP256038	Mouse	"Balanced
+|Δf| < 0.15"	0.955	0.912	0.966
+SRP471095	Mouse	"Balanced
+|Δf| < 0.15"	0.946	0.845	0.941

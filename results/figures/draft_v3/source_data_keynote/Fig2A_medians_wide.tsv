@@ -1,0 +1,15 @@
+organism	cls	Real sex	"Permuted across groups
+(df cost)"	"Permuted within groups
+(df + collinearity cost)"
+Human	"Balanced
+|Δf| < 0.15"	0.937	0.916	0.942
+Human	"Confounded
+≥ 0.3"	0.411	0.827	0.494
+Human	"Mild
+0.15–0.3"	0.833	0.871	0.843
+Mouse	"Balanced
+|Δf| < 0.15"	0.833	0.814	0.884
+Mouse	"Confounded
+≥ 0.3"	0.3935	0.751	0.5055
+Mouse	"Mild
+0.15–0.3"	0.667	0.669	0.712

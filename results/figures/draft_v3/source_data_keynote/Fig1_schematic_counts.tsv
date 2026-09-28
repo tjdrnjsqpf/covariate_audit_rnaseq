@@ -1,0 +1,10 @@
+stage	human	mouse
+SRA projects in recount3	8674	10042
+two-group bulk comparison (classifier)	472	3036
+passed size filters, sex assigned	385	1483
+single-sex	74	871
+mixed-sex	311	612
+balanced |Δf|<0.15	175	298
+mildly imbalanced 0.15–0.3	79	159
+partially confounded 0.3–0.99	57	142
+completely confounded ≥0.99 (excluded from mixed-sex classes shown)	0	13

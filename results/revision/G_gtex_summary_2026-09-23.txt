@@ -1,0 +1,52 @@
+Warning messages:
+1: In wilcox.test.default(a[ok], b[ok], paired = TRUE) :
+  cannot compute exact p-value with zeroes
+2: In wilcox.test.default(a[ok], b[ok], paired = TRUE) :
+  cannot compute exact p-value with zeroes
+3: In wilcox.test.default(a[ok], b[ok], paired = TRUE) :
+  cannot compute exact p-value with zeroes
+4: In wilcox.test.default(a[ok], b[ok], paired = TRUE) :
+  cannot compute exact p-value with zeroes
+                       [,1]                [,2]                [,3]                  
+design_sex             "balanced"          "mildly_imbalanced" "partially_confounded"
+n                      "105"               " 59"               " 39"                 
+n_matched              "68"                "43"                "20"                  
+sb_frac_universe       "0.12 [0.07, 0.13]" "0.09 [0.07, 0.13]" "0.11 [0.09, 0.13]"   
+n_sb_auto              "2764"              "2476"              "2857"                
+or_de0                 "1.20 [1.15, 1.28]" "1.17 [1.06, 1.24]" "1.26 [1.10, 1.36]"   
+or_de1                 "1.21 [1.17, 1.24]" "1.14 [1.06, 1.24]" "1.24 [1.16, 1.36]"   
+p_de0_vs_de1           "0.860"             "0.044"             "0.300"               
+lost_frac_real         "0.10 [0.08, 0.13]" "0.10 [0.07, 0.12]" "0.12 [0.10, 0.13]"   
+lost_frac_within       "0.09 [0.08, 0.11]" "0.11 [0.07, 0.13]" "0.13 [0.11, 0.14]"   
+lost_frac_across       "0.11 [0.09, 0.12]" "0.08 [0.06, 0.12]" "0.12 [0.10, 0.14]"   
+or_lost_real           "0.96 [0.86, 1.07]" "0.98 [0.96, 1.08]" "1.10 [1.04, 1.18]"   
+or_lost_within         "0.99 [0.86, 1.10]" "1.01 [0.98, 1.09]" "1.14 [1.00, 1.28]"   
+or_lost_across         "1.02 [0.94, 1.10]" "0.98 [0.86, 1.05]" "1.09 [0.98, 1.19]"   
+p_lost_real_vs_within  "0.78"              "0.97"              "0.46"                
+or_gain_real           "1.00 [0.88, 1.06]" "1.13 [1.01, 1.31]" "1.14 [1.04, 1.28]"   
+or_gain_within         "1.00 [0.91, 1.15]" "1.01 [0.95, 1.08]" "1.00 [0.90, 1.19]"   
+p_gain_real_vs_within  "0.6800"            "0.0039"            "0.0600"              
+shift_share_real       "0.06 [0.05, 0.07]" "0.07 [0.05, 0.09]" "0.08 [0.07, 0.09]"   
+shift_share_within     "0.08 [0.07, 0.09]" "0.09 [0.07, 0.10]" "0.09 [0.08, 0.11]"   
+shift_share_across     "0.09 [0.08, 0.10]" "0.08 [0.07, 0.10]" "0.09 [0.08, 0.12]"   
+p_share_real_vs_within "4.6e-04"           "2.8e-06"           "3.4e-04"             
+shift_ratio_real       "0.94 [0.93, 0.96]" "0.96 [0.93, 0.98]" "0.96 [0.92, 0.99]"   
+shift_ratio_within     "0.91 [0.89, 0.93]" "0.93 [0.91, 0.95]" "0.94 [0.89, 0.97]"   
+p_ratio_real_vs_within "0.0066"            "0.0028"            "0.2600"              
+
+## tissue-matched only (set_kind != shared):
+Warning messages:
+1: In wilcox.test.default(a[ok], b[ok], paired = TRUE) :
+  cannot compute exact p-value with zeroes
+2: In wilcox.test.default(a[ok], b[ok], paired = TRUE) :
+  cannot compute exact p-value with zeroes
+                   [,1]                [,2]                [,3]                  
+design_sex         "balanced"          "mildly_imbalanced" "partially_confounded"
+n                  "68"                "43"                "20"                  
+or_lost_real       "0.88 [0.73, 1.07]" "0.98 [0.95, 1.05]" "1.14 [1.00, 1.43]"   
+or_lost_within     "1.02 [0.82, 1.13]" "0.99 [0.93, 1.03]" "1.15 [0.95, 1.47]"   
+p                  "0.45"              "0.37"              "0.86"                
+shift_share_real   "0.05 [0.05, 0.06]" "0.05 [0.04, 0.08]" "0.07 [0.05, 0.08]"   
+shift_share_within "0.07 [0.05, 0.08]" "0.07 [0.05, 0.09]" "0.08 [0.07, 0.10]"   
+p2                 "0.02400"           "0.00024"           "0.02400"             
+or_de0             "1.23 [1.17, 1.30]" "1.18 [1.06, 1.31]" "1.20 [1.04, 1.37]"   

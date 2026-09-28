@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and this repository."
+title: "covariate_audit_rnaseq: sex adjustment in 2,000 public RNA-seq studies"
+authors:
+  - family-names: Lee
+    given-names: Sung-Gwon
+    affiliation: "Biomedical Research Institute, Chonnam National University Hospital"
+  - family-names: Park
+    given-names: Chungoo
+    affiliation: "School of Biological Sciences and Technology, Chonnam National University"
+version: "1.0.0"
+date-released: "2026-09-28"
+license: MIT
+repository-code: "https://github.com/tjdrnjsqpf/covariate_audit_rnaseq"
+preferred-citation:
+  type: article
+  title: "Sex adjustment in 2,000 public RNA-seq studies: free when balanced, costly when confounded, and rarely performed"
+  authors:
+    - family-names: Lee
+      given-names: Sung-Gwon
+    - family-names: Park
+      given-names: Chungoo
+  journal: "Genome Biology"
+  year: 2026
+  notes: "submitted"

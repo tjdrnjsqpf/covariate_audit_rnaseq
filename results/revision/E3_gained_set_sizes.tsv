@@ -1,0 +1,7 @@
+organism	cls	n_studies	M1_deg_median	M1_deg_max	n_with_ge10
+human	balanced	2	46	90	1
+human	mildly_imbalanced	2	13	24	1
+human	partially_confounded	2	205	409	1
+mouse	balanced	7	3	131	3
+mouse	mildly_imbalanced	3	3	8	0
+mouse	partially_confounded	2	133	255	2

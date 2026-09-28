@@ -1,0 +1,11 @@
+organism	item	k	n	frac
+Human	Sex in DE model	18	209	0.0861244019138756
+Human	Sex in DE model — confounded designs only	1	28	0.0357142857142857
+Human	Age in DE model	16	209	0.076555023923445
+Human	Batch / latent variable	43	209	0.205741626794258
+Human	Group sex composition reported	65	209	0.311004784688995
+Mouse	Sex in DE model	5	172	0.0290697674418605
+Mouse	Sex in DE model — confounded designs only	0	15	0
+Mouse	Age in DE model	3	172	0.0174418604651163
+Mouse	Batch / latent variable	10	172	0.0581395348837209
+Mouse	Group sex composition reported	88	172	0.511627906976744

@@ -1,0 +1,75 @@
+study	which	n	tissue_category	design_type	sex_specific	sex_specific_strict	sex_source	study_title
+ERP001304	male_only	18	unknown	between_subject_case_control	FALSE	FALSE	metadata_available	mRNA Sequencing of STG in schizophrenia
+ERP010142	female_only	63	tumor	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Integrative systematic analyses of mutational and transcriptional profiles reveal driver mutations escalating the risk of distant metastasis in Korean breast cancers
+ERP016798	female_only	63	unknown	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Whole transcriptome profiling of 63 breast cancer tumours
+ERP023222	female_only	30	unknown	between_subject_case_control	TRUE	TRUE	metadata_available	Identification of driver genes in uterine leiomyosarcoma: RNA seq
+SRP002628	male_only	30	tumor	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Comparative transcriptomic analysis of prostate cancer and matched normal tissue using RNA-seq
+SRP023262	female_only	44	reproductive	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	A shared transcriptional program in early breast neoplasias despite genetic and clinical distinctions
+SRP032789	female_only	12	tumor	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	mRNA-sequencing of breast cancer subtypes and normal tissue
+SRP039338	male_only	18	other	between_subject_case_control	FALSE	FALSE	metadata_available	Gene expression profile of calcified and normal tricuspid aortic valves by RNA sequencing.
+SRP040998	male_only	16	tumor	between_subject_case_control	FALSE	FALSE	metadata_available	mRNA profiling  of Hepatocellular carcinoma (HCC)
+SRP041538	male_only	170	lung	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	Characterizing gene expression in lung tissue of COPD subjects using RNA-seq
+SRP042620	female_only	84	tumor	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Breast Cancer RNA-seq
+SRP042623	male_only	16	blood	between_subject_case_control	FALSE	FALSE	metadata_available	Integrative DNA, RNA and protein evidence connects TREML4 to coronary artery calcification
+SRP043085	male_only	13	skin	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	SMO variants explain the majority of drug resistance in basal cell carcinoma [RNA-Seq]
+SRP043320	female_only	11	tumor	in_vivo_treatment_arms	TRUE	TRUE	inferred_from_expression_only	Characterizing the Chemoresistant Ovarian Cancer Population using the Heterogeneous PDX
+SRP048683	male_only	12	brain	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	RNA-Seq of the corpus callosum from 12 individuals
+SRP051844	male_only	69	brain	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	mRNA-Seq Expression profiling of human post-mortem BA9 brain tissue for Huntington's Disease and neurologically normal individuals
+SRP051848	male_only	94	blood	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	Gene Networks Specific for Innate Immunity Define Post-traumatic Stress Disorder [RNA-Seq]
+SRP058722	female_only	35	tumor	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	A Molecular Portrait Of High-Grade Ductal Carcinoma In Situ (DCIS) [RNA-seq]
+SRP061571	female_only	35	adipose	in_vivo_treatment_arms	TRUE	TRUE	inferred_from_expression_only	Neoadjuvant chemotherapy modulates T cell responses in high-grade serous ovarian cancer metastases
+SRP063477	female_only	27	musculoskeletal	in_vivo_treatment_arms	FALSE	FALSE	metadata_available	Effects of Age and Estrogen on Skeletal Gene Expression in Humans as Assessed by RNA Sequencing
+SRP068292	male_only	17	other	between_subject_case_control	FALSE	FALSE	metadata_available	RNA Expression Profile of Calcified Bicuspid, Tricuspid and Normal Human Aortic Valves by RNA Sequencing [TAV]
+SRP072920	female_only	31	blood	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	Peripheral Blood Mononuclear Cells (PBMC) Gene Expression-Based Biomarkers in Juvenile Idiopathic Arthritis (JIA)
+SRP073191	female_only	16	blood	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	RNA-seq study reveals unique transcriptome expression in systemic lupus erythematosus patients with distinct autoantibody profile
+SRP073789	male_only	20	other	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Gene expression profiling study by RNA-seq for identifying gene signatures associated with castration-refractory prostate cancer (CRPC) development.
+SRP076426	male_only	30	gut	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	The rectal mucosal transcriptome of men who have sex with men (MSM) engaging in condomless receptive anal intercourse (CRAI) compared with men who have never engaged in anal intercourse (controls)
+SRP078541	male_only	13	blood	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	Whole blood RNA sequencing in idiopathic pneumonia syndrome reveals a unique transcriptomic profile compared to ARDS
+SRP080292	female_only	38	adipose	between_subject_case_control	TRUE	TRUE	metadata_available	AKR1C3-mediated adipose androgen generation fuels an adverse metabolic phenotype in polycystic ovary syndrome (PCOS)
+SRP084270	male_only	16	other	in_vivo_treatment_arms	TRUE	TRUE	metadata_available	Inhibition of ERG Activity in Patient Derived Prostate Cancer Xenografts using the Small Molecule Inhibitor YK-4-279
+SRP090689	female_only	37	blood	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Immune escape in breast cancer during in situ to invasive carcinoma transition
+SRP090779	female_only	15	other	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	RNA-seq in endometrial stromal tumors
+SRP090787	female_only	19	adipose	genotype_comparison	TRUE	TRUE	metadata_available	Subcutaneous Adipose and Skin Expression as a Function of Genotype in Polycystic Ovary Syndrome
+SRP091714	male_only	19	blood	between_subject_case_control	FALSE	FALSE	metadata_available	A monocyte gene expression signature in the early clinical course of Parkinson's disease
+SRP092158	female_only	19	blood	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Regulatory T cells exhibit distinct features in human breast cancer
+SRP094795	female_only	24	tumor	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Human Papillomavirus (HPV) genomic integration, expression and E6/E7 splicing patterns in cervical cancer associated with HPV16 or HPV18 infection
+SRP102999	male_only	282	blood	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	Gene expression associated with PTSD in World Trade Center responders: An RNA sequencing study
+SRP103812	female_only	8	tumor	genotype_comparison	FALSE	FALSE	inferred_from_expression_only	A Unique B-cell Regulome links Notch to Downstream Oncogenic Pathways in Small B-cell Lymphoma
+SRP108120	male_only	35	brain	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	Gene Network Dysregulation in Dorsolateral Prefrontal Cortex Neurons of Humans with Cocaine Use Disorder
+SRP108496	male_only	18	lung	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	Comparative Transcriptomic Profiling of Normal-Appearing and Scarred Areas of the Lungs Reveals Pathobiological Clues to Idiopathic Pulmonary Fibrosis
+SRP108616	female_only	13	other	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Estrogen signaling is reprogrammed in breast tumorigenesis
+SRP111102	female_only	23	tumor	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Genome-wide multi-omics profiling reveals extensive genetic complexity in 8p11-p12 amplified breast carcinomas [RNA-seq]
+SRP111343	female_only	58	tumor	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	RNAseq analysis of chemotherapy and radiation therapy-naïve breast tumors
+SRP111481	female_only	96	tumor	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Transcriptomic and genomic profiling of early-stage ovarian carcinomas associated with histotype and overall survival [RNA-Seq]
+SRP113639	female_only	42	tumor	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Ancestry as a potential modifier of gene expression in breast tumors from Colombian women
+SRP114429	female_only	85	tumor	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Molecular analysis of high-grade serous ovarian carcinoma with and without associated serous tubal intra-epithelial carcinoma [RNA-Seq]
+SRP115446	female_only	29	other	between_subject_case_control	TRUE	TRUE	metadata_available	Differential gene expression analysis of epithelial ovarian carcinoma and benign fallopian tube tissue
+SRP132902	female_only	12	tumor	in_vivo_treatment_arms	TRUE	TRUE	inferred_from_expression_only	Preclinical model of obesity and ER-positive breast cancer
+SRP144303	female_only	14	reproductive	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Genome-wide profiling of cervical RNA-binding proteins identified HPV regulation of RNASEH2A expression by viral E7 and E2F1
+SRP145493	male_only	39	blood	between_subject_case_control	FALSE	FALSE	metadata_available	Cell type specific gene expression patterns associated with posttraumatic stress disorder in World Trade Center responders
+SRP149433	female_only	11	other	in_vivo_treatment_arms	TRUE	FALSE	inferred_from_expression_only	PARP-inhibitors applied to BRCA1-null PDX models
+SRP150101	male_only	24	brain	in_vivo_treatment_arms	FALSE	FALSE	inferred_from_expression_only	Transcriptome analysis of Group 3 and 4 medulloblastoma orthotopic xenograft mice with digoxin treatment
+SRP150234	female_only	14	gut	between_subject_case_control	FALSE	FALSE	metadata_available	RNA seq in human gastroparesis
+SRP151615	female_only	13	reproductive	between_subject_case_control	TRUE	TRUE	metadata_available	Inflammatory determinants of pregravid obesity in placenta and peripheral blood
+SRP151738	male_only	10	gut	between_subject_case_control	FALSE	FALSE	metadata_available	Effects of anti-integrin treatment with vedolizumab on immune pathways and cytokines in inflammatory bowel diseases
+SRP155704	female_only	14	blood	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	ARID3a Gene Profiles are Strongly Associated with Human Interferon Alpha Production
+SRP155941	female_only	84	blood	between_subject_case_control	TRUE	FALSE	inferred_from_expression_only	Human Tumor-Associated Macrophage and Monocyte Transcriptional Landscapes Reveal Cancer-Specific Reprogramming, Biomarkers, and Therapeutic Targets
+SRP156355	female_only	12	reproductive	between_subject_case_control	TRUE	TRUE	metadata_available	Identification of lncRNA in early stage breast cancer and their prognostic implications
+SRP157974	female_only	448	tumor	between_subject_case_control	TRUE	TRUE	metadata_available	Fudan University Shanghai Cancer Center Triple Negative Breast Cancer (FUSCCTNBC)
+SRP161704	female_only	78	tumor	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Molecular Determinants of Post-Mastectomy Breast Cancer Recurrence
+SRP163027	female_only	30	blood	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Differential analysis of gene expression profiles in peripheral blood cells of patients with cervical lesions
+SRP168013	female_only	15	reproductive	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Comparative transcriptome analysis of the human endocervix and ectocervix during the proliferative and secretory phases of the menstrual cycle
+SRP168421	female_only	26	blood	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	SLE PBMC RNA-seq
+SRP173190	female_only	10	other	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	Human brain tissues from healthy controls and multiple sclerosis patients
+SRP175707	male_only	23	other	in_vivo_treatment_arms	TRUE	TRUE	metadata_available	Durable Response of Enzalutamide-resistant Prostate Cancer to Supraphysiological Testosterone Is Associated with a Multifaceted Growth Suppression and Impaired DNA Damage Response Transcriptomic Program in Patient-derived Xenografts
+SRP181468	female_only	14	other	between_subject_case_control	FALSE	FALSE	metadata_available	Comparative gene expression profiles in parathyroid adenoma and normal parathyroid tissue
+SRP182649	female_only	14	skin	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	Transcriptomic analysis of frontal fibrosing alopecia
+SRP182842	female_only	10	adipose	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	UCP1-expression associated gene signatures of human epicardial adipose tissue.
+SRP182854	female_only	16	other	between_subject_case_control	FALSE	FALSE	metadata_available	Long non-coding RNA expression profile associated with malignant progression of oral submucous fibrosis
+SRP183532	male_only	76	liver	between_subject_case_control	TRUE	TRUE	metadata_available	Molecular profiling stratifies diverse phenotypes of treatment-refractory metastatic castration-resistant prostate cancer
+SRP187984	female_only	25	blood	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	Whole blood human transcriptome and virome analysis of ME/CFS patients experiencing post-exertional malaise following cardiopulmonary exercise testing
+SRP191514	female_only	32	tumor	in_vivo_treatment_arms	TRUE	TRUE	inferred_from_expression_only	Impact of a pre-operative exercise intervention on breast cancer proliferation and gene expression
+SRP212626	male_only	10	muscle	between_subject_case_control	FALSE	FALSE	inferred_from_expression_only	Modeling Human Cancer-induced Cachexia (Human)
+SRP213937	female_only	38	reproductive	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Machine Learning Classifiers for Endometriosis Using Transcriptomics and Methylomics Data [Transcriptomics]
+SRP217667	female_only	58	skin	between_subject_case_control	TRUE	TRUE	inferred_from_expression_only	Gene expression signature of endometrial samples from women with and without endometriosis.
+SRP218935	female_only	95	tumor	between_subject_case_control	TRUE	TRUE	metadata_available	Homo sapiens Raw sequence reads
