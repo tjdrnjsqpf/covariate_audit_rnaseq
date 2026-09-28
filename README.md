@@ -1,5 +1,7 @@
 # covariate_audit_rnaseq
 
+[![DOI](https://zenodo.org/badge/1391529503.svg)](https://doi.org/10.5281/zenodo.23004367)
+
 Code and summary tables for
 
 > Lee S-G, Park C. **Sex adjustment in 2,000 public RNA-seq studies: free when balanced, costly when confounded, and rarely performed.** *Genome Biology* (submitted, 2026).
@@ -61,8 +63,8 @@ Permutation seeds are derived from the study accession, so every model of a stud
 
 ## Data deposited separately
 
-Per-study differential-expression tables for every configured study (`de_M0`, `de_M1`, `de_M0perm`, `de_M0permw` per study, gzip-compressed TSV, about 6 GB) are archived on Zenodo: [DOI to be added]. Each folder also holds the study's phenotype table (`pheno.tsv`) and summary row.
+Per-study differential-expression tables for every configured study (`de_M0`, `de_M1`, `de_M0perm`, `de_M0permw` per study, gzip-compressed TSV, about 6 GB) are archived in a companion Zenodo record: [DOI to be added once uploaded]. Each folder also holds the study's phenotype table (`pheno.tsv`) and summary row.
 
 ## Citation and license
 
-Code is released under the MIT License; tables under `results/` and `config/` under CC BY 4.0. Please cite the paper and the archived version of this repository (see `CITATION.cff`).
+Code is released under the MIT License; tables under `results/` and `config/` under CC BY 4.0. Please cite the paper and the archived version of this repository (doi:10.5281/zenodo.23004367; see `CITATION.cff`).
