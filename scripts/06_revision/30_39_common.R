@@ -6,7 +6,7 @@
 ##   OUTDIR                          output dir (default results/revision)
 suppressMessages(library(data.table))
 .loc <- Sys.getenv("COV_AUDIT_PROJ", unset = getwd())   # local checkout (set COV_AUDIT_PROJ); falls back to the server path below
-PROJ <- Sys.getenv("COV_AUDIT_PROJ", if (dir.exists(.loc)) .loc else "/var2/lsg/Claude_Code/covariate_audit_rnaseq"); setwd(PROJ)
+PROJ <- Sys.getenv("COV_AUDIT_PROJ", if (dir.exists(.loc)) .loc else "/path/to/covariate_audit_rnaseq"); setwd(PROJ)
 ORGS <- c("human", "mouse")
 SUMMARY <- c(human=Sys.getenv("SUMMARY_HUMAN", "results/main_human_summary_v2.tsv"), mouse=Sys.getenv("SUMMARY_MOUSE", "results/main_mouse_summary_v2.tsv"))
 ASET    <- c(human=Sys.getenv("ASET_HUMAN", "config/c2_analysis_set_human.txt"),    mouse=Sys.getenv("ASET_MOUSE", "config/c2_analysis_set_mouse.txt"))

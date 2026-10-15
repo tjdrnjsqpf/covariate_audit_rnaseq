@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 ## C6 survey: Cramér V between group and technical batch variables (instrument, layout, center, publication month, read length) across all valid studies — metadata only
 suppressMessages(library(data.table)); ORG <- commandArgs(trailingOnly=TRUE)[1]
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ)
+PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ)
 MD <- if (ORG == "human") "data/raw/recount3_metadata" else "data/raw/recount3_metadata_mouse"
 d <- fread(sprintf("results/main_%s_summary_v2.tsv", ORG))[valid == TRUE]
 cramer <- function(x, g) { ok <- !is.na(x) & x != ""; if (sum(ok) < 4) return(NA_real_); tab <- table(x[ok], g[ok]); if (nrow(tab) < 2 || ncol(tab) < 2) return(NA_real_)

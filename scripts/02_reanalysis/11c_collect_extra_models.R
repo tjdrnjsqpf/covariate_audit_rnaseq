@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 ## C3–C7 aggregation: how SVA (M3), quality (M4), cell composition (M5, tissue-specific panels), batch (M6) and globin (M7) overlap with sex adjustment (M1)
 suppressMessages(library(data.table)); ORG <- commandArgs(trailingOnly=TRUE)[1]
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ)
+PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ)
 d <- fread(sprintf("results/main_%s_summary_v2.tsv", ORG)); A <- d[study %in% readLines(sprintf("config/c2_analysis_set_%s.txt", ORG))]
 lv <- c("balanced","mildly_imbalanced","partially_confounded"); med <- function(x) round(median(x, na.rm=TRUE), 3)
 cat(sprintf("########## Extra-model aggregation (%s, analysis set %d) ##########\n", ORG, nrow(A)))

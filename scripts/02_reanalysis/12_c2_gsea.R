@@ -6,7 +6,7 @@
 ## Usage: Rscript 12_c2_gsea.R <human|mouse> [ncores]
 suppressMessages({library(data.table); library(fgsea); library(msigdbr); library(parallel)})
 args <- commandArgs(trailingOnly=TRUE); ORG <- args[1]; NC <- if (length(args) >= 2) as.integer(args[2]) else 16L
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ); dir.create("results/c2", showWarnings=FALSE)
+PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ); dir.create("results/c2", showWarnings=FALSE)
 SPECIES <- if (ORG == "human") "Homo sapiens" else "Mus musculus"
 studies <- readLines(if (length(args) >= 3) args[3] else sprintf("config/c2_analysis_set_%s.txt", ORG))   # 3rd argument: study list file (for testing)
 TAG <- if (length(args) >= 3) "_test" else ""

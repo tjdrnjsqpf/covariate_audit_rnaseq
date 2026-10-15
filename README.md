@@ -4,7 +4,7 @@
 
 Code and summary tables for
 
-> Lee S-G, Park C. **Sex adjustment in 2,000 public RNA-seq studies: free when balanced, costly when confounded, and rarely performed.** *Genome Biology* (submitted, 2026).
+> Lee S-G, Park C. **When RNA-seq groups differ in sex ratio, most of what sex adjustment changes is not sex.** *Genome Biology* (submitted, 2026).
 
 The study reanalyses 385 human and 1,483 mouse two-group bulk RNA-seq studies from recount3 with and without a sex term, compares each sex-adjusted fit with two negative controls (the sex label permuted across all samples, and permuted within each group so that the design's collinearity is preserved), induces imbalance experimentally within 85 balanced studies, repeats the permutations to ask which genes adjustment removes, and re-reads the source publications to ask whether the original analyses adjusted.
 
@@ -19,8 +19,10 @@ The study reanalyses 385 human and 1,483 mouse two-group bulk RNA-seq studies fr
 | `scripts/04_gate2/` | publication retrieval and the language-model extraction of adjustment practice |
 | `scripts/05_report/` | figure scripts (`26_draft_figures_v3.R`, `31_supp_figures_v3.R`, `32_figures_v4.R`), source-data export, manuscript builder |
 | `scripts/06_revision/` | within-group control (43, 45), induced-imbalance experiment (40–42, 44, 50), repeated permutations and content of the change (46–49, 51), tissue heterogeneity (48), GTEx enrichment (52–53), and the smaller revision analyses (30–39) |
+| `scripts/07_response/` | engine check (54, 56, 61: limma-voom vs edgeR QL vs DESeq2 on the same stored permuted labels) and the SRA metadata survey, 2009–2019 and 2020–2026 (55, 57–60), Figure S9 (62) |
 | `config/` | the release configuration defining every comparison as run (`release_{human,mouse}_runs.tsv`), the analysis sets, synthetic-experiment study lists, sex-linked gene panel, exclusions, and the adjudicated design labels |
 | `results/summary/` | one row per study: sample composition, imbalance class, and every change metric for every model pair (`main_{human,mouse}_summary_v2.tsv`); project-level metadata summaries |
+| `results/response/` | engine check by class and per study (`E_*`), sex recording and single-sex shares by year (SRA runinfo 2009–2026 and the recount3 parser) and |Δf| by era for recount3 vs SRA 2020–2026 (`M_*`) |
 | `results/revision/` | class- and bin-level tables behind the Results (within-group control `W_*`, induced imbalance `S2_*`, content of the change `C_*` with per-permutation files in `content/`, GTEx `G_*`, tissue heterogeneity `T_*`, revision analyses `E*`) |
 | `results/c2/` | pathway-level summaries (Hallmark and Reactome) per study |
 | `results/qc/` | pseudoreplication, chance-imbalance null, discordance sensitivity, batch imbalance |
@@ -34,8 +36,8 @@ Not included here: the recount3 count cache (downloaded by the scripts), the per
 
 ## Requirements
 
-- R 4.5 with `recount3` (1.20), `edgeR` (4.8), `limma` (3.66), `sva` (3.58), `fgsea` (1.36), `msigdbr` (26.1), `data.table`, `ggplot2`, `patchwork`
-- Python 3.12 with `anthropic`, `pydantic`, `requests` — only for the two language-model steps; every verdict those steps produced is included under `results/design_llm/` and `results/gate2/`, so the rest of the pipeline runs without an API key
+- R 4.5 with `recount3` (1.20), `edgeR` (4.8), `DESeq2` (1.50; engine check only), `limma` (3.66), `sva` (3.58), `fgsea` (1.36), `msigdbr` (26.1), `data.table`, `ggplot2`, `patchwork`
+- Python 3.12 with `anthropic`, `pydantic`, `requests` — only for the two language-model steps (the SRA metadata survey uses only the standard library); every verdict those steps produced is included under `results/design_llm/` and `results/gate2/`, so the rest of the pipeline runs without an API key
 - Node.js 18+ with the `docx` package — only for `scripts/05_report/25_manuscript_docx.js`
 - About 20 GB of disk for the recount3 cache; the full reanalysis took roughly 6 h on 12 cores, the induced-imbalance experiment and the repeated permutations a further day on 40 cores
 
@@ -58,6 +60,7 @@ Set the project path at the top of the shell scripts (`PROJ=`); the R scripts re
 | 11 | `06_revision/47_run_content.sh` (driver `46_content_of_change.R`) → `49_content_summary.R`, `51_v4_numbers.R` | repeated permutations, content of the change |
 | 12 | `06_revision/48_tissue_heterogeneity.R`; `52_gtex_enrichment.R` → `53_gtex_summary.R`; `30_single_sex_stratum.R` … `39_mechanism_summary.R` | heterogeneity, GTEx enrichment, revision analyses |
 | 13 | `05_report/26_draft_figures_v3.R`, `31_supp_figures_v3.R`, `32_figures_v4.R`, `27_source_data_xlsx.py` | figures and source data |
+| 14 | `07_response/56_run_engine.sh` (driver `54_engine_check.R`) → `61_engine_summary.R`; `55_sra_post2020_runinfo.py` → `57_slim_runinfo.py` → `58_post2020_metadata.R` → `59_biosample_attrs.py` → `60_post2020_imbalance.R`; `62_response_figures.R` | engine check; post-2019 metadata survey; Figure S9 |
 
 Permutation seeds are derived from the study accession, so every model of a study is reproducible from its accession alone.
 

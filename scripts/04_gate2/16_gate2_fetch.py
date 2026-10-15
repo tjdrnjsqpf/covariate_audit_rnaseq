@@ -5,7 +5,7 @@ Studies already processed are skipped."""
 import argparse, json, os, re, sys, time, csv
 import requests
 import xml.etree.ElementTree as ET
-PROJ = "/var2/lsg/Claude_Code/covariate_audit_rnaseq"
+PROJ = "/path/to/covariate_audit_rnaseq"
 S = requests.Session(); S.headers["User-Agent"] = "covariate-audit/1.0 (research; contact via GitHub)"
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"; EPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest"
 def get(url, params=None, tries=4, sleep=0.4):

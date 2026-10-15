@@ -3,7 +3,7 @@
 ## Covariates: log n, log(number of M0 DE genes). Stratum: studies whose sex labels all come from metadata (n_sex_meta_missing == 0).
 ## Usage: Rscript 25_delta_regression.R [PROJ]  → results/qc/delta_regression.tsv
 suppressMessages(library(data.table))
-PROJ <- commandArgs(trailingOnly=TRUE)[1]; if (is.na(PROJ)) PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ)
+PROJ <- commandArgs(trailingOnly=TRUE)[1]; if (is.na(PROJ)) PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ)
 lv <- c("balanced","mildly_imbalanced","partially_confounded"); out <- list()
 for (org in c("human","mouse")) {
   d <- fread(sprintf("results/main_%s_summary_v2.tsv", org)); A <- readLines(sprintf("config/c2_analysis_set_%s.txt", org))

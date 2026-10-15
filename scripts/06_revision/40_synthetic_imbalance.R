@@ -8,7 +8,7 @@
 suppressMessages({library(recount3); library(edgeR); library(limma); library(data.table)})
 args <- commandArgs(trailingOnly=TRUE); ORG <- args[1]; SRP <- args[2]; REPS <- if (length(args) >= 3) as.integer(args[3]) else 10L
 OUTDIR <- if (length(args) >= 4) args[4] else "results/revision/synthetic"
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ); dir.create(OUTDIR, showWarnings=FALSE, recursive=TRUE)
+PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ); dir.create(OUTDIR, showWarnings=FALSE, recursive=TRUE)
 IS_MOUSE <- ORG == "mouse"
 panel <- if (IS_MOUSE) data.table(gene=c("Xist","Ddx3y","Eif2s3y","Kdm5d","Uty")) else fread("config/sex_linked_genes.tsv")
 ph <- fread(sprintf("results/main_%s_v2/%s/pheno.tsv", ORG, SRP))[, .(external_id, group, sex)]

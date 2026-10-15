@@ -4,7 +4,7 @@
 ##   Δ_within = J(M1) − J(M0permw)  : df + collinearity cost removed → the share attributable to the sex–expression link itself
 ##   collinearity cost = J(M0permw) − J(M0perm)
 ## Usage: Rscript 43_within_group_control.R [PROJ]  → results/revision/W_*.tsv
-suppressMessages(library(data.table)); PROJ <- commandArgs(trailingOnly=TRUE)[1]; if (is.na(PROJ)) PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ)
+suppressMessages(library(data.table)); PROJ <- commandArgs(trailingOnly=TRUE)[1]; if (is.na(PROJ)) PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ)
 dir.create("results/revision", showWarnings=FALSE, recursive=TRUE); lv <- c("balanced","mildly_imbalanced","partially_confounded")
 bci <- function(x, R=2000) { x <- x[!is.na(x)]; if (length(x) < 3) return(sprintf("%.3f", median(x))); set.seed(1); b <- replicate(R, median(sample(x, replace=TRUE))); sprintf("%.3f [%.3f, %.3f]", median(x), quantile(b,.025), quantile(b,.975)) }
 m <- function(x) as.numeric(median(x, na.rm=TRUE)); cls <- list(); bins <- list(); deg <- list()

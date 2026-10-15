@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Mouse main reanalysis runner. Usage: bash 10m_run_main_de_mouse.sh <config.tsv> <outdir> [parallel] [limit]
 set -uo pipefail
-PROJ=/var2/lsg/Claude_Code/covariate_audit_rnaseq
+PROJ=/path/to/covariate_audit_rnaseq
 R=/var2/lsg/miniforge3/envs/cov_audit/bin/Rscript
 CFG=$1; OUTDIR=$2; P=${3:-8}; LIMIT=${4:-0}
 LOGD=$PROJ/logs/$(basename "$OUTDIR"); mkdir -p "$LOGD" "$PROJ/$OUTDIR"

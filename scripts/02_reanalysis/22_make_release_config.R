@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 ## Unified public config (review D 9.2): append tissue:<category> to every row of main_{org}_runs.tsv so the public config matches the config actually run.
 ## Usage: Rscript 22_make_release_config.R → config/release_{org}_runs.tsv
-suppressMessages(library(data.table)); PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ)
+suppressMessages(library(data.table)); PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ)
 for (org in c("human","mouse")) {
   cfg <- fread(sprintf("config/main_%s_runs.tsv", org), colClasses="character")
   tc <- if (org == "human") fread("results/project_summary_all.tsv")[, .(study, tissue_category)] else fread("results/mouse_project_summary_sexinferred.tsv")[, .(study, tissue_category)]

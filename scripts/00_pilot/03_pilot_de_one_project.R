@@ -7,7 +7,7 @@
 suppressMessages({library(recount3); library(edgeR); library(limma); library(data.table)})
 args <- commandArgs(trailingOnly=TRUE)
 SRP <- args[1]; GKEY <- tolower(args[2]); CASE <- tolower(args[3]); CTRL <- tolower(args[4]); EXCL <- if (length(args) >= 5) args[5] else ""
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"
+PROJ <- "/path/to/covariate_audit_rnaseq"
 OUTDIR <- if (length(args) >= 6) args[6] else "results/pilot"
 OUT <- file.path(PROJ, OUTDIR, SRP); dir.create(OUT, showWarnings=FALSE, recursive=TRUE)
 panel <- fread(file.path(PROJ, "config/sex_linked_genes.tsv"))

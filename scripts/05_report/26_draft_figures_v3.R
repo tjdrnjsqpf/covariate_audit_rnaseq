@@ -3,7 +3,7 @@
 ## Colour rules: red = real sex, light grey = full permutation (degrees-of-freedom cost), black = within-group permutation (df + collinearity cost), dark grey = descriptive statistics.
 ## Run (Mac): LC_ALL=en_US.UTF-8 COV_AUDIT_PROJ="$(pwd)" Rscript scripts/05_report/26_draft_figures_v3.R
 suppressMessages({library(data.table); library(ggplot2); library(patchwork)})
-PROJ <- Sys.getenv("COV_AUDIT_PROJ", "/var2/lsg/Claude_Code/covariate_audit_rnaseq"); setwd(PROJ)
+PROJ <- Sys.getenv("COV_AUDIT_PROJ", "/path/to/covariate_audit_rnaseq"); setwd(PROJ)
 FONT <- if (Sys.info()[["sysname"]] == "Darwin") "Helvetica Neue" else "sans"
 PD <- "results/figures/draft_v3/panels"; SD <- "results/figures/draft_v3/source_data"; dir.create(PD, showWarnings=FALSE, recursive=TRUE); dir.create(SD, showWarnings=FALSE, recursive=TRUE)
 RED <- "#B02418"; GRY <- "#C4C4C4"; BLK <- "#1A1A1A"; DGRY <- "#5F5F5F"; LRED <- "#E3A29B"

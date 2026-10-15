@@ -2,7 +2,7 @@
 # Download sample metadata (sra.sra.*.MD.gz) and recount_pred for all recount3 mouse SRA projects.
 # Usage: bash scripts/00_pilot/01_download_recount3_metadata.sh
 set -euo pipefail
-PROJ=/var2/lsg/Claude_Code/covariate_audit_rnaseq
+PROJ=/path/to/covariate_audit_rnaseq
 OUT=$PROJ/data/raw/recount3_metadata_mouse_mouse
 LIST=$PROJ/data/raw/recount3_mouse_sra_projects.tsv
 BASE=http://duffel.rail.bio/recount3/mouse/data_sources/sra/metadata

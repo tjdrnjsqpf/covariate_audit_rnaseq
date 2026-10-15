@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 ## Prevalence tables (Aim 1) rewritten: denominators stated explicitly, unresolved cases via Manski bounds.
-suppressMessages(library(data.table)); PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ); dir.create("results/tables", showWarnings=FALSE)
+suppressMessages(library(data.table)); PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ); dir.create("results/tables", showWarnings=FALSE)
 out <- list()
 for (org in c("human","mouse")) {
   ps <- fread(if (org == "human") "results/project_summary_all.tsv" else "results/mouse_project_summary_sexinferred.tsv")

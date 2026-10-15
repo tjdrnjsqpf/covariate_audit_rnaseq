@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 ## W (pathway level): compare the Jaccard of significant Hallmark pathway sets and top-pathway changes across real sex / full permutation / within-group permutation.
 ## Usage: Rscript 45_within_group_pathway.R [PROJ] → results/revision/W_pathway_class.tsv
-suppressMessages(library(data.table)); PROJ <- commandArgs(trailingOnly=TRUE)[1]; if (is.na(PROJ)) PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ)
+suppressMessages(library(data.table)); PROJ <- commandArgs(trailingOnly=TRUE)[1]; if (is.na(PROJ)) PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ)
 lv <- c("balanced","mildly_imbalanced","partially_confounded"); out <- list()
 bci <- function(x, R=2000) { x <- x[!is.na(x)]; if (length(x) < 3) return(NA_character_); set.seed(1); b <- replicate(R, median(sample(x, replace=TRUE))); sprintf("%.3f [%.3f, %.3f]", median(x), quantile(b,.025), quantile(b,.975)) }
 for (org in c("human","mouse")) { g <- fread(sprintf("results/c2/gsea_summary_%s.tsv", org)); d <- fread(sprintf("results/main_%s_summary_v2.tsv", org))[, .(study, design_sex, sex_diff)]

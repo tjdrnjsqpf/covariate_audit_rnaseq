@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 # Call sex for all mouse samples from the extracted Xist/Y counts -> compare with reported sex -> update prevalence figures (reported ∪ inferred)
 suppressMessages(library(data.table))
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; PROC <- file.path(PROJ, "data/processed"); RES <- file.path(PROJ, "results")
+PROJ <- "/path/to/covariate_audit_rnaseq"; PROC <- file.path(PROJ, "data/processed"); RES <- file.path(PROJ, "results")
 fs <- list.files(file.path(PROC, "mouse_sexgenes"), pattern="tsv$", full.names=TRUE)
 x <- rbindlist(lapply(fs, fread, header=FALSE, col.names=c("study","external_id","libsize","xist","ddx3y","eif2s3y","kdm5d","uty")))
 cat("projects:", uniqueN(x$study), " samples:", nrow(x), "\n")

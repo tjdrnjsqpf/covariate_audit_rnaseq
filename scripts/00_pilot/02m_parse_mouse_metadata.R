@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 # Parse recount3 mouse SRA metadata + prevalence survey (sex/age/strain reporting rates, fraction of single-sex studies, between-group imbalance in mixed-sex studies)
 suppressMessages(library(data.table))
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"
+PROJ <- "/path/to/covariate_audit_rnaseq"
 RAW  <- file.path(PROJ, "data/raw/recount3_metadata_mouse"); PROC <- file.path(PROJ, "data/processed"); RES <- file.path(PROJ, "results")
 keep <- c("external_id","study","sra.study_title","sra.study_abstract","sra.experiment_title","sra.library_strategy","sra.library_source",
           "sra.library_layout","sra.library_construction_protocol","sra.platform_model","sra.sample_attributes","sra.sample_name","sra.sample_title","sra.run_published")

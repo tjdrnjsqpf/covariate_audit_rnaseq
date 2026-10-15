@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Run the 03 script in parallel for each row of config/pilot_core_runs.tsv (default 4 concurrent jobs).
 set -uo pipefail
-PROJ=/var2/lsg/Claude_Code/covariate_audit_rnaseq
+PROJ=/path/to/covariate_audit_rnaseq
 R=/var2/lsg/miniforge3/envs/cov_audit/bin/Rscript
 P=${1:-4}
 mkdir -p "$PROJ/logs/pilot"

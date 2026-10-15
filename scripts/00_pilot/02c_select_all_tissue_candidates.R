@@ -2,7 +2,7 @@
 # All-tissue version of 02b: select candidates without restricting to blood and assign tissue_category.
 # Usage: /var2/lsg/miniforge3/envs/recount3/bin/Rscript scripts/00_pilot/02b_select_blood_candidates.R
 suppressMessages(library(data.table))
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"
+PROJ <- "/path/to/covariate_audit_rnaseq"
 PROC <- file.path(PROJ, "data/processed"); RES <- file.path(PROJ, "results")
 s  <- fread(file.path(PROC, "sample_table.tsv.gz"), colClasses=list(character=c("study","external_id","sex","gsm")), na.strings=c("","NA"))
 al <- fread(file.path(PROC, "sample_attributes_long.tsv.gz"), colClasses="character", na.strings=c("","NA"))[!is.na(key) & !is.na(value)]

@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 ## Gate 2 summary: adjustment practice in the original papers, crossed with our design class and Δ
 suppressMessages({library(data.table); library(jsonlite)}); ORG <- commandArgs(trailingOnly=TRUE)[1]
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ)
+PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ)
 `%||%` <- function(a, b) if (is.null(a) || length(a) == 0 || is.na(a[1])) b else a
 ft <- rbindlist(lapply(readLines(sprintf("results/gate2/fulltext_%s.jsonl", ORG)), function(l) { x <- fromJSON(l); data.table(study = x$study, route = x$route %||% NA_character_, n_pmid = length(x$pmids), has_fulltext = !is.null(x$methods)) }), fill=TRUE)
 ad <- rbindlist(lapply(readLines(sprintf("results/gate2/adjust_%s.jsonl", ORG)), function(l) { x <- fromJSON(l); data.table(study = x$study, text_relevant = x$text_relevant, de_method = x$de_method %||% NA_character_, sex_adjusted = x$sex_adjusted, age_adjusted = x$age_adjusted, sex_matched = x$sex_matched_design, age_matched = x$age_matched_design, batch_adj = x$batch_or_latent_adjusted, sex_reported = x$sex_reported_in_demographics, confidence = x$confidence, usd = x$usd) }), fill=TRUE)

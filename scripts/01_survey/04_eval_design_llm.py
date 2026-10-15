@@ -13,8 +13,8 @@ def level_match(pred, truth):
 ap = argparse.ArgumentParser(); ap.add_argument("--pred", required=True); ap.add_argument("--labels", required=True); a = ap.parse_args()
 lab = {r["study"]: r for r in csv.DictReader(open(a.labels), delimiter="\t")}
 # scope exclusions: design is valid but outside the pilot scope -> counted as include in the design-only evaluation
-# Match keys tested against the free-text 'reason' column of the original (Korean) hand-label sheet; the Korean literals are kept so that the validation reproduces exactly.
-SCOPE = ("all male", "all female", "전원 남성", "전원 여성", "여성 2%", "tumor", "종양", "exrna", "cfrna", "serum", "ffpe", "rna quality", "extracellular", "targeted assay", "sarcoma", "glioma", "t-all", "leukemia", "neoplasm", "melanoma", "grade", "subtype")
+# Match keys tested against the free-text 'reason' column of the hand-label sheet (the released sheet carries English reasons).
+SCOPE = ("all male", "all female", "tumor", "exrna", "cfrna", "serum", "ffpe", "rna quality", "extracellular", "targeted assay", "sarcoma", "glioma", "t-all", "leukemia", "neoplasm", "melanoma", "grade", "subtype")
 for r in lab.values():
     r["label_design"] = "include" if (r["label"] == "include" or any(k in r["reason"].lower() for k in SCOPE)) else "exclude"
 pred = {}

@@ -5,7 +5,7 @@
 ## Usage: Rscript 46_content_of_change.R <human|mouse> <SRP> [B=20] [outdir=results/revision/content]
 suppressMessages({library(recount3); library(edgeR); library(limma); library(data.table); library(fgsea); library(msigdbr)})
 a <- commandArgs(trailingOnly=TRUE); ORG <- a[1]; SRP <- a[2]; B <- if (length(a) >= 3) as.integer(a[3]) else 20L; OUTDIR <- if (length(a) >= 4) a[4] else "results/revision/content"
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ); dir.create(OUTDIR, showWarnings=FALSE, recursive=TRUE); IS_MOUSE <- ORG == "mouse"
+PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ); dir.create(OUTDIR, showWarnings=FALSE, recursive=TRUE); IS_MOUSE <- ORG == "mouse"
 D <- sprintf("results/main_%s_v2/%s", ORG, SRP); ph <- fread(file.path(D, "pheno.tsv"))[, .(external_id, group, sex)]; ph[, group := factor(group, levels=c("control","case"))]
 rd <- function(m) { x <- fread(file.path(D, paste0("de_", m, ".tsv.gz"))); x[, .(gene_id, gene, logFC, t, adj.P.Val)] }
 de <- list(M0=rd("M0"), M1=rd("M1"), M0perm=rd("M0perm"), M0permw=rd("M0permw"))

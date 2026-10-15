@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper and this repository."
-title: "covariate_audit_rnaseq: sex adjustment in 2,000 public RNA-seq studies"
+title: "covariate_audit_rnaseq: code and summary tables for the sex-adjustment audit of public RNA-seq studies"
 authors:
   - family-names: Lee
     given-names: Sung-Gwon
@@ -15,7 +15,7 @@ doi: 10.5281/zenodo.23004367
 repository-code: "https://github.com/tjdrnjsqpf/covariate_audit_rnaseq"
 preferred-citation:
   type: article
-  title: "Sex adjustment in 2,000 public RNA-seq studies: free when balanced, costly when confounded, and rarely performed"
+  title: "When RNA-seq groups differ in sex ratio, most of what sex adjustment changes is not sex"
   authors:
     - family-names: Lee
       given-names: Sung-Gwon

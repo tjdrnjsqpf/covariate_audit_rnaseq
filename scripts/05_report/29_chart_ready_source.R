@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 ## Source data for Keynote charts: histogram → counts per bin, boxplot → summary statistics, point/line+CI → value + error-bar length (±).
 ## Run: LC_ALL=en_US.UTF-8 COV_AUDIT_PROJ="$(pwd)" Rscript scripts/05_report/29_chart_ready_source.R  → results/figures/draft_v3/source_data_keynote/*.tsv
-suppressMessages(library(data.table)); PROJ <- Sys.getenv("COV_AUDIT_PROJ", "/var2/lsg/Claude_Code/covariate_audit_rnaseq"); setwd(PROJ)
+suppressMessages(library(data.table)); PROJ <- Sys.getenv("COV_AUDIT_PROJ", "/path/to/covariate_audit_rnaseq"); setwd(PROJ)
 SD <- "results/figures/draft_v3/source_data"; KD <- "results/figures/draft_v3/source_data_keynote"; dir.create(KD, showWarnings=FALSE)
 out <- function(d, f) fwrite(d, file.path(KD, paste0(f, ".tsv")), sep="\t")
 ## 1A: number of studies per 0.05 bin (columns = Human, Mouse)

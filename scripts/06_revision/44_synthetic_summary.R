@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 ## S summary: within-study synthetic imbalance. Per step (target |Δf|): (1) change metrics J(M1), J(full permutation), J(within-group permutation); (2) error metrics vs the balanced reference (full-sample M1).
 ## Replicates are averaged within each study, then median across studies with bootstrap CI. Usage: Rscript 44_synthetic_summary.R [PROJ]
-suppressMessages(library(data.table)); PROJ <- commandArgs(trailingOnly=TRUE)[1]; if (is.na(PROJ)) PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ)
+suppressMessages(library(data.table)); PROJ <- commandArgs(trailingOnly=TRUE)[1]; if (is.na(PROJ)) PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ)
 fs <- list.files("results/revision/synthetic", pattern="\\.tsv$", full.names=TRUE); d <- rbindlist(lapply(fs, fread), fill=TRUE)
 cat("studies:", uniqueN(d$study), " (", paste(d[, uniqueN(study), by=organism][, paste(organism, V1)], collapse=", "), ") rows:", nrow(d), " median m per arm:", median(d[, m_per_arm[1], by=study]$V1), "\n")
 d[, `:=`(d_across = J_M1 - J_M0perm, d_within = J_M1 - J_M0permw, fd_M0 = 1 - M0_precision, fd_M1 = 1 - M1_precision)]

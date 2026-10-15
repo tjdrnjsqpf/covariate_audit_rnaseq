@@ -2,7 +2,7 @@
 # Collect main reanalysis results + aggregate by design grade / tissue. Usage: Rscript 11_collect_main_summary.R <outdir> <config> <organism>
 suppressMessages(library(data.table))
 args <- commandArgs(trailingOnly=TRUE); OUTDIR <- args[1]; CFG <- args[2]; ORG <- args[3]
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"
+PROJ <- "/path/to/covariate_audit_rnaseq"
 fs <- list.files(file.path(PROJ, OUTDIR), pattern="summary.tsv", recursive=TRUE, full.names=TRUE)
 d <- rbindlist(lapply(fs, fread), fill=TRUE)
 cfg <- fread(file.path(PROJ, CFG))[, .(study, note)]

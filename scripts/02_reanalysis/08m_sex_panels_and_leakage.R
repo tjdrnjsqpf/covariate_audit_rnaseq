@@ -3,7 +3,7 @@
 # (2) Derive tissue-specific leave-one-out sex-biased autosomal panels
 # (3) Compute extended-panel leakage in pilot M0 DEGs -> relation to sex_diff, detection sensitivity / false alarms
 suppressMessages({library(recount3); library(edgeR); library(limma); library(data.table)})
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"
+PROJ <- "/path/to/covariate_audit_rnaseq"
 PIL <- file.path(PROJ, "results/pilot_mouse"); OUT <- file.path(PROJ, "results/sex_panels_mouse"); dir.create(OUT, showWarnings=FALSE)
 ps <- fread(file.path(PROJ, "results/pilot_mouse_summary.tsv"))[, .(study, tissue_category, sex_diff, design, models, n)]
 source(file.path(PROJ, "scripts/02_reanalysis/sex_panel_utils.R"))

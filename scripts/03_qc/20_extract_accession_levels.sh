@@ -4,7 +4,7 @@
 # sample_acc are technical replicates, not independent samples.
 # Usage: bash 20_extract_accession_levels.sh <human|mouse>
 set -uo pipefail
-PROJ=/var2/lsg/Claude_Code/covariate_audit_rnaseq
+PROJ=/path/to/covariate_audit_rnaseq
 ORG=${1:-human}
 if [ "$ORG" = human ]; then MD=$PROJ/data/raw/recount3_metadata;       CFG=$PROJ/config/main_human_runs.tsv
 else                       MD=$PROJ/data/raw/recount3_metadata_mouse; CFG=$PROJ/config/main_mouse_runs.tsv; fi

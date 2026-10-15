@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 # Collect simulation results + figures (base R). Usage: Rscript 07_sim_summary_plots.R
 suppressMessages(library(data.table))
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; SIM <- file.path(PROJ, Sys.getenv("SIMDIR", "results/simulation"))
+PROJ <- "/path/to/covariate_audit_rnaseq"; SIM <- file.path(PROJ, Sys.getenv("SIMDIR", "results/simulation"))
 fs <- list.files(SIM, pattern="sim_results.tsv", recursive=TRUE, full.names=TRUE)
 d <- rbindlist(lapply(fs, fread)); fwrite(d, file.path(SIM, "sim_results_all.tsv"), sep="\t")
 cat("fits:", nrow(d), "\n"); print(d[, .N, by=.(study, n_per, age_shift)])

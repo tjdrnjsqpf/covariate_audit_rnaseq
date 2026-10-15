@@ -8,7 +8,7 @@ suppressMessages(library(data.table))
 args <- commandArgs(trailingOnly=TRUE)
 ORG  <- if (length(args) >= 1) args[1] else "human"
 SUMF <- if (length(args) >= 2) args[2] else sprintf("results/main_%s_summary.tsv", ORG)
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"
+PROJ <- "/path/to/covariate_audit_rnaseq"
 setwd(PROJ); dir.create("results/qc", showWarnings=FALSE)
 
 acc <- fread(sprintf("data/processed/accession_levels_%s.tsv.gz", ORG), na.strings=c("","NA"))

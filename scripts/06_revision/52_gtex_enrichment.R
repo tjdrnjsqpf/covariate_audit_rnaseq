@@ -4,7 +4,7 @@
 ## are enriched for tissue-matched GTEx sex-biased genes (autosomal only; sex chromosomes separately), and how many sex-biased genes the unadjusted DE set contains.
 ## Usage (server): Rscript scripts/06_revision/52_gtex_enrichment.R  → results/revision/G_gtex_per_study.tsv
 suppressMessages(library(data.table))
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ)
+PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ)
 GT <- fread("/var2/lsg/db/gtex_v8_sbgenes/GTEx_Analysis_v8_sbgenes/signif.sbgenes.txt")[, gid := sub("\\..*", "", gene)]
 ANN <- fread("data/annot/gencode_v29_gene_chr.tsv")[, gid := sub("\\..*", "", gene_id)]; XY <- ANN[chr %in% c("chrX","chrY"), gene_id]
 TIS <- list(blood="Whole_Blood", brain="^Brain_", gut="^(Colon_|Small_Intestine|Stomach|Esophagus_)", liver="^Liver$", lung="^Lung$", kidney="^Kidney_", heart="^Heart_",

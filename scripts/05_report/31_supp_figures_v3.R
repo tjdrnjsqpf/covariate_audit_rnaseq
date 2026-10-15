@@ -2,7 +2,7 @@
 ## Supplementary figures S1–S8 (restructured manuscript). Input: results/revision/E*.tsv (scripts/06_revision/30–38, recomputed on chain 5 data) + summary tables.
 ## Run (Mac): LC_ALL=en_US.UTF-8 COV_AUDIT_PROJ="$(pwd)" Rscript scripts/05_report/31_supp_figures_v3.R
 suppressMessages({library(data.table); library(ggplot2); library(patchwork)})
-PROJ <- Sys.getenv("COV_AUDIT_PROJ", "/var2/lsg/Claude_Code/covariate_audit_rnaseq"); setwd(PROJ)
+PROJ <- Sys.getenv("COV_AUDIT_PROJ", "/path/to/covariate_audit_rnaseq"); setwd(PROJ)
 FONT <- if (Sys.info()[["sysname"]] == "Darwin") "Helvetica Neue" else "sans"
 PD <- "results/figures/draft_v3/panels"; SD <- "results/figures/draft_v3/source_data"; RV <- "results/revision"
 RED <- "#B02418"; GRY <- "#C4C4C4"; BLK <- "#1A1A1A"; DGRY <- "#5F5F5F"; MGRY <- "#8C8C8C"; LRED <- "#E3A29B"

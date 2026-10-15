@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 # Collect results/pilot/*/summary.tsv into one table with batch (core/conditional/nonblood) and tissue category.
 suppressMessages(library(data.table))
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"
+PROJ <- "/path/to/covariate_audit_rnaseq"
 fs <- list.files(file.path(PROJ, "results/pilot"), pattern="summary.tsv", recursive=TRUE, full.names=TRUE)
 d <- rbindlist(lapply(fs, fread), fill=TRUE)
 cfg <- rbindlist(lapply(c(core="pilot_core_runs.tsv", conditional="pilot_conditional_runs.tsv", nonblood="pilot_nonblood_runs.tsv"),

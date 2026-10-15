@@ -2,7 +2,7 @@
 # Stream recount3 mouse gene_sums and extract only the counts of Xist + 4 Y-linked genes and the per-sample totals (no files saved).
 # Usage: bash 03m_extract_mouse_sex_genes.sh [parallel]
 set -uo pipefail
-PROJ=/var2/lsg/Claude_Code/covariate_audit_rnaseq
+PROJ=/path/to/covariate_audit_rnaseq
 OUT=$PROJ/data/processed/mouse_sexgenes; mkdir -p $OUT $PROJ/logs
 LIST=$PROJ/data/processed/mouse_base_projects.txt
 P=${1:-16}

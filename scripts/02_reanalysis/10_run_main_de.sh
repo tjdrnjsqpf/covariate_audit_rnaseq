@@ -2,7 +2,7 @@
 # Main reanalysis runner: run 03_pilot_de_one_project.R for each row of the config TSV.
 # Usage: bash 10_run_main_de.sh <config.tsv> <outdir> [parallel] [limit]
 set -uo pipefail
-PROJ=/var2/lsg/Claude_Code/covariate_audit_rnaseq
+PROJ=/path/to/covariate_audit_rnaseq
 R=/var2/lsg/miniforge3/envs/cov_audit/bin/Rscript
 CFG=$1; OUTDIR=$2; P=${3:-6}; LIMIT=${4:-0}
 LOGD=$PROJ/logs/$(basename "$OUTDIR"); mkdir -p "$LOGD" "$PROJ/$OUTDIR"

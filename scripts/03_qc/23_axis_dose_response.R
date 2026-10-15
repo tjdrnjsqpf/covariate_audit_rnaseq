@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 ## Are the alternative axes (quality, composition, globin, batch) confounders "in their own right": for each axis, the change when adjusting for that axis (relative to M1), by the axis's own imbalance class
 suppressMessages(library(data.table)); med <- function(x) round(median(x, na.rm=TRUE), 3)
-setwd("/var2/lsg/Claude_Code/covariate_audit_rnaseq")
+setwd("/path/to/covariate_audit_rnaseq")
 for (org in c("human","mouse")) {
   d <- fread(sprintf("results/main_%s_summary_v2.tsv", org)); A <- d[study %in% readLines(sprintf("config/c2_analysis_set_%s.txt", org))]
   cat(sprintf("\n################ %s (analysis set %d) ################\n", org, nrow(A)))

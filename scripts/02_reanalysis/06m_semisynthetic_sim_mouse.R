@@ -4,7 +4,7 @@
 # Usage: Rscript 06_semisynthetic_sim.R <SRP> [reps]
 suppressMessages({library(recount3); library(edgeR); library(limma); library(data.table)})
 args <- commandArgs(trailingOnly=TRUE); SRP <- args[1]; REPS <- if (length(args) >= 2) as.integer(args[2]) else 15
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"
+PROJ <- "/path/to/covariate_audit_rnaseq"
 OUT <- file.path(PROJ, "results/simulation_mouse", SRP); dir.create(OUT, showWarnings=FALSE, recursive=TRUE)
 panel <- data.table(gene=c("Xist","Ddx3y","Eif2s3y","Kdm5d","Uty"))
 ## Extended signature: tissue-specific / pan-tissue sex-biased autosomal genes derived by Stouffer meta-analysis from the pilot (excluding the study itself); leakage = t-statistic correlation

@@ -1,5 +1,5 @@
 {
-  "title": "covariate_audit_rnaseq: code and summary tables for 'Sex adjustment in 2,000 public RNA-seq studies: free when balanced, costly when confounded, and rarely performed'",
+  "title": "covariate_audit_rnaseq: code and summary tables for 'When RNA-seq groups differ in sex ratio, most of what sex adjustment changes is not sex'",
   "upload_type": "software",
   "creators": [
     {"name": "Lee, Sung-Gwon", "affiliation": "Biomedical Research Institute, Chonnam National University Hospital"},

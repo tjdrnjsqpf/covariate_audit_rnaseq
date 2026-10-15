@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 suppressMessages(library(data.table))
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"
+PROJ <- "/path/to/covariate_audit_rnaseq"
 fs <- list.files(file.path(PROJ, "results/pilot_mouse"), pattern="summary.tsv", recursive=TRUE, full.names=TRUE)
 d <- rbindlist(lapply(fs, fread), fill=TRUE)
 cfg <- rbindlist(lapply(c(batch1="pilot_mouse_runs.tsv", batch2="pilot_mouse_runs2.tsv"), function(f) fread(file.path(PROJ, "config", f))[, .(study, note)]), idcol="batch")

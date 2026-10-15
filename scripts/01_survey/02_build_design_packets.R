@@ -3,7 +3,7 @@
 # Usage: Rscript 02_build_design_packets.R <study_list.txt> <out.jsonl>
 suppressMessages({library(data.table); library(jsonlite)})
 args <- commandArgs(trailingOnly=TRUE); LIST <- args[1]; OUTF <- args[2]
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; PROC <- file.path(PROJ, "data/processed"); RES <- file.path(PROJ, "results")
+PROJ <- "/path/to/covariate_audit_rnaseq"; PROC <- file.path(PROJ, "data/processed"); RES <- file.path(PROJ, "results")
 studies <- readLines(LIST)
 hum <- fread(file.path(RES, "project_summary_all.tsv"))[, .(study, organism="human", n, study_title, abstract, tissue_example, tissue_category, strategy, source, any_sc, any_small, any_cell_line, age_min, age_max, n_sex, n_age)]
 mou <- fread(file.path(RES, "mouse_project_summary_sexinferred.tsv"))[, .(study, organism="mouse", n, study_title, abstract=NA_character_, tissue_example, tissue_category, strategy, source, any_sc, any_small, any_cell_line=FALSE, age_min=NA_real_, age_max=NA_real_, n_sex, n_age)]

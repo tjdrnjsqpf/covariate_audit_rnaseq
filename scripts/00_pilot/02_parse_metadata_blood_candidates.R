@@ -2,7 +2,7 @@
 # Parse recount3 human SRA metadata and select pilot candidates that satisfy the blood / sex / age / case-control criteria.
 # Usage: /var2/lsg/miniforge3/envs/recount3/bin/Rscript scripts/00_pilot/02_parse_metadata_blood_candidates.R
 suppressMessages({library(data.table)})
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"
+PROJ <- "/path/to/covariate_audit_rnaseq"
 RAW  <- file.path(PROJ, "data/raw/recount3_metadata")
 PROC <- file.path(PROJ, "data/processed"); dir.create(PROC, showWarnings=FALSE, recursive=TRUE)
 RES  <- file.path(PROJ, "results"); dir.create(RES, showWarnings=FALSE)

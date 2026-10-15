@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 ## Sex-mismatch sensitivity: keep metadata sex (v2) vs replace with expression-inferred sex (expr) vs drop mismatched samples (drop)
 suppressMessages(library(data.table)); ORG <- commandArgs(trailingOnly=TRUE)[1]
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ)
+PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ)
 grade <- function(x) fifelse(is.na(x), NA_character_, fifelse(x >= 0.99, "completely_confounded", fifelse(x >= 0.3, "partially_confounded", fifelse(x >= 0.15, "mildly_imbalanced", "balanced"))))
 base <- fread(sprintf("results/main_%s_summary_v2.tsv", ORG))[, .(study, n0 = n, mism = n_sex_mismatch, sd0 = sex_diff, ds0 = design_sex, J0 = M1_jaccard, P0 = M0perm_jaccard, tS0 = M1_t_spearman)]
 out <- base[mism > 0 & !is.na(J0)]

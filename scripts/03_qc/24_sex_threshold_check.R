@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 ## A5: check of the expression-based sex-call threshold (|XIST − Y| ≥ 2 log2CPM)
 suppressMessages({library(data.table); library(ggplot2)})
-setwd("/var2/lsg/Claude_Code/covariate_audit_rnaseq"); dir.create("results/figures", showWarnings=FALSE)
+setwd("/path/to/covariate_audit_rnaseq"); dir.create("results/figures", showWarnings=FALSE)
 th <- theme_bw(base_size=10) + theme(panel.grid.minor=element_blank(), legend.position="top")
 
 ## Mouse: all samples (including ambiguous)

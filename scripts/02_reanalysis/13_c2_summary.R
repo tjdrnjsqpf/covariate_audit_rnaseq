@@ -3,7 +3,7 @@
 ## Usage: Rscript 13_c2_summary.R <human|mouse>
 suppressMessages(library(data.table))
 ORG <- commandArgs(trailingOnly=TRUE)[1]
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ)
+PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ)
 g <- fread(sprintf("results/c2/gsea_summary_%s.tsv", ORG))
 m <- fread(sprintf("results/main_%s_summary_v2.tsv", ORG))[, .(study, design_sex, design_age, sex_diff, age_smd, n, M1_jaccard, M0perm_jaccard, M1_n_deg_ref, M1_t_spearman, M2_jaccard, M2perm_jaccard)]
 d <- merge(g, m, by="study")

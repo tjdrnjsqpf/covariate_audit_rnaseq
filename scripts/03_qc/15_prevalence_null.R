@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 ## C1-b: does the observed sex/age imbalance exceed what random assignment (hypergeometric / permutation null) would produce?
 suppressMessages(library(data.table)); ORG <- commandArgs(trailingOnly=TRUE)[1]
-PROJ <- "/var2/lsg/Claude_Code/covariate_audit_rnaseq"; setwd(PROJ); dir.create("results/qc", showWarnings=FALSE)
+PROJ <- "/path/to/covariate_audit_rnaseq"; setwd(PROJ); dir.create("results/qc", showWarnings=FALSE)
 d <- fread(sprintf("results/main_%s_summary_v2.tsv", ORG))[valid == TRUE & single_sex == FALSE & !is.na(n_female_case)]
 ## Sex: k of K females fall in the case group (nc) → k ~ Hypergeom(N, K, nc). |Δfemale fraction| = |k/nc − (K−k)/(N−nc)|
 null_sex <- function(N, K, nc) { k <- 0:min(K, nc); p <- dhyper(k, K, N - K, nc); dd <- abs(k / nc - (K - k) / (N - nc)); list(k = k, p = p, dd = dd) }
